@@ -1,0 +1,170 @@
+{
+  "version": "1.0.0",
+  "created_at": "2025-08-06T04:15:36.467Z",
+  "filter_options": {
+    "jobs": [
+      "Apothecary",
+      "Cleric",
+      "Dancer",
+      "Hunter",
+      "Merchant",
+      "Scholar",
+      "Thief",
+      "Warrior"
+    ],
+    "tiers": [
+      "S",
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "rarities": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "elements": [
+      "Dark",
+      "Fire",
+      "Ice",
+      "Light",
+      "Wind"
+    ],
+    "influences": [
+      "Approval",
+      "Domination",
+      "Fame",
+      "Opulence",
+      "Power",
+      "Wealth"
+    ],
+    "continents": [
+      "Dominion of Hate (Live A Live)",
+      "Earth (Final Fantasy IV)",
+      "Excillant (BRAVELY DEFAULT II)",
+      "G'roha",
+      "Kingdom of Lucrece (Live A Live)",
+      "Luxendarc (BRAVELY DEFAULT)",
+      "NieR Universe (NieR series)",
+      "Norzelia (TRIANGLE STRATEGY)",
+      "Orsterra",
+      "Overworld (Dragon Quest III)",
+      "Solistia"
+    ]
+  },
+  "theme": {
+    "tier_colors": {
+      "S": "#ff6b6b",
+      "A": "#4ecdc4",
+      "B": "#45b7d1",
+      "C": "#96ceb4",
+      "D": "#dda0dd"
+    },
+    "rarity_colors": {
+      "1": "#808080",
+      "2": "#32cd32",
+      "3": "#1e90ff",
+      "4": "#9932cc",
+      "5": "#ffd700"
+    },
+    "element_colors": {
+      "Fire": "#ff4757",
+      "Ice": "#3742fa",
+      "Thunder": "#ffa502",
+      "Wind": "#2ed573",
+      "Light": "#f1c40f",
+      "Dark": "#5f27cd"
+    }
+  },
+  "team_building": {
+    "max_team_size": 8,
+    "recommended_compositions": [
+      {
+        "name": "Balanced Team",
+        "description": "2 DPS + 2 Support + 2 Tank + 2 Utility",
+        "roles": {
+          "Hunter": 2,
+          "Scholar": 2,
+          "Warrior": 2,
+          "Cleric": 2
+        }
+      },
+      {
+        "name": "Element Focus",
+        "description": "Team focused on specific element synergy",
+        "min_shared_elements": 2
+      }
+    ],
+    "synergy_bonus_thresholds": {
+      "low": 25,
+      "medium": 50,
+      "high": 75,
+      "perfect": 90
+    }
+  },
+  "search": {
+    "min_query_length": 2,
+    "max_results": 50,
+    "search_fields": [
+      "name",
+      "job",
+      "japanese_name",
+      "location"
+    ],
+    "boost_factors": {
+      "name_exact": 10,
+      "name_partial": 5,
+      "job": 3,
+      "japanese_name": 2,
+      "ai_tags": 1
+    }
+  },
+  "display": {
+    "default_sort": "power_level",
+    "items_per_page": 24,
+    "image_sizes": {
+      "thumbnail": "64x64",
+      "card": "128x128",
+      "detail": "256x256"
+    },
+    "default_view": "grid"
+  },
+  "statistics": {
+    "total_characters": 243,
+    "jobs_distribution": {
+      "Hunter": 26,
+      "Dancer": 29,
+      "Thief": 30,
+      "Apothecary": 28,
+      "Cleric": 28,
+      "Merchant": 31,
+      "Warrior": 39,
+      "Scholar": 32
+    },
+    "tier_distribution": {
+      "D": 27,
+      "A": 27,
+      "B": 22,
+      "E": 8,
+      "C": 25,
+      "S": 16,
+      "S+": 7,
+      "": 111
+    },
+    "rarity_distribution": {
+      "3": 24,
+      "4": 43,
+      "5": 176
+    },
+    "element_distribution": {
+      "Wind": 51,
+      "Fire": 64,
+      "Light": 54,
+      "Dark": 52,
+      "Ice": 40
+    }
+  }
+}

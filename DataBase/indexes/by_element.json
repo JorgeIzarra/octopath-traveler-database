@@ -1,0 +1,2284 @@
+{
+  "Wind": [
+    {
+      "id": "scarecrow",
+      "name": "Scarecrow",
+      "job": "Hunter",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "tressa",
+      "name": "Tressa",
+      "job": "Merchant",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "heathcote",
+      "name": "Heathcote",
+      "job": "Thief",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "tikilen",
+      "name": "Tikilen",
+      "job": "Warrior",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "odette",
+      "name": "Odette",
+      "job": "Scholar",
+      "all_elements": [
+        "Wind",
+        "Light"
+      ]
+    },
+    {
+      "id": "lumis",
+      "name": "Lumis",
+      "job": "Apothecary",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "agn_s",
+      "name": "Agnès",
+      "job": "Cleric",
+      "all_elements": [
+        "Wind",
+        "Light"
+      ]
+    },
+    {
+      "id": "molrusso",
+      "name": "Molrusso",
+      "job": "Cleric",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "harley",
+      "name": "Harley",
+      "job": "Dancer",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "lars",
+      "name": "Lars",
+      "job": "Warrior",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "chloe",
+      "name": "Chloe",
+      "job": "Hunter",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "sofia_ex",
+      "name": "Sofia EX",
+      "job": "Apothecary",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "krauser",
+      "name": "Krauser",
+      "job": "Merchant",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "tatloch",
+      "name": "Tatloch",
+      "job": "Dancer",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "bargello",
+      "name": "Bargello",
+      "job": "Thief",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "sonia",
+      "name": "Sonia",
+      "job": "Thief",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "levina",
+      "name": "Levina",
+      "job": "Scholar",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "lemaire",
+      "name": "Lemaire",
+      "job": "Dancer",
+      "all_elements": [
+        "Fire",
+        "Ice",
+        "Wind",
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "id": "sertet",
+      "name": "Sertet",
+      "job": "Hunter",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "streibough",
+      "name": "Streibough",
+      "job": "Scholar",
+      "all_elements": [
+        "Fire",
+        "Ice",
+        "Wind",
+        "Dark"
+      ]
+    },
+    {
+      "id": "oersted",
+      "name": "Oersted",
+      "job": "Warrior",
+      "all_elements": [
+        "Fire",
+        "Wind",
+        "Dark"
+      ]
+    },
+    {
+      "id": "rique",
+      "name": "Rique",
+      "job": "Merchant",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "agnea",
+      "name": "Agnea",
+      "job": "Dancer",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "ochette",
+      "name": "Ochette",
+      "job": "Hunter",
+      "all_elements": [
+        "Wind",
+        "Light"
+      ]
+    },
+    {
+      "id": "mirgardi",
+      "name": "Mirgardi",
+      "job": "Dancer",
+      "all_elements": [
+        "Fire",
+        "Wind"
+      ]
+    },
+    {
+      "id": "shana",
+      "name": "Shana",
+      "job": "Apothecary",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "sazantos_ex",
+      "name": "Sazantos EX",
+      "job": "Merchant",
+      "all_elements": [
+        "Fire",
+        "Wind"
+      ]
+    },
+    {
+      "id": "ophilia_ex",
+      "name": "Ophilia EX",
+      "job": "Scholar",
+      "all_elements": [
+        "Fire",
+        "Ice",
+        "Wind",
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "id": "dolcinaea",
+      "name": "Dolcinaea",
+      "job": "Dancer",
+      "all_elements": [
+        "Fire",
+        "Wind"
+      ]
+    },
+    {
+      "id": "tiziano",
+      "name": "Tiziano",
+      "job": "Thief",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "ori",
+      "name": "Ori",
+      "job": "Merchant",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "ditraina_ex",
+      "name": "Ditraina EX",
+      "job": "Hunter",
+      "all_elements": [
+        "Fire",
+        "Ice",
+        "Wind",
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "id": "morena",
+      "name": "Morena",
+      "job": "Scholar",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "kagemune",
+      "name": "Kagemune",
+      "job": "Thief",
+      "all_elements": [
+        "Fire",
+        "Ice",
+        "Wind"
+      ]
+    },
+    {
+      "id": "hikari_ex",
+      "name": "Hikari EX",
+      "job": "Cleric",
+      "all_elements": [
+        "Fire",
+        "Ice",
+        "Wind",
+        "Light"
+      ]
+    },
+    {
+      "id": "cyrus_ex",
+      "name": "Cyrus EX",
+      "job": "Warrior",
+      "all_elements": [
+        "Fire",
+        "Wind"
+      ]
+    },
+    {
+      "id": "therese_ex",
+      "name": "Therese EX",
+      "job": "Cleric",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "castti_ex",
+      "name": "Castti EX",
+      "job": "Dancer",
+      "all_elements": [
+        "Ice",
+        "Wind"
+      ]
+    },
+    {
+      "id": "aoi",
+      "name": "Aoi",
+      "job": "Warrior",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "kazan",
+      "name": "Kazan",
+      "job": "Scholar",
+      "all_elements": [
+        "Fire",
+        "Wind"
+      ]
+    },
+    {
+      "id": "cassia",
+      "name": "Cassia",
+      "job": "Hunter",
+      "all_elements": [
+        "Wind",
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "id": "menno",
+      "name": "Menno",
+      "job": "Cleric",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "noelle",
+      "name": "Noelle",
+      "job": "Scholar",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "devin",
+      "name": "Devin",
+      "job": "Merchant",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "rita",
+      "name": "Rita",
+      "job": "Apothecary",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "fabio",
+      "name": "Fabio",
+      "job": "Dancer",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "trish",
+      "name": "Trish",
+      "job": "Warrior",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "kurtz",
+      "name": "Kurtz",
+      "job": "Thief",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "carroll",
+      "name": "Carroll",
+      "job": "Merchant",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "manuel",
+      "name": "Manuel",
+      "job": "Dancer",
+      "all_elements": [
+        "Wind"
+      ]
+    },
+    {
+      "id": "guti",
+      "name": "Guti",
+      "job": "Hunter",
+      "all_elements": [
+        "Wind"
+      ]
+    }
+  ],
+  "Fire": [
+    {
+      "id": "lynette",
+      "name": "Lynette",
+      "job": "Dancer",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "viola",
+      "name": "Viola",
+      "job": "Thief",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "edea",
+      "name": "Edea",
+      "job": "Warrior",
+      "all_elements": [
+        "Fire",
+        "Light"
+      ]
+    },
+    {
+      "id": "therion",
+      "name": "Therion",
+      "job": "Thief",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "cyrus",
+      "name": "Cyrus",
+      "job": "Scholar",
+      "all_elements": [
+        "Fire",
+        "Ice"
+      ]
+    },
+    {
+      "id": "molu",
+      "name": "Molu",
+      "job": "Scholar",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "dorothea",
+      "name": "Dorothea",
+      "job": "Merchant",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "yunnie",
+      "name": "Yunnie",
+      "job": "Hunter",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "2b",
+      "name": "2B",
+      "job": "Warrior",
+      "all_elements": [
+        "Fire",
+        "Dark"
+      ]
+    },
+    {
+      "id": "9s",
+      "name": "9S",
+      "job": "Merchant",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "hayes",
+      "name": "Hayes",
+      "job": "Apothecary",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "largo",
+      "name": "Largo",
+      "job": "Merchant",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "nona",
+      "name": "Nona",
+      "job": "Merchant",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "alaune",
+      "name": "Alaune",
+      "job": "Scholar",
+      "all_elements": [
+        "Fire",
+        "Light"
+      ]
+    },
+    {
+      "id": "promme",
+      "name": "Promme",
+      "job": "Cleric",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "frederica",
+      "name": "Frederica",
+      "job": "Scholar",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "serenoa",
+      "name": "Serenoa",
+      "job": "Warrior",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "yukes",
+      "name": "Yukes",
+      "job": "Cleric",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "sarisa",
+      "name": "Sarisa",
+      "job": "Thief",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "aedelgard",
+      "name": "Aedelgard",
+      "job": "Warrior",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "tressa_ex",
+      "name": "Tressa EX",
+      "job": "Hunter",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "h_aanit_ex",
+      "name": "H’aanit EX",
+      "job": "Dancer",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "solon",
+      "name": "Solon",
+      "job": "Scholar",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "canary",
+      "name": "Canary",
+      "job": "Thief",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "lemaire",
+      "name": "Lemaire",
+      "job": "Dancer",
+      "all_elements": [
+        "Fire",
+        "Ice",
+        "Wind",
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "id": "elrica",
+      "name": "Elrica",
+      "job": "Warrior",
+      "all_elements": [
+        "Fire",
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "id": "streibough",
+      "name": "Streibough",
+      "job": "Scholar",
+      "all_elements": [
+        "Fire",
+        "Ice",
+        "Wind",
+        "Dark"
+      ]
+    },
+    {
+      "id": "oersted",
+      "name": "Oersted",
+      "job": "Warrior",
+      "all_elements": [
+        "Fire",
+        "Wind",
+        "Dark"
+      ]
+    },
+    {
+      "id": "s__odio",
+      "name": "S. Odio",
+      "job": "Cleric",
+      "all_elements": [
+        "Fire",
+        "Dark"
+      ]
+    },
+    {
+      "id": "sazantos",
+      "name": "Sazantos",
+      "job": "Warrior",
+      "all_elements": [
+        "Fire",
+        "Light"
+      ]
+    },
+    {
+      "id": "signa",
+      "name": "Signa",
+      "job": "Dancer",
+      "all_elements": [
+        "Fire",
+        "Light"
+      ]
+    },
+    {
+      "id": "nivelle",
+      "name": "Nivelle",
+      "job": "Scholar",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "isla",
+      "name": "Isla",
+      "job": "Scholar",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "grieg",
+      "name": "Grieg",
+      "job": "Warrior",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "osvald",
+      "name": "Osvald",
+      "job": "Scholar",
+      "all_elements": [
+        "Fire",
+        "Ice"
+      ]
+    },
+    {
+      "id": "mirgardi",
+      "name": "Mirgardi",
+      "job": "Dancer",
+      "all_elements": [
+        "Fire",
+        "Wind"
+      ]
+    },
+    {
+      "id": "oskha",
+      "name": "Oskha",
+      "job": "Merchant",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "sazantos_ex",
+      "name": "Sazantos EX",
+      "job": "Merchant",
+      "all_elements": [
+        "Fire",
+        "Wind"
+      ]
+    },
+    {
+      "id": "ophilia_ex",
+      "name": "Ophilia EX",
+      "job": "Scholar",
+      "all_elements": [
+        "Fire",
+        "Ice",
+        "Wind",
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "id": "dolcinaea",
+      "name": "Dolcinaea",
+      "job": "Dancer",
+      "all_elements": [
+        "Fire",
+        "Wind"
+      ]
+    },
+    {
+      "id": "rinyuu_ex",
+      "name": "Rinyuu EX",
+      "job": "Apothecary",
+      "all_elements": [
+        "Light",
+        "Fire",
+        "Ice"
+      ]
+    },
+    {
+      "id": "pardis_iii",
+      "name": "Pardis III",
+      "job": "Scholar",
+      "all_elements": [
+        "Fire",
+        "Dark"
+      ]
+    },
+    {
+      "id": "ditraina_ex",
+      "name": "Ditraina EX",
+      "job": "Hunter",
+      "all_elements": [
+        "Fire",
+        "Ice",
+        "Wind",
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "id": "mydia",
+      "name": "Mydia",
+      "job": "Cleric",
+      "all_elements": [
+        "Fire",
+        "Light"
+      ]
+    },
+    {
+      "id": "kagemune",
+      "name": "Kagemune",
+      "job": "Thief",
+      "all_elements": [
+        "Fire",
+        "Ice",
+        "Wind"
+      ]
+    },
+    {
+      "id": "sigrid_ex",
+      "name": "Sigrid EX",
+      "job": "Merchant",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "hikari_ex",
+      "name": "Hikari EX",
+      "job": "Cleric",
+      "all_elements": [
+        "Fire",
+        "Ice",
+        "Wind",
+        "Light"
+      ]
+    },
+    {
+      "id": "rai_mei",
+      "name": "Rai Mei",
+      "job": "Merchant",
+      "all_elements": [
+        "Fire",
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "id": "viola_ex",
+      "name": "Viola EX",
+      "job": "Scholar",
+      "all_elements": [
+        "Fire",
+        "Ice",
+        "Light"
+      ]
+    },
+    {
+      "id": "cyrus_ex",
+      "name": "Cyrus EX",
+      "job": "Warrior",
+      "all_elements": [
+        "Fire",
+        "Wind"
+      ]
+    },
+    {
+      "id": "molrusso_ex",
+      "name": "Molrusso EX",
+      "job": "Dancer",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "avar",
+      "name": "Avar",
+      "job": "Apothecary",
+      "all_elements": [
+        "Fire",
+        "Dark"
+      ]
+    },
+    {
+      "id": "ochette_ex",
+      "name": "Ochette EX",
+      "job": "Warrior",
+      "all_elements": [
+        "Fire",
+        "Ice"
+      ]
+    },
+    {
+      "id": "kazan",
+      "name": "Kazan",
+      "job": "Scholar",
+      "all_elements": [
+        "Fire",
+        "Wind"
+      ]
+    },
+    {
+      "id": "tahir",
+      "name": "Tahir",
+      "job": "Warrior",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "peredir",
+      "name": "Peredir",
+      "job": "Scholar",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "barrad",
+      "name": "Barrad",
+      "job": "Merchant",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "cedric",
+      "name": "Cedric",
+      "job": "Cleric",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "camilla",
+      "name": "Camilla",
+      "job": "Hunter",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "efrain",
+      "name": "Efrain",
+      "job": "Cleric",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "harry",
+      "name": "Harry",
+      "job": "Dancer",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "jorge",
+      "name": "Jorge",
+      "job": "Apothecary",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "diego",
+      "name": "Diego",
+      "job": "Thief",
+      "all_elements": [
+        "Fire"
+      ]
+    },
+    {
+      "id": "pearl",
+      "name": "Pearl",
+      "job": "Cleric",
+      "all_elements": [
+        "Fire"
+      ]
+    }
+  ],
+  "Light": [
+    {
+      "id": "millard",
+      "name": "Millard",
+      "job": "Cleric",
+      "all_elements": [
+        "Light"
+      ]
+    },
+    {
+      "id": "kouren",
+      "name": "Kouren",
+      "job": "Warrior",
+      "all_elements": [
+        "Light"
+      ]
+    },
+    {
+      "id": "hasumi",
+      "name": "Hasumi",
+      "job": "Dancer",
+      "all_elements": [
+        "Light"
+      ]
+    },
+    {
+      "id": "eliza",
+      "name": "Eliza",
+      "job": "Warrior",
+      "all_elements": [
+        "Light"
+      ]
+    },
+    {
+      "id": "odette",
+      "name": "Odette",
+      "job": "Scholar",
+      "all_elements": [
+        "Wind",
+        "Light"
+      ]
+    },
+    {
+      "id": "adelle",
+      "name": "Adelle",
+      "job": "Thief",
+      "all_elements": [
+        "Light"
+      ]
+    },
+    {
+      "id": "edea",
+      "name": "Edea",
+      "job": "Warrior",
+      "all_elements": [
+        "Fire",
+        "Light"
+      ]
+    },
+    {
+      "id": "agn_s",
+      "name": "Agnès",
+      "job": "Cleric",
+      "all_elements": [
+        "Wind",
+        "Light"
+      ]
+    },
+    {
+      "id": "varkyn",
+      "name": "Varkyn",
+      "job": "Scholar",
+      "all_elements": [
+        "Light"
+      ]
+    },
+    {
+      "id": "z_aanta",
+      "name": "Z’aanta",
+      "job": "Hunter",
+      "all_elements": [
+        "Light"
+      ]
+    },
+    {
+      "id": "nicola",
+      "name": "Nicola",
+      "job": "Thief",
+      "all_elements": [
+        "Light"
+      ]
+    },
+    {
+      "id": "ophilia",
+      "name": "Ophilia",
+      "job": "Cleric",
+      "all_elements": [
+        "Light"
+      ]
+    },
+    {
+      "id": "soleil",
+      "name": "Soleil",
+      "job": "Apothecary",
+      "all_elements": [
+        "Light"
+      ]
+    },
+    {
+      "id": "alaune",
+      "name": "Alaune",
+      "job": "Scholar",
+      "all_elements": [
+        "Fire",
+        "Light"
+      ]
+    },
+    {
+      "id": "herminia",
+      "name": "Herminia",
+      "job": "Hunter",
+      "all_elements": [
+        "Light"
+      ]
+    },
+    {
+      "id": "rondo",
+      "name": "Rondo",
+      "job": "Warrior",
+      "all_elements": [
+        "Light"
+      ]
+    },
+    {
+      "id": "cecily",
+      "name": "Cecily",
+      "job": "Merchant",
+      "all_elements": [
+        "Light"
+      ]
+    },
+    {
+      "id": "lemaire",
+      "name": "Lemaire",
+      "job": "Dancer",
+      "all_elements": [
+        "Fire",
+        "Ice",
+        "Wind",
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "id": "elrica",
+      "name": "Elrica",
+      "job": "Warrior",
+      "all_elements": [
+        "Fire",
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "id": "ditraina",
+      "name": "Ditraina",
+      "job": "Scholar",
+      "all_elements": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "id": "sazantos",
+      "name": "Sazantos",
+      "job": "Warrior",
+      "all_elements": [
+        "Fire",
+        "Light"
+      ]
+    },
+    {
+      "id": "signa",
+      "name": "Signa",
+      "job": "Dancer",
+      "all_elements": [
+        "Fire",
+        "Light"
+      ]
+    },
+    {
+      "id": "temenos",
+      "name": "Temenos",
+      "job": "Cleric",
+      "all_elements": [
+        "Light"
+      ]
+    },
+    {
+      "id": "ochette",
+      "name": "Ochette",
+      "job": "Hunter",
+      "all_elements": [
+        "Wind",
+        "Light"
+      ]
+    },
+    {
+      "id": "gloria",
+      "name": "Gloria",
+      "job": "Cleric",
+      "all_elements": [
+        "Ice",
+        "Light"
+      ]
+    },
+    {
+      "id": "agnea_ex",
+      "name": "Agnea EX",
+      "job": "Hunter",
+      "all_elements": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "id": "cecil",
+      "name": "Cecil",
+      "job": "Warrior",
+      "all_elements": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "id": "ophilia_ex",
+      "name": "Ophilia EX",
+      "job": "Scholar",
+      "all_elements": [
+        "Fire",
+        "Ice",
+        "Wind",
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "id": "kain_",
+      "name": "Kainé",
+      "job": "Thief",
+      "all_elements": [
+        "Light"
+      ]
+    },
+    {
+      "id": "sowan",
+      "name": "Sowan",
+      "job": "Apothecary",
+      "all_elements": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "id": "rinyuu_ex",
+      "name": "Rinyuu EX",
+      "job": "Apothecary",
+      "all_elements": [
+        "Light",
+        "Fire",
+        "Ice"
+      ]
+    },
+    {
+      "id": "alrond",
+      "name": "Alrond",
+      "job": "Merchant",
+      "all_elements": [
+        "Light"
+      ]
+    },
+    {
+      "id": "ceraphina",
+      "name": "Ceraphina",
+      "job": "Apothecary",
+      "all_elements": [
+        "Dark",
+        "Light"
+      ]
+    },
+    {
+      "id": "ditraina_ex",
+      "name": "Ditraina EX",
+      "job": "Hunter",
+      "all_elements": [
+        "Fire",
+        "Ice",
+        "Wind",
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "id": "mydia",
+      "name": "Mydia",
+      "job": "Cleric",
+      "all_elements": [
+        "Fire",
+        "Light"
+      ]
+    },
+    {
+      "id": "crick",
+      "name": "Crick",
+      "job": "Warrior",
+      "all_elements": [
+        "Light"
+      ]
+    },
+    {
+      "id": "hikari_ex",
+      "name": "Hikari EX",
+      "job": "Cleric",
+      "all_elements": [
+        "Fire",
+        "Ice",
+        "Wind",
+        "Light"
+      ]
+    },
+    {
+      "id": "rai_mei",
+      "name": "Rai Mei",
+      "job": "Merchant",
+      "all_elements": [
+        "Fire",
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "id": "viola_ex",
+      "name": "Viola EX",
+      "job": "Scholar",
+      "all_elements": [
+        "Fire",
+        "Ice",
+        "Light"
+      ]
+    },
+    {
+      "id": "osvald_ex",
+      "name": "Osvald EX",
+      "job": "Cleric",
+      "all_elements": [
+        "Dark",
+        "Light"
+      ]
+    },
+    {
+      "id": "mahrez",
+      "name": "Mahrez",
+      "job": "Warrior",
+      "all_elements": [
+        "Light"
+      ]
+    },
+    {
+      "id": "cassia",
+      "name": "Cassia",
+      "job": "Hunter",
+      "all_elements": [
+        "Wind",
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "id": "meena",
+      "name": "Meena",
+      "job": "Dancer",
+      "all_elements": [
+        "Light"
+      ]
+    },
+    {
+      "id": "pia",
+      "name": "Pia",
+      "job": "Merchant",
+      "all_elements": [
+        "Light"
+      ]
+    },
+    {
+      "id": "merrit",
+      "name": "Merrit",
+      "job": "Apothecary",
+      "all_elements": [
+        "Light"
+      ]
+    },
+    {
+      "id": "miles",
+      "name": "Miles",
+      "job": "Warrior",
+      "all_elements": [
+        "Light"
+      ]
+    },
+    {
+      "id": "durand",
+      "name": "Durand",
+      "job": "Thief",
+      "all_elements": [
+        "Light"
+      ]
+    },
+    {
+      "id": "levan",
+      "name": "Levan",
+      "job": "Scholar",
+      "all_elements": [
+        "Light"
+      ]
+    },
+    {
+      "id": "lolo",
+      "name": "Lolo",
+      "job": "Hunter",
+      "all_elements": [
+        "Light"
+      ]
+    },
+    {
+      "id": "menny",
+      "name": "Menny",
+      "job": "Warrior",
+      "all_elements": [
+        "Light"
+      ]
+    },
+    {
+      "id": "billy",
+      "name": "Billy",
+      "job": "Thief",
+      "all_elements": [
+        "Light"
+      ]
+    },
+    {
+      "id": "eunice",
+      "name": "Eunice",
+      "job": "Scholar",
+      "all_elements": [
+        "Light"
+      ]
+    },
+    {
+      "id": "vivian",
+      "name": "Vivian",
+      "job": "Hunter",
+      "all_elements": [
+        "Light"
+      ]
+    },
+    {
+      "id": "jos_",
+      "name": "José",
+      "job": "Cleric",
+      "all_elements": [
+        "Light"
+      ]
+    }
+  ],
+  "Dark": [
+    {
+      "id": "fiore",
+      "name": "Fiore",
+      "job": "Warrior",
+      "all_elements": [
+        "Dark"
+      ]
+    },
+    {
+      "id": "primrose",
+      "name": "Primrose",
+      "job": "Dancer",
+      "all_elements": [
+        "Dark"
+      ]
+    },
+    {
+      "id": "stead",
+      "name": "Stead",
+      "job": "Cleric",
+      "all_elements": [
+        "Dark"
+      ]
+    },
+    {
+      "id": "gertrude",
+      "name": "Gertrude",
+      "job": "Apothecary",
+      "all_elements": [
+        "Dark"
+      ]
+    },
+    {
+      "id": "jillmeila",
+      "name": "Jillmeila",
+      "job": "Hunter",
+      "all_elements": [
+        "Dark"
+      ]
+    },
+    {
+      "id": "w_ludai",
+      "name": "W’ludai",
+      "job": "Merchant",
+      "all_elements": [
+        "Dark"
+      ]
+    },
+    {
+      "id": "2b",
+      "name": "2B",
+      "job": "Warrior",
+      "all_elements": [
+        "Fire",
+        "Dark"
+      ]
+    },
+    {
+      "id": "auguste",
+      "name": "Auguste",
+      "job": "Thief",
+      "all_elements": [
+        "Dark"
+      ]
+    },
+    {
+      "id": "zenia",
+      "name": "Zenia",
+      "job": "Apothecary",
+      "all_elements": [
+        "Dark"
+      ]
+    },
+    {
+      "id": "eltrix",
+      "name": "Eltrix",
+      "job": "Warrior",
+      "all_elements": [
+        "Dark"
+      ]
+    },
+    {
+      "id": "nina_lanna",
+      "name": "Nina-Lanna",
+      "job": "Scholar",
+      "all_elements": [
+        "Dark"
+      ]
+    },
+    {
+      "id": "lemaire",
+      "name": "Lemaire",
+      "job": "Dancer",
+      "all_elements": [
+        "Fire",
+        "Ice",
+        "Wind",
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "id": "elrica",
+      "name": "Elrica",
+      "job": "Warrior",
+      "all_elements": [
+        "Fire",
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "id": "ditraina",
+      "name": "Ditraina",
+      "job": "Scholar",
+      "all_elements": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "id": "streibough",
+      "name": "Streibough",
+      "job": "Scholar",
+      "all_elements": [
+        "Fire",
+        "Ice",
+        "Wind",
+        "Dark"
+      ]
+    },
+    {
+      "id": "oersted",
+      "name": "Oersted",
+      "job": "Warrior",
+      "all_elements": [
+        "Fire",
+        "Wind",
+        "Dark"
+      ]
+    },
+    {
+      "id": "s__odio",
+      "name": "S. Odio",
+      "job": "Cleric",
+      "all_elements": [
+        "Fire",
+        "Dark"
+      ]
+    },
+    {
+      "id": "o__odio",
+      "name": "O. Odio",
+      "job": "Warrior",
+      "all_elements": [
+        "Dark"
+      ]
+    },
+    {
+      "id": "sail",
+      "name": "Sail",
+      "job": "Warrior",
+      "all_elements": [
+        "Dark"
+      ]
+    },
+    {
+      "id": "neha",
+      "name": "Neha",
+      "job": "Dancer",
+      "all_elements": [
+        "Ice",
+        "Dark"
+      ]
+    },
+    {
+      "id": "thron_",
+      "name": "Throné",
+      "job": "Thief",
+      "all_elements": [
+        "Dark"
+      ]
+    },
+    {
+      "id": "pirro",
+      "name": "Pirro",
+      "job": "Thief",
+      "all_elements": [
+        "Dark"
+      ]
+    },
+    {
+      "id": "ringabel",
+      "name": "Ringabel",
+      "job": "Warrior",
+      "all_elements": [
+        "Dark"
+      ]
+    },
+    {
+      "id": "agnea_ex",
+      "name": "Agnea EX",
+      "job": "Hunter",
+      "all_elements": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "id": "cecil",
+      "name": "Cecil",
+      "job": "Warrior",
+      "all_elements": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "id": "ophilia_ex",
+      "name": "Ophilia EX",
+      "job": "Scholar",
+      "all_elements": [
+        "Fire",
+        "Ice",
+        "Wind",
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "id": "nier",
+      "name": "Nier",
+      "job": "Merchant",
+      "all_elements": [
+        "Dark"
+      ]
+    },
+    {
+      "id": "emil",
+      "name": "Emil",
+      "job": "Cleric",
+      "all_elements": [
+        "Dark"
+      ]
+    },
+    {
+      "id": "tatloch_ex",
+      "name": "Tatloch EX",
+      "job": "Thief",
+      "all_elements": [
+        "Dark"
+      ]
+    },
+    {
+      "id": "sowan",
+      "name": "Sowan",
+      "job": "Apothecary",
+      "all_elements": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "id": "ceraphina",
+      "name": "Ceraphina",
+      "job": "Apothecary",
+      "all_elements": [
+        "Dark",
+        "Light"
+      ]
+    },
+    {
+      "id": "pardis_iii",
+      "name": "Pardis III",
+      "job": "Scholar",
+      "all_elements": [
+        "Fire",
+        "Dark"
+      ]
+    },
+    {
+      "id": "ditraina_ex",
+      "name": "Ditraina EX",
+      "job": "Hunter",
+      "all_elements": [
+        "Fire",
+        "Ice",
+        "Wind",
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "id": "rai_mei",
+      "name": "Rai Mei",
+      "job": "Merchant",
+      "all_elements": [
+        "Fire",
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "id": "black_maiden",
+      "name": "Black Maiden",
+      "job": "Dancer",
+      "all_elements": [
+        "Dark"
+      ]
+    },
+    {
+      "id": "black_knight",
+      "name": "Black Knight",
+      "job": "Warrior",
+      "all_elements": [
+        "Dark"
+      ]
+    },
+    {
+      "id": "avar",
+      "name": "Avar",
+      "job": "Apothecary",
+      "all_elements": [
+        "Fire",
+        "Dark"
+      ]
+    },
+    {
+      "id": "osvald_ex",
+      "name": "Osvald EX",
+      "job": "Cleric",
+      "all_elements": [
+        "Dark",
+        "Light"
+      ]
+    },
+    {
+      "id": "cassia",
+      "name": "Cassia",
+      "job": "Hunter",
+      "all_elements": [
+        "Wind",
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "id": "wingate",
+      "name": "Wingate",
+      "job": "Thief",
+      "all_elements": [
+        "Dark"
+      ]
+    },
+    {
+      "id": "ashlan",
+      "name": "Ashlan",
+      "job": "Hunter",
+      "all_elements": [
+        "Dark"
+      ]
+    },
+    {
+      "id": "heinz",
+      "name": "Heinz",
+      "job": "Scholar",
+      "all_elements": [
+        "Dark"
+      ]
+    },
+    {
+      "id": "rodion",
+      "name": "Rodion",
+      "job": "Apothecary",
+      "all_elements": [
+        "Dark"
+      ]
+    },
+    {
+      "id": "cerna",
+      "name": "Cerna",
+      "job": "Merchant",
+      "all_elements": [
+        "Dark"
+      ]
+    },
+    {
+      "id": "paula",
+      "name": "Paula",
+      "job": "Dancer",
+      "all_elements": [
+        "Dark"
+      ]
+    },
+    {
+      "id": "jorn",
+      "name": "Jorn",
+      "job": "Warrior",
+      "all_elements": [
+        "Dark"
+      ]
+    },
+    {
+      "id": "narr",
+      "name": "Narr",
+      "job": "Hunter",
+      "all_elements": [
+        "Dark"
+      ]
+    },
+    {
+      "id": "nanna",
+      "name": "Nanna",
+      "job": "Warrior",
+      "all_elements": [
+        "Dark"
+      ]
+    },
+    {
+      "id": "juan",
+      "name": "Juan",
+      "job": "Merchant",
+      "all_elements": [
+        "Dark"
+      ]
+    },
+    {
+      "id": "sunny",
+      "name": "Sunny",
+      "job": "Hunter",
+      "all_elements": [
+        "Dark"
+      ]
+    },
+    {
+      "id": "evelyn",
+      "name": "Evelyn",
+      "job": "Dancer",
+      "all_elements": [
+        "Dark"
+      ]
+    },
+    {
+      "id": "dorrie",
+      "name": "Dorrie",
+      "job": "Scholar",
+      "all_elements": [
+        "Dark"
+      ]
+    }
+  ],
+  "Ice": [
+    {
+      "id": "sofia",
+      "name": "Sofia",
+      "job": "Scholar",
+      "all_elements": [
+        "Ice"
+      ]
+    },
+    {
+      "id": "cardona",
+      "name": "Cardona",
+      "job": "Merchant",
+      "all_elements": [
+        "Ice"
+      ]
+    },
+    {
+      "id": "lionel",
+      "name": "Lionel",
+      "job": "Warrior",
+      "all_elements": [
+        "Ice"
+      ]
+    },
+    {
+      "id": "lianna",
+      "name": "Lianna",
+      "job": "Cleric",
+      "all_elements": [
+        "Ice"
+      ]
+    },
+    {
+      "id": "alfyn",
+      "name": "Alfyn",
+      "job": "Apothecary",
+      "all_elements": [
+        "Ice"
+      ]
+    },
+    {
+      "id": "cyrus",
+      "name": "Cyrus",
+      "job": "Scholar",
+      "all_elements": [
+        "Fire",
+        "Ice"
+      ]
+    },
+    {
+      "id": "kersjes",
+      "name": "Kersjes",
+      "job": "Hunter",
+      "all_elements": [
+        "Ice"
+      ]
+    },
+    {
+      "id": "falco",
+      "name": "Falco",
+      "job": "Thief",
+      "all_elements": [
+        "Ice"
+      ]
+    },
+    {
+      "id": "yan_long",
+      "name": "Yan Long",
+      "job": "Cleric",
+      "all_elements": [
+        "Ice"
+      ]
+    },
+    {
+      "id": "joshua",
+      "name": "Joshua",
+      "job": "Warrior",
+      "all_elements": [
+        "Ice"
+      ]
+    },
+    {
+      "id": "eleonora",
+      "name": "Eleonora",
+      "job": "Dancer",
+      "all_elements": [
+        "Ice"
+      ]
+    },
+    {
+      "id": "millard_ex",
+      "name": "Millard EX",
+      "job": "Merchant",
+      "all_elements": [
+        "Ice"
+      ]
+    },
+    {
+      "id": "hammy",
+      "name": "Hammy",
+      "job": "Scholar",
+      "all_elements": [
+        "Ice"
+      ]
+    },
+    {
+      "id": "lemaire",
+      "name": "Lemaire",
+      "job": "Dancer",
+      "all_elements": [
+        "Fire",
+        "Ice",
+        "Wind",
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "id": "alaune_ex",
+      "name": "Alaune EX",
+      "job": "Dancer",
+      "all_elements": [
+        "Ice"
+      ]
+    },
+    {
+      "id": "ogen",
+      "name": "Ogen",
+      "job": "Apothecary",
+      "all_elements": [
+        "Ice"
+      ]
+    },
+    {
+      "id": "streibough",
+      "name": "Streibough",
+      "job": "Scholar",
+      "all_elements": [
+        "Fire",
+        "Ice",
+        "Wind",
+        "Dark"
+      ]
+    },
+    {
+      "id": "neha",
+      "name": "Neha",
+      "job": "Dancer",
+      "all_elements": [
+        "Ice",
+        "Dark"
+      ]
+    },
+    {
+      "id": "morffins",
+      "name": "Morffins",
+      "job": "Apothecary",
+      "all_elements": [
+        "Ice"
+      ]
+    },
+    {
+      "id": "gloria",
+      "name": "Gloria",
+      "job": "Cleric",
+      "all_elements": [
+        "Ice",
+        "Light"
+      ]
+    },
+    {
+      "id": "osvald",
+      "name": "Osvald",
+      "job": "Scholar",
+      "all_elements": [
+        "Fire",
+        "Ice"
+      ]
+    },
+    {
+      "id": "ophilia_ex",
+      "name": "Ophilia EX",
+      "job": "Scholar",
+      "all_elements": [
+        "Fire",
+        "Ice",
+        "Wind",
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "id": "rinyuu_ex",
+      "name": "Rinyuu EX",
+      "job": "Apothecary",
+      "all_elements": [
+        "Light",
+        "Fire",
+        "Ice"
+      ]
+    },
+    {
+      "id": "ditraina_ex",
+      "name": "Ditraina EX",
+      "job": "Hunter",
+      "all_elements": [
+        "Fire",
+        "Ice",
+        "Wind",
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "id": "kagemune",
+      "name": "Kagemune",
+      "job": "Thief",
+      "all_elements": [
+        "Fire",
+        "Ice",
+        "Wind"
+      ]
+    },
+    {
+      "id": "hikari_ex",
+      "name": "Hikari EX",
+      "job": "Cleric",
+      "all_elements": [
+        "Fire",
+        "Ice",
+        "Wind",
+        "Light"
+      ]
+    },
+    {
+      "id": "viola_ex",
+      "name": "Viola EX",
+      "job": "Scholar",
+      "all_elements": [
+        "Fire",
+        "Ice",
+        "Light"
+      ]
+    },
+    {
+      "id": "ochette_ex",
+      "name": "Ochette EX",
+      "job": "Warrior",
+      "all_elements": [
+        "Fire",
+        "Ice"
+      ]
+    },
+    {
+      "id": "castti_ex",
+      "name": "Castti EX",
+      "job": "Dancer",
+      "all_elements": [
+        "Ice",
+        "Wind"
+      ]
+    },
+    {
+      "id": "ramona",
+      "name": "Ramona",
+      "job": "Cleric",
+      "all_elements": [
+        "Ice"
+      ]
+    },
+    {
+      "id": "aslyte",
+      "name": "Aslyte",
+      "job": "Thief",
+      "all_elements": [
+        "Ice"
+      ]
+    },
+    {
+      "id": "lucetta",
+      "name": "Lucetta",
+      "job": "Hunter",
+      "all_elements": [
+        "Ice"
+      ]
+    },
+    {
+      "id": "shelby",
+      "name": "Shelby",
+      "job": "Apothecary",
+      "all_elements": [
+        "Ice"
+      ]
+    },
+    {
+      "id": "iris",
+      "name": "Iris",
+      "job": "Dancer",
+      "all_elements": [
+        "Ice"
+      ]
+    },
+    {
+      "id": "helga",
+      "name": "Helga",
+      "job": "Merchant",
+      "all_elements": [
+        "Ice"
+      ]
+    },
+    {
+      "id": "kenneth",
+      "name": "Kenneth",
+      "job": "Scholar",
+      "all_elements": [
+        "Ice"
+      ]
+    },
+    {
+      "id": "saria",
+      "name": "Saria",
+      "job": "Apothecary",
+      "all_elements": [
+        "Ice"
+      ]
+    },
+    {
+      "id": "julio",
+      "name": "Julio",
+      "job": "Scholar",
+      "all_elements": [
+        "Ice"
+      ]
+    },
+    {
+      "id": "yugo",
+      "name": "Yugo",
+      "job": "Warrior",
+      "all_elements": [
+        "Ice"
+      ]
+    },
+    {
+      "id": "telly",
+      "name": "Telly",
+      "job": "Cleric",
+      "all_elements": [
+        "Ice"
+      ]
+    }
+  ]
+}

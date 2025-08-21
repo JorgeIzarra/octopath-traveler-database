@@ -1,0 +1,19 @@
+{
+  "created_at": "2025-08-06T04:15:36.466Z",
+  "total_characters": 243,
+  "available_indexes": [
+    "by_job",
+    "by_tier",
+    "by_element",
+    "by_rarity",
+    "search_terms",
+    "synergy_map",
+    "performance_ranking"
+  ],
+  "index_stats": {
+    "jobs": 8,
+    "tiers": 8,
+    "elements": 5,
+    "rarities": 3
+  }
+}

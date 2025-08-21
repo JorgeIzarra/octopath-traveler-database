@@ -1,0 +1,3032 @@
+{
+  "terms": {
+    "scarecrow": [
+      "scarecrow"
+    ],
+    "hunter": [
+      "scarecrow",
+      "h_aanit",
+      "z_aanta",
+      "kersjes",
+      "yunnie",
+      "jillmeila",
+      "chloe",
+      "herminia",
+      "tressa_ex",
+      "lumis_ex",
+      "sertet",
+      "kilns",
+      "ochette",
+      "hujheb",
+      "agnea_ex",
+      "ditraina_ex",
+      "cassia",
+      "lucetta",
+      "ashlan",
+      "bertrand",
+      "camilla",
+      "lolo",
+      "narr",
+      "guti",
+      "vivian",
+      "sunny"
+    ],
+    "スケアクロウ": [
+      "scarecrow"
+    ],
+    "lynette": [
+      "lynette"
+    ],
+    "dancer": [
+      "lynette",
+      "primrose",
+      "hasumi",
+      "glossom",
+      "harley",
+      "tithi",
+      "eleonora",
+      "fiore_ex",
+      "tatloch",
+      "h_aanit_ex",
+      "lemaire",
+      "alaune_ex",
+      "signa",
+      "agnea",
+      "neha",
+      "mirgardi",
+      "dolcinaea",
+      "bargello_ex",
+      "black_maiden",
+      "molrusso_ex",
+      "castti_ex",
+      "meena",
+      "fabio",
+      "mabel",
+      "iris",
+      "paula",
+      "harry",
+      "manuel",
+      "evelyn"
+    ],
+    "リネット": [
+      "lynette"
+    ],
+    "viola": [
+      "viola",
+      "viola_ex"
+    ],
+    "thief": [
+      "viola",
+      "heathcote",
+      "adelle",
+      "therion",
+      "ri_tu",
+      "nicola",
+      "falco",
+      "a2",
+      "auguste",
+      "sarisa",
+      "bargello",
+      "sonia",
+      "canary",
+      "thron_",
+      "pirro",
+      "kain_",
+      "tiziano",
+      "tatloch_ex",
+      "elrica_ex",
+      "kagemune",
+      "partitio_ex",
+      "esmeralda",
+      "wingate",
+      "aslyte",
+      "cless",
+      "kurtz",
+      "durand",
+      "felline",
+      "billy",
+      "diego"
+    ],
+    "ヴィオラ": [
+      "viola"
+    ],
+    "theo": [
+      "theo"
+    ],
+    "apothecary": [
+      "theo",
+      "lumis",
+      "alfyn",
+      "gertrude",
+      "soleil",
+      "hayes",
+      "sofia_ex",
+      "zenia",
+      "primrose_ex",
+      "nephti",
+      "ogen",
+      "morffins",
+      "jane",
+      "shana",
+      "castti",
+      "sowan",
+      "rinyuu_ex",
+      "ceraphina",
+      "signa_ex",
+      "avar",
+      "merrit",
+      "rita",
+      "shelby",
+      "rodion",
+      "cornelia",
+      "penny",
+      "jorge",
+      "saria"
+    ],
+    "テオ": [
+      "theo"
+    ],
+    "millard": [
+      "millard",
+      "millard_ex"
+    ],
+    "cleric": [
+      "millard",
+      "stead",
+      "agn_s",
+      "lianna",
+      "molrusso",
+      "ophilia",
+      "yan_long",
+      "promme",
+      "rinyuu",
+      "yukes",
+      "s__odio",
+      "temenos",
+      "gloria",
+      "emil",
+      "relisha",
+      "mydia",
+      "hikari_ex",
+      "therese_ex",
+      "osvald_ex",
+      "menno",
+      "ramona",
+      "madelaine",
+      "cedric",
+      "efrain",
+      "brigitte",
+      "telly",
+      "jos_",
+      "pearl"
+    ],
+    "ミロード": [
+      "millard"
+    ],
+    "gilderoy": [
+      "gilderoy"
+    ],
+    "merchant": [
+      "gilderoy",
+      "tressa",
+      "cardona",
+      "dorothea",
+      "w_ludai",
+      "9s",
+      "largo",
+      "nona",
+      "krauser",
+      "cecily",
+      "roland",
+      "millard_ex",
+      "leon",
+      "rique",
+      "partitio",
+      "magnolia",
+      "oskha",
+      "sazantos_ex",
+      "nier",
+      "alrond",
+      "ori",
+      "sigrid_ex",
+      "rai_mei",
+      "pia",
+      "devin",
+      "barrad",
+      "helga",
+      "cerna",
+      "carroll",
+      "juan",
+      "conny"
+    ],
+    "ギルデロイ": [
+      "gilderoy"
+    ],
+    "fiore": [
+      "fiore",
+      "fiore_ex"
+    ],
+    "warrior": [
+      "fiore",
+      "kouren",
+      "tikilen",
+      "eliza",
+      "edea",
+      "lionel",
+      "olberic",
+      "lars",
+      "2b",
+      "joshua",
+      "richard",
+      "tytos",
+      "rondo",
+      "serenoa",
+      "aedelgard",
+      "eltrix",
+      "elrica",
+      "oersted",
+      "o__odio",
+      "sazantos",
+      "sail",
+      "grieg",
+      "ringabel",
+      "hikari",
+      "cecil",
+      "crick",
+      "black_knight",
+      "cyrus_ex",
+      "ochette_ex",
+      "mahrez",
+      "aoi",
+      "sigrid",
+      "tahir",
+      "trish",
+      "miles",
+      "jorn",
+      "menny",
+      "nanna",
+      "yugo"
+    ],
+    "フィオル": [
+      "fiore"
+    ],
+    "sofia": [
+      "sofia",
+      "sofia_ex"
+    ],
+    "scholar": [
+      "sofia",
+      "therese",
+      "odette",
+      "elvis",
+      "varkyn",
+      "cyrus",
+      "molu",
+      "alaune",
+      "frederica",
+      "hammy",
+      "solon",
+      "nina_lanna",
+      "levina",
+      "ditraina",
+      "streibough",
+      "nivelle",
+      "isla",
+      "osvald",
+      "ophilia_ex",
+      "pardis_iii",
+      "morena",
+      "viola_ex",
+      "kazan",
+      "noelle",
+      "laura",
+      "heinz",
+      "peredir",
+      "kenneth",
+      "levan",
+      "eunice",
+      "julio",
+      "dorrie"
+    ],
+    "ソフィア": [
+      "sofia"
+    ],
+    "tressa": [
+      "tressa",
+      "tressa_ex"
+    ],
+    "トレサ": [
+      "tressa"
+    ],
+    "heathcote": [
+      "heathcote"
+    ],
+    "ヒースコート": [
+      "heathcote"
+    ],
+    "primrose": [
+      "primrose",
+      "primrose_ex"
+    ],
+    "プリムロゼ": [
+      "primrose"
+    ],
+    "therese": [
+      "therese",
+      "therese_ex"
+    ],
+    "テレーズ": [
+      "therese"
+    ],
+    "kouren": [
+      "kouren"
+    ],
+    "コウレン": [
+      "kouren"
+    ],
+    "hasumi": [
+      "hasumi"
+    ],
+    "ハスミ": [
+      "hasumi"
+    ],
+    "h’aanit": [
+      "h_aanit",
+      "h_aanit_ex"
+    ],
+    "ハンイット": [
+      "h_aanit"
+    ],
+    "tikilen": [
+      "tikilen"
+    ],
+    "ティキレン": [
+      "tikilen"
+    ],
+    "eliza": [
+      "eliza"
+    ],
+    "エリザ": [
+      "eliza"
+    ],
+    "odette": [
+      "odette"
+    ],
+    "オデット": [
+      "odette"
+    ],
+    "lumis": [
+      "lumis",
+      "lumis_ex"
+    ],
+    "リュミス": [
+      "lumis"
+    ],
+    "stead": [
+      "stead"
+    ],
+    "ステッド": [
+      "stead"
+    ],
+    "glossom": [
+      "glossom"
+    ],
+    "グロッサム": [
+      "glossom"
+    ],
+    "adelle": [
+      "adelle"
+    ],
+    "アデル": [
+      "adelle"
+    ],
+    "elvis": [
+      "elvis"
+    ],
+    "エルヴィス": [
+      "elvis"
+    ],
+    "edea": [
+      "edea"
+    ],
+    "イデア": [
+      "edea"
+    ],
+    "agnès": [
+      "agn_s"
+    ],
+    "アニエス": [
+      "agn_s"
+    ],
+    "cardona": [
+      "cardona"
+    ],
+    "カルドナ": [
+      "cardona"
+    ],
+    "lionel": [
+      "lionel"
+    ],
+    "ライオネル": [
+      "lionel"
+    ],
+    "varkyn": [
+      "varkyn"
+    ],
+    "ヴァルカン": [
+      "varkyn"
+    ],
+    "z’aanta": [
+      "z_aanta"
+    ],
+    "ザンター": [
+      "z_aanta"
+    ],
+    "lianna": [
+      "lianna"
+    ],
+    "リアナ": [
+      "lianna"
+    ],
+    "therion": [
+      "therion"
+    ],
+    "テリオン": [
+      "therion"
+    ],
+    "alfyn": [
+      "alfyn"
+    ],
+    "アーフェン": [
+      "alfyn"
+    ],
+    "molrusso": [
+      "molrusso",
+      "molrusso_ex"
+    ],
+    "モルルッソ": [
+      "molrusso"
+    ],
+    "ri’tu": [
+      "ri_tu"
+    ],
+    "リトゥ": [
+      "ri_tu"
+    ],
+    "nicola": [
+      "nicola"
+    ],
+    "ニコラ": [
+      "nicola"
+    ],
+    "cyrus": [
+      "cyrus",
+      "cyrus_ex"
+    ],
+    "サイラス": [
+      "cyrus"
+    ],
+    "harley": [
+      "harley"
+    ],
+    "ハーレー": [
+      "harley"
+    ],
+    "molu": [
+      "molu"
+    ],
+    "ムールゥ": [
+      "molu"
+    ],
+    "gertrude": [
+      "gertrude"
+    ],
+    "ガートルード": [
+      "gertrude"
+    ],
+    "kersjes": [
+      "kersjes"
+    ],
+    "カージェス": [
+      "kersjes"
+    ],
+    "ophilia": [
+      "ophilia",
+      "ophilia_ex"
+    ],
+    "オフィーリア": [
+      "ophilia"
+    ],
+    "olberic": [
+      "olberic"
+    ],
+    "オルベリク": [
+      "olberic"
+    ],
+    "dorothea": [
+      "dorothea"
+    ],
+    "ドロテア": [
+      "dorothea"
+    ],
+    "yunnie": [
+      "yunnie"
+    ],
+    "ユーニィ": [
+      "yunnie"
+    ],
+    "jillmeila": [
+      "jillmeila"
+    ],
+    "ジルメイラ": [
+      "jillmeila"
+    ],
+    "soleil": [
+      "soleil"
+    ],
+    "ソレイユ": [
+      "soleil"
+    ],
+    "lars": [
+      "lars"
+    ],
+    "ラース": [
+      "lars"
+    ],
+    "falco": [
+      "falco"
+    ],
+    "ファルコ": [
+      "falco"
+    ],
+    "yan long": [
+      "yan_long"
+    ],
+    "yan": [
+      "yan_long"
+    ],
+    "long": [
+      "yan_long"
+    ],
+    "イェンロン": [
+      "yan_long"
+    ],
+    "w’ludai": [
+      "w_ludai"
+    ],
+    "ウルダイ": [
+      "w_ludai"
+    ],
+    "a2": [
+      "a2"
+    ],
+    "A2": [
+      "a2"
+    ],
+    "2b": [
+      "2b"
+    ],
+    "2B": [
+      "2b"
+    ],
+    "9s": [
+      "9s"
+    ],
+    "9S": [
+      "9s"
+    ],
+    "tithi": [
+      "tithi"
+    ],
+    "ティティ": [
+      "tithi"
+    ],
+    "hayes": [
+      "hayes"
+    ],
+    "ヘイズ": [
+      "hayes"
+    ],
+    "joshua": [
+      "joshua"
+    ],
+    "ジョシュア": [
+      "joshua"
+    ],
+    "largo": [
+      "largo"
+    ],
+    "ラルゴ": [
+      "largo"
+    ],
+    "chloe": [
+      "chloe"
+    ],
+    "クロエ": [
+      "chloe"
+    ],
+    "nona": [
+      "nona"
+    ],
+    "ノーニャ": [
+      "nona"
+    ],
+    "eleonora": [
+      "eleonora"
+    ],
+    "エレオノーラ": [
+      "eleonora"
+    ],
+    "richard": [
+      "richard"
+    ],
+    "リシャール": [
+      "richard"
+    ],
+    "alaune": [
+      "alaune",
+      "alaune_ex"
+    ],
+    "アラウネ": [
+      "alaune"
+    ],
+    "herminia": [
+      "herminia"
+    ],
+    "ヘルミニア": [
+      "herminia"
+    ],
+    "tytos": [
+      "tytos"
+    ],
+    "タイタス": [
+      "tytos"
+    ],
+    "auguste": [
+      "auguste"
+    ],
+    "アーギュスト": [
+      "auguste"
+    ],
+    "fiore ex": [
+      "fiore_ex"
+    ],
+    "ex": [
+      "fiore_ex",
+      "sofia_ex",
+      "tressa_ex",
+      "primrose_ex",
+      "millard_ex",
+      "lumis_ex",
+      "h_aanit_ex",
+      "alaune_ex",
+      "agnea_ex",
+      "sazantos_ex",
+      "ophilia_ex",
+      "bargello_ex",
+      "tatloch_ex",
+      "rinyuu_ex",
+      "ditraina_ex",
+      "elrica_ex",
+      "sigrid_ex",
+      "hikari_ex",
+      "viola_ex",
+      "cyrus_ex",
+      "molrusso_ex",
+      "therese_ex",
+      "signa_ex",
+      "partitio_ex",
+      "osvald_ex",
+      "ochette_ex",
+      "castti_ex"
+    ],
+    "フィオルEx": [
+      "fiore_ex"
+    ],
+    "sofia ex": [
+      "sofia_ex"
+    ],
+    "ソフィアEx": [
+      "sofia_ex"
+    ],
+    "krauser": [
+      "krauser"
+    ],
+    "クラウザー": [
+      "krauser"
+    ],
+    "rondo": [
+      "rondo"
+    ],
+    "ロンド": [
+      "rondo"
+    ],
+    "cecily": [
+      "cecily"
+    ],
+    "セシリー": [
+      "cecily"
+    ],
+    "promme": [
+      "promme"
+    ],
+    "プロメ": [
+      "promme"
+    ],
+    "frederica": [
+      "frederica"
+    ],
+    "フレデリカ": [
+      "frederica"
+    ],
+    "roland": [
+      "roland"
+    ],
+    "ロラン": [
+      "roland"
+    ],
+    "serenoa": [
+      "serenoa"
+    ],
+    "セレノア": [
+      "serenoa"
+    ],
+    "zenia": [
+      "zenia"
+    ],
+    "ゼニア": [
+      "zenia"
+    ],
+    "rinyuu": [
+      "rinyuu",
+      "rinyuu_ex"
+    ],
+    "リンユウ": [
+      "rinyuu"
+    ],
+    "yukes": [
+      "yukes"
+    ],
+    "ユークス": [
+      "yukes"
+    ],
+    "sarisa": [
+      "sarisa"
+    ],
+    "サリサ": [
+      "sarisa"
+    ],
+    "aedelgard": [
+      "aedelgard"
+    ],
+    "エデルガルト": [
+      "aedelgard"
+    ],
+    "tressa ex": [
+      "tressa_ex"
+    ],
+    "トレサEx": [
+      "tressa_ex"
+    ],
+    "primrose ex": [
+      "primrose_ex"
+    ],
+    "プリムロゼEx": [
+      "primrose_ex"
+    ],
+    "millard ex": [
+      "millard_ex"
+    ],
+    "ミロードEx": [
+      "millard_ex"
+    ],
+    "lumis ex": [
+      "lumis_ex"
+    ],
+    "リュミスEx": [
+      "lumis_ex"
+    ],
+    "eltrix": [
+      "eltrix"
+    ],
+    "エルトリクス": [
+      "eltrix"
+    ],
+    "leon": [
+      "leon"
+    ],
+    "レオン": [
+      "leon"
+    ],
+    "tatloch": [
+      "tatloch",
+      "tatloch_ex"
+    ],
+    "タトゥロック": [
+      "tatloch"
+    ],
+    "bargello": [
+      "bargello",
+      "bargello_ex"
+    ],
+    "バルジェロ": [
+      "bargello"
+    ],
+    "sonia": [
+      "sonia"
+    ],
+    "ソニア": [
+      "sonia"
+    ],
+    "hammy": [
+      "hammy"
+    ],
+    "ハミィ": [
+      "hammy"
+    ],
+    "h’aanit ex": [
+      "h_aanit_ex"
+    ],
+    "ハンイットEx": [
+      "h_aanit_ex"
+    ],
+    "nephti": [
+      "nephti"
+    ],
+    "ネフティ": [
+      "nephti"
+    ],
+    "solon": [
+      "solon"
+    ],
+    "ソロン": [
+      "solon"
+    ],
+    "nina-lanna": [
+      "nina_lanna"
+    ],
+    "ニーナラーナ": [
+      "nina_lanna"
+    ],
+    "levina": [
+      "levina"
+    ],
+    "レヴィーナ": [
+      "levina"
+    ],
+    "canary": [
+      "canary"
+    ],
+    "カナリィ": [
+      "canary"
+    ],
+    "lemaire": [
+      "lemaire"
+    ],
+    "ルメール": [
+      "lemaire"
+    ],
+    "alaune ex": [
+      "alaune_ex"
+    ],
+    "アラウネEx": [
+      "alaune_ex"
+    ],
+    "elrica": [
+      "elrica",
+      "elrica_ex"
+    ],
+    "エリカ": [
+      "elrica"
+    ],
+    "ogen": [
+      "ogen"
+    ],
+    "オーゲン": [
+      "ogen"
+    ],
+    "ditraina": [
+      "ditraina",
+      "ditraina_ex"
+    ],
+    "ディトレイナ": [
+      "ditraina"
+    ],
+    "sertet": [
+      "sertet"
+    ],
+    "セルテト": [
+      "sertet"
+    ],
+    "streibough": [
+      "streibough"
+    ],
+    "ストレイボウ": [
+      "streibough"
+    ],
+    "oersted": [
+      "oersted"
+    ],
+    "オルステッド": [
+      "oersted"
+    ],
+    "s. odio": [
+      "s__odio"
+    ],
+    "s.": [
+      "s__odio"
+    ],
+    "odio": [
+      "s__odio",
+      "o__odio"
+    ],
+    "オディオ・S": [
+      "s__odio"
+    ],
+    "o. odio": [
+      "o__odio"
+    ],
+    "o.": [
+      "o__odio"
+    ],
+    "オディオ・O": [
+      "o__odio"
+    ],
+    "sazantos": [
+      "sazantos",
+      "sazantos_ex"
+    ],
+    "サザントス": [
+      "sazantos"
+    ],
+    "signa": [
+      "signa",
+      "signa_ex"
+    ],
+    "シグナ": [
+      "signa"
+    ],
+    "nivelle": [
+      "nivelle"
+    ],
+    "ニヴェル": [
+      "nivelle"
+    ],
+    "isla": [
+      "isla"
+    ],
+    "アイラ": [
+      "isla"
+    ],
+    "rique": [
+      "rique"
+    ],
+    "リーク": [
+      "rique"
+    ],
+    "kilns": [
+      "kilns"
+    ],
+    "キルン": [
+      "kilns"
+    ],
+    "sail": [
+      "sail"
+    ],
+    "セイル": [
+      "sail"
+    ],
+    "partitio": [
+      "partitio",
+      "partitio_ex"
+    ],
+    "パルテティオ": [
+      "partitio"
+    ],
+    "temenos": [
+      "temenos"
+    ],
+    "テメノス": [
+      "temenos"
+    ],
+    "agnea": [
+      "agnea",
+      "agnea_ex"
+    ],
+    "アグネア": [
+      "agnea"
+    ],
+    "ochette": [
+      "ochette",
+      "ochette_ex"
+    ],
+    "オーシュット": [
+      "ochette"
+    ],
+    "neha": [
+      "neha"
+    ],
+    "ネーハ": [
+      "neha"
+    ],
+    "throné": [
+      "thron_"
+    ],
+    "ソローネ": [
+      "thron_"
+    ],
+    "pirro": [
+      "pirro"
+    ],
+    "ピルロ": [
+      "pirro"
+    ],
+    "morffins": [
+      "morffins"
+    ],
+    "モーフィンス": [
+      "morffins"
+    ],
+    "grieg": [
+      "grieg"
+    ],
+    "グリーグ": [
+      "grieg"
+    ],
+    "gloria": [
+      "gloria"
+    ],
+    "グローリア": [
+      "gloria"
+    ],
+    "ringabel": [
+      "ringabel"
+    ],
+    "リングアベル": [
+      "ringabel"
+    ],
+    "magnolia": [
+      "magnolia"
+    ],
+    "マグノリア": [
+      "magnolia"
+    ],
+    "osvald": [
+      "osvald",
+      "osvald_ex"
+    ],
+    "オズバルド": [
+      "osvald"
+    ],
+    "mirgardi": [
+      "mirgardi"
+    ],
+    "ミルガルディ": [
+      "mirgardi"
+    ],
+    "jane": [
+      "jane"
+    ],
+    "ジェイン": [
+      "jane"
+    ],
+    "shana": [
+      "shana"
+    ],
+    "シャナ": [
+      "shana"
+    ],
+    "hujheb": [
+      "hujheb"
+    ],
+    "ヒュージブ": [
+      "hujheb"
+    ],
+    "oskha": [
+      "oskha"
+    ],
+    "オスカ": [
+      "oskha"
+    ],
+    "hikari": [
+      "hikari",
+      "hikari_ex"
+    ],
+    "ヒカリ": [
+      "hikari"
+    ],
+    "castti": [
+      "castti",
+      "castti_ex"
+    ],
+    "キャスティ": [
+      "castti"
+    ],
+    "agnea ex": [
+      "agnea_ex"
+    ],
+    "アグネアEx": [
+      "agnea_ex"
+    ],
+    "sazantos ex": [
+      "sazantos_ex"
+    ],
+    "サザントスEx": [
+      "sazantos_ex"
+    ],
+    "cecil": [
+      "cecil"
+    ],
+    "セシル": [
+      "cecil"
+    ],
+    "ophilia ex": [
+      "ophilia_ex"
+    ],
+    "オフィーリアEx": [
+      "ophilia_ex"
+    ],
+    "kainé": [
+      "kain_"
+    ],
+    "カイネ": [
+      "kain_"
+    ],
+    "nier": [
+      "nier"
+    ],
+    "ニーア": [
+      "nier"
+    ],
+    "emil": [
+      "emil"
+    ],
+    "エミール": [
+      "emil"
+    ],
+    "dolcinaea": [
+      "dolcinaea"
+    ],
+    "ドルシネア": [
+      "dolcinaea"
+    ],
+    "tiziano": [
+      "tiziano"
+    ],
+    "ティツィアーノ": [
+      "tiziano"
+    ],
+    "bargello ex": [
+      "bargello_ex"
+    ],
+    "バルジェロEx": [
+      "bargello_ex"
+    ],
+    "tatloch ex": [
+      "tatloch_ex"
+    ],
+    "タトゥロックEx": [
+      "tatloch_ex"
+    ],
+    "sowan": [
+      "sowan"
+    ],
+    "ソワン": [
+      "sowan"
+    ],
+    "relisha": [
+      "relisha"
+    ],
+    "レリーシャ": [
+      "relisha"
+    ],
+    "rinyuu ex": [
+      "rinyuu_ex"
+    ],
+    "リンユウEx": [
+      "rinyuu_ex"
+    ],
+    "alrond": [
+      "alrond"
+    ],
+    "アルロンド": [
+      "alrond"
+    ],
+    "ori": [
+      "ori"
+    ],
+    "オリ": [
+      "ori"
+    ],
+    "ceraphina": [
+      "ceraphina"
+    ],
+    "セラフィナ": [
+      "ceraphina"
+    ],
+    "pardis iii": [
+      "pardis_iii"
+    ],
+    "pardis": [
+      "pardis_iii"
+    ],
+    "iii": [
+      "pardis_iii"
+    ],
+    "パーディス三世": [
+      "pardis_iii"
+    ],
+    "ditraina ex": [
+      "ditraina_ex"
+    ],
+    "ディトレイナEx": [
+      "ditraina_ex"
+    ],
+    "elrica ex": [
+      "elrica_ex"
+    ],
+    "エリカEx": [
+      "elrica_ex"
+    ],
+    "mydia": [
+      "mydia"
+    ],
+    "ミディヤ": [
+      "mydia"
+    ],
+    "crick": [
+      "crick"
+    ],
+    "クリック": [
+      "crick"
+    ],
+    "morena": [
+      "morena"
+    ],
+    "モレーナ": [
+      "morena"
+    ],
+    "kagemune": [
+      "kagemune"
+    ],
+    "カゲムネ": [
+      "kagemune"
+    ],
+    "sigrid ex": [
+      "sigrid_ex"
+    ],
+    "sigrid": [
+      "sigrid_ex",
+      "sigrid"
+    ],
+    "ジークリットEx": [
+      "sigrid_ex"
+    ],
+    "hikari ex": [
+      "hikari_ex"
+    ],
+    "ヒカリEx": [
+      "hikari_ex"
+    ],
+    "rai mei": [
+      "rai_mei"
+    ],
+    "rai": [
+      "rai_mei"
+    ],
+    "mei": [
+      "rai_mei"
+    ],
+    "ライ・メイ": [
+      "rai_mei"
+    ],
+    "black maiden": [
+      "black_maiden"
+    ],
+    "black": [
+      "black_maiden",
+      "black_knight"
+    ],
+    "maiden": [
+      "black_maiden"
+    ],
+    "黒の巫女": [
+      "black_maiden"
+    ],
+    "black knight": [
+      "black_knight"
+    ],
+    "knight": [
+      "black_knight"
+    ],
+    "黒の騎士": [
+      "black_knight"
+    ],
+    "viola ex": [
+      "viola_ex"
+    ],
+    "ヴィオラEx": [
+      "viola_ex"
+    ],
+    "cyrus ex": [
+      "cyrus_ex"
+    ],
+    "サイラスEx": [
+      "cyrus_ex"
+    ],
+    "molrusso ex": [
+      "molrusso_ex"
+    ],
+    "モルルッソEx": [
+      "molrusso_ex"
+    ],
+    "therese ex": [
+      "therese_ex"
+    ],
+    "テレーズEx": [
+      "therese_ex"
+    ],
+    "signa ex": [
+      "signa_ex"
+    ],
+    "シグナEx": [
+      "signa_ex"
+    ],
+    "partitio ex": [
+      "partitio_ex"
+    ],
+    "パルテティオEx": [
+      "partitio_ex"
+    ],
+    "avar": [
+      "avar"
+    ],
+    "アヴァル": [
+      "avar"
+    ],
+    "osvald ex": [
+      "osvald_ex"
+    ],
+    "オズバルドEx": [
+      "osvald_ex"
+    ],
+    "ochette ex": [
+      "ochette_ex"
+    ],
+    "オーシュットEx": [
+      "ochette_ex"
+    ],
+    "castti ex": [
+      "castti_ex"
+    ],
+    "キャスティEx": [
+      "castti_ex"
+    ],
+    "mahrez": [
+      "mahrez"
+    ],
+    "マフレズ": [
+      "mahrez"
+    ],
+    "esmeralda": [
+      "esmeralda"
+    ],
+    "エスメラルダ": [
+      "esmeralda"
+    ],
+    "aoi": [
+      "aoi"
+    ],
+    "アオイ": [
+      "aoi"
+    ],
+    "kazan": [
+      "kazan"
+    ],
+    "カザン": [
+      "kazan"
+    ],
+    "cassia": [
+      "cassia"
+    ],
+    "ケイシア": [
+      "cassia"
+    ],
+    "menno": [
+      "menno"
+    ],
+    "メノ": [
+      "menno"
+    ],
+    "meena": [
+      "meena"
+    ],
+    "ミーナ": [
+      "meena"
+    ],
+    "wingate": [
+      "wingate"
+    ],
+    "ウィンゲート": [
+      "wingate"
+    ],
+    "ジークリット": [
+      "sigrid"
+    ],
+    "noelle": [
+      "noelle"
+    ],
+    "ノエル": [
+      "noelle"
+    ],
+    "laura": [
+      "laura"
+    ],
+    "ラウラ": [
+      "laura"
+    ],
+    "ramona": [
+      "ramona"
+    ],
+    "ラモーナ": [
+      "ramona"
+    ],
+    "pia": [
+      "pia"
+    ],
+    "ピア": [
+      "pia"
+    ],
+    "aslyte": [
+      "aslyte"
+    ],
+    "アズライト": [
+      "aslyte"
+    ],
+    "lucetta": [
+      "lucetta"
+    ],
+    "ルーセッタ": [
+      "lucetta"
+    ],
+    "ashlan": [
+      "ashlan"
+    ],
+    "アシラン": [
+      "ashlan"
+    ],
+    "merrit": [
+      "merrit"
+    ],
+    "メレット": [
+      "merrit"
+    ],
+    "heinz": [
+      "heinz"
+    ],
+    "ハインツ": [
+      "heinz"
+    ],
+    "devin": [
+      "devin"
+    ],
+    "デヴィン": [
+      "devin"
+    ],
+    "rita": [
+      "rita"
+    ],
+    "リタ": [
+      "rita"
+    ],
+    "fabio": [
+      "fabio"
+    ],
+    "ファビオ": [
+      "fabio"
+    ],
+    "mabel": [
+      "mabel"
+    ],
+    "メイベル": [
+      "mabel"
+    ],
+    "madelaine": [
+      "madelaine"
+    ],
+    "マドレーヌ": [
+      "madelaine"
+    ],
+    "tahir": [
+      "tahir"
+    ],
+    "ターヒル": [
+      "tahir"
+    ],
+    "peredir": [
+      "peredir"
+    ],
+    "ペレディール": [
+      "peredir"
+    ],
+    "barrad": [
+      "barrad"
+    ],
+    "バラッド": [
+      "barrad"
+    ],
+    "shelby": [
+      "shelby"
+    ],
+    "シェルビー": [
+      "shelby"
+    ],
+    "iris": [
+      "iris"
+    ],
+    "イリス": [
+      "iris"
+    ],
+    "cedric": [
+      "cedric"
+    ],
+    "セドリック": [
+      "cedric"
+    ],
+    "trish": [
+      "trish"
+    ],
+    "トリッシュ": [
+      "trish"
+    ],
+    "bertrand": [
+      "bertrand"
+    ],
+    "ベルトラン": [
+      "bertrand"
+    ],
+    "cless": [
+      "cless"
+    ],
+    "クレス": [
+      "cless"
+    ],
+    "rodion": [
+      "rodion"
+    ],
+    "ロディオン": [
+      "rodion"
+    ],
+    "miles": [
+      "miles"
+    ],
+    "マイルズ": [
+      "miles"
+    ],
+    "helga": [
+      "helga"
+    ],
+    "ヘルガ": [
+      "helga"
+    ],
+    "kurtz": [
+      "kurtz"
+    ],
+    "カルツ": [
+      "kurtz"
+    ],
+    "camilla": [
+      "camilla"
+    ],
+    "カミラ": [
+      "camilla"
+    ],
+    "cerna": [
+      "cerna"
+    ],
+    "チェルナ": [
+      "cerna"
+    ],
+    "efrain": [
+      "efrain"
+    ],
+    "エフレン": [
+      "efrain"
+    ],
+    "paula": [
+      "paula"
+    ],
+    "ポーラ": [
+      "paula"
+    ],
+    "kenneth": [
+      "kenneth"
+    ],
+    "ケネス": [
+      "kenneth"
+    ],
+    "brigitte": [
+      "brigitte"
+    ],
+    "ブリジット": [
+      "brigitte"
+    ],
+    "durand": [
+      "durand"
+    ],
+    "デュラン": [
+      "durand"
+    ],
+    "jorn": [
+      "jorn"
+    ],
+    "ヨルン": [
+      "jorn"
+    ],
+    "cornelia": [
+      "cornelia"
+    ],
+    "コルネリア": [
+      "cornelia"
+    ],
+    "levan": [
+      "levan"
+    ],
+    "レヴァン": [
+      "levan"
+    ],
+    "lolo": [
+      "lolo"
+    ],
+    "ロロ": [
+      "lolo"
+    ],
+    "narr": [
+      "narr"
+    ],
+    "ナール": [
+      "narr"
+    ],
+    "carroll": [
+      "carroll"
+    ],
+    "キャロル": [
+      "carroll"
+    ],
+    "menny": [
+      "menny"
+    ],
+    "メニー": [
+      "menny"
+    ],
+    "felline": [
+      "felline"
+    ],
+    "フェリーネ": [
+      "felline"
+    ],
+    "billy": [
+      "billy"
+    ],
+    "ビリー": [
+      "billy"
+    ],
+    "nanna": [
+      "nanna"
+    ],
+    "ナンナ": [
+      "nanna"
+    ],
+    "penny": [
+      "penny"
+    ],
+    "ペニー": [
+      "penny"
+    ],
+    "juan": [
+      "juan"
+    ],
+    "フアン": [
+      "juan"
+    ],
+    "harry": [
+      "harry"
+    ],
+    "ハリー": [
+      "harry"
+    ],
+    "jorge": [
+      "jorge"
+    ],
+    "ホルヘ": [
+      "jorge"
+    ],
+    "manuel": [
+      "manuel"
+    ],
+    "マヌエル": [
+      "manuel"
+    ],
+    "guti": [
+      "guti"
+    ],
+    "グティ": [
+      "guti"
+    ],
+    "eunice": [
+      "eunice"
+    ],
+    "ユニス": [
+      "eunice"
+    ],
+    "saria": [
+      "saria"
+    ],
+    "サーリア": [
+      "saria"
+    ],
+    "vivian": [
+      "vivian"
+    ],
+    "ビビアン": [
+      "vivian"
+    ],
+    "diego": [
+      "diego"
+    ],
+    "ディエゴ": [
+      "diego"
+    ],
+    "julio": [
+      "julio"
+    ],
+    "フリオ": [
+      "julio"
+    ],
+    "yugo": [
+      "yugo"
+    ],
+    "ウーゴ": [
+      "yugo"
+    ],
+    "sunny": [
+      "sunny"
+    ],
+    "サニー": [
+      "sunny"
+    ],
+    "telly": [
+      "telly"
+    ],
+    "テリー": [
+      "telly"
+    ],
+    "josé": [
+      "jos_"
+    ],
+    "ホセ": [
+      "jos_"
+    ],
+    "pearl": [
+      "pearl"
+    ],
+    "パール": [
+      "pearl"
+    ],
+    "conny": [
+      "conny"
+    ],
+    "コニー": [
+      "conny"
+    ],
+    "evelyn": [
+      "evelyn"
+    ],
+    "イヴリン": [
+      "evelyn"
+    ],
+    "dorrie": [
+      "dorrie"
+    ],
+    "ドリー": [
+      "dorrie"
+    ]
+  },
+  "characters": {
+    "scarecrow": {
+      "name": "Scarecrow",
+      "job": "Hunter",
+      "japanese_name": "スケアクロウ"
+    },
+    "lynette": {
+      "name": "Lynette",
+      "job": "Dancer",
+      "japanese_name": "リネット"
+    },
+    "viola": {
+      "name": "Viola",
+      "job": "Thief",
+      "japanese_name": "ヴィオラ"
+    },
+    "theo": {
+      "name": "Theo",
+      "job": "Apothecary",
+      "japanese_name": "テオ"
+    },
+    "millard": {
+      "name": "Millard",
+      "job": "Cleric",
+      "japanese_name": "ミロード"
+    },
+    "gilderoy": {
+      "name": "Gilderoy",
+      "job": "Merchant",
+      "japanese_name": "ギルデロイ"
+    },
+    "fiore": {
+      "name": "Fiore",
+      "job": "Warrior",
+      "japanese_name": "フィオル"
+    },
+    "sofia": {
+      "name": "Sofia",
+      "job": "Scholar",
+      "japanese_name": "ソフィア"
+    },
+    "tressa": {
+      "name": "Tressa",
+      "job": "Merchant",
+      "japanese_name": "トレサ"
+    },
+    "heathcote": {
+      "name": "Heathcote",
+      "job": "Thief",
+      "japanese_name": "ヒースコート"
+    },
+    "primrose": {
+      "name": "Primrose",
+      "job": "Dancer",
+      "japanese_name": "プリムロゼ"
+    },
+    "therese": {
+      "name": "Therese",
+      "job": "Scholar",
+      "japanese_name": "テレーズ"
+    },
+    "kouren": {
+      "name": "Kouren",
+      "job": "Warrior",
+      "japanese_name": "コウレン"
+    },
+    "hasumi": {
+      "name": "Hasumi",
+      "job": "Dancer",
+      "japanese_name": "ハスミ"
+    },
+    "h_aanit": {
+      "name": "H’aanit",
+      "job": "Hunter",
+      "japanese_name": "ハンイット"
+    },
+    "tikilen": {
+      "name": "Tikilen",
+      "job": "Warrior",
+      "japanese_name": "ティキレン"
+    },
+    "eliza": {
+      "name": "Eliza",
+      "job": "Warrior",
+      "japanese_name": "エリザ"
+    },
+    "odette": {
+      "name": "Odette",
+      "job": "Scholar",
+      "japanese_name": "オデット"
+    },
+    "lumis": {
+      "name": "Lumis",
+      "job": "Apothecary",
+      "japanese_name": "リュミス"
+    },
+    "stead": {
+      "name": "Stead",
+      "job": "Cleric",
+      "japanese_name": "ステッド"
+    },
+    "glossom": {
+      "name": "Glossom",
+      "job": "Dancer",
+      "japanese_name": "グロッサム"
+    },
+    "adelle": {
+      "name": "Adelle",
+      "job": "Thief",
+      "japanese_name": "アデル"
+    },
+    "elvis": {
+      "name": "Elvis",
+      "job": "Scholar",
+      "japanese_name": "エルヴィス"
+    },
+    "edea": {
+      "name": "Edea",
+      "job": "Warrior",
+      "japanese_name": "イデア"
+    },
+    "agn_s": {
+      "name": "Agnès",
+      "job": "Cleric",
+      "japanese_name": "アニエス"
+    },
+    "cardona": {
+      "name": "Cardona",
+      "job": "Merchant",
+      "japanese_name": "カルドナ"
+    },
+    "lionel": {
+      "name": "Lionel",
+      "job": "Warrior",
+      "japanese_name": "ライオネル"
+    },
+    "varkyn": {
+      "name": "Varkyn",
+      "job": "Scholar",
+      "japanese_name": "ヴァルカン"
+    },
+    "z_aanta": {
+      "name": "Z’aanta",
+      "job": "Hunter",
+      "japanese_name": "ザンター"
+    },
+    "lianna": {
+      "name": "Lianna",
+      "job": "Cleric",
+      "japanese_name": "リアナ"
+    },
+    "therion": {
+      "name": "Therion",
+      "job": "Thief",
+      "japanese_name": "テリオン"
+    },
+    "alfyn": {
+      "name": "Alfyn",
+      "job": "Apothecary",
+      "japanese_name": "アーフェン"
+    },
+    "molrusso": {
+      "name": "Molrusso",
+      "job": "Cleric",
+      "japanese_name": "モルルッソ"
+    },
+    "ri_tu": {
+      "name": "Ri’tu",
+      "job": "Thief",
+      "japanese_name": "リトゥ"
+    },
+    "nicola": {
+      "name": "Nicola",
+      "job": "Thief",
+      "japanese_name": "ニコラ"
+    },
+    "cyrus": {
+      "name": "Cyrus",
+      "job": "Scholar",
+      "japanese_name": "サイラス"
+    },
+    "harley": {
+      "name": "Harley",
+      "job": "Dancer",
+      "japanese_name": "ハーレー"
+    },
+    "molu": {
+      "name": "Molu",
+      "job": "Scholar",
+      "japanese_name": "ムールゥ"
+    },
+    "gertrude": {
+      "name": "Gertrude",
+      "job": "Apothecary",
+      "japanese_name": "ガートルード"
+    },
+    "kersjes": {
+      "name": "Kersjes",
+      "job": "Hunter",
+      "japanese_name": "カージェス"
+    },
+    "ophilia": {
+      "name": "Ophilia",
+      "job": "Cleric",
+      "japanese_name": "オフィーリア"
+    },
+    "olberic": {
+      "name": "Olberic",
+      "job": "Warrior",
+      "japanese_name": "オルベリク"
+    },
+    "dorothea": {
+      "name": "Dorothea",
+      "job": "Merchant",
+      "japanese_name": "ドロテア"
+    },
+    "yunnie": {
+      "name": "Yunnie",
+      "job": "Hunter",
+      "japanese_name": "ユーニィ"
+    },
+    "jillmeila": {
+      "name": "Jillmeila",
+      "job": "Hunter",
+      "japanese_name": "ジルメイラ"
+    },
+    "soleil": {
+      "name": "Soleil",
+      "job": "Apothecary",
+      "japanese_name": "ソレイユ"
+    },
+    "lars": {
+      "name": "Lars",
+      "job": "Warrior",
+      "japanese_name": "ラース"
+    },
+    "falco": {
+      "name": "Falco",
+      "job": "Thief",
+      "japanese_name": "ファルコ"
+    },
+    "yan_long": {
+      "name": "Yan Long",
+      "job": "Cleric",
+      "japanese_name": "イェンロン"
+    },
+    "w_ludai": {
+      "name": "W’ludai",
+      "job": "Merchant",
+      "japanese_name": "ウルダイ"
+    },
+    "a2": {
+      "name": "A2",
+      "job": "Thief",
+      "japanese_name": "A2"
+    },
+    "2b": {
+      "name": "2B",
+      "job": "Warrior",
+      "japanese_name": "2B"
+    },
+    "9s": {
+      "name": "9S",
+      "job": "Merchant",
+      "japanese_name": "9S"
+    },
+    "tithi": {
+      "name": "Tithi",
+      "job": "Dancer",
+      "japanese_name": "ティティ"
+    },
+    "hayes": {
+      "name": "Hayes",
+      "job": "Apothecary",
+      "japanese_name": "ヘイズ"
+    },
+    "joshua": {
+      "name": "Joshua",
+      "job": "Warrior",
+      "japanese_name": "ジョシュア"
+    },
+    "largo": {
+      "name": "Largo",
+      "job": "Merchant",
+      "japanese_name": "ラルゴ"
+    },
+    "chloe": {
+      "name": "Chloe",
+      "job": "Hunter",
+      "japanese_name": "クロエ"
+    },
+    "nona": {
+      "name": "Nona",
+      "job": "Merchant",
+      "japanese_name": "ノーニャ"
+    },
+    "eleonora": {
+      "name": "Eleonora",
+      "job": "Dancer",
+      "japanese_name": "エレオノーラ"
+    },
+    "richard": {
+      "name": "Richard",
+      "job": "Warrior",
+      "japanese_name": "リシャール"
+    },
+    "alaune": {
+      "name": "Alaune",
+      "job": "Scholar",
+      "japanese_name": "アラウネ"
+    },
+    "herminia": {
+      "name": "Herminia",
+      "job": "Hunter",
+      "japanese_name": "ヘルミニア"
+    },
+    "tytos": {
+      "name": "Tytos",
+      "job": "Warrior",
+      "japanese_name": "タイタス"
+    },
+    "auguste": {
+      "name": "Auguste",
+      "job": "Thief",
+      "japanese_name": "アーギュスト"
+    },
+    "fiore_ex": {
+      "name": "Fiore EX",
+      "job": "Dancer",
+      "japanese_name": "フィオルEx"
+    },
+    "sofia_ex": {
+      "name": "Sofia EX",
+      "job": "Apothecary",
+      "japanese_name": "ソフィアEx"
+    },
+    "krauser": {
+      "name": "Krauser",
+      "job": "Merchant",
+      "japanese_name": "クラウザー"
+    },
+    "rondo": {
+      "name": "Rondo",
+      "job": "Warrior",
+      "japanese_name": "ロンド"
+    },
+    "cecily": {
+      "name": "Cecily",
+      "job": "Merchant",
+      "japanese_name": "セシリー"
+    },
+    "promme": {
+      "name": "Promme",
+      "job": "Cleric",
+      "japanese_name": "プロメ"
+    },
+    "frederica": {
+      "name": "Frederica",
+      "job": "Scholar",
+      "japanese_name": "フレデリカ"
+    },
+    "roland": {
+      "name": "Roland",
+      "job": "Merchant",
+      "japanese_name": "ロラン"
+    },
+    "serenoa": {
+      "name": "Serenoa",
+      "job": "Warrior",
+      "japanese_name": "セレノア"
+    },
+    "zenia": {
+      "name": "Zenia",
+      "job": "Apothecary",
+      "japanese_name": "ゼニア"
+    },
+    "rinyuu": {
+      "name": "Rinyuu",
+      "job": "Cleric",
+      "japanese_name": "リンユウ"
+    },
+    "yukes": {
+      "name": "Yukes",
+      "job": "Cleric",
+      "japanese_name": "ユークス"
+    },
+    "sarisa": {
+      "name": "Sarisa",
+      "job": "Thief",
+      "japanese_name": "サリサ"
+    },
+    "aedelgard": {
+      "name": "Aedelgard",
+      "job": "Warrior",
+      "japanese_name": "エデルガルト"
+    },
+    "tressa_ex": {
+      "name": "Tressa EX",
+      "job": "Hunter",
+      "japanese_name": "トレサEx"
+    },
+    "primrose_ex": {
+      "name": "Primrose EX",
+      "job": "Apothecary",
+      "japanese_name": "プリムロゼEx"
+    },
+    "millard_ex": {
+      "name": "Millard EX",
+      "job": "Merchant",
+      "japanese_name": "ミロードEx"
+    },
+    "lumis_ex": {
+      "name": "Lumis EX",
+      "job": "Hunter",
+      "japanese_name": "リュミスEx"
+    },
+    "eltrix": {
+      "name": "Eltrix",
+      "job": "Warrior",
+      "japanese_name": "エルトリクス"
+    },
+    "leon": {
+      "name": "Leon",
+      "job": "Merchant",
+      "japanese_name": "レオン"
+    },
+    "tatloch": {
+      "name": "Tatloch",
+      "job": "Dancer",
+      "japanese_name": "タトゥロック"
+    },
+    "bargello": {
+      "name": "Bargello",
+      "job": "Thief",
+      "japanese_name": "バルジェロ"
+    },
+    "sonia": {
+      "name": "Sonia",
+      "job": "Thief",
+      "japanese_name": "ソニア"
+    },
+    "hammy": {
+      "name": "Hammy",
+      "job": "Scholar",
+      "japanese_name": "ハミィ"
+    },
+    "h_aanit_ex": {
+      "name": "H’aanit EX",
+      "job": "Dancer",
+      "japanese_name": "ハンイットEx"
+    },
+    "nephti": {
+      "name": "Nephti",
+      "job": "Apothecary",
+      "japanese_name": "ネフティ"
+    },
+    "solon": {
+      "name": "Solon",
+      "job": "Scholar",
+      "japanese_name": "ソロン"
+    },
+    "nina_lanna": {
+      "name": "Nina-Lanna",
+      "job": "Scholar",
+      "japanese_name": "ニーナラーナ"
+    },
+    "levina": {
+      "name": "Levina",
+      "job": "Scholar",
+      "japanese_name": "レヴィーナ"
+    },
+    "canary": {
+      "name": "Canary",
+      "job": "Thief",
+      "japanese_name": "カナリィ"
+    },
+    "lemaire": {
+      "name": "Lemaire",
+      "job": "Dancer",
+      "japanese_name": "ルメール"
+    },
+    "alaune_ex": {
+      "name": "Alaune EX",
+      "job": "Dancer",
+      "japanese_name": "アラウネEx"
+    },
+    "elrica": {
+      "name": "Elrica",
+      "job": "Warrior",
+      "japanese_name": "エリカ"
+    },
+    "ogen": {
+      "name": "Ogen",
+      "job": "Apothecary",
+      "japanese_name": "オーゲン"
+    },
+    "ditraina": {
+      "name": "Ditraina",
+      "job": "Scholar",
+      "japanese_name": "ディトレイナ"
+    },
+    "sertet": {
+      "name": "Sertet",
+      "job": "Hunter",
+      "japanese_name": "セルテト"
+    },
+    "streibough": {
+      "name": "Streibough",
+      "job": "Scholar",
+      "japanese_name": "ストレイボウ"
+    },
+    "oersted": {
+      "name": "Oersted",
+      "job": "Warrior",
+      "japanese_name": "オルステッド"
+    },
+    "s__odio": {
+      "name": "S. Odio",
+      "job": "Cleric",
+      "japanese_name": "オディオ・S"
+    },
+    "o__odio": {
+      "name": "O. Odio",
+      "job": "Warrior",
+      "japanese_name": "オディオ・O"
+    },
+    "sazantos": {
+      "name": "Sazantos",
+      "job": "Warrior",
+      "japanese_name": "サザントス"
+    },
+    "signa": {
+      "name": "Signa",
+      "job": "Dancer",
+      "japanese_name": "シグナ"
+    },
+    "nivelle": {
+      "name": "Nivelle",
+      "job": "Scholar",
+      "japanese_name": "ニヴェル"
+    },
+    "isla": {
+      "name": "Isla",
+      "job": "Scholar",
+      "japanese_name": "アイラ"
+    },
+    "rique": {
+      "name": "Rique",
+      "job": "Merchant",
+      "japanese_name": "リーク"
+    },
+    "kilns": {
+      "name": "Kilns",
+      "job": "Hunter",
+      "japanese_name": "キルン"
+    },
+    "sail": {
+      "name": "Sail",
+      "job": "Warrior",
+      "japanese_name": "セイル"
+    },
+    "partitio": {
+      "name": "Partitio",
+      "job": "Merchant",
+      "japanese_name": "パルテティオ"
+    },
+    "temenos": {
+      "name": "Temenos",
+      "job": "Cleric",
+      "japanese_name": "テメノス"
+    },
+    "agnea": {
+      "name": "Agnea",
+      "job": "Dancer",
+      "japanese_name": "アグネア"
+    },
+    "ochette": {
+      "name": "Ochette",
+      "job": "Hunter",
+      "japanese_name": "オーシュット"
+    },
+    "neha": {
+      "name": "Neha",
+      "job": "Dancer",
+      "japanese_name": "ネーハ"
+    },
+    "thron_": {
+      "name": "Throné",
+      "job": "Thief",
+      "japanese_name": "ソローネ"
+    },
+    "pirro": {
+      "name": "Pirro",
+      "job": "Thief",
+      "japanese_name": "ピルロ"
+    },
+    "morffins": {
+      "name": "Morffins",
+      "job": "Apothecary",
+      "japanese_name": "モーフィンス"
+    },
+    "grieg": {
+      "name": "Grieg",
+      "job": "Warrior",
+      "japanese_name": "グリーグ"
+    },
+    "gloria": {
+      "name": "Gloria",
+      "job": "Cleric",
+      "japanese_name": "グローリア"
+    },
+    "ringabel": {
+      "name": "Ringabel",
+      "job": "Warrior",
+      "japanese_name": "リングアベル"
+    },
+    "magnolia": {
+      "name": "Magnolia",
+      "job": "Merchant",
+      "japanese_name": "マグノリア"
+    },
+    "osvald": {
+      "name": "Osvald",
+      "job": "Scholar",
+      "japanese_name": "オズバルド"
+    },
+    "mirgardi": {
+      "name": "Mirgardi",
+      "job": "Dancer",
+      "japanese_name": "ミルガルディ"
+    },
+    "jane": {
+      "name": "Jane",
+      "job": "Apothecary",
+      "japanese_name": "ジェイン"
+    },
+    "shana": {
+      "name": "Shana",
+      "job": "Apothecary",
+      "japanese_name": "シャナ"
+    },
+    "hujheb": {
+      "name": "Hujheb",
+      "job": "Hunter",
+      "japanese_name": "ヒュージブ"
+    },
+    "oskha": {
+      "name": "Oskha",
+      "job": "Merchant",
+      "japanese_name": "オスカ"
+    },
+    "hikari": {
+      "name": "Hikari",
+      "job": "Warrior",
+      "japanese_name": "ヒカリ"
+    },
+    "castti": {
+      "name": "Castti",
+      "job": "Apothecary",
+      "japanese_name": "キャスティ"
+    },
+    "agnea_ex": {
+      "name": "Agnea EX",
+      "job": "Hunter",
+      "japanese_name": "アグネアEx"
+    },
+    "sazantos_ex": {
+      "name": "Sazantos EX",
+      "job": "Merchant",
+      "japanese_name": "サザントスEx"
+    },
+    "cecil": {
+      "name": "Cecil",
+      "job": "Warrior",
+      "japanese_name": "セシル"
+    },
+    "ophilia_ex": {
+      "name": "Ophilia EX",
+      "job": "Scholar",
+      "japanese_name": "オフィーリアEx"
+    },
+    "kain_": {
+      "name": "Kainé",
+      "job": "Thief",
+      "japanese_name": "カイネ"
+    },
+    "nier": {
+      "name": "Nier",
+      "job": "Merchant",
+      "japanese_name": "ニーア"
+    },
+    "emil": {
+      "name": "Emil",
+      "job": "Cleric",
+      "japanese_name": "エミール"
+    },
+    "dolcinaea": {
+      "name": "Dolcinaea",
+      "job": "Dancer",
+      "japanese_name": "ドルシネア"
+    },
+    "tiziano": {
+      "name": "Tiziano",
+      "job": "Thief",
+      "japanese_name": "ティツィアーノ"
+    },
+    "bargello_ex": {
+      "name": "Bargello EX",
+      "job": "Dancer",
+      "japanese_name": "バルジェロEx"
+    },
+    "tatloch_ex": {
+      "name": "Tatloch EX",
+      "job": "Thief",
+      "japanese_name": "タトゥロックEx"
+    },
+    "sowan": {
+      "name": "Sowan",
+      "job": "Apothecary",
+      "japanese_name": "ソワン"
+    },
+    "relisha": {
+      "name": "Relisha",
+      "job": "Cleric",
+      "japanese_name": "レリーシャ"
+    },
+    "rinyuu_ex": {
+      "name": "Rinyuu EX",
+      "job": "Apothecary",
+      "japanese_name": "リンユウEx"
+    },
+    "alrond": {
+      "name": "Alrond",
+      "job": "Merchant",
+      "japanese_name": "アルロンド"
+    },
+    "ori": {
+      "name": "Ori",
+      "job": "Merchant",
+      "japanese_name": "オリ"
+    },
+    "ceraphina": {
+      "name": "Ceraphina",
+      "job": "Apothecary",
+      "japanese_name": "セラフィナ"
+    },
+    "pardis_iii": {
+      "name": "Pardis III",
+      "job": "Scholar",
+      "japanese_name": "パーディス三世"
+    },
+    "ditraina_ex": {
+      "name": "Ditraina EX",
+      "job": "Hunter",
+      "japanese_name": "ディトレイナEx"
+    },
+    "elrica_ex": {
+      "name": "Elrica EX",
+      "job": "Thief",
+      "japanese_name": "エリカEx"
+    },
+    "mydia": {
+      "name": "Mydia",
+      "job": "Cleric",
+      "japanese_name": "ミディヤ"
+    },
+    "crick": {
+      "name": "Crick",
+      "job": "Warrior",
+      "japanese_name": "クリック"
+    },
+    "morena": {
+      "name": "Morena",
+      "job": "Scholar",
+      "japanese_name": "モレーナ"
+    },
+    "kagemune": {
+      "name": "Kagemune",
+      "job": "Thief",
+      "japanese_name": "カゲムネ"
+    },
+    "sigrid_ex": {
+      "name": "Sigrid EX",
+      "job": "Merchant",
+      "japanese_name": "ジークリットEx"
+    },
+    "hikari_ex": {
+      "name": "Hikari EX",
+      "job": "Cleric",
+      "japanese_name": "ヒカリEx"
+    },
+    "rai_mei": {
+      "name": "Rai Mei",
+      "job": "Merchant",
+      "japanese_name": "ライ・メイ"
+    },
+    "black_maiden": {
+      "name": "Black Maiden",
+      "job": "Dancer",
+      "japanese_name": "黒の巫女"
+    },
+    "black_knight": {
+      "name": "Black Knight",
+      "job": "Warrior",
+      "japanese_name": "黒の騎士"
+    },
+    "viola_ex": {
+      "name": "Viola EX",
+      "job": "Scholar",
+      "japanese_name": "ヴィオラEx"
+    },
+    "cyrus_ex": {
+      "name": "Cyrus EX",
+      "job": "Warrior",
+      "japanese_name": "サイラスEx"
+    },
+    "molrusso_ex": {
+      "name": "Molrusso EX",
+      "job": "Dancer",
+      "japanese_name": "モルルッソEx"
+    },
+    "therese_ex": {
+      "name": "Therese EX",
+      "job": "Cleric",
+      "japanese_name": "テレーズEx"
+    },
+    "signa_ex": {
+      "name": "Signa EX",
+      "job": "Apothecary",
+      "japanese_name": "シグナEx"
+    },
+    "partitio_ex": {
+      "name": "Partitio EX",
+      "job": "Thief",
+      "japanese_name": "パルテティオEx"
+    },
+    "avar": {
+      "name": "Avar",
+      "job": "Apothecary",
+      "japanese_name": "アヴァル"
+    },
+    "osvald_ex": {
+      "name": "Osvald EX",
+      "job": "Cleric",
+      "japanese_name": "オズバルドEx"
+    },
+    "ochette_ex": {
+      "name": "Ochette EX",
+      "job": "Warrior",
+      "japanese_name": "オーシュットEx"
+    },
+    "castti_ex": {
+      "name": "Castti EX",
+      "job": "Dancer",
+      "japanese_name": "キャスティEx"
+    },
+    "mahrez": {
+      "name": "Mahrez",
+      "job": "Warrior",
+      "japanese_name": "マフレズ"
+    },
+    "esmeralda": {
+      "name": "Esmeralda",
+      "job": "Thief",
+      "japanese_name": "エスメラルダ"
+    },
+    "aoi": {
+      "name": "Aoi",
+      "job": "Warrior",
+      "japanese_name": "アオイ"
+    },
+    "kazan": {
+      "name": "Kazan",
+      "job": "Scholar",
+      "japanese_name": "カザン"
+    },
+    "cassia": {
+      "name": "Cassia",
+      "job": "Hunter",
+      "japanese_name": "ケイシア"
+    },
+    "menno": {
+      "name": "Menno",
+      "job": "Cleric",
+      "japanese_name": "メノ"
+    },
+    "meena": {
+      "name": "Meena",
+      "job": "Dancer",
+      "japanese_name": "ミーナ"
+    },
+    "wingate": {
+      "name": "Wingate",
+      "job": "Thief",
+      "japanese_name": "ウィンゲート"
+    },
+    "sigrid": {
+      "name": "Sigrid",
+      "job": "Warrior",
+      "japanese_name": "ジークリット"
+    },
+    "noelle": {
+      "name": "Noelle",
+      "job": "Scholar",
+      "japanese_name": "ノエル"
+    },
+    "laura": {
+      "name": "Laura",
+      "job": "Scholar",
+      "japanese_name": "ラウラ"
+    },
+    "ramona": {
+      "name": "Ramona",
+      "job": "Cleric",
+      "japanese_name": "ラモーナ"
+    },
+    "pia": {
+      "name": "Pia",
+      "job": "Merchant",
+      "japanese_name": "ピア"
+    },
+    "aslyte": {
+      "name": "Aslyte",
+      "job": "Thief",
+      "japanese_name": "アズライト"
+    },
+    "lucetta": {
+      "name": "Lucetta",
+      "job": "Hunter",
+      "japanese_name": "ルーセッタ"
+    },
+    "ashlan": {
+      "name": "Ashlan",
+      "job": "Hunter",
+      "japanese_name": "アシラン"
+    },
+    "merrit": {
+      "name": "Merrit",
+      "job": "Apothecary",
+      "japanese_name": "メレット"
+    },
+    "heinz": {
+      "name": "Heinz",
+      "job": "Scholar",
+      "japanese_name": "ハインツ"
+    },
+    "devin": {
+      "name": "Devin",
+      "job": "Merchant",
+      "japanese_name": "デヴィン"
+    },
+    "rita": {
+      "name": "Rita",
+      "job": "Apothecary",
+      "japanese_name": "リタ"
+    },
+    "fabio": {
+      "name": "Fabio",
+      "job": "Dancer",
+      "japanese_name": "ファビオ"
+    },
+    "mabel": {
+      "name": "Mabel",
+      "job": "Dancer",
+      "japanese_name": "メイベル"
+    },
+    "madelaine": {
+      "name": "Madelaine",
+      "job": "Cleric",
+      "japanese_name": "マドレーヌ"
+    },
+    "tahir": {
+      "name": "Tahir",
+      "job": "Warrior",
+      "japanese_name": "ターヒル"
+    },
+    "peredir": {
+      "name": "Peredir",
+      "job": "Scholar",
+      "japanese_name": "ペレディール"
+    },
+    "barrad": {
+      "name": "Barrad",
+      "job": "Merchant",
+      "japanese_name": "バラッド"
+    },
+    "shelby": {
+      "name": "Shelby",
+      "job": "Apothecary",
+      "japanese_name": "シェルビー"
+    },
+    "iris": {
+      "name": "Iris",
+      "job": "Dancer",
+      "japanese_name": "イリス"
+    },
+    "cedric": {
+      "name": "Cedric",
+      "job": "Cleric",
+      "japanese_name": "セドリック"
+    },
+    "trish": {
+      "name": "Trish",
+      "job": "Warrior",
+      "japanese_name": "トリッシュ"
+    },
+    "bertrand": {
+      "name": "Bertrand",
+      "job": "Hunter",
+      "japanese_name": "ベルトラン"
+    },
+    "cless": {
+      "name": "Cless",
+      "job": "Thief",
+      "japanese_name": "クレス"
+    },
+    "rodion": {
+      "name": "Rodion",
+      "job": "Apothecary",
+      "japanese_name": "ロディオン"
+    },
+    "miles": {
+      "name": "Miles",
+      "job": "Warrior",
+      "japanese_name": "マイルズ"
+    },
+    "helga": {
+      "name": "Helga",
+      "job": "Merchant",
+      "japanese_name": "ヘルガ"
+    },
+    "kurtz": {
+      "name": "Kurtz",
+      "job": "Thief",
+      "japanese_name": "カルツ"
+    },
+    "camilla": {
+      "name": "Camilla",
+      "job": "Hunter",
+      "japanese_name": "カミラ"
+    },
+    "cerna": {
+      "name": "Cerna",
+      "job": "Merchant",
+      "japanese_name": "チェルナ"
+    },
+    "efrain": {
+      "name": "Efrain",
+      "job": "Cleric",
+      "japanese_name": "エフレン"
+    },
+    "paula": {
+      "name": "Paula",
+      "job": "Dancer",
+      "japanese_name": "ポーラ"
+    },
+    "kenneth": {
+      "name": "Kenneth",
+      "job": "Scholar",
+      "japanese_name": "ケネス"
+    },
+    "brigitte": {
+      "name": "Brigitte",
+      "job": "Cleric",
+      "japanese_name": "ブリジット"
+    },
+    "durand": {
+      "name": "Durand",
+      "job": "Thief",
+      "japanese_name": "デュラン"
+    },
+    "jorn": {
+      "name": "Jorn",
+      "job": "Warrior",
+      "japanese_name": "ヨルン"
+    },
+    "cornelia": {
+      "name": "Cornelia",
+      "job": "Apothecary",
+      "japanese_name": "コルネリア"
+    },
+    "levan": {
+      "name": "Levan",
+      "job": "Scholar",
+      "japanese_name": "レヴァン"
+    },
+    "lolo": {
+      "name": "Lolo",
+      "job": "Hunter",
+      "japanese_name": "ロロ"
+    },
+    "narr": {
+      "name": "Narr",
+      "job": "Hunter",
+      "japanese_name": "ナール"
+    },
+    "carroll": {
+      "name": "Carroll",
+      "job": "Merchant",
+      "japanese_name": "キャロル"
+    },
+    "menny": {
+      "name": "Menny",
+      "job": "Warrior",
+      "japanese_name": "メニー"
+    },
+    "felline": {
+      "name": "Felline",
+      "job": "Thief",
+      "japanese_name": "フェリーネ"
+    },
+    "billy": {
+      "name": "Billy",
+      "job": "Thief",
+      "japanese_name": "ビリー"
+    },
+    "nanna": {
+      "name": "Nanna",
+      "job": "Warrior",
+      "japanese_name": "ナンナ"
+    },
+    "penny": {
+      "name": "Penny",
+      "job": "Apothecary",
+      "japanese_name": "ペニー"
+    },
+    "juan": {
+      "name": "Juan",
+      "job": "Merchant",
+      "japanese_name": "フアン"
+    },
+    "harry": {
+      "name": "Harry",
+      "job": "Dancer",
+      "japanese_name": "ハリー"
+    },
+    "jorge": {
+      "name": "Jorge",
+      "job": "Apothecary",
+      "japanese_name": "ホルヘ"
+    },
+    "manuel": {
+      "name": "Manuel",
+      "job": "Dancer",
+      "japanese_name": "マヌエル"
+    },
+    "guti": {
+      "name": "Guti",
+      "job": "Hunter",
+      "japanese_name": "グティ"
+    },
+    "eunice": {
+      "name": "Eunice",
+      "job": "Scholar",
+      "japanese_name": "ユニス"
+    },
+    "saria": {
+      "name": "Saria",
+      "job": "Apothecary",
+      "japanese_name": "サーリア"
+    },
+    "vivian": {
+      "name": "Vivian",
+      "job": "Hunter",
+      "japanese_name": "ビビアン"
+    },
+    "diego": {
+      "name": "Diego",
+      "job": "Thief",
+      "japanese_name": "ディエゴ"
+    },
+    "julio": {
+      "name": "Julio",
+      "job": "Scholar",
+      "japanese_name": "フリオ"
+    },
+    "yugo": {
+      "name": "Yugo",
+      "job": "Warrior",
+      "japanese_name": "ウーゴ"
+    },
+    "sunny": {
+      "name": "Sunny",
+      "job": "Hunter",
+      "japanese_name": "サニー"
+    },
+    "telly": {
+      "name": "Telly",
+      "job": "Cleric",
+      "japanese_name": "テリー"
+    },
+    "jos_": {
+      "name": "José",
+      "job": "Cleric",
+      "japanese_name": "ホセ"
+    },
+    "pearl": {
+      "name": "Pearl",
+      "job": "Cleric",
+      "japanese_name": "パール"
+    },
+    "conny": {
+      "name": "Conny",
+      "job": "Merchant",
+      "japanese_name": "コニー"
+    },
+    "evelyn": {
+      "name": "Evelyn",
+      "job": "Dancer",
+      "japanese_name": "イヴリン"
+    },
+    "dorrie": {
+      "name": "Dorrie",
+      "job": "Scholar",
+      "japanese_name": "ドリー"
+    }
+  }
+}

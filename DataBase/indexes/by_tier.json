@@ -1,0 +1,1476 @@
+{
+  "D": [
+    {
+      "id": "gilderoy",
+      "name": "Gilderoy",
+      "job": "Merchant",
+      "power_level": 27
+    },
+    {
+      "id": "nona",
+      "name": "Nona",
+      "job": "Merchant",
+      "power_level": 27
+    },
+    {
+      "id": "theo",
+      "name": "Theo",
+      "job": "Apothecary",
+      "power_level": 26
+    },
+    {
+      "id": "kouren",
+      "name": "Kouren",
+      "job": "Warrior",
+      "power_level": 26
+    },
+    {
+      "id": "lumis",
+      "name": "Lumis",
+      "job": "Apothecary",
+      "power_level": 26
+    },
+    {
+      "id": "edea",
+      "name": "Edea",
+      "job": "Warrior",
+      "power_level": 26
+    },
+    {
+      "id": "lionel",
+      "name": "Lionel",
+      "job": "Warrior",
+      "power_level": 26
+    },
+    {
+      "id": "gertrude",
+      "name": "Gertrude",
+      "job": "Apothecary",
+      "power_level": 26
+    },
+    {
+      "id": "soleil",
+      "name": "Soleil",
+      "job": "Apothecary",
+      "power_level": 26
+    },
+    {
+      "id": "sertet",
+      "name": "Sertet",
+      "job": "Hunter",
+      "power_level": 26
+    },
+    {
+      "id": "oersted",
+      "name": "Oersted",
+      "job": "Warrior",
+      "power_level": 26
+    },
+    {
+      "id": "scarecrow",
+      "name": "Scarecrow",
+      "job": "Hunter",
+      "power_level": 25
+    },
+    {
+      "id": "sofia",
+      "name": "Sofia",
+      "job": "Scholar",
+      "power_level": 25
+    },
+    {
+      "id": "therese",
+      "name": "Therese",
+      "job": "Scholar",
+      "power_level": 25
+    },
+    {
+      "id": "hasumi",
+      "name": "Hasumi",
+      "job": "Dancer",
+      "power_level": 25
+    },
+    {
+      "id": "tikilen",
+      "name": "Tikilen",
+      "job": "Warrior",
+      "power_level": 25
+    },
+    {
+      "id": "glossom",
+      "name": "Glossom",
+      "job": "Dancer",
+      "power_level": 25
+    },
+    {
+      "id": "varkyn",
+      "name": "Varkyn",
+      "job": "Scholar",
+      "power_level": 25
+    },
+    {
+      "id": "harley",
+      "name": "Harley",
+      "job": "Dancer",
+      "power_level": 25
+    },
+    {
+      "id": "lemaire",
+      "name": "Lemaire",
+      "job": "Dancer",
+      "power_level": 25
+    },
+    {
+      "id": "streibough",
+      "name": "Streibough",
+      "job": "Scholar",
+      "power_level": 25
+    },
+    {
+      "id": "mirgardi",
+      "name": "Mirgardi",
+      "job": "Dancer",
+      "power_level": 25
+    },
+    {
+      "id": "stead",
+      "name": "Stead",
+      "job": "Cleric",
+      "power_level": 24
+    },
+    {
+      "id": "agn_s",
+      "name": "Agnès",
+      "job": "Cleric",
+      "power_level": 24
+    },
+    {
+      "id": "molrusso",
+      "name": "Molrusso",
+      "job": "Cleric",
+      "power_level": 24
+    },
+    {
+      "id": "ri_tu",
+      "name": "Ri’tu",
+      "job": "Thief",
+      "power_level": 24
+    },
+    {
+      "id": "sail",
+      "name": "Sail",
+      "job": "Warrior",
+      "power_level": 0
+    }
+  ],
+  "A": [
+    {
+      "id": "partitio",
+      "name": "Partitio",
+      "job": "Merchant",
+      "power_level": 51
+    },
+    {
+      "id": "krauser",
+      "name": "Krauser",
+      "job": "Merchant",
+      "power_level": 50
+    },
+    {
+      "id": "leon",
+      "name": "Leon",
+      "job": "Merchant",
+      "power_level": 50
+    },
+    {
+      "id": "tatloch",
+      "name": "Tatloch",
+      "job": "Dancer",
+      "power_level": 50
+    },
+    {
+      "id": "herminia",
+      "name": "Herminia",
+      "job": "Hunter",
+      "power_level": 49
+    },
+    {
+      "id": "fiore_ex",
+      "name": "Fiore EX",
+      "job": "Dancer",
+      "power_level": 49
+    },
+    {
+      "id": "rondo",
+      "name": "Rondo",
+      "job": "Warrior",
+      "power_level": 49
+    },
+    {
+      "id": "roland",
+      "name": "Roland",
+      "job": "Merchant",
+      "power_level": 49
+    },
+    {
+      "id": "zenia",
+      "name": "Zenia",
+      "job": "Apothecary",
+      "power_level": 49
+    },
+    {
+      "id": "elrica",
+      "name": "Elrica",
+      "job": "Warrior",
+      "power_level": 49
+    },
+    {
+      "id": "ogen",
+      "name": "Ogen",
+      "job": "Apothecary",
+      "power_level": 49
+    },
+    {
+      "id": "ringabel",
+      "name": "Ringabel",
+      "job": "Warrior",
+      "power_level": 49
+    },
+    {
+      "id": "jane",
+      "name": "Jane",
+      "job": "Apothecary",
+      "power_level": 49
+    },
+    {
+      "id": "hikari",
+      "name": "Hikari",
+      "job": "Warrior",
+      "power_level": 49
+    },
+    {
+      "id": "a2",
+      "name": "A2",
+      "job": "Thief",
+      "power_level": 48
+    },
+    {
+      "id": "pirro",
+      "name": "Pirro",
+      "job": "Thief",
+      "power_level": 48
+    },
+    {
+      "id": "lynette",
+      "name": "Lynette",
+      "job": "Dancer",
+      "power_level": 47
+    },
+    {
+      "id": "odette",
+      "name": "Odette",
+      "job": "Scholar",
+      "power_level": 47
+    },
+    {
+      "id": "therion",
+      "name": "Therion",
+      "job": "Thief",
+      "power_level": 47
+    },
+    {
+      "id": "frederica",
+      "name": "Frederica",
+      "job": "Scholar",
+      "power_level": 47
+    },
+    {
+      "id": "sonia",
+      "name": "Sonia",
+      "job": "Thief",
+      "power_level": 47
+    },
+    {
+      "id": "agnea",
+      "name": "Agnea",
+      "job": "Dancer",
+      "power_level": 47
+    },
+    {
+      "id": "thron_",
+      "name": "Throné",
+      "job": "Thief",
+      "power_level": 47
+    },
+    {
+      "id": "ditraina",
+      "name": "Ditraina",
+      "job": "Scholar",
+      "power_level": 46
+    },
+    {
+      "id": "nivelle",
+      "name": "Nivelle",
+      "job": "Scholar",
+      "power_level": 46
+    },
+    {
+      "id": "isla",
+      "name": "Isla",
+      "job": "Scholar",
+      "power_level": 46
+    },
+    {
+      "id": "hammy",
+      "name": "Hammy",
+      "job": "Scholar",
+      "power_level": 45
+    }
+  ],
+  "B": [
+    {
+      "id": "eltrix",
+      "name": "Eltrix",
+      "job": "Warrior",
+      "power_level": 41
+    },
+    {
+      "id": "olberic",
+      "name": "Olberic",
+      "job": "Warrior",
+      "power_level": 40
+    },
+    {
+      "id": "morffins",
+      "name": "Morffins",
+      "job": "Apothecary",
+      "power_level": 40
+    },
+    {
+      "id": "z_aanta",
+      "name": "Z’aanta",
+      "job": "Hunter",
+      "power_level": 39
+    },
+    {
+      "id": "alfyn",
+      "name": "Alfyn",
+      "job": "Apothecary",
+      "power_level": 39
+    },
+    {
+      "id": "lars",
+      "name": "Lars",
+      "job": "Warrior",
+      "power_level": 39
+    },
+    {
+      "id": "auguste",
+      "name": "Auguste",
+      "job": "Thief",
+      "power_level": 39
+    },
+    {
+      "id": "lumis_ex",
+      "name": "Lumis EX",
+      "job": "Hunter",
+      "power_level": 39
+    },
+    {
+      "id": "rique",
+      "name": "Rique",
+      "job": "Merchant",
+      "power_level": 39
+    },
+    {
+      "id": "viola",
+      "name": "Viola",
+      "job": "Thief",
+      "power_level": 38
+    },
+    {
+      "id": "yunnie",
+      "name": "Yunnie",
+      "job": "Hunter",
+      "power_level": 38
+    },
+    {
+      "id": "falco",
+      "name": "Falco",
+      "job": "Thief",
+      "power_level": 38
+    },
+    {
+      "id": "yan_long",
+      "name": "Yan Long",
+      "job": "Cleric",
+      "power_level": 38
+    },
+    {
+      "id": "tithi",
+      "name": "Tithi",
+      "job": "Dancer",
+      "power_level": 38
+    },
+    {
+      "id": "sofia_ex",
+      "name": "Sofia EX",
+      "job": "Apothecary",
+      "power_level": 38
+    },
+    {
+      "id": "sarisa",
+      "name": "Sarisa",
+      "job": "Thief",
+      "power_level": 38
+    },
+    {
+      "id": "neha",
+      "name": "Neha",
+      "job": "Dancer",
+      "power_level": 38
+    },
+    {
+      "id": "nicola",
+      "name": "Nicola",
+      "job": "Thief",
+      "power_level": 37
+    },
+    {
+      "id": "ophilia",
+      "name": "Ophilia",
+      "job": "Cleric",
+      "power_level": 37
+    },
+    {
+      "id": "levina",
+      "name": "Levina",
+      "job": "Scholar",
+      "power_level": 37
+    },
+    {
+      "id": "s__odio",
+      "name": "S. Odio",
+      "job": "Cleric",
+      "power_level": 37
+    },
+    {
+      "id": "temenos",
+      "name": "Temenos",
+      "job": "Cleric",
+      "power_level": 37
+    }
+  ],
+  "E": [
+    {
+      "id": "9s",
+      "name": "9S",
+      "job": "Merchant",
+      "power_level": 33
+    },
+    {
+      "id": "elvis",
+      "name": "Elvis",
+      "job": "Scholar",
+      "power_level": 32
+    },
+    {
+      "id": "joshua",
+      "name": "Joshua",
+      "job": "Warrior",
+      "power_level": 32
+    },
+    {
+      "id": "largo",
+      "name": "Largo",
+      "job": "Merchant",
+      "power_level": 32
+    },
+    {
+      "id": "millard",
+      "name": "Millard",
+      "job": "Cleric",
+      "power_level": 31
+    },
+    {
+      "id": "heathcote",
+      "name": "Heathcote",
+      "job": "Thief",
+      "power_level": 31
+    },
+    {
+      "id": "promme",
+      "name": "Promme",
+      "job": "Cleric",
+      "power_level": 31
+    },
+    {
+      "id": "yukes",
+      "name": "Yukes",
+      "job": "Cleric",
+      "power_level": 31
+    }
+  ],
+  "C": [
+    {
+      "id": "cardona",
+      "name": "Cardona",
+      "job": "Merchant",
+      "power_level": 33
+    },
+    {
+      "id": "dorothea",
+      "name": "Dorothea",
+      "job": "Merchant",
+      "power_level": 33
+    },
+    {
+      "id": "w_ludai",
+      "name": "W’ludai",
+      "job": "Merchant",
+      "power_level": 33
+    },
+    {
+      "id": "2b",
+      "name": "2B",
+      "job": "Warrior",
+      "power_level": 33
+    },
+    {
+      "id": "tytos",
+      "name": "Tytos",
+      "job": "Warrior",
+      "power_level": 33
+    },
+    {
+      "id": "aedelgard",
+      "name": "Aedelgard",
+      "job": "Warrior",
+      "power_level": 33
+    },
+    {
+      "id": "grieg",
+      "name": "Grieg",
+      "job": "Warrior",
+      "power_level": 33
+    },
+    {
+      "id": "fiore",
+      "name": "Fiore",
+      "job": "Warrior",
+      "power_level": 32
+    },
+    {
+      "id": "tressa",
+      "name": "Tressa",
+      "job": "Merchant",
+      "power_level": 32
+    },
+    {
+      "id": "h_aanit",
+      "name": "H’aanit",
+      "job": "Hunter",
+      "power_level": 32
+    },
+    {
+      "id": "eliza",
+      "name": "Eliza",
+      "job": "Warrior",
+      "power_level": 32
+    },
+    {
+      "id": "kersjes",
+      "name": "Kersjes",
+      "job": "Hunter",
+      "power_level": 32
+    },
+    {
+      "id": "hayes",
+      "name": "Hayes",
+      "job": "Apothecary",
+      "power_level": 32
+    },
+    {
+      "id": "chloe",
+      "name": "Chloe",
+      "job": "Hunter",
+      "power_level": 32
+    },
+    {
+      "id": "serenoa",
+      "name": "Serenoa",
+      "job": "Warrior",
+      "power_level": 32
+    },
+    {
+      "id": "tressa_ex",
+      "name": "Tressa EX",
+      "job": "Hunter",
+      "power_level": 32
+    },
+    {
+      "id": "primrose",
+      "name": "Primrose",
+      "job": "Dancer",
+      "power_level": 31
+    },
+    {
+      "id": "adelle",
+      "name": "Adelle",
+      "job": "Thief",
+      "power_level": 31
+    },
+    {
+      "id": "molu",
+      "name": "Molu",
+      "job": "Scholar",
+      "power_level": 31
+    },
+    {
+      "id": "jillmeila",
+      "name": "Jillmeila",
+      "job": "Hunter",
+      "power_level": 31
+    },
+    {
+      "id": "eleonora",
+      "name": "Eleonora",
+      "job": "Dancer",
+      "power_level": 31
+    },
+    {
+      "id": "alaune",
+      "name": "Alaune",
+      "job": "Scholar",
+      "power_level": 31
+    },
+    {
+      "id": "millard_ex",
+      "name": "Millard EX",
+      "job": "Merchant",
+      "power_level": 31
+    },
+    {
+      "id": "nina_lanna",
+      "name": "Nina-Lanna",
+      "job": "Scholar",
+      "power_level": 31
+    },
+    {
+      "id": "lianna",
+      "name": "Lianna",
+      "job": "Cleric",
+      "power_level": 30
+    }
+  ],
+  "S": [
+    {
+      "id": "oskha",
+      "name": "Oskha",
+      "job": "Merchant",
+      "power_level": 69
+    },
+    {
+      "id": "cecily",
+      "name": "Cecily",
+      "job": "Merchant",
+      "power_level": 67
+    },
+    {
+      "id": "magnolia",
+      "name": "Magnolia",
+      "job": "Merchant",
+      "power_level": 67
+    },
+    {
+      "id": "richard",
+      "name": "Richard",
+      "job": "Warrior",
+      "power_level": 66
+    },
+    {
+      "id": "nephti",
+      "name": "Nephti",
+      "job": "Apothecary",
+      "power_level": 66
+    },
+    {
+      "id": "sazantos",
+      "name": "Sazantos",
+      "job": "Warrior",
+      "power_level": 66
+    },
+    {
+      "id": "h_aanit_ex",
+      "name": "H’aanit EX",
+      "job": "Dancer",
+      "power_level": 65
+    },
+    {
+      "id": "o__odio",
+      "name": "O. Odio",
+      "job": "Warrior",
+      "power_level": 65
+    },
+    {
+      "id": "castti",
+      "name": "Castti",
+      "job": "Apothecary",
+      "power_level": 65
+    },
+    {
+      "id": "solon",
+      "name": "Solon",
+      "job": "Scholar",
+      "power_level": 64
+    },
+    {
+      "id": "alaune_ex",
+      "name": "Alaune EX",
+      "job": "Dancer",
+      "power_level": 63
+    },
+    {
+      "id": "ochette",
+      "name": "Ochette",
+      "job": "Hunter",
+      "power_level": 63
+    },
+    {
+      "id": "rinyuu",
+      "name": "Rinyuu",
+      "job": "Cleric",
+      "power_level": 62
+    },
+    {
+      "id": "gloria",
+      "name": "Gloria",
+      "job": "Cleric",
+      "power_level": 62
+    },
+    {
+      "id": "osvald",
+      "name": "Osvald",
+      "job": "Scholar",
+      "power_level": 62
+    },
+    {
+      "id": "cyrus",
+      "name": "Cyrus",
+      "job": "Scholar",
+      "power_level": 61
+    }
+  ],
+  "S+": [
+    {
+      "id": "kilns",
+      "name": "Kilns",
+      "job": "Hunter",
+      "power_level": 34
+    },
+    {
+      "id": "hujheb",
+      "name": "Hujheb",
+      "job": "Hunter",
+      "power_level": 33
+    },
+    {
+      "id": "bargello",
+      "name": "Bargello",
+      "job": "Thief",
+      "power_level": 32
+    },
+    {
+      "id": "shana",
+      "name": "Shana",
+      "job": "Apothecary",
+      "power_level": 32
+    },
+    {
+      "id": "primrose_ex",
+      "name": "Primrose EX",
+      "job": "Apothecary",
+      "power_level": 31
+    },
+    {
+      "id": "canary",
+      "name": "Canary",
+      "job": "Thief",
+      "power_level": 31
+    },
+    {
+      "id": "signa",
+      "name": "Signa",
+      "job": "Dancer",
+      "power_level": 31
+    }
+  ],
+  "": [
+    {
+      "id": "signa_ex",
+      "name": "Signa EX",
+      "job": "Apothecary",
+      "power_level": 36
+    },
+    {
+      "id": "crick",
+      "name": "Crick",
+      "job": "Warrior",
+      "power_level": 34
+    },
+    {
+      "id": "sazantos_ex",
+      "name": "Sazantos EX",
+      "job": "Merchant",
+      "power_level": 33
+    },
+    {
+      "id": "kain_",
+      "name": "Kainé",
+      "job": "Thief",
+      "power_level": 33
+    },
+    {
+      "id": "nier",
+      "name": "Nier",
+      "job": "Merchant",
+      "power_level": 33
+    },
+    {
+      "id": "sowan",
+      "name": "Sowan",
+      "job": "Apothecary",
+      "power_level": 33
+    },
+    {
+      "id": "alrond",
+      "name": "Alrond",
+      "job": "Merchant",
+      "power_level": 33
+    },
+    {
+      "id": "ceraphina",
+      "name": "Ceraphina",
+      "job": "Apothecary",
+      "power_level": 33
+    },
+    {
+      "id": "pardis_iii",
+      "name": "Pardis III",
+      "job": "Scholar",
+      "power_level": 33
+    },
+    {
+      "id": "rai_mei",
+      "name": "Rai Mei",
+      "job": "Merchant",
+      "power_level": 33
+    },
+    {
+      "id": "black_knight",
+      "name": "Black Knight",
+      "job": "Warrior",
+      "power_level": 33
+    },
+    {
+      "id": "avar",
+      "name": "Avar",
+      "job": "Apothecary",
+      "power_level": 33
+    },
+    {
+      "id": "mahrez",
+      "name": "Mahrez",
+      "job": "Warrior",
+      "power_level": 33
+    },
+    {
+      "id": "cecil",
+      "name": "Cecil",
+      "job": "Warrior",
+      "power_level": 32
+    },
+    {
+      "id": "tiziano",
+      "name": "Tiziano",
+      "job": "Thief",
+      "power_level": 32
+    },
+    {
+      "id": "bargello_ex",
+      "name": "Bargello EX",
+      "job": "Dancer",
+      "power_level": 32
+    },
+    {
+      "id": "tatloch_ex",
+      "name": "Tatloch EX",
+      "job": "Thief",
+      "power_level": 32
+    },
+    {
+      "id": "ori",
+      "name": "Ori",
+      "job": "Merchant",
+      "power_level": 32
+    },
+    {
+      "id": "ditraina_ex",
+      "name": "Ditraina EX",
+      "job": "Hunter",
+      "power_level": 32
+    },
+    {
+      "id": "sigrid_ex",
+      "name": "Sigrid EX",
+      "job": "Merchant",
+      "power_level": 32
+    },
+    {
+      "id": "cyrus_ex",
+      "name": "Cyrus EX",
+      "job": "Warrior",
+      "power_level": 32
+    },
+    {
+      "id": "ochette_ex",
+      "name": "Ochette EX",
+      "job": "Warrior",
+      "power_level": 32
+    },
+    {
+      "id": "castti_ex",
+      "name": "Castti EX",
+      "job": "Dancer",
+      "power_level": 32
+    },
+    {
+      "id": "esmeralda",
+      "name": "Esmeralda",
+      "job": "Thief",
+      "power_level": 32
+    },
+    {
+      "id": "aoi",
+      "name": "Aoi",
+      "job": "Warrior",
+      "power_level": 32
+    },
+    {
+      "id": "cassia",
+      "name": "Cassia",
+      "job": "Hunter",
+      "power_level": 32
+    },
+    {
+      "id": "agnea_ex",
+      "name": "Agnea EX",
+      "job": "Hunter",
+      "power_level": 31
+    },
+    {
+      "id": "ophilia_ex",
+      "name": "Ophilia EX",
+      "job": "Scholar",
+      "power_level": 31
+    },
+    {
+      "id": "emil",
+      "name": "Emil",
+      "job": "Cleric",
+      "power_level": 31
+    },
+    {
+      "id": "dolcinaea",
+      "name": "Dolcinaea",
+      "job": "Dancer",
+      "power_level": 31
+    },
+    {
+      "id": "relisha",
+      "name": "Relisha",
+      "job": "Cleric",
+      "power_level": 31
+    },
+    {
+      "id": "rinyuu_ex",
+      "name": "Rinyuu EX",
+      "job": "Apothecary",
+      "power_level": 31
+    },
+    {
+      "id": "elrica_ex",
+      "name": "Elrica EX",
+      "job": "Thief",
+      "power_level": 31
+    },
+    {
+      "id": "mydia",
+      "name": "Mydia",
+      "job": "Cleric",
+      "power_level": 31
+    },
+    {
+      "id": "morena",
+      "name": "Morena",
+      "job": "Scholar",
+      "power_level": 31
+    },
+    {
+      "id": "kagemune",
+      "name": "Kagemune",
+      "job": "Thief",
+      "power_level": 31
+    },
+    {
+      "id": "hikari_ex",
+      "name": "Hikari EX",
+      "job": "Cleric",
+      "power_level": 31
+    },
+    {
+      "id": "black_maiden",
+      "name": "Black Maiden",
+      "job": "Dancer",
+      "power_level": 31
+    },
+    {
+      "id": "viola_ex",
+      "name": "Viola EX",
+      "job": "Scholar",
+      "power_level": 31
+    },
+    {
+      "id": "molrusso_ex",
+      "name": "Molrusso EX",
+      "job": "Dancer",
+      "power_level": 31
+    },
+    {
+      "id": "therese_ex",
+      "name": "Therese EX",
+      "job": "Cleric",
+      "power_level": 31
+    },
+    {
+      "id": "partitio_ex",
+      "name": "Partitio EX",
+      "job": "Thief",
+      "power_level": 31
+    },
+    {
+      "id": "kazan",
+      "name": "Kazan",
+      "job": "Scholar",
+      "power_level": 31
+    },
+    {
+      "id": "osvald_ex",
+      "name": "Osvald EX",
+      "job": "Cleric",
+      "power_level": 30
+    },
+    {
+      "id": "menno",
+      "name": "Menno",
+      "job": "Cleric",
+      "power_level": 0
+    },
+    {
+      "id": "meena",
+      "name": "Meena",
+      "job": "Dancer",
+      "power_level": 0
+    },
+    {
+      "id": "wingate",
+      "name": "Wingate",
+      "job": "Thief",
+      "power_level": 0
+    },
+    {
+      "id": "sigrid",
+      "name": "Sigrid",
+      "job": "Warrior",
+      "power_level": 0
+    },
+    {
+      "id": "noelle",
+      "name": "Noelle",
+      "job": "Scholar",
+      "power_level": 0
+    },
+    {
+      "id": "laura",
+      "name": "Laura",
+      "job": "Scholar",
+      "power_level": 0
+    },
+    {
+      "id": "ramona",
+      "name": "Ramona",
+      "job": "Cleric",
+      "power_level": 0
+    },
+    {
+      "id": "pia",
+      "name": "Pia",
+      "job": "Merchant",
+      "power_level": 0
+    },
+    {
+      "id": "aslyte",
+      "name": "Aslyte",
+      "job": "Thief",
+      "power_level": 0
+    },
+    {
+      "id": "lucetta",
+      "name": "Lucetta",
+      "job": "Hunter",
+      "power_level": 0
+    },
+    {
+      "id": "ashlan",
+      "name": "Ashlan",
+      "job": "Hunter",
+      "power_level": 0
+    },
+    {
+      "id": "merrit",
+      "name": "Merrit",
+      "job": "Apothecary",
+      "power_level": 0
+    },
+    {
+      "id": "heinz",
+      "name": "Heinz",
+      "job": "Scholar",
+      "power_level": 0
+    },
+    {
+      "id": "devin",
+      "name": "Devin",
+      "job": "Merchant",
+      "power_level": 0
+    },
+    {
+      "id": "rita",
+      "name": "Rita",
+      "job": "Apothecary",
+      "power_level": 0
+    },
+    {
+      "id": "fabio",
+      "name": "Fabio",
+      "job": "Dancer",
+      "power_level": 0
+    },
+    {
+      "id": "mabel",
+      "name": "Mabel",
+      "job": "Dancer",
+      "power_level": 0
+    },
+    {
+      "id": "madelaine",
+      "name": "Madelaine",
+      "job": "Cleric",
+      "power_level": 0
+    },
+    {
+      "id": "tahir",
+      "name": "Tahir",
+      "job": "Warrior",
+      "power_level": 0
+    },
+    {
+      "id": "peredir",
+      "name": "Peredir",
+      "job": "Scholar",
+      "power_level": 0
+    },
+    {
+      "id": "barrad",
+      "name": "Barrad",
+      "job": "Merchant",
+      "power_level": 0
+    },
+    {
+      "id": "shelby",
+      "name": "Shelby",
+      "job": "Apothecary",
+      "power_level": 0
+    },
+    {
+      "id": "iris",
+      "name": "Iris",
+      "job": "Dancer",
+      "power_level": 0
+    },
+    {
+      "id": "cedric",
+      "name": "Cedric",
+      "job": "Cleric",
+      "power_level": 0
+    },
+    {
+      "id": "trish",
+      "name": "Trish",
+      "job": "Warrior",
+      "power_level": 0
+    },
+    {
+      "id": "bertrand",
+      "name": "Bertrand",
+      "job": "Hunter",
+      "power_level": 0
+    },
+    {
+      "id": "cless",
+      "name": "Cless",
+      "job": "Thief",
+      "power_level": 0
+    },
+    {
+      "id": "rodion",
+      "name": "Rodion",
+      "job": "Apothecary",
+      "power_level": 0
+    },
+    {
+      "id": "miles",
+      "name": "Miles",
+      "job": "Warrior",
+      "power_level": 0
+    },
+    {
+      "id": "helga",
+      "name": "Helga",
+      "job": "Merchant",
+      "power_level": 0
+    },
+    {
+      "id": "kurtz",
+      "name": "Kurtz",
+      "job": "Thief",
+      "power_level": 0
+    },
+    {
+      "id": "camilla",
+      "name": "Camilla",
+      "job": "Hunter",
+      "power_level": 0
+    },
+    {
+      "id": "cerna",
+      "name": "Cerna",
+      "job": "Merchant",
+      "power_level": 0
+    },
+    {
+      "id": "efrain",
+      "name": "Efrain",
+      "job": "Cleric",
+      "power_level": 0
+    },
+    {
+      "id": "paula",
+      "name": "Paula",
+      "job": "Dancer",
+      "power_level": 0
+    },
+    {
+      "id": "kenneth",
+      "name": "Kenneth",
+      "job": "Scholar",
+      "power_level": 0
+    },
+    {
+      "id": "brigitte",
+      "name": "Brigitte",
+      "job": "Cleric",
+      "power_level": 0
+    },
+    {
+      "id": "durand",
+      "name": "Durand",
+      "job": "Thief",
+      "power_level": 0
+    },
+    {
+      "id": "jorn",
+      "name": "Jorn",
+      "job": "Warrior",
+      "power_level": 0
+    },
+    {
+      "id": "cornelia",
+      "name": "Cornelia",
+      "job": "Apothecary",
+      "power_level": 0
+    },
+    {
+      "id": "levan",
+      "name": "Levan",
+      "job": "Scholar",
+      "power_level": 0
+    },
+    {
+      "id": "lolo",
+      "name": "Lolo",
+      "job": "Hunter",
+      "power_level": 0
+    },
+    {
+      "id": "narr",
+      "name": "Narr",
+      "job": "Hunter",
+      "power_level": 0
+    },
+    {
+      "id": "carroll",
+      "name": "Carroll",
+      "job": "Merchant",
+      "power_level": 0
+    },
+    {
+      "id": "menny",
+      "name": "Menny",
+      "job": "Warrior",
+      "power_level": 0
+    },
+    {
+      "id": "felline",
+      "name": "Felline",
+      "job": "Thief",
+      "power_level": 0
+    },
+    {
+      "id": "billy",
+      "name": "Billy",
+      "job": "Thief",
+      "power_level": 0
+    },
+    {
+      "id": "nanna",
+      "name": "Nanna",
+      "job": "Warrior",
+      "power_level": 0
+    },
+    {
+      "id": "penny",
+      "name": "Penny",
+      "job": "Apothecary",
+      "power_level": 0
+    },
+    {
+      "id": "juan",
+      "name": "Juan",
+      "job": "Merchant",
+      "power_level": 0
+    },
+    {
+      "id": "harry",
+      "name": "Harry",
+      "job": "Dancer",
+      "power_level": 0
+    },
+    {
+      "id": "jorge",
+      "name": "Jorge",
+      "job": "Apothecary",
+      "power_level": 0
+    },
+    {
+      "id": "manuel",
+      "name": "Manuel",
+      "job": "Dancer",
+      "power_level": 0
+    },
+    {
+      "id": "guti",
+      "name": "Guti",
+      "job": "Hunter",
+      "power_level": 0
+    },
+    {
+      "id": "eunice",
+      "name": "Eunice",
+      "job": "Scholar",
+      "power_level": 0
+    },
+    {
+      "id": "saria",
+      "name": "Saria",
+      "job": "Apothecary",
+      "power_level": 0
+    },
+    {
+      "id": "vivian",
+      "name": "Vivian",
+      "job": "Hunter",
+      "power_level": 0
+    },
+    {
+      "id": "diego",
+      "name": "Diego",
+      "job": "Thief",
+      "power_level": 0
+    },
+    {
+      "id": "julio",
+      "name": "Julio",
+      "job": "Scholar",
+      "power_level": 0
+    },
+    {
+      "id": "yugo",
+      "name": "Yugo",
+      "job": "Warrior",
+      "power_level": 0
+    },
+    {
+      "id": "sunny",
+      "name": "Sunny",
+      "job": "Hunter",
+      "power_level": 0
+    },
+    {
+      "id": "telly",
+      "name": "Telly",
+      "job": "Cleric",
+      "power_level": 0
+    },
+    {
+      "id": "jos_",
+      "name": "José",
+      "job": "Cleric",
+      "power_level": 0
+    },
+    {
+      "id": "pearl",
+      "name": "Pearl",
+      "job": "Cleric",
+      "power_level": 0
+    },
+    {
+      "id": "conny",
+      "name": "Conny",
+      "job": "Merchant",
+      "power_level": 0
+    },
+    {
+      "id": "evelyn",
+      "name": "Evelyn",
+      "job": "Dancer",
+      "power_level": 0
+    },
+    {
+      "id": "dorrie",
+      "name": "Dorrie",
+      "job": "Scholar",
+      "power_level": 0
+    }
+  ]
+}

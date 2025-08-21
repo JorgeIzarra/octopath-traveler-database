@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Octopath Traveler - Character Gallery</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1e1e1e 0%, #2a2a2a 50%, #353535 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 40px 20px;
+            min-height: 100vh;
+            color: white;
+        }
+
+        :root {
+            /* Paleta de colores final */
+            --bg-primary: #1e1e1e;
+            --bg-secondary: #2a2a2a;
+            --bg-tertiary: #3d3d3d;
+            --bg-card: rgba(45, 45, 45, 0.95);
+            --bg-card-hover: rgba(55, 55, 55, 0.95);
+            
+            /* Acentos dorados */
+            --gold-primary: #FFD700;
+            --gold-secondary: #FFA500;
+            --gold-dark: #B8860B;
+            
+            /* Tier colors */
+            --tier-s: #FF4444;
+            --tier-a: #00D4AA;
+            --tier-b: #4A90E2;
+            --tier-c: #7ED321;
+            --tier-d: #F5A623;
+            
+            /* Textos */
+            --text-primary: #ffffff;
+            --text-secondary: #e0e0e0;
+            --text-muted: #a0a0a0;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            background: linear-gradient(45deg, var(--gold-primary), var(--gold-secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+
+        .subtitle {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+        }
+
+        /* GRID DE PERSONAJES */
+        .characters-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 18px;
+        }
+
+        .character-card {
+            background: var(--bg-card);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 16px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            cursor: pointer;
+        }
+
+        .character-card:hover {
+            background: var(--bg-card-hover);
+            border-color: var(--gold-primary);
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 20px rgba(255, 215, 0, 0.2);
+        }
+
+        .character-card:hover .character-image {
+            box-shadow: 0 8px 16px rgba(255, 215, 0, 0.1);
+        }
+
+        .character-card:hover .character-name {
+            color: var(--gold-secondary);
+            text-shadow: 0 0 8px rgba(255, 215, 0, 0.3);
+        }
+
+        .character-card:hover .tier-badge {
+            transform: scale(1.1);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        /* IMAGEN DEL PERSONAJE */
+        .character-image {
+            width: 100%;
+            height: 130px;
+            background: linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 12px;
+            position: relative;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.3s ease;
+        }
+
+        .character-image img {
+            width: auto;
+            height: 100%;
+            max-width: 100%;
+            object-fit: contain;
+            object-position: center;
+        }
+
+        /* PLACEHOLDER para cuando no hay imagen */
+        .character-placeholder {
+            width: 90px;
+            height: 120px;
+            background: linear-gradient(145deg, rgba(255,255,255,0.08), rgba(255,255,255,0.03));
+            border-radius: 6px;
+            border: 1px dashed rgba(255,255,255,0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            color: var(--text-muted);
+            text-align: center;
+        }
+
+        /* TIER BADGE */
+        .tier-badge {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 14px;
+            color: white;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.7);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .tier-s { background: linear-gradient(135deg, var(--tier-s), #CC3333); }
+        .tier-a { background: linear-gradient(135deg, var(--tier-a), #00A688); }
+        .tier-b { background: linear-gradient(135deg, var(--tier-b), #357ABD); }
+        .tier-c { background: linear-gradient(135deg, var(--tier-c), #5BA217); }
+        .tier-d { background: linear-gradient(135deg, var(--tier-d), #CC8500); }
+
+        /* INFORMACIÓN DEL PERSONAJE */
+        .character-info {
+            text-align: center;
+        }
+
+        .character-name {
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 4px;
+            color: var(--gold-primary);
+            transition: all 0.3s ease;
+        }
+
+        .character-job {
+            font-size: 13px;
+            color: var(--text-secondary);
+            margin-bottom: 8px;
+        }
+
+        .character-stars {
+            display: flex;
+            justify-content: center;
+            gap: 1px;
+            margin-bottom: 8px;
+        }
+
+        .star {
+            color: var(--gold-primary);
+            font-size: 14px;
+        }
+
+        /* RANKING/POSICIÓN EN TIER - REMOVIDO */
+        
+        /* PALETA DE COLORES VISIBLE */
+        .color-palette {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 20px 0 40px;
+            flex-wrap: wrap;
+        }
+
+        .color-item {
+            text-align: center;
+            padding: 12px 16px;
+            border-radius: 8px;
+            min-width: 100px;
+            font-size: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .color-primary { background: #1e1e1e; color: white; }
+        .color-secondary { background: #2a2a2a; color: white; }
+        .color-card { background: rgba(45, 45, 45, 0.95); color: white; }
+        .color-accent { background: #FFD700; color: #1e1e1e; font-weight: bold; }
+        .color-text { background: #e0e0e0; color: #1e1e1e; }
+
+        /* INSTRUCCIONES */
+        .instructions {
+            background: rgba(45, 45, 45, 0.6);
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .instructions h3 {
+            color: var(--gold-primary);
+            margin-bottom: 10px;
+        }
+
+        .instructions p {
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .code-example {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 10px;
+            border-radius: 8px;
+            margin: 10px 0;
+            font-family: 'Courier New', monospace;
+            color: var(--gold-secondary);
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">🎮 Octopath Traveler Database</h1>
+            <p class="subtitle">Character Collection Gallery</p>
+            
+            <!-- PALETA DE COLORES -->
+            <div class="color-palette">
+                <div class="color-item color-primary">
+                    <strong>Primario</strong><br>
+                    <small>#1e1e1e</small>
+                </div>
+                <div class="color-item color-secondary">
+                    <strong>Secundario</strong><br>
+                    <small>#2a2a2a</small>
+                </div>
+                <div class="color-item color-card">
+                    <strong>Cards</strong><br>
+                    <small>#2d2d2d</small>
+                </div>
+                <div class="color-item color-accent">
+                    <strong>Dorado</strong><br>
+                    <small>#FFD700</small>
+                </div>
+                <div class="color-item color-text">
+                    <strong>Texto</strong><br>
+                    <small>#e0e0e0</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- INSTRUCCIONES -->
+        <div class="instructions">
+            <h3>📁 Cómo agregar tus imágenes:</h3>
+            <p>1. Crea una carpeta llamada <strong>"images"</strong> junto a este archivo HTML</p>
+            <p>2. Guarda tus imágenes PNG como: <span class="code-example">oskha.png, cecily.png, magnolia.png, etc.</span></p>
+            <p>3. Las imágenes se cargarán automáticamente basadas en el nombre del personaje</p>
+        </div>
+
+        <!-- GRID DE PERSONAJES -->
+        <div class="characters-grid">
+            <!-- PERSONAJE 1: Oskha -->
+            <div class="character-card">
+                <div class="character-image">
+                    <img src="images/oskha.png" alt="Oskha" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="character-placeholder" style="display: none;">
+                        Sin imagen<br>oskha.png
+                    </div>
+                    <div class="tier-badge tier-s">S</div>
+                </div>
+                <div class="character-info">
+                    <div class="character-name">Oskha</div>
+                    <div class="character-job">Merchant</div>
+                    <div class="character-stars">
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PERSONAJE 2: Cecily -->
+            <div class="character-card">
+                <div class="character-image">
+                    <img src="images/cecily.png" alt="Cecily" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="character-placeholder" style="display: none;">
+                        Sin imagen<br>cecily.png
+                    </div>
+                    <div class="tier-badge tier-a">A</div>
+                </div>
+                <div class="character-info">
+                    <div class="character-name">Cecily</div>
+                    <div class="character-job">Merchant</div>
+                    <div class="character-stars">
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PERSONAJE 3: Magnolia -->
+            <div class="character-card">
+                <div class="character-image">
+                    <img src="images/magnolia.png" alt="Magnolia" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="character-placeholder" style="display: none;">
+                        Sin imagen<br>magnolia.png
+                    </div>
+                    <div class="tier-badge tier-b">B</div>
+                </div>
+                <div class="character-info">
+                    <div class="character-name">Magnolia</div>
+                    <div class="character-job">Merchant</div>
+                    <div class="character-stars">
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PERSONAJE 4: Richard -->
+            <div class="character-card">
+                <div class="character-image">
+                    <img src="images/richard.png" alt="Richard" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="character-placeholder" style="display: none;">
+                        Sin imagen<br>richard.png
+                    </div>
+                    <div class="tier-badge tier-c">C</div>
+                </div>
+                <div class="character-info">
+                    <div class="character-name">Richard</div>
+                    <div class="character-job">Warrior</div>
+                    <div class="character-stars">
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PERSONAJE 6: Therese -->
+            <div class="character-card">
+                <div class="character-image">
+                    <img src="images/therese.png" alt="Therese" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="character-placeholder" style="display: none;">
+                        Sin imagen<br>therese.png
+                    </div>
+                    <div class="tier-badge tier-s">S</div>
+                </div>
+                <div class="character-info">
+                    <div class="character-name">Therese</div>
+                    <div class="character-job">Cleric</div>
+                    <div class="character-stars">
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PERSONAJE 7: Scarecrow -->
+            <div class="character-card">
+                <div class="character-image">
+                    <img src="images/scarecrow.png" alt="Scarecrow" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="character-placeholder" style="display: none;">
+                        Sin imagen<br>scarecrow.png
+                    </div>
+                    <div class="tier-badge tier-d">D</div>
+                </div>
+                <div class="character-info">
+                    <div class="character-name">Scarecrow</div>
+                    <div class="character-job">Hunter</div>
+                    <div class="character-stars">
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PERSONAJE 8: Lynette -->
+            <div class="character-card">
+                <div class="character-image">
+                    <img src="images/lynette.png" alt="Lynette" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="character-placeholder" style="display: none;">
+                        Sin imagen<br>lynette.png
+                    </div>
+                    <div class="tier-badge tier-a">A</div>
+                </div>
+                <div class="character-info">
+                    <div class="character-name">Lynette</div>
+                    <div class="character-job">Dancer</div>
+                    <div class="character-stars">
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

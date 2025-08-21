@@ -1,0 +1,1466 @@
+{
+  "3": [
+    {
+      "id": "carroll",
+      "name": "Carroll",
+      "job": "Merchant",
+      "tier_gl": ""
+    },
+    {
+      "id": "menny",
+      "name": "Menny",
+      "job": "Warrior",
+      "tier_gl": ""
+    },
+    {
+      "id": "felline",
+      "name": "Felline",
+      "job": "Thief",
+      "tier_gl": ""
+    },
+    {
+      "id": "billy",
+      "name": "Billy",
+      "job": "Thief",
+      "tier_gl": ""
+    },
+    {
+      "id": "nanna",
+      "name": "Nanna",
+      "job": "Warrior",
+      "tier_gl": ""
+    },
+    {
+      "id": "penny",
+      "name": "Penny",
+      "job": "Apothecary",
+      "tier_gl": ""
+    },
+    {
+      "id": "juan",
+      "name": "Juan",
+      "job": "Merchant",
+      "tier_gl": ""
+    },
+    {
+      "id": "harry",
+      "name": "Harry",
+      "job": "Dancer",
+      "tier_gl": ""
+    },
+    {
+      "id": "jorge",
+      "name": "Jorge",
+      "job": "Apothecary",
+      "tier_gl": ""
+    },
+    {
+      "id": "manuel",
+      "name": "Manuel",
+      "job": "Dancer",
+      "tier_gl": ""
+    },
+    {
+      "id": "guti",
+      "name": "Guti",
+      "job": "Hunter",
+      "tier_gl": ""
+    },
+    {
+      "id": "eunice",
+      "name": "Eunice",
+      "job": "Scholar",
+      "tier_gl": ""
+    },
+    {
+      "id": "saria",
+      "name": "Saria",
+      "job": "Apothecary",
+      "tier_gl": ""
+    },
+    {
+      "id": "vivian",
+      "name": "Vivian",
+      "job": "Hunter",
+      "tier_gl": ""
+    },
+    {
+      "id": "diego",
+      "name": "Diego",
+      "job": "Thief",
+      "tier_gl": ""
+    },
+    {
+      "id": "julio",
+      "name": "Julio",
+      "job": "Scholar",
+      "tier_gl": ""
+    },
+    {
+      "id": "yugo",
+      "name": "Yugo",
+      "job": "Warrior",
+      "tier_gl": ""
+    },
+    {
+      "id": "sunny",
+      "name": "Sunny",
+      "job": "Hunter",
+      "tier_gl": ""
+    },
+    {
+      "id": "telly",
+      "name": "Telly",
+      "job": "Cleric",
+      "tier_gl": ""
+    },
+    {
+      "id": "jos_",
+      "name": "José",
+      "job": "Cleric",
+      "tier_gl": ""
+    },
+    {
+      "id": "pearl",
+      "name": "Pearl",
+      "job": "Cleric",
+      "tier_gl": ""
+    },
+    {
+      "id": "conny",
+      "name": "Conny",
+      "job": "Merchant",
+      "tier_gl": ""
+    },
+    {
+      "id": "evelyn",
+      "name": "Evelyn",
+      "job": "Dancer",
+      "tier_gl": ""
+    },
+    {
+      "id": "dorrie",
+      "name": "Dorrie",
+      "job": "Scholar",
+      "tier_gl": ""
+    }
+  ],
+  "4": [
+    {
+      "id": "menno",
+      "name": "Menno",
+      "job": "Cleric",
+      "tier_gl": ""
+    },
+    {
+      "id": "meena",
+      "name": "Meena",
+      "job": "Dancer",
+      "tier_gl": ""
+    },
+    {
+      "id": "wingate",
+      "name": "Wingate",
+      "job": "Thief",
+      "tier_gl": ""
+    },
+    {
+      "id": "sigrid",
+      "name": "Sigrid",
+      "job": "Warrior",
+      "tier_gl": ""
+    },
+    {
+      "id": "noelle",
+      "name": "Noelle",
+      "job": "Scholar",
+      "tier_gl": ""
+    },
+    {
+      "id": "laura",
+      "name": "Laura",
+      "job": "Scholar",
+      "tier_gl": ""
+    },
+    {
+      "id": "ramona",
+      "name": "Ramona",
+      "job": "Cleric",
+      "tier_gl": ""
+    },
+    {
+      "id": "pia",
+      "name": "Pia",
+      "job": "Merchant",
+      "tier_gl": ""
+    },
+    {
+      "id": "aslyte",
+      "name": "Aslyte",
+      "job": "Thief",
+      "tier_gl": ""
+    },
+    {
+      "id": "lucetta",
+      "name": "Lucetta",
+      "job": "Hunter",
+      "tier_gl": ""
+    },
+    {
+      "id": "ashlan",
+      "name": "Ashlan",
+      "job": "Hunter",
+      "tier_gl": ""
+    },
+    {
+      "id": "merrit",
+      "name": "Merrit",
+      "job": "Apothecary",
+      "tier_gl": ""
+    },
+    {
+      "id": "heinz",
+      "name": "Heinz",
+      "job": "Scholar",
+      "tier_gl": ""
+    },
+    {
+      "id": "devin",
+      "name": "Devin",
+      "job": "Merchant",
+      "tier_gl": ""
+    },
+    {
+      "id": "rita",
+      "name": "Rita",
+      "job": "Apothecary",
+      "tier_gl": ""
+    },
+    {
+      "id": "fabio",
+      "name": "Fabio",
+      "job": "Dancer",
+      "tier_gl": ""
+    },
+    {
+      "id": "mabel",
+      "name": "Mabel",
+      "job": "Dancer",
+      "tier_gl": ""
+    },
+    {
+      "id": "madelaine",
+      "name": "Madelaine",
+      "job": "Cleric",
+      "tier_gl": ""
+    },
+    {
+      "id": "tahir",
+      "name": "Tahir",
+      "job": "Warrior",
+      "tier_gl": ""
+    },
+    {
+      "id": "peredir",
+      "name": "Peredir",
+      "job": "Scholar",
+      "tier_gl": ""
+    },
+    {
+      "id": "barrad",
+      "name": "Barrad",
+      "job": "Merchant",
+      "tier_gl": ""
+    },
+    {
+      "id": "shelby",
+      "name": "Shelby",
+      "job": "Apothecary",
+      "tier_gl": ""
+    },
+    {
+      "id": "iris",
+      "name": "Iris",
+      "job": "Dancer",
+      "tier_gl": ""
+    },
+    {
+      "id": "cedric",
+      "name": "Cedric",
+      "job": "Cleric",
+      "tier_gl": ""
+    },
+    {
+      "id": "trish",
+      "name": "Trish",
+      "job": "Warrior",
+      "tier_gl": ""
+    },
+    {
+      "id": "bertrand",
+      "name": "Bertrand",
+      "job": "Hunter",
+      "tier_gl": ""
+    },
+    {
+      "id": "cless",
+      "name": "Cless",
+      "job": "Thief",
+      "tier_gl": ""
+    },
+    {
+      "id": "rodion",
+      "name": "Rodion",
+      "job": "Apothecary",
+      "tier_gl": ""
+    },
+    {
+      "id": "miles",
+      "name": "Miles",
+      "job": "Warrior",
+      "tier_gl": ""
+    },
+    {
+      "id": "helga",
+      "name": "Helga",
+      "job": "Merchant",
+      "tier_gl": ""
+    },
+    {
+      "id": "kurtz",
+      "name": "Kurtz",
+      "job": "Thief",
+      "tier_gl": ""
+    },
+    {
+      "id": "camilla",
+      "name": "Camilla",
+      "job": "Hunter",
+      "tier_gl": ""
+    },
+    {
+      "id": "cerna",
+      "name": "Cerna",
+      "job": "Merchant",
+      "tier_gl": ""
+    },
+    {
+      "id": "efrain",
+      "name": "Efrain",
+      "job": "Cleric",
+      "tier_gl": ""
+    },
+    {
+      "id": "paula",
+      "name": "Paula",
+      "job": "Dancer",
+      "tier_gl": ""
+    },
+    {
+      "id": "kenneth",
+      "name": "Kenneth",
+      "job": "Scholar",
+      "tier_gl": ""
+    },
+    {
+      "id": "brigitte",
+      "name": "Brigitte",
+      "job": "Cleric",
+      "tier_gl": ""
+    },
+    {
+      "id": "durand",
+      "name": "Durand",
+      "job": "Thief",
+      "tier_gl": ""
+    },
+    {
+      "id": "jorn",
+      "name": "Jorn",
+      "job": "Warrior",
+      "tier_gl": ""
+    },
+    {
+      "id": "cornelia",
+      "name": "Cornelia",
+      "job": "Apothecary",
+      "tier_gl": ""
+    },
+    {
+      "id": "levan",
+      "name": "Levan",
+      "job": "Scholar",
+      "tier_gl": ""
+    },
+    {
+      "id": "lolo",
+      "name": "Lolo",
+      "job": "Hunter",
+      "tier_gl": ""
+    },
+    {
+      "id": "narr",
+      "name": "Narr",
+      "job": "Hunter",
+      "tier_gl": ""
+    }
+  ],
+  "5": [
+    {
+      "id": "scarecrow",
+      "name": "Scarecrow",
+      "job": "Hunter",
+      "tier_gl": "D"
+    },
+    {
+      "id": "lynette",
+      "name": "Lynette",
+      "job": "Dancer",
+      "tier_gl": "A"
+    },
+    {
+      "id": "viola",
+      "name": "Viola",
+      "job": "Thief",
+      "tier_gl": "B"
+    },
+    {
+      "id": "theo",
+      "name": "Theo",
+      "job": "Apothecary",
+      "tier_gl": "D"
+    },
+    {
+      "id": "millard",
+      "name": "Millard",
+      "job": "Cleric",
+      "tier_gl": "E"
+    },
+    {
+      "id": "gilderoy",
+      "name": "Gilderoy",
+      "job": "Merchant",
+      "tier_gl": "D"
+    },
+    {
+      "id": "fiore",
+      "name": "Fiore",
+      "job": "Warrior",
+      "tier_gl": "C"
+    },
+    {
+      "id": "sofia",
+      "name": "Sofia",
+      "job": "Scholar",
+      "tier_gl": "D"
+    },
+    {
+      "id": "tressa",
+      "name": "Tressa",
+      "job": "Merchant",
+      "tier_gl": "C"
+    },
+    {
+      "id": "heathcote",
+      "name": "Heathcote",
+      "job": "Thief",
+      "tier_gl": "E"
+    },
+    {
+      "id": "primrose",
+      "name": "Primrose",
+      "job": "Dancer",
+      "tier_gl": "C"
+    },
+    {
+      "id": "therese",
+      "name": "Therese",
+      "job": "Scholar",
+      "tier_gl": "D"
+    },
+    {
+      "id": "kouren",
+      "name": "Kouren",
+      "job": "Warrior",
+      "tier_gl": "D"
+    },
+    {
+      "id": "hasumi",
+      "name": "Hasumi",
+      "job": "Dancer",
+      "tier_gl": "D"
+    },
+    {
+      "id": "h_aanit",
+      "name": "H’aanit",
+      "job": "Hunter",
+      "tier_gl": "C"
+    },
+    {
+      "id": "tikilen",
+      "name": "Tikilen",
+      "job": "Warrior",
+      "tier_gl": "D"
+    },
+    {
+      "id": "eliza",
+      "name": "Eliza",
+      "job": "Warrior",
+      "tier_gl": "C"
+    },
+    {
+      "id": "odette",
+      "name": "Odette",
+      "job": "Scholar",
+      "tier_gl": "A"
+    },
+    {
+      "id": "lumis",
+      "name": "Lumis",
+      "job": "Apothecary",
+      "tier_gl": "D"
+    },
+    {
+      "id": "stead",
+      "name": "Stead",
+      "job": "Cleric",
+      "tier_gl": "D"
+    },
+    {
+      "id": "glossom",
+      "name": "Glossom",
+      "job": "Dancer",
+      "tier_gl": "D"
+    },
+    {
+      "id": "adelle",
+      "name": "Adelle",
+      "job": "Thief",
+      "tier_gl": "C"
+    },
+    {
+      "id": "elvis",
+      "name": "Elvis",
+      "job": "Scholar",
+      "tier_gl": "E"
+    },
+    {
+      "id": "edea",
+      "name": "Edea",
+      "job": "Warrior",
+      "tier_gl": "D"
+    },
+    {
+      "id": "agn_s",
+      "name": "Agnès",
+      "job": "Cleric",
+      "tier_gl": "D"
+    },
+    {
+      "id": "cardona",
+      "name": "Cardona",
+      "job": "Merchant",
+      "tier_gl": "C"
+    },
+    {
+      "id": "lionel",
+      "name": "Lionel",
+      "job": "Warrior",
+      "tier_gl": "D"
+    },
+    {
+      "id": "varkyn",
+      "name": "Varkyn",
+      "job": "Scholar",
+      "tier_gl": "D"
+    },
+    {
+      "id": "z_aanta",
+      "name": "Z’aanta",
+      "job": "Hunter",
+      "tier_gl": "B"
+    },
+    {
+      "id": "lianna",
+      "name": "Lianna",
+      "job": "Cleric",
+      "tier_gl": "C"
+    },
+    {
+      "id": "therion",
+      "name": "Therion",
+      "job": "Thief",
+      "tier_gl": "A"
+    },
+    {
+      "id": "alfyn",
+      "name": "Alfyn",
+      "job": "Apothecary",
+      "tier_gl": "B"
+    },
+    {
+      "id": "molrusso",
+      "name": "Molrusso",
+      "job": "Cleric",
+      "tier_gl": "D"
+    },
+    {
+      "id": "ri_tu",
+      "name": "Ri’tu",
+      "job": "Thief",
+      "tier_gl": "D"
+    },
+    {
+      "id": "nicola",
+      "name": "Nicola",
+      "job": "Thief",
+      "tier_gl": "B"
+    },
+    {
+      "id": "cyrus",
+      "name": "Cyrus",
+      "job": "Scholar",
+      "tier_gl": "S"
+    },
+    {
+      "id": "harley",
+      "name": "Harley",
+      "job": "Dancer",
+      "tier_gl": "D"
+    },
+    {
+      "id": "molu",
+      "name": "Molu",
+      "job": "Scholar",
+      "tier_gl": "C"
+    },
+    {
+      "id": "gertrude",
+      "name": "Gertrude",
+      "job": "Apothecary",
+      "tier_gl": "D"
+    },
+    {
+      "id": "kersjes",
+      "name": "Kersjes",
+      "job": "Hunter",
+      "tier_gl": "C"
+    },
+    {
+      "id": "ophilia",
+      "name": "Ophilia",
+      "job": "Cleric",
+      "tier_gl": "B"
+    },
+    {
+      "id": "olberic",
+      "name": "Olberic",
+      "job": "Warrior",
+      "tier_gl": "B"
+    },
+    {
+      "id": "dorothea",
+      "name": "Dorothea",
+      "job": "Merchant",
+      "tier_gl": "C"
+    },
+    {
+      "id": "yunnie",
+      "name": "Yunnie",
+      "job": "Hunter",
+      "tier_gl": "B"
+    },
+    {
+      "id": "jillmeila",
+      "name": "Jillmeila",
+      "job": "Hunter",
+      "tier_gl": "C"
+    },
+    {
+      "id": "soleil",
+      "name": "Soleil",
+      "job": "Apothecary",
+      "tier_gl": "D"
+    },
+    {
+      "id": "lars",
+      "name": "Lars",
+      "job": "Warrior",
+      "tier_gl": "B"
+    },
+    {
+      "id": "falco",
+      "name": "Falco",
+      "job": "Thief",
+      "tier_gl": "B"
+    },
+    {
+      "id": "yan_long",
+      "name": "Yan Long",
+      "job": "Cleric",
+      "tier_gl": "B"
+    },
+    {
+      "id": "w_ludai",
+      "name": "W’ludai",
+      "job": "Merchant",
+      "tier_gl": "C"
+    },
+    {
+      "id": "a2",
+      "name": "A2",
+      "job": "Thief",
+      "tier_gl": "A"
+    },
+    {
+      "id": "2b",
+      "name": "2B",
+      "job": "Warrior",
+      "tier_gl": "C"
+    },
+    {
+      "id": "9s",
+      "name": "9S",
+      "job": "Merchant",
+      "tier_gl": "E"
+    },
+    {
+      "id": "tithi",
+      "name": "Tithi",
+      "job": "Dancer",
+      "tier_gl": "B"
+    },
+    {
+      "id": "hayes",
+      "name": "Hayes",
+      "job": "Apothecary",
+      "tier_gl": "C"
+    },
+    {
+      "id": "joshua",
+      "name": "Joshua",
+      "job": "Warrior",
+      "tier_gl": "E"
+    },
+    {
+      "id": "largo",
+      "name": "Largo",
+      "job": "Merchant",
+      "tier_gl": "E"
+    },
+    {
+      "id": "chloe",
+      "name": "Chloe",
+      "job": "Hunter",
+      "tier_gl": "C"
+    },
+    {
+      "id": "nona",
+      "name": "Nona",
+      "job": "Merchant",
+      "tier_gl": "D"
+    },
+    {
+      "id": "eleonora",
+      "name": "Eleonora",
+      "job": "Dancer",
+      "tier_gl": "C"
+    },
+    {
+      "id": "richard",
+      "name": "Richard",
+      "job": "Warrior",
+      "tier_gl": "S"
+    },
+    {
+      "id": "alaune",
+      "name": "Alaune",
+      "job": "Scholar",
+      "tier_gl": "C"
+    },
+    {
+      "id": "herminia",
+      "name": "Herminia",
+      "job": "Hunter",
+      "tier_gl": "A"
+    },
+    {
+      "id": "tytos",
+      "name": "Tytos",
+      "job": "Warrior",
+      "tier_gl": "C"
+    },
+    {
+      "id": "auguste",
+      "name": "Auguste",
+      "job": "Thief",
+      "tier_gl": "B"
+    },
+    {
+      "id": "fiore_ex",
+      "name": "Fiore EX",
+      "job": "Dancer",
+      "tier_gl": "A"
+    },
+    {
+      "id": "sofia_ex",
+      "name": "Sofia EX",
+      "job": "Apothecary",
+      "tier_gl": "B"
+    },
+    {
+      "id": "krauser",
+      "name": "Krauser",
+      "job": "Merchant",
+      "tier_gl": "A"
+    },
+    {
+      "id": "rondo",
+      "name": "Rondo",
+      "job": "Warrior",
+      "tier_gl": "A"
+    },
+    {
+      "id": "cecily",
+      "name": "Cecily",
+      "job": "Merchant",
+      "tier_gl": "S"
+    },
+    {
+      "id": "promme",
+      "name": "Promme",
+      "job": "Cleric",
+      "tier_gl": "E"
+    },
+    {
+      "id": "frederica",
+      "name": "Frederica",
+      "job": "Scholar",
+      "tier_gl": "A"
+    },
+    {
+      "id": "roland",
+      "name": "Roland",
+      "job": "Merchant",
+      "tier_gl": "A"
+    },
+    {
+      "id": "serenoa",
+      "name": "Serenoa",
+      "job": "Warrior",
+      "tier_gl": "C"
+    },
+    {
+      "id": "zenia",
+      "name": "Zenia",
+      "job": "Apothecary",
+      "tier_gl": "A"
+    },
+    {
+      "id": "rinyuu",
+      "name": "Rinyuu",
+      "job": "Cleric",
+      "tier_gl": "S"
+    },
+    {
+      "id": "yukes",
+      "name": "Yukes",
+      "job": "Cleric",
+      "tier_gl": "E"
+    },
+    {
+      "id": "sarisa",
+      "name": "Sarisa",
+      "job": "Thief",
+      "tier_gl": "B"
+    },
+    {
+      "id": "aedelgard",
+      "name": "Aedelgard",
+      "job": "Warrior",
+      "tier_gl": "C"
+    },
+    {
+      "id": "tressa_ex",
+      "name": "Tressa EX",
+      "job": "Hunter",
+      "tier_gl": "C"
+    },
+    {
+      "id": "primrose_ex",
+      "name": "Primrose EX",
+      "job": "Apothecary",
+      "tier_gl": "S+"
+    },
+    {
+      "id": "millard_ex",
+      "name": "Millard EX",
+      "job": "Merchant",
+      "tier_gl": "C"
+    },
+    {
+      "id": "lumis_ex",
+      "name": "Lumis EX",
+      "job": "Hunter",
+      "tier_gl": "B"
+    },
+    {
+      "id": "eltrix",
+      "name": "Eltrix",
+      "job": "Warrior",
+      "tier_gl": "B"
+    },
+    {
+      "id": "leon",
+      "name": "Leon",
+      "job": "Merchant",
+      "tier_gl": "A"
+    },
+    {
+      "id": "tatloch",
+      "name": "Tatloch",
+      "job": "Dancer",
+      "tier_gl": "A"
+    },
+    {
+      "id": "bargello",
+      "name": "Bargello",
+      "job": "Thief",
+      "tier_gl": "S+"
+    },
+    {
+      "id": "sonia",
+      "name": "Sonia",
+      "job": "Thief",
+      "tier_gl": "A"
+    },
+    {
+      "id": "hammy",
+      "name": "Hammy",
+      "job": "Scholar",
+      "tier_gl": "A"
+    },
+    {
+      "id": "h_aanit_ex",
+      "name": "H’aanit EX",
+      "job": "Dancer",
+      "tier_gl": "S"
+    },
+    {
+      "id": "nephti",
+      "name": "Nephti",
+      "job": "Apothecary",
+      "tier_gl": "S"
+    },
+    {
+      "id": "solon",
+      "name": "Solon",
+      "job": "Scholar",
+      "tier_gl": "S"
+    },
+    {
+      "id": "nina_lanna",
+      "name": "Nina-Lanna",
+      "job": "Scholar",
+      "tier_gl": "C"
+    },
+    {
+      "id": "levina",
+      "name": "Levina",
+      "job": "Scholar",
+      "tier_gl": "B"
+    },
+    {
+      "id": "canary",
+      "name": "Canary",
+      "job": "Thief",
+      "tier_gl": "S+"
+    },
+    {
+      "id": "lemaire",
+      "name": "Lemaire",
+      "job": "Dancer",
+      "tier_gl": "D"
+    },
+    {
+      "id": "alaune_ex",
+      "name": "Alaune EX",
+      "job": "Dancer",
+      "tier_gl": "S"
+    },
+    {
+      "id": "elrica",
+      "name": "Elrica",
+      "job": "Warrior",
+      "tier_gl": "A"
+    },
+    {
+      "id": "ogen",
+      "name": "Ogen",
+      "job": "Apothecary",
+      "tier_gl": "A"
+    },
+    {
+      "id": "ditraina",
+      "name": "Ditraina",
+      "job": "Scholar",
+      "tier_gl": "A"
+    },
+    {
+      "id": "sertet",
+      "name": "Sertet",
+      "job": "Hunter",
+      "tier_gl": "D"
+    },
+    {
+      "id": "streibough",
+      "name": "Streibough",
+      "job": "Scholar",
+      "tier_gl": "D"
+    },
+    {
+      "id": "oersted",
+      "name": "Oersted",
+      "job": "Warrior",
+      "tier_gl": "D"
+    },
+    {
+      "id": "s__odio",
+      "name": "S. Odio",
+      "job": "Cleric",
+      "tier_gl": "B"
+    },
+    {
+      "id": "o__odio",
+      "name": "O. Odio",
+      "job": "Warrior",
+      "tier_gl": "S"
+    },
+    {
+      "id": "sazantos",
+      "name": "Sazantos",
+      "job": "Warrior",
+      "tier_gl": "S"
+    },
+    {
+      "id": "signa",
+      "name": "Signa",
+      "job": "Dancer",
+      "tier_gl": "S+"
+    },
+    {
+      "id": "nivelle",
+      "name": "Nivelle",
+      "job": "Scholar",
+      "tier_gl": "A"
+    },
+    {
+      "id": "isla",
+      "name": "Isla",
+      "job": "Scholar",
+      "tier_gl": "A"
+    },
+    {
+      "id": "rique",
+      "name": "Rique",
+      "job": "Merchant",
+      "tier_gl": "B"
+    },
+    {
+      "id": "kilns",
+      "name": "Kilns",
+      "job": "Hunter",
+      "tier_gl": "S+"
+    },
+    {
+      "id": "sail",
+      "name": "Sail",
+      "job": "Warrior",
+      "tier_gl": "D"
+    },
+    {
+      "id": "partitio",
+      "name": "Partitio",
+      "job": "Merchant",
+      "tier_gl": "A"
+    },
+    {
+      "id": "temenos",
+      "name": "Temenos",
+      "job": "Cleric",
+      "tier_gl": "B"
+    },
+    {
+      "id": "agnea",
+      "name": "Agnea",
+      "job": "Dancer",
+      "tier_gl": "A"
+    },
+    {
+      "id": "ochette",
+      "name": "Ochette",
+      "job": "Hunter",
+      "tier_gl": "S"
+    },
+    {
+      "id": "neha",
+      "name": "Neha",
+      "job": "Dancer",
+      "tier_gl": "B"
+    },
+    {
+      "id": "thron_",
+      "name": "Throné",
+      "job": "Thief",
+      "tier_gl": "A"
+    },
+    {
+      "id": "pirro",
+      "name": "Pirro",
+      "job": "Thief",
+      "tier_gl": "A"
+    },
+    {
+      "id": "morffins",
+      "name": "Morffins",
+      "job": "Apothecary",
+      "tier_gl": "B"
+    },
+    {
+      "id": "grieg",
+      "name": "Grieg",
+      "job": "Warrior",
+      "tier_gl": "C"
+    },
+    {
+      "id": "gloria",
+      "name": "Gloria",
+      "job": "Cleric",
+      "tier_gl": "S"
+    },
+    {
+      "id": "ringabel",
+      "name": "Ringabel",
+      "job": "Warrior",
+      "tier_gl": "A"
+    },
+    {
+      "id": "magnolia",
+      "name": "Magnolia",
+      "job": "Merchant",
+      "tier_gl": "S"
+    },
+    {
+      "id": "osvald",
+      "name": "Osvald",
+      "job": "Scholar",
+      "tier_gl": "S"
+    },
+    {
+      "id": "mirgardi",
+      "name": "Mirgardi",
+      "job": "Dancer",
+      "tier_gl": "D"
+    },
+    {
+      "id": "jane",
+      "name": "Jane",
+      "job": "Apothecary",
+      "tier_gl": "A"
+    },
+    {
+      "id": "shana",
+      "name": "Shana",
+      "job": "Apothecary",
+      "tier_gl": "S+"
+    },
+    {
+      "id": "hujheb",
+      "name": "Hujheb",
+      "job": "Hunter",
+      "tier_gl": "S+"
+    },
+    {
+      "id": "oskha",
+      "name": "Oskha",
+      "job": "Merchant",
+      "tier_gl": "S"
+    },
+    {
+      "id": "hikari",
+      "name": "Hikari",
+      "job": "Warrior",
+      "tier_gl": "A"
+    },
+    {
+      "id": "castti",
+      "name": "Castti",
+      "job": "Apothecary",
+      "tier_gl": "S"
+    },
+    {
+      "id": "agnea_ex",
+      "name": "Agnea EX",
+      "job": "Hunter",
+      "tier_gl": ""
+    },
+    {
+      "id": "sazantos_ex",
+      "name": "Sazantos EX",
+      "job": "Merchant",
+      "tier_gl": ""
+    },
+    {
+      "id": "cecil",
+      "name": "Cecil",
+      "job": "Warrior",
+      "tier_gl": ""
+    },
+    {
+      "id": "ophilia_ex",
+      "name": "Ophilia EX",
+      "job": "Scholar",
+      "tier_gl": ""
+    },
+    {
+      "id": "kain_",
+      "name": "Kainé",
+      "job": "Thief",
+      "tier_gl": ""
+    },
+    {
+      "id": "nier",
+      "name": "Nier",
+      "job": "Merchant",
+      "tier_gl": ""
+    },
+    {
+      "id": "emil",
+      "name": "Emil",
+      "job": "Cleric",
+      "tier_gl": ""
+    },
+    {
+      "id": "dolcinaea",
+      "name": "Dolcinaea",
+      "job": "Dancer",
+      "tier_gl": ""
+    },
+    {
+      "id": "tiziano",
+      "name": "Tiziano",
+      "job": "Thief",
+      "tier_gl": ""
+    },
+    {
+      "id": "bargello_ex",
+      "name": "Bargello EX",
+      "job": "Dancer",
+      "tier_gl": ""
+    },
+    {
+      "id": "tatloch_ex",
+      "name": "Tatloch EX",
+      "job": "Thief",
+      "tier_gl": ""
+    },
+    {
+      "id": "sowan",
+      "name": "Sowan",
+      "job": "Apothecary",
+      "tier_gl": ""
+    },
+    {
+      "id": "relisha",
+      "name": "Relisha",
+      "job": "Cleric",
+      "tier_gl": ""
+    },
+    {
+      "id": "rinyuu_ex",
+      "name": "Rinyuu EX",
+      "job": "Apothecary",
+      "tier_gl": ""
+    },
+    {
+      "id": "alrond",
+      "name": "Alrond",
+      "job": "Merchant",
+      "tier_gl": ""
+    },
+    {
+      "id": "ori",
+      "name": "Ori",
+      "job": "Merchant",
+      "tier_gl": ""
+    },
+    {
+      "id": "ceraphina",
+      "name": "Ceraphina",
+      "job": "Apothecary",
+      "tier_gl": ""
+    },
+    {
+      "id": "pardis_iii",
+      "name": "Pardis III",
+      "job": "Scholar",
+      "tier_gl": ""
+    },
+    {
+      "id": "ditraina_ex",
+      "name": "Ditraina EX",
+      "job": "Hunter",
+      "tier_gl": ""
+    },
+    {
+      "id": "elrica_ex",
+      "name": "Elrica EX",
+      "job": "Thief",
+      "tier_gl": ""
+    },
+    {
+      "id": "mydia",
+      "name": "Mydia",
+      "job": "Cleric",
+      "tier_gl": ""
+    },
+    {
+      "id": "crick",
+      "name": "Crick",
+      "job": "Warrior",
+      "tier_gl": ""
+    },
+    {
+      "id": "morena",
+      "name": "Morena",
+      "job": "Scholar",
+      "tier_gl": ""
+    },
+    {
+      "id": "kagemune",
+      "name": "Kagemune",
+      "job": "Thief",
+      "tier_gl": ""
+    },
+    {
+      "id": "sigrid_ex",
+      "name": "Sigrid EX",
+      "job": "Merchant",
+      "tier_gl": ""
+    },
+    {
+      "id": "hikari_ex",
+      "name": "Hikari EX",
+      "job": "Cleric",
+      "tier_gl": ""
+    },
+    {
+      "id": "rai_mei",
+      "name": "Rai Mei",
+      "job": "Merchant",
+      "tier_gl": ""
+    },
+    {
+      "id": "black_maiden",
+      "name": "Black Maiden",
+      "job": "Dancer",
+      "tier_gl": ""
+    },
+    {
+      "id": "black_knight",
+      "name": "Black Knight",
+      "job": "Warrior",
+      "tier_gl": ""
+    },
+    {
+      "id": "viola_ex",
+      "name": "Viola EX",
+      "job": "Scholar",
+      "tier_gl": ""
+    },
+    {
+      "id": "cyrus_ex",
+      "name": "Cyrus EX",
+      "job": "Warrior",
+      "tier_gl": ""
+    },
+    {
+      "id": "molrusso_ex",
+      "name": "Molrusso EX",
+      "job": "Dancer",
+      "tier_gl": ""
+    },
+    {
+      "id": "therese_ex",
+      "name": "Therese EX",
+      "job": "Cleric",
+      "tier_gl": ""
+    },
+    {
+      "id": "signa_ex",
+      "name": "Signa EX",
+      "job": "Apothecary",
+      "tier_gl": ""
+    },
+    {
+      "id": "partitio_ex",
+      "name": "Partitio EX",
+      "job": "Thief",
+      "tier_gl": ""
+    },
+    {
+      "id": "avar",
+      "name": "Avar",
+      "job": "Apothecary",
+      "tier_gl": ""
+    },
+    {
+      "id": "osvald_ex",
+      "name": "Osvald EX",
+      "job": "Cleric",
+      "tier_gl": ""
+    },
+    {
+      "id": "ochette_ex",
+      "name": "Ochette EX",
+      "job": "Warrior",
+      "tier_gl": ""
+    },
+    {
+      "id": "castti_ex",
+      "name": "Castti EX",
+      "job": "Dancer",
+      "tier_gl": ""
+    },
+    {
+      "id": "mahrez",
+      "name": "Mahrez",
+      "job": "Warrior",
+      "tier_gl": ""
+    },
+    {
+      "id": "esmeralda",
+      "name": "Esmeralda",
+      "job": "Thief",
+      "tier_gl": ""
+    },
+    {
+      "id": "aoi",
+      "name": "Aoi",
+      "job": "Warrior",
+      "tier_gl": ""
+    },
+    {
+      "id": "kazan",
+      "name": "Kazan",
+      "job": "Scholar",
+      "tier_gl": ""
+    },
+    {
+      "id": "cassia",
+      "name": "Cassia",
+      "job": "Hunter",
+      "tier_gl": ""
+    }
+  ]
+}

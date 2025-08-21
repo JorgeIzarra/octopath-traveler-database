@@ -1,0 +1,8081 @@
+[
+  {
+    "name": "Scarecrow",
+    "job": "Hunter",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "D",
+    "tier_jp": "C",
+    "location": "Sheperd's Rock",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Bow",
+      "Wind"
+    ],
+    "attributes": [
+      "Bow",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 3892,
+      "sp": 456,
+      "p_atk": 442,
+      "p_def": 273,
+      "e_atk": 280,
+      "e_def": 283,
+      "crit": 475,
+      "speed": 395
+    },
+    "japanese_name": "スケアクロウ",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 4.52,
+    "jp_score": 9.3
+  },
+  {
+    "name": "Lynette",
+    "job": "Dancer",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "A",
+    "tier_jp": "C",
+    "location": "Cragspear",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Fan",
+      "Fire"
+    ],
+    "attributes": [
+      "Fan",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 3606,
+      "sp": 569,
+      "p_atk": 300,
+      "p_def": 290,
+      "e_atk": 467,
+      "e_def": 392,
+      "crit": 307,
+      "speed": 407
+    },
+    "japanese_name": "リネット",
+    "ultimate_priority": "U Lv10 Game Changer",
+    "gl_score": 7.14,
+    "jp_score": 9.4
+  },
+  {
+    "name": "Viola",
+    "job": "Thief",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "B",
+    "tier_jp": "B",
+    "location": "Sunshade",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Dagger",
+      "Fire"
+    ],
+    "attributes": [
+      "Dagger",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 3712,
+      "sp": 402,
+      "p_atk": 438,
+      "p_def": 300,
+      "e_atk": 301,
+      "e_def": 303,
+      "crit": 388,
+      "speed": 500
+    },
+    "japanese_name": "ヴィオラ",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 6.73,
+    "jp_score": 9.6
+  },
+  {
+    "name": "Theo",
+    "job": "Apothecary",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "D",
+    "tier_jp": "B",
+    "location": "Theatropolis",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Lightning"
+    ],
+    "attributes": [
+      "Axe",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 4050,
+      "sp": 488,
+      "p_atk": 400,
+      "p_def": 447,
+      "e_atk": 371,
+      "e_def": 288,
+      "crit": 258,
+      "speed": 336
+    },
+    "japanese_name": "テオ",
+    "ultimate_priority": "Ultimate not worth",
+    "gl_score": 4.67,
+    "jp_score": 9.5
+  },
+  {
+    "name": "Millard",
+    "job": "Cleric",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "E",
+    "tier_jp": "C",
+    "location": "Valore",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Light",
+      "Staff"
+    ],
+    "attributes": [
+      "StaffStaves",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 3512,
+      "sp": 500,
+      "p_atk": 301,
+      "p_def": 342,
+      "e_atk": 430,
+      "e_def": 484,
+      "crit": 313,
+      "speed": 346
+    },
+    "japanese_name": "ミロード",
+    "ultimate_priority": "Ultimate not worth",
+    "gl_score": 3.12,
+    "jp_score": 9.3
+  },
+  {
+    "name": "Gilderoy",
+    "job": "Merchant",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "D",
+    "tier_jp": "B",
+    "location": "Clearbrook",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Lightning",
+      "Polearm"
+    ],
+    "attributes": [
+      "SpearPolearm",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 4428,
+      "sp": 402,
+      "p_atk": 419,
+      "p_def": 413,
+      "e_atk": 330,
+      "e_def": 350,
+      "crit": 286,
+      "speed": 243
+    },
+    "japanese_name": "ギルデロイ",
+    "ultimate_priority": "U Lv10 before A1",
+    "gl_score": 4.92,
+    "jp_score": 9.6
+  },
+  {
+    "name": "Fiore",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "C",
+    "tier_jp": "C",
+    "location": "Rippletide",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Dark",
+      "Sword"
+    ],
+    "attributes": [
+      "Sword",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 4042,
+      "sp": 356,
+      "p_atk": 469,
+      "p_def": 408,
+      "e_atk": 287,
+      "e_def": 291,
+      "crit": 383,
+      "speed": 345
+    },
+    "japanese_name": "フィオル",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 5.08,
+    "jp_score": 9.3
+  },
+  {
+    "name": "Sofia",
+    "job": "Scholar",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "D",
+    "tier_jp": "B",
+    "location": "Emberglow",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Ice",
+      "Tome"
+    ],
+    "attributes": [
+      "Tome",
+      "Ice"
+    ],
+    "stats_120": {
+      "hp": 3556,
+      "sp": 652,
+      "p_atk": 281,
+      "p_def": 341,
+      "e_atk": 454,
+      "e_def": 385,
+      "crit": 296,
+      "speed": 333
+    },
+    "japanese_name": "ソフィア",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 4.96,
+    "jp_score": 9.5
+  },
+  {
+    "name": "Tressa",
+    "job": "Merchant",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "C",
+    "tier_jp": "B",
+    "location": "Rippletide",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Polearm",
+      "Wind"
+    ],
+    "attributes": [
+      "SpearPolearm",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 3980,
+      "sp": 437,
+      "p_atk": 449,
+      "p_def": 383,
+      "e_atk": 410,
+      "e_def": 335,
+      "crit": 276,
+      "speed": 275
+    },
+    "japanese_name": "トレサ",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 5.78,
+    "jp_score": 9.6
+  },
+  {
+    "name": "Heathcote",
+    "job": "Thief",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "E",
+    "tier_jp": "C",
+    "location": "Cragspear",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Dagger",
+      "Wind"
+    ],
+    "attributes": [
+      "Dagger",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 3642,
+      "sp": 422,
+      "p_atk": 413,
+      "p_def": 300,
+      "e_atk": 336,
+      "e_def": 303,
+      "crit": 393,
+      "speed": 485
+    },
+    "japanese_name": "ヒースコート",
+    "ultimate_priority": "Ultimate not worth",
+    "gl_score": 2.85,
+    "jp_score": 9.4
+  },
+  {
+    "name": "Primrose",
+    "job": "Dancer",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "C",
+    "tier_jp": "B",
+    "location": "Sunshade",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Dark",
+      "Fan"
+    ],
+    "attributes": [
+      "Fan",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 3526,
+      "sp": 574,
+      "p_atk": 290,
+      "p_def": 280,
+      "e_atk": 507,
+      "e_def": 382,
+      "crit": 282,
+      "speed": 457
+    },
+    "japanese_name": "プリムロゼ",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 5.68,
+    "jp_score": 9.5
+  },
+  {
+    "name": "Therese",
+    "job": "Scholar",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "D",
+    "tier_jp": "E",
+    "location": "Theatropolis",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Lightning",
+      "Tome"
+    ],
+    "attributes": [
+      "Tome",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 3536,
+      "sp": 657,
+      "p_atk": 276,
+      "p_def": 331,
+      "e_atk": 439,
+      "e_def": 380,
+      "crit": 316,
+      "speed": 353
+    },
+    "japanese_name": "テレーズ",
+    "ultimate_priority": "A4 before U Lv10",
+    "gl_score": 4.19,
+    "jp_score": 9.1
+  },
+  {
+    "name": "Kouren",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "D",
+    "tier_jp": "B",
+    "location": "Grandport",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Light",
+      "Sword"
+    ],
+    "attributes": [
+      "Sword",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 4042,
+      "sp": 361,
+      "p_atk": 449,
+      "p_def": 363,
+      "e_atk": 377,
+      "e_def": 266,
+      "crit": 393,
+      "speed": 330
+    },
+    "japanese_name": "コウレン",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 4.71,
+    "jp_score": 9.5
+  },
+  {
+    "name": "Hasumi",
+    "job": "Dancer",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "D",
+    "tier_jp": "C",
+    "location": "Grandport",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Fan",
+      "Light"
+    ],
+    "attributes": [
+      "Fan",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 3576,
+      "sp": 572,
+      "p_atk": 280,
+      "p_def": 315,
+      "e_atk": 482,
+      "e_def": 406,
+      "crit": 299,
+      "speed": 382
+    },
+    "japanese_name": "ハスミ",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 4.69,
+    "jp_score": 9.3
+  },
+  {
+    "name": "H’aanit",
+    "job": "Hunter",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "C",
+    "tier_jp": "C",
+    "location": "Valore",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Bow",
+      "Lightning",
+      "Polearm",
+      "Sword"
+    ],
+    "attributes": [
+      "Bow",
+      "Sword",
+      "SpearPolearm",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 3916,
+      "sp": 449,
+      "p_atk": 453,
+      "p_def": 281,
+      "e_atk": 377,
+      "e_def": 275,
+      "crit": 407,
+      "speed": 400
+    },
+    "japanese_name": "ハンイット",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 5,
+    "jp_score": 9.4
+  },
+  {
+    "name": "Tikilen",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "D",
+    "tier_jp": "C",
+    "location": "Victors Hollow",
+    "obtained_from": "Tourney",
+    "owned": false,
+    "weaknesses": [
+      "Sword",
+      "Wind"
+    ],
+    "attributes": [
+      "Sword",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 3882,
+      "sp": 371,
+      "p_atk": 389,
+      "p_def": 388,
+      "e_atk": 437,
+      "e_def": 291,
+      "crit": 340,
+      "speed": 325
+    },
+    "japanese_name": "ティキレン",
+    "ultimate_priority": "A4 before U Lv10",
+    "gl_score": 4.56,
+    "jp_score": 9.3
+  },
+  {
+    "name": "Eliza",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "C",
+    "tier_jp": "C",
+    "location": "Cathedral of Thytos",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Light",
+      "Sword"
+    ],
+    "attributes": [
+      "Sword",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 3912,
+      "sp": 438,
+      "p_atk": 424,
+      "p_def": 403,
+      "e_atk": 387,
+      "e_def": 301,
+      "crit": 328,
+      "speed": 315
+    },
+    "japanese_name": "エリザ",
+    "ultimate_priority": "Ultimate not worth",
+    "gl_score": 5,
+    "jp_score": 9.3
+  },
+  {
+    "name": "Odette",
+    "job": "Scholar",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "A",
+    "tier_jp": "A",
+    "location": "Sunshade",
+    "obtained_from": "Sacred Blaze Guidance (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Light",
+      "Tome",
+      "Wind"
+    ],
+    "attributes": [
+      "Tome",
+      "Wind",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 3571,
+      "sp": 657,
+      "p_atk": 276,
+      "p_def": 331,
+      "e_atk": 474,
+      "e_def": 370,
+      "crit": 271,
+      "speed": 363
+    },
+    "japanese_name": "オデット",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 7.32,
+    "jp_score": 9.7
+  },
+  {
+    "name": "Lumis",
+    "job": "Apothecary",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "D",
+    "tier_jp": "D",
+    "location": "Donescu",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Wind"
+    ],
+    "attributes": [
+      "Axe",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 3985,
+      "sp": 449,
+      "p_atk": 415,
+      "p_def": 406,
+      "e_atk": 368,
+      "e_def": 274,
+      "crit": 294,
+      "speed": 383
+    },
+    "japanese_name": "リュミス",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 4.67,
+    "jp_score": 9.2
+  },
+  {
+    "name": "Stead",
+    "job": "Cleric",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "D",
+    "tier_jp": "C",
+    "location": "Donescu",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Dark",
+      "Staff"
+    ],
+    "attributes": [
+      "StaffStaves",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 3547,
+      "sp": 465,
+      "p_atk": 316,
+      "p_def": 337,
+      "e_atk": 455,
+      "e_def": 459,
+      "crit": 308,
+      "speed": 336
+    },
+    "japanese_name": "ステッド",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 4.04,
+    "jp_score": 9.3
+  },
+  {
+    "name": "Glossom",
+    "job": "Dancer",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "D",
+    "tier_jp": "D",
+    "location": "Donescu",
+    "obtained_from": "Tourney",
+    "owned": false,
+    "weaknesses": [
+      "Fan",
+      "Lightning"
+    ],
+    "attributes": [
+      "Fan",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 3553,
+      "sp": 549,
+      "p_atk": 390,
+      "p_def": 285,
+      "e_atk": 402,
+      "e_def": 382,
+      "crit": 305,
+      "speed": 402
+    },
+    "japanese_name": "グロッサム",
+    "ultimate_priority": "U Lv10 before A1",
+    "gl_score": 4.48,
+    "jp_score": 9.2
+  },
+  {
+    "name": "Adelle",
+    "job": "Thief",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "C",
+    "tier_jp": "C",
+    "location": "Nameless Town",
+    "obtained_from": "BRAVELY DEFAULT Crossover Guidance (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Dagger",
+      "Light"
+    ],
+    "attributes": [
+      "Dagger",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 3707,
+      "sp": 407,
+      "p_atk": 463,
+      "p_def": 275,
+      "e_atk": 316,
+      "e_def": 278,
+      "crit": 398,
+      "speed": 490
+    },
+    "japanese_name": "アデル",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 5.5,
+    "jp_score": 9.3
+  },
+  {
+    "name": "Elvis",
+    "job": "Scholar",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "E",
+    "tier_jp": "D",
+    "location": "Theatropolis",
+    "obtained_from": "Free - Traveler Story (BRAVELY DEFAULT Crossover)",
+    "owned": false,
+    "weaknesses": [
+      "Lightning",
+      "Tome"
+    ],
+    "attributes": [
+      "Tome",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 3796,
+      "sp": 592,
+      "p_atk": 296,
+      "p_def": 326,
+      "e_atk": 439,
+      "e_def": 355,
+      "crit": 276,
+      "speed": 323
+    },
+    "japanese_name": "エルヴィス",
+    "ultimate_priority": "A4 before U Lv10",
+    "gl_score": 3.04,
+    "jp_score": 9.2
+  },
+  {
+    "name": "Edea",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "D",
+    "tier_jp": "C",
+    "location": "Nameless Town",
+    "obtained_from": "BRAVELY DEFAULT Crossover Guidance (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Fire",
+      "Light",
+      "Sword"
+    ],
+    "attributes": [
+      "Sword",
+      "Fire",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 4062,
+      "sp": 356,
+      "p_atk": 454,
+      "p_def": 448,
+      "e_atk": 312,
+      "e_def": 341,
+      "crit": 348,
+      "speed": 295
+    },
+    "japanese_name": "イデア",
+    "ultimate_priority": "A4 before U Lv10",
+    "gl_score": 4.88,
+    "jp_score": 9.3
+  },
+  {
+    "name": "Agnès",
+    "job": "Cleric",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "D",
+    "tier_jp": "B",
+    "location": "Nameless Town",
+    "obtained_from": "BRAVELY DEFAULT Crossover Guidance (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Light",
+      "Staff",
+      "Wind"
+    ],
+    "attributes": [
+      "StaffStaves",
+      "Wind",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 3517,
+      "sp": 475,
+      "p_atk": 306,
+      "p_def": 337,
+      "e_atk": 455,
+      "e_def": 459,
+      "crit": 293,
+      "speed": 381
+    },
+    "japanese_name": "アニエス",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 4.85,
+    "jp_score": 9.6
+  },
+  {
+    "name": "Cardona",
+    "job": "Merchant",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "C",
+    "tier_jp": "D",
+    "location": "Atlasdam",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Ice",
+      "Polearm"
+    ],
+    "attributes": [
+      "SpearPolearm",
+      "Ice"
+    ],
+    "stats_120": {
+      "hp": 4300,
+      "sp": 437,
+      "p_atk": 439,
+      "p_def": 393,
+      "e_atk": 355,
+      "e_def": 330,
+      "crit": 281,
+      "speed": 260
+    },
+    "japanese_name": "カルドナ",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 5.36,
+    "jp_score": 9.2
+  },
+  {
+    "name": "Lionel",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "D",
+    "tier_jp": "D",
+    "location": "Flamesgrace",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Ice",
+      "Sword"
+    ],
+    "attributes": [
+      "Sword",
+      "Ice"
+    ],
+    "stats_120": {
+      "hp": 4072,
+      "sp": 356,
+      "p_atk": 469,
+      "p_def": 423,
+      "e_atk": 287,
+      "e_def": 306,
+      "crit": 368,
+      "speed": 310
+    },
+    "japanese_name": "ライオネル",
+    "ultimate_priority": "Ultimate not worth",
+    "gl_score": 4.27,
+    "jp_score": 9.2
+  },
+  {
+    "name": "Varkyn",
+    "job": "Scholar",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "D",
+    "tier_jp": "C",
+    "location": "Cathedral of Thytos",
+    "obtained_from": "Tourney",
+    "owned": false,
+    "weaknesses": [
+      "Light",
+      "Tome"
+    ],
+    "attributes": [
+      "Tome",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 3686,
+      "sp": 592,
+      "p_atk": 281,
+      "p_def": 336,
+      "e_atk": 484,
+      "e_def": 350,
+      "crit": 281,
+      "speed": 323
+    },
+    "japanese_name": "ヴァルカン",
+    "ultimate_priority": "A4 before U Lv10",
+    "gl_score": 4.84,
+    "jp_score": 9.3
+  },
+  {
+    "name": "Z’aanta",
+    "job": "Hunter",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "B",
+    "tier_jp": "C",
+    "location": "Victors Hollow",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Bow",
+      "Dagger",
+      "Fan",
+      "Light"
+    ],
+    "attributes": [
+      "Bow",
+      "Dagger",
+      "Fan",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 4042,
+      "sp": 451,
+      "p_atk": 462,
+      "p_def": 288,
+      "e_atk": 340,
+      "e_def": 253,
+      "crit": 430,
+      "speed": 365
+    },
+    "japanese_name": "ザンター",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 6.83,
+    "jp_score": 9.4
+  },
+  {
+    "name": "Lianna",
+    "job": "Cleric",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "C",
+    "tier_jp": "B",
+    "location": "Cathedral of Thytos",
+    "obtained_from": "Sacred Blaze Guidance (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Ice",
+      "Staff"
+    ],
+    "attributes": [
+      "StaffStaves",
+      "Ice"
+    ],
+    "stats_120": {
+      "hp": 3502,
+      "sp": 430,
+      "p_atk": 306,
+      "p_def": 362,
+      "e_atk": 425,
+      "e_def": 494,
+      "crit": 318,
+      "speed": 326
+    },
+    "japanese_name": "リアナ",
+    "ultimate_priority": "Ultimate not worth",
+    "gl_score": 5.31,
+    "jp_score": 9.6
+  },
+  {
+    "name": "Therion",
+    "job": "Thief",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "A",
+    "tier_jp": "A",
+    "location": "Cragspear",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Dagger",
+      "Fire"
+    ],
+    "attributes": [
+      "Dagger",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 3712,
+      "sp": 412,
+      "p_atk": 443,
+      "p_def": 275,
+      "e_atk": 351,
+      "e_def": 278,
+      "crit": 368,
+      "speed": 510
+    },
+    "japanese_name": "テリオン",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 7.69,
+    "jp_score": 9.7
+  },
+  {
+    "name": "Alfyn",
+    "job": "Apothecary",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "B",
+    "tier_jp": "B",
+    "location": "Clearbrook",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Ice"
+    ],
+    "attributes": [
+      "Axe",
+      "Ice"
+    ],
+    "stats_120": {
+      "hp": 4055,
+      "sp": 453,
+      "p_atk": 430,
+      "p_def": 442,
+      "e_atk": 351,
+      "e_def": 288,
+      "crit": 318,
+      "speed": 306
+    },
+    "japanese_name": "アーフェン",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 6.44,
+    "jp_score": 9.5
+  },
+  {
+    "name": "Molrusso",
+    "job": "Cleric",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "D",
+    "tier_jp": "C",
+    "location": "Cragspear",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Staff",
+      "Wind"
+    ],
+    "attributes": [
+      "StaffStaves",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 3512,
+      "sp": 505,
+      "p_atk": 311,
+      "p_def": 332,
+      "e_atk": 415,
+      "e_def": 464,
+      "crit": 313,
+      "speed": 376
+    },
+    "japanese_name": "モルルッソ",
+    "ultimate_priority": "U Lv10 before A1",
+    "gl_score": 4,
+    "jp_score": 9.4
+  },
+  {
+    "name": "Ri’tu",
+    "job": "Thief",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "D",
+    "tier_jp": "E",
+    "location": "Flamesgrace",
+    "obtained_from": "Tourney",
+    "owned": false,
+    "weaknesses": [
+      "Dagger",
+      "Lightning"
+    ],
+    "attributes": [
+      "Dagger",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 3602,
+      "sp": 402,
+      "p_atk": 468,
+      "p_def": 279,
+      "e_atk": 326,
+      "e_def": 282,
+      "crit": 383,
+      "speed": 475
+    },
+    "japanese_name": "リトゥ",
+    "ultimate_priority": "A4 before U Lv10",
+    "gl_score": 4.63,
+    "jp_score": 9.1
+  },
+  {
+    "name": "Nicola",
+    "job": "Thief",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "B",
+    "tier_jp": "B",
+    "location": "Emberglow",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Dagger",
+      "Light"
+    ],
+    "attributes": [
+      "Dagger",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 3697,
+      "sp": 427,
+      "p_atk": 418,
+      "p_def": 295,
+      "e_atk": 316,
+      "e_def": 298,
+      "crit": 378,
+      "speed": 490
+    },
+    "japanese_name": "ニコラ",
+    "ultimate_priority": "A4 before U Lv10",
+    "gl_score": 6.7,
+    "jp_score": 9.5
+  },
+  {
+    "name": "Cyrus",
+    "job": "Scholar",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "S",
+    "tier_jp": "A",
+    "location": "Theatropolis",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Fire",
+      "Ice",
+      "Lightning",
+      "Tome"
+    ],
+    "attributes": [
+      "Tome",
+      "Fire",
+      "Ice",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 3406,
+      "sp": 672,
+      "p_atk": 286,
+      "p_def": 331,
+      "e_atk": 519,
+      "e_def": 380,
+      "crit": 296,
+      "speed": 303
+    },
+    "japanese_name": "サイラス",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 8.3,
+    "jp_score": 9.7
+  },
+  {
+    "name": "Harley",
+    "job": "Dancer",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "D",
+    "tier_jp": "C",
+    "location": "Victors Hollow",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Fan",
+      "Wind"
+    ],
+    "attributes": [
+      "Fan",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 3651,
+      "sp": 522,
+      "p_atk": 307,
+      "p_def": 289,
+      "e_atk": 445,
+      "e_def": 401,
+      "crit": 297,
+      "speed": 421
+    },
+    "japanese_name": "ハーレー",
+    "ultimate_priority": "U Lv10 before A1",
+    "gl_score": 4,
+    "jp_score": 9.4
+  },
+  {
+    "name": "Molu",
+    "job": "Scholar",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "C",
+    "tier_jp": "C",
+    "location": "Sufrataljah",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Fire",
+      "Tome"
+    ],
+    "attributes": [
+      "Tome",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 3491,
+      "sp": 652,
+      "p_atk": 291,
+      "p_def": 311,
+      "e_atk": 479,
+      "e_def": 370,
+      "crit": 296,
+      "speed": 343
+    },
+    "japanese_name": "ムールゥ",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 5.13,
+    "jp_score": 9.4
+  },
+  {
+    "name": "Gertrude",
+    "job": "Apothecary",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "D",
+    "tier_jp": "C",
+    "location": "Sufrataljah",
+    "obtained_from": "Tourney",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Dark"
+    ],
+    "attributes": [
+      "Axe",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 4055,
+      "sp": 458,
+      "p_atk": 454,
+      "p_def": 371,
+      "e_atk": 371,
+      "e_def": 272,
+      "crit": 296,
+      "speed": 281
+    },
+    "japanese_name": "ガートルード",
+    "ultimate_priority": "A4 before U Lv10",
+    "gl_score": 4.79,
+    "jp_score": 9.3
+  },
+  {
+    "name": "Kersjes",
+    "job": "Hunter",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "C",
+    "tier_jp": "E",
+    "location": "Victors Hollow",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Bow",
+      "Ice"
+    ],
+    "attributes": [
+      "Bow",
+      "Ice"
+    ],
+    "stats_120": {
+      "hp": 3912,
+      "sp": 386,
+      "p_atk": 497,
+      "p_def": 273,
+      "e_atk": 365,
+      "e_def": 268,
+      "crit": 430,
+      "speed": 355
+    },
+    "japanese_name": "カージェス",
+    "ultimate_priority": "A1 then U Lv10",
+    "gl_score": 5.55,
+    "jp_score": 9.1
+  },
+  {
+    "name": "Ophilia",
+    "job": "Cleric",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "B",
+    "tier_jp": "B",
+    "location": "Emberglow",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Light",
+      "Staff"
+    ],
+    "attributes": [
+      "StaffStaves",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 3497,
+      "sp": 550,
+      "p_atk": 301,
+      "p_def": 342,
+      "e_atk": 445,
+      "e_def": 464,
+      "crit": 293,
+      "speed": 341
+    },
+    "japanese_name": "オフィーリア",
+    "ultimate_priority": "U Lv10 before A1",
+    "gl_score": 6.13,
+    "jp_score": 9.6
+  },
+  {
+    "name": "Olberic",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "B",
+    "tier_jp": "B",
+    "location": "Sheperd's Rock",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Lightning",
+      "Polearm",
+      "Sword"
+    ],
+    "attributes": [
+      "Sword",
+      "SpearPolearm",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 4272,
+      "sp": 361,
+      "p_atk": 499,
+      "p_def": 443,
+      "e_atk": 287,
+      "e_def": 321,
+      "crit": 308,
+      "speed": 270
+    },
+    "japanese_name": "オルベリク",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 6,
+    "jp_score": 9.6
+  },
+  {
+    "name": "Dorothea",
+    "job": "Merchant",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "C",
+    "tier_jp": "C",
+    "location": "Sheperd's Rock",
+    "obtained_from": "Sacred Blaze Guidance (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Fire",
+      "Polearm"
+    ],
+    "attributes": [
+      "SpearPolearm",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 4280,
+      "sp": 412,
+      "p_atk": 444,
+      "p_def": 393,
+      "e_atk": 340,
+      "e_def": 340,
+      "crit": 296,
+      "speed": 270
+    },
+    "japanese_name": "ドロテア",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 5.27,
+    "jp_score": 9.4
+  },
+  {
+    "name": "Yunnie",
+    "job": "Hunter",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "B",
+    "tier_jp": "C",
+    "location": "Grandport",
+    "obtained_from": "Tourney",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Bow",
+      "Fire",
+      "Polearm",
+      "Sword"
+    ],
+    "attributes": [
+      "Bow",
+      "Sword",
+      "SpearPolearm",
+      "Axe",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 3862,
+      "sp": 461,
+      "p_atk": 472,
+      "p_def": 268,
+      "e_atk": 290,
+      "e_def": 253,
+      "crit": 440,
+      "speed": 400
+    },
+    "japanese_name": "ユーニィ",
+    "ultimate_priority": "A4 before U Lv10",
+    "gl_score": 6.33,
+    "jp_score": 9.4
+  },
+  {
+    "name": "Jillmeila",
+    "job": "Hunter",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "C",
+    "tier_jp": "B",
+    "location": "I'cirlo",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Bow",
+      "Dark"
+    ],
+    "attributes": [
+      "Bow",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 3722,
+      "sp": 455,
+      "p_atk": 468,
+      "p_def": 276,
+      "e_atk": 326,
+      "e_def": 274,
+      "crit": 470,
+      "speed": 390
+    },
+    "japanese_name": "ジルメイラ",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 5.13,
+    "jp_score": 9.5
+  },
+  {
+    "name": "Soleil",
+    "job": "Apothecary",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "D",
+    "tier_jp": "B",
+    "location": "Sufrataljah",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Light"
+    ],
+    "attributes": [
+      "Axe",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 4035,
+      "sp": 458,
+      "p_atk": 382,
+      "p_def": 433,
+      "e_atk": 426,
+      "e_def": 278,
+      "crit": 268,
+      "speed": 326
+    },
+    "japanese_name": "ソレイユ",
+    "ultimate_priority": "Ultimate not worth",
+    "gl_score": 4.7,
+    "jp_score": 9.5
+  },
+  {
+    "name": "Lars",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "B",
+    "tier_jp": "B",
+    "location": "Sufrataljah",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Sword",
+      "Wind"
+    ],
+    "attributes": [
+      "Sword",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 3982,
+      "sp": 371,
+      "p_atk": 484,
+      "p_def": 373,
+      "e_atk": 307,
+      "e_def": 301,
+      "crit": 378,
+      "speed": 350
+    },
+    "japanese_name": "ラース",
+    "ultimate_priority": "A1 then U Lv10",
+    "gl_score": 6.68,
+    "jp_score": 9.5
+  },
+  {
+    "name": "Falco",
+    "job": "Thief",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "B",
+    "tier_jp": "B",
+    "location": "Flamesgrace",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Dagger",
+      "Ice"
+    ],
+    "attributes": [
+      "Dagger",
+      "Ice"
+    ],
+    "stats_120": {
+      "hp": 3722,
+      "sp": 442,
+      "p_atk": 413,
+      "p_def": 320,
+      "e_atk": 296,
+      "e_def": 328,
+      "crit": 388,
+      "speed": 475
+    },
+    "japanese_name": "ファルコ",
+    "ultimate_priority": "A1 then U Lv10",
+    "gl_score": 6.89,
+    "jp_score": 9.6
+  },
+  {
+    "name": "Yan Long",
+    "job": "Cleric",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "B",
+    "tier_jp": "C",
+    "location": "I'cirlo",
+    "obtained_from": "Tourney",
+    "owned": false,
+    "weaknesses": [
+      "Ice",
+      "Staff"
+    ],
+    "attributes": [
+      "StaffStaves",
+      "Ice"
+    ],
+    "stats_120": {
+      "hp": 3772,
+      "sp": 428,
+      "p_atk": 431,
+      "p_def": 317,
+      "e_atk": 330,
+      "e_def": 389,
+      "crit": 312,
+      "speed": 376
+    },
+    "japanese_name": "イェンロン",
+    "ultimate_priority": "A4 before U Lv10",
+    "gl_score": 6.31,
+    "jp_score": 9.3
+  },
+  {
+    "name": "W’ludai",
+    "job": "Merchant",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "C",
+    "tier_jp": "E",
+    "location": "I'cirlo",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Dark",
+      "Polearm"
+    ],
+    "attributes": [
+      "SpearPolearm",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 4340,
+      "sp": 372,
+      "p_atk": 479,
+      "p_def": 368,
+      "e_atk": 330,
+      "e_def": 310,
+      "crit": 261,
+      "speed": 338
+    },
+    "japanese_name": "ウルダイ",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 5.71,
+    "jp_score": 9.1
+  },
+  {
+    "name": "A2",
+    "job": "Thief",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "A",
+    "tier_jp": "B",
+    "location": "Memoir",
+    "obtained_from": "NieR:Autoamata Crossover Guidance (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Dagger",
+      "Sword"
+    ],
+    "attributes": [
+      "Dagger",
+      "Sword",
+      "Axe"
+    ],
+    "stats_120": {
+      "hp": 3832,
+      "sp": 412,
+      "p_atk": 519,
+      "p_def": 325,
+      "e_atk": 130,
+      "e_def": 298,
+      "crit": 418,
+      "speed": 515
+    },
+    "japanese_name": "A2",
+    "ultimate_priority": "A4 before U Lv10",
+    "gl_score": 8,
+    "jp_score": 9.6
+  },
+  {
+    "name": "2B",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "C",
+    "tier_jp": "C",
+    "location": "Memoir",
+    "obtained_from": "NieR:Automata Crossover Guidance (Limited)",
+    "owned": true,
+    "weaknesses": [
+      "Axe",
+      "Dark",
+      "Fire",
+      "Sword"
+    ],
+    "attributes": [
+      "Sword",
+      "Axe",
+      "Fire",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 4062,
+      "sp": 371,
+      "p_atk": 499,
+      "p_def": 388,
+      "e_atk": 307,
+      "e_def": 296,
+      "crit": 338,
+      "speed": 355
+    },
+    "japanese_name": "2B",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 5.56,
+    "jp_score": 9.4
+  },
+  {
+    "name": "9S",
+    "job": "Merchant",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "E",
+    "tier_jp": "C",
+    "location": "Memoir",
+    "obtained_from": "NieR:Automata Crossover Guidance (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Fire",
+      "Lightning",
+      "Polearm"
+    ],
+    "attributes": [
+      "SpearPolearm",
+      "Fire",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 4140,
+      "sp": 442,
+      "p_atk": 300,
+      "p_def": 403,
+      "e_atk": 439,
+      "e_def": 340,
+      "crit": 251,
+      "speed": 355
+    },
+    "japanese_name": "9S",
+    "ultimate_priority": "U Lv10 before A1",
+    "gl_score": 3.91,
+    "jp_score": 9.3
+  },
+  {
+    "name": "Tithi",
+    "job": "Dancer",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "B",
+    "tier_jp": "B",
+    "location": "Sufrataljah",
+    "obtained_from": "Sacred Blaze Guidance (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Fan",
+      "Lightning"
+    ],
+    "attributes": [
+      "Fan",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 3596,
+      "sp": 564,
+      "p_atk": 280,
+      "p_def": 277,
+      "e_atk": 482,
+      "e_def": 387,
+      "crit": 274,
+      "speed": 477
+    },
+    "japanese_name": "ティティ",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 6.63,
+    "jp_score": 9.6
+  },
+  {
+    "name": "Hayes",
+    "job": "Apothecary",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "C",
+    "tier_jp": "C",
+    "location": "Cragspear",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Fire"
+    ],
+    "attributes": [
+      "Axe",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 3990,
+      "sp": 418,
+      "p_atk": 470,
+      "p_def": 390,
+      "e_atk": 387,
+      "e_def": 280,
+      "crit": 317,
+      "speed": 318
+    },
+    "japanese_name": "ヘイズ",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 5.18,
+    "jp_score": 9.3
+  },
+  {
+    "name": "Joshua",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "E",
+    "tier_jp": "D",
+    "location": "Cathedral of Thytos",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Ice",
+      "Sword"
+    ],
+    "attributes": [
+      "Sword",
+      "Ice"
+    ],
+    "stats_120": {
+      "hp": 4037,
+      "sp": 361,
+      "p_atk": 439,
+      "p_def": 363,
+      "e_atk": 307,
+      "e_def": 291,
+      "crit": 403,
+      "speed": 395
+    },
+    "japanese_name": "ジョシュア",
+    "ultimate_priority": "Ultimate not worth",
+    "gl_score": 3.86,
+    "jp_score": 9.2
+  },
+  {
+    "name": "Largo",
+    "job": "Merchant",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "E",
+    "tier_jp": "C",
+    "location": "Atlasdam",
+    "obtained_from": "Tourney",
+    "owned": false,
+    "weaknesses": [
+      "Bow",
+      "Fire",
+      "Lightning",
+      "Polearm"
+    ],
+    "attributes": [
+      "SpearPolearm",
+      "Bow",
+      "Fire",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 4160,
+      "sp": 427,
+      "p_atk": 376,
+      "p_def": 376,
+      "e_atk": 417,
+      "e_def": 316,
+      "crit": 247,
+      "speed": 275
+    },
+    "japanese_name": "ラルゴ",
+    "ultimate_priority": "A4 before U Lv10",
+    "gl_score": 3.25,
+    "jp_score": 9.3
+  },
+  {
+    "name": "Chloe",
+    "job": "Hunter",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "C",
+    "tier_jp": "C",
+    "location": "Grandport",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Bow",
+      "Wind"
+    ],
+    "attributes": [
+      "Bow",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 3802,
+      "sp": 491,
+      "p_atk": 427,
+      "p_def": 243,
+      "e_atk": 385,
+      "e_def": 308,
+      "crit": 360,
+      "speed": 440
+    },
+    "japanese_name": "クロエ",
+    "ultimate_priority": "U Lv10 before A1",
+    "gl_score": 5.73,
+    "jp_score": 9.4
+  },
+  {
+    "name": "Nona",
+    "job": "Merchant",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "D",
+    "tier_jp": "B",
+    "location": "Berecain",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Fire",
+      "Polearm"
+    ],
+    "attributes": [
+      "SpearPolearm",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 4365,
+      "sp": 412,
+      "p_atk": 447,
+      "p_def": 367,
+      "e_atk": 375,
+      "e_def": 341,
+      "crit": 276,
+      "speed": 260
+    },
+    "japanese_name": "ノーニャ",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 4.95,
+    "jp_score": 9.6
+  },
+  {
+    "name": "Eleonora",
+    "job": "Dancer",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "C",
+    "tier_jp": "C",
+    "location": "Atlasdam",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Fan",
+      "Ice"
+    ],
+    "attributes": [
+      "Fan",
+      "Ice"
+    ],
+    "stats_120": {
+      "hp": 3606,
+      "sp": 574,
+      "p_atk": 303,
+      "p_def": 264,
+      "e_atk": 498,
+      "e_def": 427,
+      "crit": 282,
+      "speed": 417
+    },
+    "japanese_name": "エレオノーラ",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 5.52,
+    "jp_score": 9.3
+  },
+  {
+    "name": "Richard",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "S",
+    "tier_jp": "A",
+    "location": "Memoir",
+    "obtained_from": "Traveler of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Lightning",
+      "Sword"
+    ],
+    "attributes": [
+      "Sword",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 4067,
+      "sp": 376,
+      "p_atk": 474,
+      "p_def": 418,
+      "e_atk": 297,
+      "e_def": 301,
+      "crit": 323,
+      "speed": 365
+    },
+    "japanese_name": "リシャール",
+    "ultimate_priority": "U Lv10 before A1",
+    "gl_score": 8.32,
+    "jp_score": 9.7
+  },
+  {
+    "name": "Alaune",
+    "job": "Scholar",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "C",
+    "tier_jp": "B",
+    "location": "Memoir",
+    "obtained_from": "Traveler of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Fire",
+      "Light",
+      "Tome"
+    ],
+    "attributes": [
+      "Tome",
+      "Fire",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 3566,
+      "sp": 667,
+      "p_atk": 251,
+      "p_def": 366,
+      "e_atk": 469,
+      "e_def": 410,
+      "crit": 261,
+      "speed": 343
+    },
+    "japanese_name": "アラウネ",
+    "ultimate_priority": "Ultimate not worth",
+    "gl_score": 5.32,
+    "jp_score": 9.6
+  },
+  {
+    "name": "Herminia",
+    "job": "Hunter",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "A",
+    "tier_jp": "B",
+    "location": "Memoir",
+    "obtained_from": "Champion of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Bow",
+      "Fan",
+      "Light"
+    ],
+    "attributes": [
+      "Bow",
+      "Fan",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 3882,
+      "sp": 476,
+      "p_atk": 492,
+      "p_def": 273,
+      "e_atk": 300,
+      "e_def": 278,
+      "crit": 465,
+      "speed": 400
+    },
+    "japanese_name": "ヘルミニア",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 7.44,
+    "jp_score": 9.5
+  },
+  {
+    "name": "Tytos",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "C",
+    "tier_jp": "B",
+    "location": "Memoir",
+    "obtained_from": "Champion of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Lightning",
+      "Sword"
+    ],
+    "attributes": [
+      "Sword",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 4072,
+      "sp": 376,
+      "p_atk": 514,
+      "p_def": 423,
+      "e_atk": 307,
+      "e_def": 281,
+      "crit": 388,
+      "speed": 315
+    },
+    "japanese_name": "タイタス",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 5.78,
+    "jp_score": 9.6
+  },
+  {
+    "name": "Auguste",
+    "job": "Thief",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "B",
+    "tier_jp": "B",
+    "location": "Memoir",
+    "obtained_from": "Champion of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Dagger",
+      "Dark",
+      "Tome"
+    ],
+    "attributes": [
+      "Dagger",
+      "Tome",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 3942,
+      "sp": 417,
+      "p_atk": 473,
+      "p_def": 323,
+      "e_atk": 336,
+      "e_def": 320,
+      "crit": 308,
+      "speed": 465
+    },
+    "japanese_name": "アーギュスト",
+    "ultimate_priority": "A4 before U Lv10",
+    "gl_score": 6.36,
+    "jp_score": 9.5
+  },
+  {
+    "name": "Fiore EX",
+    "job": "Dancer",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "A",
+    "tier_jp": "S",
+    "location": "Rippletide",
+    "obtained_from": "The Marine Travelers (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Fan"
+    ],
+    "attributes": [
+      "Fan"
+    ],
+    "stats_120": {
+      "hp": 4042,
+      "sp": 356,
+      "p_atk": 454,
+      "p_def": 393,
+      "e_atk": 302,
+      "e_def": 291,
+      "crit": 368,
+      "speed": 375
+    },
+    "japanese_name": "フィオルEx",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 7.82,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Sofia EX",
+    "job": "Apothecary",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "B",
+    "tier_jp": "B",
+    "location": "Emberglow",
+    "obtained_from": "The Marine Travelers (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Wind"
+    ],
+    "attributes": [
+      "Axe",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 3716,
+      "sp": 632,
+      "p_atk": 281,
+      "p_def": 341,
+      "e_atk": 454,
+      "e_def": 385,
+      "crit": 296,
+      "speed": 333
+    },
+    "japanese_name": "ソフィアEx",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 6.82,
+    "jp_score": 9.6
+  },
+  {
+    "name": "Krauser",
+    "job": "Merchant",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "A",
+    "tier_jp": "B",
+    "location": "Memoir",
+    "obtained_from": "Traveler of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Polearm",
+      "Wind"
+    ],
+    "attributes": [
+      "SpearPolearm",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 4230,
+      "sp": 402,
+      "p_atk": 509,
+      "p_def": 423,
+      "e_atk": 290,
+      "e_def": 350,
+      "crit": 305,
+      "speed": 250
+    },
+    "japanese_name": "クラウザー",
+    "ultimate_priority": "A4 before U Lv10",
+    "gl_score": 7.36,
+    "jp_score": 9.5
+  },
+  {
+    "name": "Rondo",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "A",
+    "tier_jp": "B",
+    "location": "Memoir",
+    "obtained_from": "Traveler of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Light",
+      "Sword"
+    ],
+    "attributes": [
+      "Sword",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 4032,
+      "sp": 426,
+      "p_atk": 489,
+      "p_def": 408,
+      "e_atk": 332,
+      "e_def": 301,
+      "crit": 333,
+      "speed": 300
+    },
+    "japanese_name": "ロンド",
+    "ultimate_priority": "A1 then U Lv10",
+    "gl_score": 7.4,
+    "jp_score": 9.6
+  },
+  {
+    "name": "Cecily",
+    "job": "Merchant",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "S",
+    "tier_jp": "A",
+    "location": "Grandport",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Light",
+      "Polearm",
+      "Tome"
+    ],
+    "attributes": [
+      "SpearPolearm",
+      "Axe",
+      "Tome",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 4190,
+      "sp": 477,
+      "p_atk": 449,
+      "p_def": 363,
+      "e_atk": 320,
+      "e_def": 320,
+      "crit": 251,
+      "speed": 365
+    },
+    "japanese_name": "セシリー",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 8.65,
+    "jp_score": 9.7
+  },
+  {
+    "name": "Promme",
+    "job": "Cleric",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "E",
+    "tier_jp": "B",
+    "location": "Victors Hollow",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Fire",
+      "Staff"
+    ],
+    "attributes": [
+      "StaffStaves",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 3637,
+      "sp": 470,
+      "p_atk": 326,
+      "p_def": 327,
+      "e_atk": 450,
+      "e_def": 444,
+      "crit": 318,
+      "speed": 316
+    },
+    "japanese_name": "プロメ",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 3.13,
+    "jp_score": 9.5
+  },
+  {
+    "name": "Frederica",
+    "job": "Scholar",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "A",
+    "tier_jp": "B",
+    "location": "Memoir",
+    "obtained_from": "TRIANGLE STRATEGY Crossover Guidance (Limited)",
+    "owned": true,
+    "weaknesses": [
+      "Fire",
+      "Tome"
+    ],
+    "attributes": [
+      "Tome",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 3636,
+      "sp": 652,
+      "p_atk": 271,
+      "p_def": 331,
+      "e_atk": 479,
+      "e_def": 405,
+      "crit": 261,
+      "speed": 343
+    },
+    "japanese_name": "フレデリカ",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 7.29,
+    "jp_score": 9.6
+  },
+  {
+    "name": "Roland",
+    "job": "Merchant",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "A",
+    "tier_jp": "C",
+    "location": "Memoir",
+    "obtained_from": "TRIANGLE STRATEGY Crossover Guidance (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Lightning",
+      "Polearm"
+    ],
+    "attributes": [
+      "SpearPolearm",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 3920,
+      "sp": 412,
+      "p_atk": 459,
+      "p_def": 378,
+      "e_atk": 325,
+      "e_def": 310,
+      "crit": 351,
+      "speed": 400
+    },
+    "japanese_name": "ロラン",
+    "ultimate_priority": "A1 then U Lv10",
+    "gl_score": 8.22,
+    "jp_score": 9.4
+  },
+  {
+    "name": "Serenoa",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "C",
+    "tier_jp": "C",
+    "location": "Memoir",
+    "obtained_from": "Free (TRIANGLE STRATEGY Crossover)",
+    "owned": false,
+    "weaknesses": [
+      "Fire",
+      "Sword"
+    ],
+    "attributes": [
+      "Sword",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 4042,
+      "sp": 371,
+      "p_atk": 444,
+      "p_def": 403,
+      "e_atk": 292,
+      "e_def": 266,
+      "crit": 398,
+      "speed": 350
+    },
+    "japanese_name": "セレノア",
+    "ultimate_priority": "A4 before U Lv10",
+    "gl_score": 5.38,
+    "jp_score": 9.4
+  },
+  {
+    "name": "Zenia",
+    "job": "Apothecary",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "A",
+    "tier_jp": "A",
+    "location": "Grandport",
+    "obtained_from": "Sacred Blaze Guidance (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Dark"
+    ],
+    "attributes": [
+      "Axe",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 3910,
+      "sp": 568,
+      "p_atk": 345,
+      "p_def": 392,
+      "e_atk": 531,
+      "e_def": 267,
+      "crit": 263,
+      "speed": 286
+    },
+    "japanese_name": "ゼニア",
+    "ultimate_priority": "A4 before U Lv10",
+    "gl_score": 7.06,
+    "jp_score": 9.7
+  },
+  {
+    "name": "Rinyuu",
+    "job": "Cleric",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "S",
+    "tier_jp": "S",
+    "location": "Memoir",
+    "obtained_from": "Traveler of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Bow",
+      "Lightning",
+      "Staff"
+    ],
+    "attributes": [
+      "StaffStaves",
+      "Bow",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 3442,
+      "sp": 565,
+      "p_atk": 291,
+      "p_def": 372,
+      "e_atk": 435,
+      "e_def": 489,
+      "crit": 288,
+      "speed": 336
+    },
+    "japanese_name": "リンユウ",
+    "ultimate_priority": "Ultimate not worth",
+    "gl_score": 8.81,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Yukes",
+    "job": "Cleric",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "E",
+    "tier_jp": "D",
+    "location": "Sunshade",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Fire",
+      "Staff"
+    ],
+    "attributes": [
+      "StaffStaves",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 3512,
+      "sp": 495,
+      "p_atk": 291,
+      "p_def": 323,
+      "e_atk": 450,
+      "e_def": 464,
+      "crit": 273,
+      "speed": 421
+    },
+    "japanese_name": "ユークス",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 3,
+    "jp_score": 9.2
+  },
+  {
+    "name": "Sarisa",
+    "job": "Thief",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "B",
+    "tier_jp": "B",
+    "location": "Sheperd's Rock",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Dagger",
+      "Fire"
+    ],
+    "attributes": [
+      "Dagger",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 3702,
+      "sp": 412,
+      "p_atk": 433,
+      "p_def": 255,
+      "e_atk": 386,
+      "e_def": 263,
+      "crit": 383,
+      "speed": 510
+    },
+    "japanese_name": "サリサ",
+    "ultimate_priority": "Ultimate not worth",
+    "gl_score": 6.72,
+    "jp_score": 9.6
+  },
+  {
+    "name": "Aedelgard",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "C",
+    "tier_jp": "B",
+    "location": "Cragspear",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Fire",
+      "Sword"
+    ],
+    "attributes": [
+      "Sword",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 4052,
+      "sp": 451,
+      "p_atk": 474,
+      "p_def": 411,
+      "e_atk": 302,
+      "e_def": 284,
+      "crit": 363,
+      "speed": 295
+    },
+    "japanese_name": "エデルガルト",
+    "ultimate_priority": "U Lv10 before A1",
+    "gl_score": 5.33,
+    "jp_score": 9.5
+  },
+  {
+    "name": "Tressa EX",
+    "job": "Hunter",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "C",
+    "tier_jp": "D",
+    "location": "Rippletide",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Bow",
+      "Fire"
+    ],
+    "attributes": [
+      "Bow",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 3900,
+      "sp": 437,
+      "p_atk": 449,
+      "p_def": 383,
+      "e_atk": 410,
+      "e_def": 305,
+      "crit": 306,
+      "speed": 290
+    },
+    "japanese_name": "トレサEx",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 5.19,
+    "jp_score": 9.2
+  },
+  {
+    "name": "Primrose EX",
+    "job": "Apothecary",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "S+",
+    "tier_jp": "S",
+    "location": "Sunshade",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Lightning"
+    ],
+    "attributes": [
+      "Axe",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 3526,
+      "sp": 574,
+      "p_atk": 290,
+      "p_def": 280,
+      "e_atk": 507,
+      "e_def": 382,
+      "crit": 297,
+      "speed": 442
+    },
+    "japanese_name": "プリムロゼEx",
+    "ultimate_priority": "U Lv10 Game Changer",
+    "gl_score": 9.27,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Millard EX",
+    "job": "Merchant",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "C",
+    "tier_jp": "C",
+    "location": "Valore",
+    "obtained_from": "Hallowed Travelers (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Ice",
+      "Polearm"
+    ],
+    "attributes": [
+      "SpearPolearm",
+      "Ice"
+    ],
+    "stats_120": {
+      "hp": 3672,
+      "sp": 500,
+      "p_atk": 316,
+      "p_def": 342,
+      "e_atk": 415,
+      "e_def": 469,
+      "crit": 313,
+      "speed": 331
+    },
+    "japanese_name": "ミロードEx",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 5.9,
+    "jp_score": 9.4
+  },
+  {
+    "name": "Lumis EX",
+    "job": "Hunter",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "B",
+    "tier_jp": "B",
+    "location": "Donescu",
+    "obtained_from": "Hallowed Travelers (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Bow",
+      "Lightning"
+    ],
+    "attributes": [
+      "Bow",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 3985,
+      "sp": 459,
+      "p_atk": 430,
+      "p_def": 406,
+      "e_atk": 353,
+      "e_def": 244,
+      "crit": 309,
+      "speed": 383
+    },
+    "japanese_name": "リュミスEx",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 6.22,
+    "jp_score": 9.5
+  },
+  {
+    "name": "Eltrix",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "B",
+    "tier_jp": "B",
+    "location": "Memoir",
+    "obtained_from": "Traveler of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Dark",
+      "Sword"
+    ],
+    "attributes": [
+      "Sword",
+      "Axe",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 4392,
+      "sp": 371,
+      "p_atk": 469,
+      "p_def": 393,
+      "e_atk": 287,
+      "e_def": 296,
+      "crit": 343,
+      "speed": 305
+    },
+    "japanese_name": "エルトリクス",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 6.73,
+    "jp_score": 9.6
+  },
+  {
+    "name": "Leon",
+    "job": "Merchant",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "A",
+    "tier_jp": "B",
+    "location": "Grandport",
+    "obtained_from": "Sacred Blaze Guidance (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Polearm",
+      "Staff"
+    ],
+    "attributes": [
+      "SpearPolearm",
+      "StaffStaves"
+    ],
+    "stats_120": {
+      "hp": 4180,
+      "sp": 462,
+      "p_atk": 509,
+      "p_def": 398,
+      "e_atk": 290,
+      "e_def": 335,
+      "crit": 281,
+      "speed": 270
+    },
+    "japanese_name": "レオン",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 7.25,
+    "jp_score": 9.6
+  },
+  {
+    "name": "Tatloch",
+    "job": "Dancer",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "A",
+    "tier_jp": "A",
+    "location": "Memoir",
+    "obtained_from": "Champion of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Fan",
+      "Polearm",
+      "Staff",
+      "Sword",
+      "Wind"
+    ],
+    "attributes": [
+      "Fan",
+      "Sword",
+      "SpearPolearm",
+      "Axe",
+      "StaffStaves",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 4056,
+      "sp": 494,
+      "p_atk": 465,
+      "p_def": 275,
+      "e_atk": 467,
+      "e_def": 307,
+      "crit": 297,
+      "speed": 357
+    },
+    "japanese_name": "タトゥロック",
+    "ultimate_priority": "A4 before U Lv10",
+    "gl_score": 7.2,
+    "jp_score": 9.7
+  },
+  {
+    "name": "Bargello",
+    "job": "Thief",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "S+",
+    "tier_jp": "S",
+    "location": "Memoir",
+    "obtained_from": "Traveler of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Dagger",
+      "Wind"
+    ],
+    "attributes": [
+      "Dagger",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 3752,
+      "sp": 412,
+      "p_atk": 488,
+      "p_def": 295,
+      "e_atk": 291,
+      "e_def": 308,
+      "crit": 418,
+      "speed": 445
+    },
+    "japanese_name": "バルジェロ",
+    "ultimate_priority": "A4 before U Lv10",
+    "gl_score": 9.04,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Sonia",
+    "job": "Thief",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "A",
+    "tier_jp": "S",
+    "location": "Memoir",
+    "obtained_from": "Traveler of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Dagger",
+      "Wind"
+    ],
+    "attributes": [
+      "Dagger",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 3722,
+      "sp": 417,
+      "p_atk": 438,
+      "p_def": 275,
+      "e_atk": 401,
+      "e_def": 288,
+      "crit": 343,
+      "speed": 495
+    },
+    "japanese_name": "ソニア",
+    "ultimate_priority": "U Lv10 before A1",
+    "gl_score": 8.29,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Hammy",
+    "job": "Scholar",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "A",
+    "tier_jp": "A",
+    "location": "I'cirlo",
+    "obtained_from": "Tourney",
+    "owned": true,
+    "weaknesses": [
+      "Ice",
+      "Tome"
+    ],
+    "attributes": [
+      "Tome",
+      "Ice"
+    ],
+    "stats_120": {
+      "hp": 3416,
+      "sp": 440,
+      "p_atk": 451,
+      "p_def": 306,
+      "e_atk": 344,
+      "e_def": 345,
+      "crit": 326,
+      "speed": 453
+    },
+    "japanese_name": "ハミィ",
+    "ultimate_priority": "A4 before U Lv10",
+    "gl_score": 7.17,
+    "jp_score": 9.7
+  },
+  {
+    "name": "H’aanit EX",
+    "job": "Dancer",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "S",
+    "tier_jp": "S",
+    "location": "Valore",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Fan",
+      "Fire"
+    ],
+    "attributes": [
+      "Fan",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 3916,
+      "sp": 439,
+      "p_atk": 438,
+      "p_def": 281,
+      "e_atk": 392,
+      "e_def": 305,
+      "crit": 377,
+      "speed": 415
+    },
+    "japanese_name": "ハンイットEx",
+    "ultimate_priority": "A1 then U Lv10",
+    "gl_score": 8.35,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Nephti",
+    "job": "Apothecary",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "S",
+    "tier_jp": "A",
+    "location": "Memoir",
+    "obtained_from": "Traveler of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Staff",
+      "Tome"
+    ],
+    "attributes": [
+      "Axe",
+      "StaffStaves",
+      "Tome"
+    ],
+    "stats_120": {
+      "hp": 4020,
+      "sp": 418,
+      "p_atk": 405,
+      "p_def": 450,
+      "e_atk": 316,
+      "e_def": 410,
+      "crit": 253,
+      "speed": 336
+    },
+    "japanese_name": "ネフティ",
+    "ultimate_priority": "A4 before U Lv10",
+    "gl_score": 8.72,
+    "jp_score": 9.7
+  },
+  {
+    "name": "Solon",
+    "job": "Scholar",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "S",
+    "tier_jp": "A",
+    "location": "Memoir",
+    "obtained_from": "Traveler of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Fire",
+      "Polearm",
+      "Tome"
+    ],
+    "attributes": [
+      "Tome",
+      "SpearPolearm",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 3736,
+      "sp": 682,
+      "p_atk": 321,
+      "p_def": 371,
+      "e_atk": 459,
+      "e_def": 360,
+      "crit": 286,
+      "speed": 283
+    },
+    "japanese_name": "ソロン",
+    "ultimate_priority": "U Lv10 Game Changer",
+    "gl_score": 8.74,
+    "jp_score": 9.7
+  },
+  {
+    "name": "Nina-Lanna",
+    "job": "Scholar",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "C",
+    "tier_jp": "B",
+    "location": "Berecain",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Dark",
+      "Tome"
+    ],
+    "attributes": [
+      "Tome",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 3466,
+      "sp": 662,
+      "p_atk": 266,
+      "p_def": 326,
+      "e_atk": 526,
+      "e_def": 355,
+      "crit": 301,
+      "speed": 333
+    },
+    "japanese_name": "ニーナラーナ",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 5.32,
+    "jp_score": 9.5
+  },
+  {
+    "name": "Levina",
+    "job": "Scholar",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "B",
+    "tier_jp": "A",
+    "location": "Memoir",
+    "obtained_from": "Traveler of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Dagger",
+      "Tome",
+      "Wind"
+    ],
+    "attributes": [
+      "Tome",
+      "Dagger",
+      "Wind",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 3536,
+      "sp": 612,
+      "p_atk": 331,
+      "p_def": 306,
+      "e_atk": 539,
+      "e_def": 335,
+      "crit": 281,
+      "speed": 353
+    },
+    "japanese_name": "レヴィーナ",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 6.47,
+    "jp_score": 9.7
+  },
+  {
+    "name": "Canary",
+    "job": "Thief",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "S+",
+    "tier_jp": "A",
+    "location": "Grandport",
+    "obtained_from": "Sacred Blaze Guidance (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Dagger",
+      "Fire"
+    ],
+    "attributes": [
+      "Dagger",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 3692,
+      "sp": 422,
+      "p_atk": 393,
+      "p_def": 285,
+      "e_atk": 326,
+      "e_def": 298,
+      "crit": 388,
+      "speed": 535
+    },
+    "japanese_name": "カナリィ",
+    "ultimate_priority": "U Lv10 Game Changer",
+    "gl_score": 9.45,
+    "jp_score": 9.7
+  },
+  {
+    "name": "Lemaire",
+    "job": "Dancer",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "D",
+    "tier_jp": "B",
+    "location": "Theatropolis",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Dark",
+      "Fan",
+      "Fire",
+      "Ice",
+      "Light",
+      "Lightning",
+      "Wind"
+    ],
+    "attributes": [
+      "Fan",
+      "Fire",
+      "Ice",
+      "LightningThunder",
+      "Wind",
+      "Light",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 3591,
+      "sp": 559,
+      "p_atk": 280,
+      "p_def": 285,
+      "e_atk": 499,
+      "e_def": 387,
+      "crit": 268,
+      "speed": 452
+    },
+    "japanese_name": "ルメール",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 4.67,
+    "jp_score": 9.6
+  },
+  {
+    "name": "Alaune EX",
+    "job": "Dancer",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "S",
+    "tier_jp": "S+",
+    "location": "Memoir",
+    "obtained_from": "Traveler of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Fan",
+      "Ice"
+    ],
+    "attributes": [
+      "Fan",
+      "Ice"
+    ],
+    "stats_120": {
+      "hp": 3566,
+      "sp": 667,
+      "p_atk": 251,
+      "p_def": 366,
+      "e_atk": 469,
+      "e_def": 410,
+      "crit": 261,
+      "speed": 343
+    },
+    "japanese_name": "アラウネEx",
+    "ultimate_priority": "U Lv10 before A1",
+    "gl_score": 8.63,
+    "jp_score": 9.9
+  },
+  {
+    "name": "Elrica",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "A",
+    "tier_jp": "S",
+    "location": "Memoir",
+    "obtained_from": "Traveler of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Dark",
+      "Light",
+      "Sword"
+    ],
+    "attributes": [
+      "Sword",
+      "Fire",
+      "LightningThunder",
+      "Light",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 4052,
+      "sp": 416,
+      "p_atk": 494,
+      "p_def": 403,
+      "e_atk": 277,
+      "e_def": 301,
+      "crit": 383,
+      "speed": 305
+    },
+    "japanese_name": "エリカ",
+    "ultimate_priority": "A4 before U Lv10",
+    "gl_score": 8.24,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Ogen",
+    "job": "Apothecary",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "A",
+    "tier_jp": "A",
+    "location": "Atlasdam",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Ice"
+    ],
+    "attributes": [
+      "Axe",
+      "Ice"
+    ],
+    "stats_120": {
+      "hp": 4030,
+      "sp": 468,
+      "p_atk": 395,
+      "p_def": 382,
+      "e_atk": 516,
+      "e_def": 288,
+      "crit": 253,
+      "speed": 291
+    },
+    "japanese_name": "オーゲン",
+    "ultimate_priority": "U Lv10 before A1",
+    "gl_score": 7.7,
+    "jp_score": 9.7
+  },
+  {
+    "name": "Ditraina",
+    "job": "Scholar",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "A",
+    "tier_jp": "A",
+    "location": "Valore",
+    "obtained_from": "Sacred Blaze Guidance (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Dark",
+      "Light",
+      "Tome"
+    ],
+    "attributes": [
+      "Tome",
+      "Light",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 3386,
+      "sp": 640,
+      "p_atk": 271,
+      "p_def": 296,
+      "e_atk": 539,
+      "e_def": 355,
+      "crit": 391,
+      "speed": 323
+    },
+    "japanese_name": "ディトレイナ",
+    "ultimate_priority": "A4 before U Lv10",
+    "gl_score": 7.65,
+    "jp_score": 9.7
+  },
+  {
+    "name": "Sertet",
+    "job": "Hunter",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "D",
+    "tier_jp": "B",
+    "location": "Sufrataljah",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Bow",
+      "Wind"
+    ],
+    "attributes": [
+      "Bow",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 3902,
+      "sp": 536,
+      "p_atk": 487,
+      "p_def": 263,
+      "e_atk": 252,
+      "e_def": 263,
+      "crit": 420,
+      "speed": 395
+    },
+    "japanese_name": "セルテト",
+    "ultimate_priority": "A1 then U Lv10",
+    "gl_score": 4.5,
+    "jp_score": 9.5
+  },
+  {
+    "name": "Streibough",
+    "job": "Scholar",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "D",
+    "tier_jp": "A",
+    "location": "Memoir",
+    "obtained_from": "LIVE A LIVE Crossover Guidance - Union of Life (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Dark",
+      "Fire",
+      "Ice",
+      "Lightning",
+      "Tome",
+      "Wind"
+    ],
+    "attributes": [
+      "Tome",
+      "Fire",
+      "Ice",
+      "LightningThunder",
+      "Wind",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 3656,
+      "sp": 657,
+      "p_atk": 266,
+      "p_def": 326,
+      "e_atk": 484,
+      "e_def": 385,
+      "crit": 271,
+      "speed": 363
+    },
+    "japanese_name": "ストレイボウ",
+    "ultimate_priority": "A4 before U Lv10",
+    "gl_score": 4.82,
+    "jp_score": 9.7
+  },
+  {
+    "name": "Oersted",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "D",
+    "tier_jp": "B",
+    "location": "Memoir",
+    "obtained_from": "LIVE A LIVE Crossover Guidance - Union of Life (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Dark",
+      "Fire",
+      "Polearm",
+      "Staff",
+      "Sword",
+      "Wind"
+    ],
+    "attributes": [
+      "Sword",
+      "SpearPolearm",
+      "StaffStaves",
+      "Fire",
+      "Wind",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 4052,
+      "sp": 386,
+      "p_atk": 474,
+      "p_def": 403,
+      "e_atk": 297,
+      "e_def": 301,
+      "crit": 383,
+      "speed": 320
+    },
+    "japanese_name": "オルステッド",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 4.77,
+    "jp_score": 9.5
+  },
+  {
+    "name": "S. Odio",
+    "job": "Cleric",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "B",
+    "tier_jp": "B",
+    "location": "Memoir",
+    "obtained_from": "LIVE A LIVE Crossover Guidance - Lord of Dark (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Dark",
+      "Fire",
+      "Staff"
+    ],
+    "attributes": [
+      "StaffStaves",
+      "Fire",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 3462,
+      "sp": 605,
+      "p_atk": 276,
+      "p_def": 332,
+      "e_atk": 525,
+      "e_def": 404,
+      "crit": 253,
+      "speed": 391
+    },
+    "japanese_name": "オディオ・S",
+    "ultimate_priority": "A1 then U Lv10",
+    "gl_score": 6,
+    "jp_score": 9.6
+  },
+  {
+    "name": "O. Odio",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "S",
+    "tier_jp": "A",
+    "location": "Memoir",
+    "obtained_from": "LIVE A LIVE Crossover Guidance - Lord of Dark (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Dark",
+      "Sword"
+    ],
+    "attributes": [
+      "Sword",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 3912,
+      "sp": 401,
+      "p_atk": 534,
+      "p_def": 388,
+      "e_atk": 277,
+      "e_def": 286,
+      "crit": 403,
+      "speed": 325
+    },
+    "japanese_name": "オディオ・O",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 8.36,
+    "jp_score": 9.7
+  },
+  {
+    "name": "Sazantos",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "S",
+    "tier_jp": "S",
+    "location": "Memoir",
+    "obtained_from": "Traveler of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Fire",
+      "Light",
+      "Sword"
+    ],
+    "attributes": [
+      "Sword",
+      "Fire",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 3932,
+      "sp": 541,
+      "p_atk": 489,
+      "p_def": 393,
+      "e_atk": 337,
+      "e_def": 266,
+      "crit": 318,
+      "speed": 325
+    },
+    "japanese_name": "サザントス",
+    "ultimate_priority": "Leave it at U Lv9",
+    "gl_score": 8.78,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Signa",
+    "job": "Dancer",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "S+",
+    "tier_jp": "S+",
+    "location": "Memoir",
+    "obtained_from": "Traveler of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Fan",
+      "Fire",
+      "Light"
+    ],
+    "attributes": [
+      "Fan",
+      "Fire",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 3496,
+      "sp": 574,
+      "p_atk": 295,
+      "p_def": 305,
+      "e_atk": 467,
+      "e_def": 392,
+      "crit": 297,
+      "speed": 462
+    },
+    "japanese_name": "シグナ",
+    "ultimate_priority": "U Lv10 Game Changer",
+    "gl_score": 9.61,
+    "jp_score": 9.9
+  },
+  {
+    "name": "Nivelle",
+    "job": "Scholar",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "A",
+    "tier_jp": "A",
+    "location": "Sheperd's Rock",
+    "obtained_from": "Sacred Blaze Guidance (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Fire",
+      "Lightning",
+      "Tome"
+    ],
+    "attributes": [
+      "Tome",
+      "LightningThunder",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 3421,
+      "sp": 667,
+      "p_atk": 251,
+      "p_def": 286,
+      "e_atk": 549,
+      "e_def": 343,
+      "crit": 331,
+      "speed": 398
+    },
+    "japanese_name": "ニヴェル",
+    "ultimate_priority": "",
+    "gl_score": 8.27,
+    "jp_score": 9.7
+  },
+  {
+    "name": "Isla",
+    "job": "Scholar",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "A",
+    "tier_jp": "S",
+    "location": "Memoir",
+    "obtained_from": "Cait of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Fire",
+      "Lightning",
+      "Tome"
+    ],
+    "attributes": [
+      "Tome",
+      "Fire",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 3406,
+      "sp": 672,
+      "p_atk": 261,
+      "p_def": 331,
+      "e_atk": 479,
+      "e_def": 375,
+      "crit": 276,
+      "speed": 413
+    },
+    "japanese_name": "アイラ",
+    "ultimate_priority": "",
+    "gl_score": 8.13,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Rique",
+    "job": "Merchant",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "B",
+    "tier_jp": "B",
+    "location": "Memoir",
+    "obtained_from": "Cait of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Polearm",
+      "Wind"
+    ],
+    "attributes": [
+      "SpearPolearm",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 3990,
+      "sp": 432,
+      "p_atk": 454,
+      "p_def": 388,
+      "e_atk": 400,
+      "e_def": 355,
+      "crit": 276,
+      "speed": 300
+    },
+    "japanese_name": "リーク",
+    "ultimate_priority": "",
+    "gl_score": 6.89,
+    "jp_score": 9.6
+  },
+  {
+    "name": "Kilns",
+    "job": "Hunter",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "S+",
+    "tier_jp": "S",
+    "location": "Memoir",
+    "obtained_from": "Cait of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Bow"
+    ],
+    "attributes": [
+      "Bow",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 4192,
+      "sp": 451,
+      "p_atk": 437,
+      "p_def": 318,
+      "e_atk": 260,
+      "e_def": 313,
+      "crit": 460,
+      "speed": 415
+    },
+    "japanese_name": "キルン",
+    "ultimate_priority": "",
+    "gl_score": 9.23,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Sail",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "D",
+    "tier_jp": "B",
+    "location": "Memoir Logs",
+    "obtained_from": "Free (Solistia)",
+    "owned": false,
+    "weaknesses": [
+      "Dark",
+      "Lightning",
+      "Sword"
+    ],
+    "attributes": [
+      "Sword",
+      "LightningThunder",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "セイル",
+    "ultimate_priority": "",
+    "gl_score": 4.88,
+    "jp_score": 9.6
+  },
+  {
+    "name": "Partitio",
+    "job": "Merchant",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "A",
+    "tier_jp": "A",
+    "location": "Memoir Logs",
+    "obtained_from": "Memoirs of Solistia (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Bow",
+      "Polearm"
+    ],
+    "attributes": [
+      "SpearPolearm",
+      "Bow"
+    ],
+    "stats_120": {
+      "hp": 4300,
+      "sp": 482,
+      "p_atk": 449,
+      "p_def": 408,
+      "e_atk": 285,
+      "e_def": 340,
+      "crit": 281,
+      "speed": 290
+    },
+    "japanese_name": "パルテティオ",
+    "ultimate_priority": "",
+    "gl_score": 8,
+    "jp_score": 9.7
+  },
+  {
+    "name": "Temenos",
+    "job": "Cleric",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "B",
+    "tier_jp": "S",
+    "location": "Memoir Logs",
+    "obtained_from": "Memoirs of Solistia (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Light",
+      "Staff"
+    ],
+    "attributes": [
+      "StaffStaves",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 3452,
+      "sp": 540,
+      "p_atk": 311,
+      "p_def": 347,
+      "e_atk": 475,
+      "e_def": 464,
+      "crit": 293,
+      "speed": 346
+    },
+    "japanese_name": "テメノス",
+    "ultimate_priority": "",
+    "gl_score": 6.55,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Agnea",
+    "job": "Dancer",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "A",
+    "tier_jp": "S",
+    "location": "Memoir Logs",
+    "obtained_from": "Memoirs of Solistia (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Fan",
+      "Wind"
+    ],
+    "attributes": [
+      "Fan",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 3596,
+      "sp": 614,
+      "p_atk": 285,
+      "p_def": 285,
+      "e_atk": 467,
+      "e_def": 387,
+      "crit": 297,
+      "speed": 447
+    },
+    "japanese_name": "アグネア",
+    "ultimate_priority": "",
+    "gl_score": 8,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Ochette",
+    "job": "Hunter",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "S",
+    "tier_jp": "B",
+    "location": "Memoir Logs",
+    "obtained_from": "Memoirs of Solistia (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Bow",
+      "Light",
+      "Lightning",
+      "Polearm",
+      "Sword",
+      "Wind"
+    ],
+    "attributes": [
+      "Bow",
+      "Sword",
+      "SpearPolearm",
+      "Axe",
+      "LightningThunder",
+      "Wind",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 3682,
+      "sp": 456,
+      "p_atk": 522,
+      "p_def": 263,
+      "e_atk": 270,
+      "e_def": 258,
+      "crit": 460,
+      "speed": 460
+    },
+    "japanese_name": "オーシュット",
+    "ultimate_priority": "",
+    "gl_score": 8.56,
+    "jp_score": 9.6
+  },
+  {
+    "name": "Neha",
+    "job": "Dancer",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "B",
+    "tier_jp": "A",
+    "location": "Memoir Logs",
+    "obtained_from": "Traveler of the Dual Fates",
+    "owned": false,
+    "weaknesses": [
+      "Dark",
+      "Fan",
+      "Ice"
+    ],
+    "attributes": [
+      "Fan",
+      "Ice",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 3596,
+      "sp": 639,
+      "p_atk": 280,
+      "p_def": 275,
+      "e_atk": 482,
+      "e_def": 387,
+      "crit": 297,
+      "speed": 422
+    },
+    "japanese_name": "ネーハ",
+    "ultimate_priority": "",
+    "gl_score": 6.22,
+    "jp_score": 9.7
+  },
+  {
+    "name": "Throné",
+    "job": "Thief",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "A",
+    "tier_jp": "B",
+    "location": "Memoir Logs",
+    "obtained_from": "Memoirs of Solistia (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Dagger",
+      "Dark"
+    ],
+    "attributes": [
+      "Dagger",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 3612,
+      "sp": 407,
+      "p_atk": 453,
+      "p_def": 280,
+      "e_atk": 331,
+      "e_def": 283,
+      "crit": 368,
+      "speed": 565
+    },
+    "japanese_name": "ソローネ",
+    "ultimate_priority": "",
+    "gl_score": 7.56,
+    "jp_score": 9.6
+  },
+  {
+    "name": "Pirro",
+    "job": "Thief",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "A",
+    "tier_jp": "A",
+    "location": "Memoir Logs",
+    "obtained_from": "Memoirs of Solistia (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Dagger",
+      "Dark"
+    ],
+    "attributes": [
+      "Dagger",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 3752,
+      "sp": 442,
+      "p_atk": 509,
+      "p_def": 290,
+      "e_atk": 276,
+      "e_def": 285,
+      "crit": 383,
+      "speed": 470
+    },
+    "japanese_name": "ピルロ",
+    "ultimate_priority": "",
+    "gl_score": 7.67,
+    "jp_score": 9.7
+  },
+  {
+    "name": "Morffins",
+    "job": "Apothecary",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "B",
+    "tier_jp": "C",
+    "location": "Memoir Logs",
+    "obtained_from": "Traveler of Dual Fates",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Ice"
+    ],
+    "attributes": [
+      "Axe",
+      "Ice"
+    ],
+    "stats_120": {
+      "hp": 4040,
+      "sp": 528,
+      "p_atk": 345,
+      "p_def": 402,
+      "e_atk": 506,
+      "e_def": 288,
+      "crit": 288,
+      "speed": 281
+    },
+    "japanese_name": "モーフィンス",
+    "ultimate_priority": "",
+    "gl_score": 6.5,
+    "jp_score": 9.3
+  },
+  {
+    "name": "Grieg",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "C",
+    "tier_jp": "B",
+    "location": "Memoir Logs",
+    "obtained_from": "Traveler of Dual Fates",
+    "owned": false,
+    "weaknesses": [
+      "Fire",
+      "Sword"
+    ],
+    "attributes": [
+      "Sword",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 4222,
+      "sp": 366,
+      "p_atk": 489,
+      "p_def": 448,
+      "e_atk": 277,
+      "e_def": 351,
+      "crit": 333,
+      "speed": 260
+    },
+    "japanese_name": "グリーグ",
+    "ultimate_priority": "",
+    "gl_score": 5.67,
+    "jp_score": 9.5
+  },
+  {
+    "name": "Gloria",
+    "job": "Cleric",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "S",
+    "tier_jp": "S+",
+    "location": "Memoir",
+    "obtained_from": "BRAVELY DEFAULT Crossover Guidance 2 (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Ice",
+      "Light",
+      "Staff"
+    ],
+    "attributes": [
+      "StaffStaves",
+      "Ice",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 3522,
+      "sp": 540,
+      "p_atk": 281,
+      "p_def": 352,
+      "e_atk": 500,
+      "e_def": 449,
+      "crit": 313,
+      "speed": 321
+    },
+    "japanese_name": "グローリア",
+    "ultimate_priority": "",
+    "gl_score": 8.3,
+    "jp_score": 9.9
+  },
+  {
+    "name": "Ringabel",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "A",
+    "tier_jp": "S",
+    "location": "Memoir",
+    "obtained_from": "BRAVELY DEFAULT Crossover Guidance 2 (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Dark",
+      "Sword"
+    ],
+    "attributes": [
+      "Sword",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 4052,
+      "sp": 366,
+      "p_atk": 499,
+      "p_def": 413,
+      "e_atk": 277,
+      "e_def": 306,
+      "crit": 438,
+      "speed": 270
+    },
+    "japanese_name": "リングアベル",
+    "ultimate_priority": "",
+    "gl_score": 8.09,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Magnolia",
+    "job": "Merchant",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "S",
+    "tier_jp": "S",
+    "location": "Memoir",
+    "obtained_from": "BRAVELY DEFAULT Crossover Guidance 2 (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Lightning",
+      "Polearm"
+    ],
+    "attributes": [
+      "SpearPolearm",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 4260,
+      "sp": 412,
+      "p_atk": 519,
+      "p_def": 398,
+      "e_atk": 290,
+      "e_def": 320,
+      "crit": 316,
+      "speed": 275
+    },
+    "japanese_name": "マグノリア",
+    "ultimate_priority": "",
+    "gl_score": 8.91,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Osvald",
+    "job": "Scholar",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "S",
+    "tier_jp": "S",
+    "location": "Memoir Logs",
+    "obtained_from": "Memoirs of Solistia (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Fire",
+      "Ice",
+      "Lightning",
+      "Tome"
+    ],
+    "attributes": [
+      "Tome",
+      "Fire",
+      "Ice",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 3396,
+      "sp": 682,
+      "p_atk": 261,
+      "p_def": 316,
+      "e_atk": 554,
+      "e_def": 365,
+      "crit": 341,
+      "speed": 288
+    },
+    "japanese_name": "オズバルド",
+    "ultimate_priority": "",
+    "gl_score": 8.76,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Mirgardi",
+    "job": "Dancer",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "D",
+    "tier_jp": "C",
+    "location": "Memoir Logs",
+    "obtained_from": "Tourney (Solistia)",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Fan",
+      "Fire",
+      "Wind"
+    ],
+    "attributes": [
+      "Fan",
+      "Axe",
+      "Fire",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 3706,
+      "sp": 504,
+      "p_atk": 465,
+      "p_def": 317,
+      "e_atk": 357,
+      "e_def": 327,
+      "crit": 275,
+      "speed": 407
+    },
+    "japanese_name": "ミルガルディ",
+    "ultimate_priority": "",
+    "gl_score": 4.87,
+    "jp_score": 9.3
+  },
+  {
+    "name": "Jane",
+    "job": "Apothecary",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "A",
+    "tier_jp": "A",
+    "location": "Memoir",
+    "obtained_from": "Traveler of Dual Fates",
+    "owned": false,
+    "weaknesses": [
+      "Axe"
+    ],
+    "attributes": [
+      "Axe"
+    ],
+    "stats_120": {
+      "hp": 3895,
+      "sp": 478,
+      "p_atk": 470,
+      "p_def": 402,
+      "e_atk": 336,
+      "e_def": 308,
+      "crit": 328,
+      "speed": 321
+    },
+    "japanese_name": "ジェイン",
+    "ultimate_priority": "",
+    "gl_score": 7.11,
+    "jp_score": 9.7
+  },
+  {
+    "name": "Shana",
+    "job": "Apothecary",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "S+",
+    "tier_jp": "S+",
+    "location": "Memoir",
+    "obtained_from": "Traveler of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Lightning",
+      "Wind"
+    ],
+    "attributes": [
+      "Axe",
+      "LightningThunder",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 3750,
+      "sp": 650,
+      "p_atk": 385,
+      "p_def": 422,
+      "e_atk": 356,
+      "e_def": 318,
+      "crit": 248,
+      "speed": 361
+    },
+    "japanese_name": "シャナ",
+    "ultimate_priority": "",
+    "gl_score": 9.86,
+    "jp_score": 9.9
+  },
+  {
+    "name": "Hujheb",
+    "job": "Hunter",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "S+",
+    "tier_jp": "S",
+    "location": "Memoir Logs",
+    "obtained_from": "Sacred Blaze Guidance (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Bow"
+    ],
+    "attributes": [
+      "Bow"
+    ],
+    "stats_120": {
+      "hp": 4052,
+      "sp": 496,
+      "p_atk": 537,
+      "p_def": 273,
+      "e_atk": 250,
+      "e_def": 268,
+      "crit": 450,
+      "speed": 340
+    },
+    "japanese_name": "ヒュージブ",
+    "ultimate_priority": "",
+    "gl_score": 9.18,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Oskha",
+    "job": "Merchant",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "S",
+    "tier_jp": "S",
+    "location": "Memoir",
+    "obtained_from": "Champion of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Fire",
+      "Polearm"
+    ],
+    "attributes": [
+      "SpearPolearm",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 4390,
+      "sp": 492,
+      "p_atk": 459,
+      "p_def": 403,
+      "e_atk": 295,
+      "e_def": 335,
+      "crit": 316,
+      "speed": 260
+    },
+    "japanese_name": "オスカ",
+    "ultimate_priority": "",
+    "gl_score": 9.16,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Hikari",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "A",
+    "tier_jp": "S",
+    "location": "Memoir Logs",
+    "obtained_from": "Memoirs of Solistia (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Bow",
+      "Dagger",
+      "Fan",
+      "Polearm",
+      "Staff",
+      "Sword",
+      "Tome"
+    ],
+    "attributes": [
+      "Sword",
+      "SpearPolearm",
+      "Dagger",
+      "Axe",
+      "Bow",
+      "StaffStaves",
+      "Tome",
+      "Fan"
+    ],
+    "stats_120": {
+      "hp": 4062,
+      "sp": 376,
+      "p_atk": 494,
+      "p_def": 423,
+      "e_atk": 267,
+      "e_def": 321,
+      "crit": 353,
+      "speed": 330
+    },
+    "japanese_name": "ヒカリ",
+    "ultimate_priority": "",
+    "gl_score": 8.05,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Castti",
+    "job": "Apothecary",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "S",
+    "tier_jp": "S",
+    "location": "Memoir Logs",
+    "obtained_from": "Memoirs of Solistia (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Axe"
+    ],
+    "attributes": [
+      "Axe"
+    ],
+    "stats_120": {
+      "hp": 3900,
+      "sp": 458,
+      "p_atk": 485,
+      "p_def": 427,
+      "e_atk": 336,
+      "e_def": 353,
+      "crit": 288,
+      "speed": 296
+    },
+    "japanese_name": "キャスティ",
+    "ultimate_priority": "",
+    "gl_score": 8.84,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Agnea EX",
+    "job": "Hunter",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S",
+    "location": "Memoir",
+    "obtained_from": "Final Fantasy IV Crossover Guidance (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Bow",
+      "Dark",
+      "Light"
+    ],
+    "attributes": [
+      "Bow",
+      "Light",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 3692,
+      "sp": 466,
+      "p_atk": 497,
+      "p_def": 263,
+      "e_atk": 450,
+      "e_def": 253,
+      "crit": 370,
+      "speed": 390
+    },
+    "japanese_name": "アグネアEx",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Sazantos EX",
+    "job": "Merchant",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S",
+    "location": "Memoir",
+    "obtained_from": "Final Fantasy IV Crossover Guidance (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Fire",
+      "Polearm",
+      "Wind"
+    ],
+    "attributes": [
+      "SpearPolearm",
+      "Fire",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 4120,
+      "sp": 422,
+      "p_atk": 544,
+      "p_def": 338,
+      "e_atk": 275,
+      "e_def": 295,
+      "crit": 381,
+      "speed": 335
+    },
+    "japanese_name": "サザントスEx",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Cecil",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S+",
+    "location": "Memoir",
+    "obtained_from": "Free (Collab Traveler Story)",
+    "owned": false,
+    "weaknesses": [
+      "Dark",
+      "Light",
+      "Sword"
+    ],
+    "attributes": [
+      "Sword",
+      "Light",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 4072,
+      "sp": 366,
+      "p_atk": 464,
+      "p_def": 423,
+      "e_atk": 257,
+      "e_def": 331,
+      "crit": 373,
+      "speed": 290
+    },
+    "japanese_name": "セシル",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.9
+  },
+  {
+    "name": "Ophilia EX",
+    "job": "Scholar",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S",
+    "location": "Memoir",
+    "obtained_from": "Final Fantasy IV Crossover Guidance (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Dark",
+      "Fire",
+      "Ice",
+      "Light",
+      "Lightning",
+      "Tome",
+      "Wind"
+    ],
+    "attributes": [
+      "Tome",
+      "Fire",
+      "Ice",
+      "LightningThunder",
+      "Wind",
+      "Light",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 3416,
+      "sp": 702,
+      "p_atk": 276,
+      "p_def": 336,
+      "e_atk": 504,
+      "e_def": 380,
+      "crit": 286,
+      "speed": 338
+    },
+    "japanese_name": "オフィーリアEx",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Kainé",
+    "job": "Thief",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S+",
+    "location": "Memoir",
+    "obtained_from": "NieR Replicant Crossover Guidance (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Dagger",
+      "Light"
+    ],
+    "attributes": [
+      "Dagger",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 4072,
+      "sp": 402,
+      "p_atk": 573,
+      "p_def": 245,
+      "e_atk": 291,
+      "e_def": 248,
+      "crit": 418,
+      "speed": 395
+    },
+    "japanese_name": "カイネ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.9
+  },
+  {
+    "name": "Nier",
+    "job": "Merchant",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S",
+    "location": "Memoir",
+    "obtained_from": "NieR Replicant Crossover Guidance (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Dark",
+      "Polearm",
+      "Sword"
+    ],
+    "attributes": [
+      "SpearPolearm",
+      "Sword",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 4170,
+      "sp": 442,
+      "p_atk": 509,
+      "p_def": 343,
+      "e_atk": 275,
+      "e_def": 345,
+      "crit": 311,
+      "speed": 335
+    },
+    "japanese_name": "ニーア",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Emil",
+    "job": "Cleric",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S",
+    "location": "Memoir",
+    "obtained_from": "NieR Replicant Crossover Guidance (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Dark",
+      "Staff",
+      "Tome"
+    ],
+    "attributes": [
+      "StaffStaves",
+      "Tome",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 3502,
+      "sp": 670,
+      "p_atk": 276,
+      "p_def": 307,
+      "e_atk": 530,
+      "e_def": 399,
+      "crit": 288,
+      "speed": 336
+    },
+    "japanese_name": "エミール",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Dolcinaea",
+    "job": "Dancer",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "A",
+    "location": "Memoir Logs",
+    "obtained_from": "Memoirs of Solistia (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Fan",
+      "Fire",
+      "Wind"
+    ],
+    "attributes": [
+      "Fan",
+      "Fire",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 3586,
+      "sp": 564,
+      "p_atk": 290,
+      "p_def": 275,
+      "e_atk": 547,
+      "e_def": 352,
+      "crit": 317,
+      "speed": 417
+    },
+    "japanese_name": "ドルシネア",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.7
+  },
+  {
+    "name": "Tiziano",
+    "job": "Thief",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S+",
+    "location": "Memoir",
+    "obtained_from": "Traveler of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Dagger",
+      "Wind"
+    ],
+    "attributes": [
+      "Dagger",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 3732,
+      "sp": 452,
+      "p_atk": 463,
+      "p_def": 290,
+      "e_atk": 291,
+      "e_def": 293,
+      "crit": 358,
+      "speed": 525
+    },
+    "japanese_name": "ティツィアーノ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.9
+  },
+  {
+    "name": "Bargello EX",
+    "job": "Dancer",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S",
+    "location": "Memoir",
+    "obtained_from": "Summer Guidance (Bargello EX & Tatloch EX) (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Fan"
+    ],
+    "attributes": [
+      "Fan"
+    ],
+    "stats_120": {
+      "hp": 3716,
+      "sp": 564,
+      "p_atk": 485,
+      "p_def": 295,
+      "e_atk": 302,
+      "e_def": 382,
+      "crit": 317,
+      "speed": 387
+    },
+    "japanese_name": "バルジェロEx",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Tatloch EX",
+    "job": "Thief",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S+",
+    "location": "Memoir",
+    "obtained_from": "Summer Guidance (Bargello EX & Tatloch EX) (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Dagger",
+      "Dark"
+    ],
+    "attributes": [
+      "Dagger",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 3712,
+      "sp": 502,
+      "p_atk": 318,
+      "p_def": 303,
+      "e_atk": 486,
+      "e_def": 322,
+      "crit": 368,
+      "speed": 433
+    },
+    "japanese_name": "タトゥロックEx",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.9
+  },
+  {
+    "name": "Sowan",
+    "job": "Apothecary",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "A",
+    "location": "Memoir Logs",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Dark",
+      "Light"
+    ],
+    "attributes": [
+      "Axe",
+      "Light",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 4020,
+      "sp": 463,
+      "p_atk": 470,
+      "p_def": 322,
+      "e_atk": 471,
+      "e_def": 288,
+      "crit": 299,
+      "speed": 300
+    },
+    "japanese_name": "ソワン",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.7
+  },
+  {
+    "name": "Relisha",
+    "job": "Cleric",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "A",
+    "location": "Memoir Logs",
+    "obtained_from": "Traveler of the Twin Worlds",
+    "owned": false,
+    "weaknesses": [
+      "Lightning",
+      "Staff"
+    ],
+    "attributes": [
+      "StaffStaves",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 3522,
+      "sp": 480,
+      "p_atk": 436,
+      "p_def": 334,
+      "e_atk": 395,
+      "e_def": 387,
+      "crit": 348,
+      "speed": 346
+    },
+    "japanese_name": "レリーシャ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.7
+  },
+  {
+    "name": "Rinyuu EX",
+    "job": "Apothecary",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S+",
+    "location": "Memoir",
+    "obtained_from": "Traveler of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Fire",
+      "Ice",
+      "Light"
+    ],
+    "attributes": [
+      "Axe",
+      "Light",
+      "Fire",
+      "Ice"
+    ],
+    "stats_120": {
+      "hp": 3442,
+      "sp": 565,
+      "p_atk": 291,
+      "p_def": 372,
+      "e_atk": 435,
+      "e_def": 489,
+      "crit": 288,
+      "speed": 336
+    },
+    "japanese_name": "リンユウEx",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.9
+  },
+  {
+    "name": "Alrond",
+    "job": "Merchant",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S+",
+    "location": "Memoir Logs",
+    "obtained_from": "Memoirs of Solistia (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Bow",
+      "Dagger",
+      "Fan",
+      "Light",
+      "Polearm",
+      "Staff",
+      "Sword",
+      "Tome"
+    ],
+    "attributes": [
+      "SpearPolearm",
+      "Sword",
+      "Dagger",
+      "Axe",
+      "Bow",
+      "StaffStaves",
+      "Tome",
+      "Fan",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 4100,
+      "sp": 542,
+      "p_atk": 409,
+      "p_def": 398,
+      "e_atk": 275,
+      "e_def": 335,
+      "crit": 281,
+      "speed": 360
+    },
+    "japanese_name": "アルロンド",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.9
+  },
+  {
+    "name": "Ori",
+    "job": "Merchant",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "A",
+    "location": "Memoir Logs",
+    "obtained_from": "Memoirs of Solistia (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Polearm",
+      "Wind"
+    ],
+    "attributes": [
+      "SpearPolearm",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 3970,
+      "sp": 412,
+      "p_atk": 459,
+      "p_def": 363,
+      "e_atk": 410,
+      "e_def": 300,
+      "crit": 286,
+      "speed": 375
+    },
+    "japanese_name": "オリ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.7
+  },
+  {
+    "name": "Ceraphina",
+    "job": "Apothecary",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S",
+    "location": "Memoir",
+    "obtained_from": "Champion of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Dark",
+      "Light"
+    ],
+    "attributes": [
+      "Dark",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 4000,
+      "sp": 488,
+      "p_atk": 285,
+      "p_def": 382,
+      "e_atk": 571,
+      "e_def": 328,
+      "crit": 263,
+      "speed": 341
+    },
+    "japanese_name": "セラフィナ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Pardis III",
+    "job": "Scholar",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S+",
+    "location": "Memoir",
+    "obtained_from": "Champion of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Bow",
+      "Dagger",
+      "Dark",
+      "Fire",
+      "Lightning",
+      "Sword"
+    ],
+    "attributes": [
+      "Sword",
+      "Dagger",
+      "Bow",
+      "Fire",
+      "LightningThunder",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 3866,
+      "sp": 580,
+      "p_atk": 630,
+      "p_def": 401,
+      "e_atk": 130,
+      "e_def": 355,
+      "crit": 376,
+      "speed": 288
+    },
+    "japanese_name": "パーディス三世",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 10
+  },
+  {
+    "name": "Ditraina EX",
+    "job": "Hunter",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S+",
+    "location": "Memoir",
+    "owned": false,
+    "weaknesses": [
+      "Bow",
+      "Dark",
+      "Fire",
+      "Ice",
+      "Light",
+      "Lightning",
+      "Wind"
+    ],
+    "attributes": [
+      "Bow",
+      "Fire",
+      "Ice",
+      "LightningThunder",
+      "Wind",
+      "Light",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 3747,
+      "sp": 506,
+      "p_atk": 517,
+      "p_def": 278,
+      "e_atk": 325,
+      "e_def": 273,
+      "crit": 410,
+      "speed": 380
+    },
+    "japanese_name": "ディトレイナEx",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.9
+  },
+  {
+    "name": "Elrica EX",
+    "job": "Thief",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S",
+    "location": "Memoir",
+    "obtained_from": "Traveler of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Bow",
+      "Dagger",
+      "Fan",
+      "Lightning",
+      "Polearm",
+      "Staff",
+      "Sword",
+      "Tome"
+    ],
+    "attributes": [
+      "Dagger",
+      "Sword",
+      "SpearPolearm",
+      "Axe",
+      "Bow",
+      "StaffStaves",
+      "Tome",
+      "Fan",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 3652,
+      "sp": 412,
+      "p_atk": 488,
+      "p_def": 300,
+      "e_atk": 276,
+      "e_def": 323,
+      "crit": 398,
+      "speed": 485
+    },
+    "japanese_name": "エリカEx",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Mydia",
+    "job": "Cleric",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S+",
+    "location": "Memoir Logs",
+    "obtained_from": "Memoirs of Solistia (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Fire",
+      "Light",
+      "Staff"
+    ],
+    "attributes": [
+      "StaffStaves",
+      "Fire",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 3602,
+      "sp": 500,
+      "p_atk": 471,
+      "p_def": 342,
+      "e_atk": 325,
+      "e_def": 434,
+      "crit": 308,
+      "speed": 346
+    },
+    "japanese_name": "ミディヤ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.9
+  },
+  {
+    "name": "Crick",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S",
+    "location": "Memoir Logs",
+    "obtained_from": "Memoirs of Solistia (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Light",
+      "Staff",
+      "Sword"
+    ],
+    "attributes": [
+      "Sword",
+      "StaffStaves",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 4282,
+      "sp": 406,
+      "p_atk": 419,
+      "p_def": 463,
+      "e_atk": 257,
+      "e_def": 381,
+      "crit": 328,
+      "speed": 270
+    },
+    "japanese_name": "クリック",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Morena",
+    "job": "Scholar",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S",
+    "location": "Memoir Logs",
+    "obtained_from": "Traveler of the Twin Worlds",
+    "owned": false,
+    "weaknesses": [
+      "Staff",
+      "Tome",
+      "Wind"
+    ],
+    "attributes": [
+      "Tome",
+      "StaffStaves",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 3546,
+      "sp": 642,
+      "p_atk": 351,
+      "p_def": 336,
+      "e_atk": 449,
+      "e_def": 345,
+      "crit": 286,
+      "speed": 363
+    },
+    "japanese_name": "モレーナ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Kagemune",
+    "job": "Thief",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "B",
+    "location": "Memoir Logs",
+    "obtained_from": "Tourney (Solistia)",
+    "owned": false,
+    "weaknesses": [
+      "Dagger",
+      "Fire",
+      "Ice",
+      "Wind"
+    ],
+    "attributes": [
+      "Dagger",
+      "Fire",
+      "Ice",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 3682,
+      "sp": 432,
+      "p_atk": 488,
+      "p_def": 225,
+      "e_atk": 286,
+      "e_def": 228,
+      "crit": 428,
+      "speed": 525
+    },
+    "japanese_name": "カゲムネ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.6
+  },
+  {
+    "name": "Sigrid EX",
+    "job": "Merchant",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "C",
+    "location": "Sheperd's Rock",
+    "obtained_from": "Free (New Year Distribution)",
+    "owned": false,
+    "weaknesses": [
+      "Fire",
+      "Polearm",
+      "Sword"
+    ],
+    "attributes": [
+      "SpearPolearm",
+      "Sword",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 4030,
+      "sp": 366,
+      "p_atk": 449,
+      "p_def": 385,
+      "e_atk": 287,
+      "e_def": 280,
+      "crit": 363,
+      "speed": 321
+    },
+    "japanese_name": "ジークリットEx",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.4
+  },
+  {
+    "name": "Hikari EX",
+    "job": "Cleric",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S",
+    "location": "Memoir Logs",
+    "obtained_from": "Memoirs of Solistia (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Fire",
+      "Ice",
+      "Light",
+      "Lightning",
+      "Staff",
+      "Wind"
+    ],
+    "attributes": [
+      "StaffStaves",
+      "Fire",
+      "Ice",
+      "LightningThunder",
+      "Wind",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 3552,
+      "sp": 540,
+      "p_atk": 296,
+      "p_def": 317,
+      "e_atk": 590,
+      "e_def": 399,
+      "crit": 333,
+      "speed": 291
+    },
+    "japanese_name": "ヒカリEx",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Rai Mei",
+    "job": "Merchant",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S",
+    "location": "Memoir Logs",
+    "obtained_from": "Memoirs of Solistia (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Dark",
+      "Fire",
+      "Light",
+      "Lightning",
+      "Polearm",
+      "Sword"
+    ],
+    "attributes": [
+      "SpearPolearm",
+      "Sword",
+      "Fire",
+      "LightningThunder",
+      "Light",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 4140,
+      "sp": 522,
+      "p_atk": 354,
+      "p_def": 348,
+      "e_atk": 505,
+      "e_def": 315,
+      "crit": 316,
+      "speed": 265
+    },
+    "japanese_name": "ライ・メイ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Black Maiden",
+    "job": "Dancer",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "",
+    "location": "Memoir",
+    "obtained_from": "Champion of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Dark"
+    ],
+    "attributes": [
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 3496,
+      "sp": 584,
+      "p_atk": 275,
+      "p_def": 285,
+      "e_atk": 552,
+      "e_def": 372,
+      "crit": 327,
+      "speed": 437
+    },
+    "japanese_name": "黒の巫女",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 0
+  },
+  {
+    "name": "Black Knight",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S+",
+    "location": "Memoir",
+    "obtained_from": "Champion of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Dark",
+      "Sword"
+    ],
+    "attributes": [
+      "Sword",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 4052,
+      "sp": 386,
+      "p_atk": 534,
+      "p_def": 418,
+      "e_atk": 282,
+      "e_def": 316,
+      "crit": 388,
+      "speed": 320
+    },
+    "japanese_name": "黒の騎士",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.9
+  },
+  {
+    "name": "Viola EX",
+    "job": "Scholar",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S",
+    "location": "Memoir",
+    "obtained_from": "Dragon Quest III Crossover Guidance",
+    "owned": false,
+    "weaknesses": [
+      "Fire",
+      "Ice",
+      "Light",
+      "Tome"
+    ],
+    "attributes": [
+      "Tome",
+      "Fire",
+      "Ice",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 3556,
+      "sp": 662,
+      "p_atk": 271,
+      "p_def": 296,
+      "e_atk": 554,
+      "e_def": 360,
+      "crit": 251,
+      "speed": 368
+    },
+    "japanese_name": "ヴィオラEx",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Cyrus EX",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S",
+    "location": "Memoir",
+    "obtained_from": "Dragon Quest III Crossover Guidance",
+    "owned": false,
+    "weaknesses": [
+      "Fire",
+      "Lightning",
+      "Sword",
+      "Wind"
+    ],
+    "attributes": [
+      "Sword",
+      "Fire",
+      "Lightning",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 3872,
+      "sp": 416,
+      "p_atk": 499,
+      "p_def": 363,
+      "e_atk": 462,
+      "e_def": 301,
+      "crit": 323,
+      "speed": 270
+    },
+    "japanese_name": "サイラスEx",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Molrusso EX",
+    "job": "Dancer",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S+",
+    "location": "Memoir",
+    "obtained_from": "Dragon Quest III Crossover Guidance (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Fan",
+      "Fire",
+      "Staff",
+      "Sword",
+      "Tome"
+    ],
+    "attributes": [
+      "Fan",
+      "Sword",
+      "Axe",
+      "Staff",
+      "Tome",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 3606,
+      "sp": 539,
+      "p_atk": 440,
+      "p_def": 270,
+      "e_atk": 382,
+      "e_def": 332,
+      "crit": 357,
+      "speed": 427
+    },
+    "japanese_name": "モルルッソEx",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.9
+  },
+  {
+    "name": "Therese EX",
+    "job": "Cleric",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "A",
+    "location": "Memoir",
+    "obtained_from": "Dragon Quest III Crossover Guidance (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Lightning",
+      "Staff",
+      "Wind"
+    ],
+    "attributes": [
+      "Staff",
+      "Wind",
+      "Lightning"
+    ],
+    "stats_120": {
+      "hp": 3532,
+      "sp": 510,
+      "p_atk": 381,
+      "p_def": 302,
+      "e_atk": 515,
+      "e_def": 394,
+      "crit": 288,
+      "speed": 346
+    },
+    "japanese_name": "テレーズEx",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.7
+  },
+  {
+    "name": "Signa EX",
+    "job": "Apothecary",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S",
+    "location": "Memoir",
+    "obtained_from": "Dragon Quest III Crossover Guidance (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Polearm",
+      "Staff",
+      "Sword"
+    ],
+    "attributes": [
+      "Axe",
+      "Sword",
+      "Polearm",
+      "Staff"
+    ],
+    "stats_120": {
+      "hp": 4760,
+      "sp": 448,
+      "p_atk": 490,
+      "p_def": 407,
+      "e_atk": 301,
+      "e_def": 298,
+      "crit": 258,
+      "speed": 246
+    },
+    "japanese_name": "シグナEx",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Partitio EX",
+    "job": "Thief",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S",
+    "location": "Memoir",
+    "obtained_from": "Dragon Quest III Crossover Guidance (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Dagger",
+      "Staff"
+    ],
+    "attributes": [
+      "Dagger",
+      "Staff"
+    ],
+    "stats_120": {
+      "hp": 3742,
+      "sp": 402,
+      "p_atk": 423,
+      "p_def": 255,
+      "e_atk": 266,
+      "e_def": 268,
+      "crit": 538,
+      "speed": 500
+    },
+    "japanese_name": "パルテティオEx",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Avar",
+    "job": "Apothecary",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S",
+    "location": "Memoir Logs",
+    "obtained_from": "Champion of Memories",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Dark",
+      "Fire",
+      "Sword"
+    ],
+    "attributes": [
+      "Axe",
+      "Sword",
+      "Fire",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 4040,
+      "sp": 438,
+      "p_atk": 525,
+      "p_def": 452,
+      "e_atk": 306,
+      "e_def": 303,
+      "crit": 258,
+      "speed": 351
+    },
+    "japanese_name": "アヴァル",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Osvald EX",
+    "job": "Cleric",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S",
+    "location": "Memoir Logs",
+    "obtained_from": "Memoirs of Solistia (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Dark",
+      "Light"
+    ],
+    "attributes": [
+      "Dark",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 3452,
+      "sp": 550,
+      "p_atk": 281,
+      "p_def": 282,
+      "e_atk": 560,
+      "e_def": 474,
+      "crit": 268,
+      "speed": 326
+    },
+    "japanese_name": "オズバルドEx",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Ochette EX",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S",
+    "location": "Memoir Logs",
+    "obtained_from": "Memoirs of Solistia (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Bow",
+      "Dagger",
+      "Fan",
+      "Fire",
+      "Ice",
+      "Lightning",
+      "Polearm",
+      "Staff",
+      "Sword",
+      "Tome"
+    ],
+    "attributes": [
+      "Sword",
+      "Polearm",
+      "Dagger",
+      "Axe",
+      "Bow",
+      "Staff",
+      "Tome",
+      "Fan",
+      "Fire",
+      "Ice",
+      "Lightning"
+    ],
+    "stats_120": {
+      "hp": 3902,
+      "sp": 466,
+      "p_atk": 494,
+      "p_def": 413,
+      "e_atk": 297,
+      "e_def": 291,
+      "crit": 303,
+      "speed": 370
+    },
+    "japanese_name": "オーシュットEx",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Castti EX",
+    "job": "Dancer",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "A",
+    "location": "Memoir Logs",
+    "obtained_from": "Memoirs of Solistia (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Fan",
+      "Ice",
+      "Wind"
+    ],
+    "attributes": [
+      "Fan",
+      "Ice",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 3796,
+      "sp": 574,
+      "p_atk": 270,
+      "p_def": 250,
+      "e_atk": 567,
+      "e_def": 322,
+      "crit": 332,
+      "speed": 402
+    },
+    "japanese_name": "キャスティEx",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.7
+  },
+  {
+    "name": "Mahrez",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S",
+    "location": "Memoir",
+    "obtained_from": "Traveler of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Bow",
+      "Dagger",
+      "Fan",
+      "Light",
+      "Lightning",
+      "Polearm",
+      "Staff",
+      "Sword",
+      "Tome"
+    ],
+    "attributes": [
+      "Sword",
+      "Polearm",
+      "Dagger",
+      "Axe",
+      "Bow",
+      "Staff",
+      "Tome",
+      "Fan",
+      "Lightning",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 4080,
+      "sp": 376,
+      "p_atk": 539,
+      "p_def": 403,
+      "e_atk": 277,
+      "e_def": 321,
+      "crit": 298,
+      "speed": 350
+    },
+    "japanese_name": "マフレズ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Esmeralda",
+    "job": "Thief",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S",
+    "location": "Memoir",
+    "obtained_from": "Champion of Memories (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Dagger"
+    ],
+    "attributes": [
+      "Dagger"
+    ],
+    "stats_120": {
+      "hp": 3732,
+      "sp": 432,
+      "p_atk": 488,
+      "p_def": 295,
+      "e_atk": 286,
+      "e_def": 293,
+      "crit": 358,
+      "speed": 545
+    },
+    "japanese_name": "エスメラルダ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Aoi",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "B",
+    "location": "Memoir Logs",
+    "obtained_from": "Tourney (Solistia)",
+    "owned": false,
+    "weaknesses": [
+      "Lightning",
+      "Sword",
+      "Wind"
+    ],
+    "attributes": [
+      "Sword",
+      "Lightning",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 4032,
+      "sp": 376,
+      "p_atk": 504,
+      "p_def": 358,
+      "e_atk": 292,
+      "e_def": 281,
+      "crit": 338,
+      "speed": 380
+    },
+    "japanese_name": "アオイ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.6
+  },
+  {
+    "name": "Kazan",
+    "job": "Scholar",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "S",
+    "location": "Memoir Logs",
+    "obtained_from": "Memoirs of Solistia (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Fire",
+      "Tome",
+      "Wind"
+    ],
+    "attributes": [
+      "Tome",
+      "Fire",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 3486,
+      "sp": 672,
+      "p_atk": 266,
+      "p_def": 306,
+      "e_atk": 519,
+      "e_def": 365,
+      "crit": 371,
+      "speed": 293
+    },
+    "japanese_name": "カザン",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.8
+  },
+  {
+    "name": "Cassia",
+    "job": "Hunter",
+    "class": "⭐️⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "A",
+    "location": "Memoir Logs",
+    "obtained_from": "Sacred Blaze Guidance (Limited)",
+    "owned": false,
+    "weaknesses": [
+      "Bow",
+      "Dark",
+      "Light",
+      "Wind"
+    ],
+    "attributes": [
+      "Bow",
+      "Wind",
+      "Light",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 3842,
+      "sp": 486,
+      "p_atk": 492,
+      "p_def": 263,
+      "e_atk": 315,
+      "e_def": 283,
+      "crit": 420,
+      "speed": 410
+    },
+    "japanese_name": "ケイシア",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9.7
+  },
+  {
+    "name": "Menno",
+    "job": "Cleric",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F",
+    "location": "Rippletide",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Staff",
+      "Wind"
+    ],
+    "attributes": [
+      "StaffStaves",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "メノ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8.5
+  },
+  {
+    "name": "Meena",
+    "job": "Dancer",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F+",
+    "location": "Clearbrook",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Fan",
+      "Light"
+    ],
+    "attributes": [
+      "Fan",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "ミーナ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9
+  },
+  {
+    "name": "Wingate",
+    "job": "Thief",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F",
+    "location": "Theatropolis",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Dagger",
+      "Dark"
+    ],
+    "attributes": [
+      "Dagger",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "ウィンゲート",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8.5
+  },
+  {
+    "name": "Sigrid",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F+",
+    "location": "Sheperd's Rock",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Lightning",
+      "Sword"
+    ],
+    "attributes": [
+      "Sword",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "ジークリット",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9
+  },
+  {
+    "name": "Noelle",
+    "job": "Scholar",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F+",
+    "location": "Valore",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Tome",
+      "Wind"
+    ],
+    "attributes": [
+      "Tome",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "ノエル",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9
+  },
+  {
+    "name": "Laura",
+    "job": "Scholar",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F+",
+    "location": "Theatropolis",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Lightning",
+      "Tome"
+    ],
+    "attributes": [
+      "Tome",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "ラウラ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9
+  },
+  {
+    "name": "Ramona",
+    "job": "Cleric",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F+",
+    "location": "Clearbrook",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Ice",
+      "Staff"
+    ],
+    "attributes": [
+      "StaffStaves",
+      "Ice"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "ラモーナ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9
+  },
+  {
+    "name": "Pia",
+    "job": "Merchant",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F",
+    "location": "Sunshade",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Light",
+      "Polearm"
+    ],
+    "attributes": [
+      "SpearPolearm",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "ピア",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8.5
+  },
+  {
+    "name": "Aslyte",
+    "job": "Thief",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F",
+    "location": "Cragspear",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Dagger",
+      "Ice"
+    ],
+    "attributes": [
+      "Dagger",
+      "Ice"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "アズライト",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8.5
+  },
+  {
+    "name": "Lucetta",
+    "job": "Hunter",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F",
+    "location": "Valore",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Bow",
+      "Ice"
+    ],
+    "attributes": [
+      "Bow",
+      "Ice"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "ルーセッタ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8.5
+  },
+  {
+    "name": "Ashlan",
+    "job": "Hunter",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F",
+    "location": "Sheperd's Rock",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Bow",
+      "Dark"
+    ],
+    "attributes": [
+      "Bow",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "アシラン",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8.5
+  },
+  {
+    "name": "Merrit",
+    "job": "Apothecary",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F",
+    "location": "Sheperd's Rock",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Light"
+    ],
+    "attributes": [
+      "Axe",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "メレット",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8.5
+  },
+  {
+    "name": "Heinz",
+    "job": "Scholar",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F",
+    "location": "Cragspear",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Dark",
+      "Tome"
+    ],
+    "attributes": [
+      "Tome",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "ハインツ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8.5
+  },
+  {
+    "name": "Devin",
+    "job": "Merchant",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F+",
+    "location": "Valore",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Polearm",
+      "Wind"
+    ],
+    "attributes": [
+      "SpearPolearm",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "デヴィン",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9
+  },
+  {
+    "name": "Rita",
+    "job": "Apothecary",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F",
+    "location": "Clearbrook",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Wind"
+    ],
+    "attributes": [
+      "Axe",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "リタ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8
+  },
+  {
+    "name": "Fabio",
+    "job": "Dancer",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F",
+    "location": "Rippletide",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Fan",
+      "Wind"
+    ],
+    "attributes": [
+      "Fan",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "ファビオ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8.5
+  },
+  {
+    "name": "Mabel",
+    "job": "Dancer",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F+",
+    "location": "Sheperd's Rock",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Fan",
+      "Lightning"
+    ],
+    "attributes": [
+      "Fan",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "メイベル",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9
+  },
+  {
+    "name": "Madelaine",
+    "job": "Cleric",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F",
+    "location": "Clearbrook",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Lightning",
+      "Staff"
+    ],
+    "attributes": [
+      "StaffStaves",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "マドレーヌ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8
+  },
+  {
+    "name": "Tahir",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F",
+    "location": "Sunshade",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Fire",
+      "Sword"
+    ],
+    "attributes": [
+      "Sword",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "ターヒル",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8
+  },
+  {
+    "name": "Peredir",
+    "job": "Scholar",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F",
+    "location": "Valore",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Fire",
+      "Ice",
+      "Tome"
+    ],
+    "attributes": [
+      "Tome",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "ペレディール",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8
+  },
+  {
+    "name": "Barrad",
+    "job": "Merchant",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F",
+    "location": "Rippletide",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Fire",
+      "Polearm"
+    ],
+    "attributes": [
+      "SpearPolearm",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "バラッド",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8.5
+  },
+  {
+    "name": "Shelby",
+    "job": "Apothecary",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F+",
+    "location": "Emberglow",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Ice"
+    ],
+    "attributes": [
+      "Axe",
+      "Ice"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "シェルビー",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9
+  },
+  {
+    "name": "Iris",
+    "job": "Dancer",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F",
+    "location": "Sunshade",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Fan",
+      "Ice"
+    ],
+    "attributes": [
+      "Fan",
+      "Ice"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "イリス",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8
+  },
+  {
+    "name": "Cedric",
+    "job": "Cleric",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F",
+    "location": "Sunshade",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Fire",
+      "Staff"
+    ],
+    "attributes": [
+      "StaffStaves",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "セドリック",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8.5
+  },
+  {
+    "name": "Trish",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F",
+    "location": "Rippletide",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Sword",
+      "Wind"
+    ],
+    "attributes": [
+      "Sword",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "トリッシュ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8
+  },
+  {
+    "name": "Bertrand",
+    "job": "Hunter",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F",
+    "location": "Cragspear",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Bow",
+      "Lightning"
+    ],
+    "attributes": [
+      "Bow",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "ベルトラン",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8.5
+  },
+  {
+    "name": "Cless",
+    "job": "Thief",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F",
+    "location": "Emberglow",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Dagger",
+      "Lightning"
+    ],
+    "attributes": [
+      "Dagger",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "クレス",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8.5
+  },
+  {
+    "name": "Rodion",
+    "job": "Apothecary",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F",
+    "location": "Emberglow",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Dark"
+    ],
+    "attributes": [
+      "Axe",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "ロディオン",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8
+  },
+  {
+    "name": "Miles",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F",
+    "location": "Emberglow",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Light",
+      "Sword"
+    ],
+    "attributes": [
+      "Sword",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "マイルズ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8
+  },
+  {
+    "name": "Helga",
+    "job": "Merchant",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F",
+    "location": "Cragspear",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Ice",
+      "Polearm"
+    ],
+    "attributes": [
+      "SpearPolearm",
+      "Ice"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "ヘルガ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8.5
+  },
+  {
+    "name": "Kurtz",
+    "job": "Thief",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F+",
+    "location": "Theatropolis",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Dagger",
+      "Wind"
+    ],
+    "attributes": [
+      "Dagger",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "カルツ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9
+  },
+  {
+    "name": "Camilla",
+    "job": "Hunter",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F",
+    "location": "Theatropolis",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Bow",
+      "Fire"
+    ],
+    "attributes": [
+      "Bow",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "カミラ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8
+  },
+  {
+    "name": "Cerna",
+    "job": "Merchant",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F",
+    "location": "Donescu",
+    "obtained_from": "Exchange Elite Fragments",
+    "owned": false,
+    "weaknesses": [
+      "Dark",
+      "Polearm"
+    ],
+    "attributes": [
+      "SpearPolearm",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "チェルナ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8.5
+  },
+  {
+    "name": "Efrain",
+    "job": "Cleric",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F",
+    "location": "Sunshade",
+    "obtained_from": "Exchange Elite Fragments",
+    "owned": false,
+    "weaknesses": [
+      "Fire",
+      "Staff"
+    ],
+    "attributes": [
+      "StaffStaves",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "エフレン",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8.5
+  },
+  {
+    "name": "Paula",
+    "job": "Dancer",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F+",
+    "location": "Victors Hollow",
+    "obtained_from": "Exchange Elite Fragments",
+    "owned": false,
+    "weaknesses": [
+      "Dark",
+      "Fan"
+    ],
+    "attributes": [
+      "Fan",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "ポーラ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9
+  },
+  {
+    "name": "Kenneth",
+    "job": "Scholar",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F+",
+    "location": "Clearbrook",
+    "obtained_from": "Exchange Elite Fragments",
+    "owned": false,
+    "weaknesses": [
+      "Ice",
+      "Tome"
+    ],
+    "attributes": [
+      "Tome",
+      "Ice"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "ケネス",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9
+  },
+  {
+    "name": "Brigitte",
+    "job": "Cleric",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F",
+    "location": "Cathedral of Thytos",
+    "obtained_from": "Exchange Elite Fragments",
+    "owned": false,
+    "weaknesses": [
+      "Staff"
+    ],
+    "attributes": [
+      "StaffStaves"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "ブリジット",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8.5
+  },
+  {
+    "name": "Durand",
+    "job": "Thief",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F+",
+    "location": "Rippletide",
+    "obtained_from": "Exchange Elite Fragments",
+    "owned": false,
+    "weaknesses": [
+      "Dagger",
+      "Light"
+    ],
+    "attributes": [
+      "Dagger",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "デュラン",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9
+  },
+  {
+    "name": "Jorn",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F+",
+    "location": "Donescu",
+    "obtained_from": "Exchange Elite Fragments",
+    "owned": false,
+    "weaknesses": [
+      "Dark",
+      "Sword"
+    ],
+    "attributes": [
+      "Sword",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "ヨルン",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 9
+  },
+  {
+    "name": "Cornelia",
+    "job": "Apothecary",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F",
+    "location": "Flamesgrace",
+    "obtained_from": "Exchange Elite Fragments",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Lightning"
+    ],
+    "attributes": [
+      "Axe",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "コルネリア",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8
+  },
+  {
+    "name": "Levan",
+    "job": "Scholar",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F",
+    "location": "Victors Hollow",
+    "obtained_from": "Exchange Elite Fragments",
+    "owned": false,
+    "weaknesses": [
+      "Light",
+      "Tome"
+    ],
+    "attributes": [
+      "Tome",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "レヴァン",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8.5
+  },
+  {
+    "name": "Lolo",
+    "job": "Hunter",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F",
+    "location": "Cathedral of Thytos",
+    "obtained_from": "Exchange Elite Fragments",
+    "owned": false,
+    "weaknesses": [
+      "Bow",
+      "Light",
+      "Staff"
+    ],
+    "attributes": [
+      "Bow",
+      "StaffStaves",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "ロロ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8.5
+  },
+  {
+    "name": "Narr",
+    "job": "Hunter",
+    "class": "⭐️⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "F",
+    "location": "Valore",
+    "obtained_from": "Exchange Elite Fragments",
+    "owned": false,
+    "weaknesses": [
+      "Bow",
+      "Dark"
+    ],
+    "attributes": [
+      "Bow",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "ナール",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8
+  },
+  {
+    "name": "Carroll",
+    "job": "Merchant",
+    "class": "⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "H",
+    "location": "Rippletide",
+    "obtained_from": "Chance Encountes",
+    "owned": false,
+    "weaknesses": [
+      "Polearm",
+      "Wind"
+    ],
+    "attributes": [
+      "SpearPolearm",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "キャロル",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 7.5
+  },
+  {
+    "name": "Menny",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "G",
+    "location": "Sheperd's Rock",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Light",
+      "Sword"
+    ],
+    "attributes": [
+      "Sword",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "メニー",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8
+  },
+  {
+    "name": "Felline",
+    "job": "Thief",
+    "class": "⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "G",
+    "location": "Emberglow",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Dagger",
+      "Lightning"
+    ],
+    "attributes": [
+      "Dagger",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "フェリーネ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8
+  },
+  {
+    "name": "Billy",
+    "job": "Thief",
+    "class": "⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "G",
+    "location": "Cragspear",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Dagger",
+      "Light"
+    ],
+    "attributes": [
+      "Dagger",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "ビリー",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8
+  },
+  {
+    "name": "Nanna",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "G",
+    "location": "Sunshade",
+    "obtained_from": "Free / Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Dark",
+      "Sword"
+    ],
+    "attributes": [
+      "Sword",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "ナンナ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8
+  },
+  {
+    "name": "Penny",
+    "job": "Apothecary",
+    "class": "⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "H",
+    "location": "Clearbrook",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Lightning"
+    ],
+    "attributes": [
+      "Axe",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "ペニー",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 7.5
+  },
+  {
+    "name": "Juan",
+    "job": "Merchant",
+    "class": "⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "H",
+    "location": "Sheperd's Rock",
+    "obtained_from": "Chance Encounters",
+    "owned": true,
+    "weaknesses": [
+      "Dark",
+      "Polearm"
+    ],
+    "attributes": [
+      "SpearPolearm",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "フアン",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 7.5
+  },
+  {
+    "name": "Harry",
+    "job": "Dancer",
+    "class": "⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "H",
+    "location": "Sunshade",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Fan",
+      "Fire"
+    ],
+    "attributes": [
+      "Fan",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "ハリー",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 7
+  },
+  {
+    "name": "Jorge",
+    "job": "Apothecary",
+    "class": "⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "H",
+    "location": "Sunshade",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Fire"
+    ],
+    "attributes": [
+      "Axe",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "ホルヘ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 7
+  },
+  {
+    "name": "Manuel",
+    "job": "Dancer",
+    "class": "⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "H",
+    "location": "Valore",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Fan",
+      "Wind"
+    ],
+    "attributes": [
+      "Fan",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "マヌエル",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 7.5
+  },
+  {
+    "name": "Guti",
+    "job": "Hunter",
+    "class": "⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "H",
+    "location": "Emberglow",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Bow",
+      "Wind"
+    ],
+    "attributes": [
+      "Bow",
+      "Wind"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "グティ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 7.5
+  },
+  {
+    "name": "Eunice",
+    "job": "Scholar",
+    "class": "⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "G",
+    "location": "Theatropolis",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Light",
+      "Tome"
+    ],
+    "attributes": [
+      "Tome",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "ユニス",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8
+  },
+  {
+    "name": "Saria",
+    "job": "Apothecary",
+    "class": "⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "H",
+    "location": "Sheperd's Rock",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Axe",
+      "Ice"
+    ],
+    "attributes": [
+      "Axe",
+      "Ice"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "サーリア",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 7
+  },
+  {
+    "name": "Vivian",
+    "job": "Hunter",
+    "class": "⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "H",
+    "location": "Valore",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Bow",
+      "Light"
+    ],
+    "attributes": [
+      "Bow",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "ビビアン",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 7.5
+  },
+  {
+    "name": "Diego",
+    "job": "Thief",
+    "class": "⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "H",
+    "location": "Theatropolis",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Dagger",
+      "Fire"
+    ],
+    "attributes": [
+      "Dagger",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "ディエゴ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 7.5
+  },
+  {
+    "name": "Julio",
+    "job": "Scholar",
+    "class": "⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "H",
+    "location": "Rippletide",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Ice",
+      "Tome"
+    ],
+    "attributes": [
+      "Tome",
+      "Ice"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "フリオ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 7
+  },
+  {
+    "name": "Yugo",
+    "job": "Warrior",
+    "class": "⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "H",
+    "location": "Clearbrook",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Ice",
+      "Sword"
+    ],
+    "attributes": [
+      "Sword",
+      "Ice"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "ウーゴ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 7.5
+  },
+  {
+    "name": "Sunny",
+    "job": "Hunter",
+    "class": "⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "H",
+    "location": "Valore",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Bow",
+      "Dark"
+    ],
+    "attributes": [
+      "Bow",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "サニー",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 7
+  },
+  {
+    "name": "Telly",
+    "job": "Cleric",
+    "class": "⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "H",
+    "location": "Emberglow",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Ice",
+      "Staff"
+    ],
+    "attributes": [
+      "StaffStaves",
+      "Ice"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "テリー",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 7.5
+  },
+  {
+    "name": "José",
+    "job": "Cleric",
+    "class": "⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "G",
+    "location": "Cragspear",
+    "obtained_from": "Free / Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Light",
+      "Staff"
+    ],
+    "attributes": [
+      "StaffStaves",
+      "Light"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "ホセ",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8
+  },
+  {
+    "name": "Pearl",
+    "job": "Cleric",
+    "class": "⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "H",
+    "location": "Clearbrook",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Fire",
+      "Staff"
+    ],
+    "attributes": [
+      "StaffStaves",
+      "Fire"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "パール",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 7.5
+  },
+  {
+    "name": "Conny",
+    "job": "Merchant",
+    "class": "⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "G",
+    "location": "Rippletide",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Lightning",
+      "Polearm"
+    ],
+    "attributes": [
+      "SpearPolearm",
+      "LightningThunder"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "コニー",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8
+  },
+  {
+    "name": "Evelyn",
+    "job": "Dancer",
+    "class": "⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "G",
+    "location": "Cragspear",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Dark",
+      "Fan"
+    ],
+    "attributes": [
+      "Fan",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "イヴリン",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 8
+  },
+  {
+    "name": "Dorrie",
+    "job": "Scholar",
+    "class": "⭐️⭐️⭐️",
+    "tier_gl": "",
+    "tier_jp": "H",
+    "location": "Theatropolis",
+    "obtained_from": "Chance Encounters",
+    "owned": false,
+    "weaknesses": [
+      "Dark",
+      "Tome"
+    ],
+    "attributes": [
+      "Tome",
+      "Dark"
+    ],
+    "stats_120": {
+      "hp": 0,
+      "sp": 0,
+      "p_atk": 0,
+      "p_def": 0,
+      "e_atk": 0,
+      "e_def": 0,
+      "crit": 0,
+      "speed": 0
+    },
+    "japanese_name": "ドリー",
+    "ultimate_priority": "",
+    "gl_score": 0,
+    "jp_score": 7.5
+  }
+]

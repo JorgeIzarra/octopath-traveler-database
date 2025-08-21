@@ -1,0 +1,3181 @@
+{
+  "overall": [
+    {
+      "id": "oskha",
+      "name": "Oskha",
+      "power_level": 69,
+      "gl_score": 9.16,
+      "jp_score": 9.8
+    },
+    {
+      "id": "cecily",
+      "name": "Cecily",
+      "power_level": 67,
+      "gl_score": 8.65,
+      "jp_score": 9.7
+    },
+    {
+      "id": "magnolia",
+      "name": "Magnolia",
+      "power_level": 67,
+      "gl_score": 8.91,
+      "jp_score": 9.8
+    },
+    {
+      "id": "richard",
+      "name": "Richard",
+      "power_level": 66,
+      "gl_score": 8.32,
+      "jp_score": 9.7
+    },
+    {
+      "id": "nephti",
+      "name": "Nephti",
+      "power_level": 66,
+      "gl_score": 8.72,
+      "jp_score": 9.7
+    },
+    {
+      "id": "sazantos",
+      "name": "Sazantos",
+      "power_level": 66,
+      "gl_score": 8.78,
+      "jp_score": 9.8
+    },
+    {
+      "id": "h_aanit_ex",
+      "name": "H’aanit EX",
+      "power_level": 65,
+      "gl_score": 8.35,
+      "jp_score": 9.8
+    },
+    {
+      "id": "o__odio",
+      "name": "O. Odio",
+      "power_level": 65,
+      "gl_score": 8.36,
+      "jp_score": 9.7
+    },
+    {
+      "id": "castti",
+      "name": "Castti",
+      "power_level": 65,
+      "gl_score": 8.84,
+      "jp_score": 9.8
+    },
+    {
+      "id": "solon",
+      "name": "Solon",
+      "power_level": 64,
+      "gl_score": 8.74,
+      "jp_score": 9.7
+    },
+    {
+      "id": "alaune_ex",
+      "name": "Alaune EX",
+      "power_level": 63,
+      "gl_score": 8.63,
+      "jp_score": 9.9
+    },
+    {
+      "id": "ochette",
+      "name": "Ochette",
+      "power_level": 63,
+      "gl_score": 8.56,
+      "jp_score": 9.6
+    },
+    {
+      "id": "rinyuu",
+      "name": "Rinyuu",
+      "power_level": 62,
+      "gl_score": 8.81,
+      "jp_score": 9.8
+    },
+    {
+      "id": "gloria",
+      "name": "Gloria",
+      "power_level": 62,
+      "gl_score": 8.3,
+      "jp_score": 9.9
+    },
+    {
+      "id": "osvald",
+      "name": "Osvald",
+      "power_level": 62,
+      "gl_score": 8.76,
+      "jp_score": 9.8
+    },
+    {
+      "id": "cyrus",
+      "name": "Cyrus",
+      "power_level": 61,
+      "gl_score": 8.3,
+      "jp_score": 9.7
+    },
+    {
+      "id": "partitio",
+      "name": "Partitio",
+      "power_level": 51,
+      "gl_score": 8,
+      "jp_score": 9.7
+    },
+    {
+      "id": "krauser",
+      "name": "Krauser",
+      "power_level": 50,
+      "gl_score": 7.36,
+      "jp_score": 9.5
+    },
+    {
+      "id": "leon",
+      "name": "Leon",
+      "power_level": 50,
+      "gl_score": 7.25,
+      "jp_score": 9.6
+    },
+    {
+      "id": "tatloch",
+      "name": "Tatloch",
+      "power_level": 50,
+      "gl_score": 7.2,
+      "jp_score": 9.7
+    },
+    {
+      "id": "herminia",
+      "name": "Herminia",
+      "power_level": 49,
+      "gl_score": 7.44,
+      "jp_score": 9.5
+    },
+    {
+      "id": "fiore_ex",
+      "name": "Fiore EX",
+      "power_level": 49,
+      "gl_score": 7.82,
+      "jp_score": 9.8
+    },
+    {
+      "id": "rondo",
+      "name": "Rondo",
+      "power_level": 49,
+      "gl_score": 7.4,
+      "jp_score": 9.6
+    },
+    {
+      "id": "roland",
+      "name": "Roland",
+      "power_level": 49,
+      "gl_score": 8.22,
+      "jp_score": 9.4
+    },
+    {
+      "id": "zenia",
+      "name": "Zenia",
+      "power_level": 49,
+      "gl_score": 7.06,
+      "jp_score": 9.7
+    },
+    {
+      "id": "elrica",
+      "name": "Elrica",
+      "power_level": 49,
+      "gl_score": 8.24,
+      "jp_score": 9.8
+    },
+    {
+      "id": "ogen",
+      "name": "Ogen",
+      "power_level": 49,
+      "gl_score": 7.7,
+      "jp_score": 9.7
+    },
+    {
+      "id": "ringabel",
+      "name": "Ringabel",
+      "power_level": 49,
+      "gl_score": 8.09,
+      "jp_score": 9.8
+    },
+    {
+      "id": "jane",
+      "name": "Jane",
+      "power_level": 49,
+      "gl_score": 7.11,
+      "jp_score": 9.7
+    },
+    {
+      "id": "hikari",
+      "name": "Hikari",
+      "power_level": 49,
+      "gl_score": 8.05,
+      "jp_score": 9.8
+    },
+    {
+      "id": "a2",
+      "name": "A2",
+      "power_level": 48,
+      "gl_score": 8,
+      "jp_score": 9.6
+    },
+    {
+      "id": "pirro",
+      "name": "Pirro",
+      "power_level": 48,
+      "gl_score": 7.67,
+      "jp_score": 9.7
+    },
+    {
+      "id": "lynette",
+      "name": "Lynette",
+      "power_level": 47,
+      "gl_score": 7.14,
+      "jp_score": 9.4
+    },
+    {
+      "id": "odette",
+      "name": "Odette",
+      "power_level": 47,
+      "gl_score": 7.32,
+      "jp_score": 9.7
+    },
+    {
+      "id": "therion",
+      "name": "Therion",
+      "power_level": 47,
+      "gl_score": 7.69,
+      "jp_score": 9.7
+    },
+    {
+      "id": "frederica",
+      "name": "Frederica",
+      "power_level": 47,
+      "gl_score": 7.29,
+      "jp_score": 9.6
+    },
+    {
+      "id": "sonia",
+      "name": "Sonia",
+      "power_level": 47,
+      "gl_score": 8.29,
+      "jp_score": 9.8
+    },
+    {
+      "id": "agnea",
+      "name": "Agnea",
+      "power_level": 47,
+      "gl_score": 8,
+      "jp_score": 9.8
+    },
+    {
+      "id": "thron_",
+      "name": "Throné",
+      "power_level": 47,
+      "gl_score": 7.56,
+      "jp_score": 9.6
+    },
+    {
+      "id": "ditraina",
+      "name": "Ditraina",
+      "power_level": 46,
+      "gl_score": 7.65,
+      "jp_score": 9.7
+    },
+    {
+      "id": "nivelle",
+      "name": "Nivelle",
+      "power_level": 46,
+      "gl_score": 8.27,
+      "jp_score": 9.7
+    },
+    {
+      "id": "isla",
+      "name": "Isla",
+      "power_level": 46,
+      "gl_score": 8.13,
+      "jp_score": 9.8
+    },
+    {
+      "id": "hammy",
+      "name": "Hammy",
+      "power_level": 45,
+      "gl_score": 7.17,
+      "jp_score": 9.7
+    },
+    {
+      "id": "eltrix",
+      "name": "Eltrix",
+      "power_level": 41,
+      "gl_score": 6.73,
+      "jp_score": 9.6
+    },
+    {
+      "id": "olberic",
+      "name": "Olberic",
+      "power_level": 40,
+      "gl_score": 6,
+      "jp_score": 9.6
+    },
+    {
+      "id": "morffins",
+      "name": "Morffins",
+      "power_level": 40,
+      "gl_score": 6.5,
+      "jp_score": 9.3
+    },
+    {
+      "id": "z_aanta",
+      "name": "Z’aanta",
+      "power_level": 39,
+      "gl_score": 6.83,
+      "jp_score": 9.4
+    },
+    {
+      "id": "alfyn",
+      "name": "Alfyn",
+      "power_level": 39,
+      "gl_score": 6.44,
+      "jp_score": 9.5
+    },
+    {
+      "id": "lars",
+      "name": "Lars",
+      "power_level": 39,
+      "gl_score": 6.68,
+      "jp_score": 9.5
+    },
+    {
+      "id": "auguste",
+      "name": "Auguste",
+      "power_level": 39,
+      "gl_score": 6.36,
+      "jp_score": 9.5
+    },
+    {
+      "id": "lumis_ex",
+      "name": "Lumis EX",
+      "power_level": 39,
+      "gl_score": 6.22,
+      "jp_score": 9.5
+    },
+    {
+      "id": "rique",
+      "name": "Rique",
+      "power_level": 39,
+      "gl_score": 6.89,
+      "jp_score": 9.6
+    },
+    {
+      "id": "viola",
+      "name": "Viola",
+      "power_level": 38,
+      "gl_score": 6.73,
+      "jp_score": 9.6
+    },
+    {
+      "id": "yunnie",
+      "name": "Yunnie",
+      "power_level": 38,
+      "gl_score": 6.33,
+      "jp_score": 9.4
+    },
+    {
+      "id": "falco",
+      "name": "Falco",
+      "power_level": 38,
+      "gl_score": 6.89,
+      "jp_score": 9.6
+    },
+    {
+      "id": "yan_long",
+      "name": "Yan Long",
+      "power_level": 38,
+      "gl_score": 6.31,
+      "jp_score": 9.3
+    },
+    {
+      "id": "tithi",
+      "name": "Tithi",
+      "power_level": 38,
+      "gl_score": 6.63,
+      "jp_score": 9.6
+    },
+    {
+      "id": "sofia_ex",
+      "name": "Sofia EX",
+      "power_level": 38,
+      "gl_score": 6.82,
+      "jp_score": 9.6
+    },
+    {
+      "id": "sarisa",
+      "name": "Sarisa",
+      "power_level": 38,
+      "gl_score": 6.72,
+      "jp_score": 9.6
+    },
+    {
+      "id": "neha",
+      "name": "Neha",
+      "power_level": 38,
+      "gl_score": 6.22,
+      "jp_score": 9.7
+    },
+    {
+      "id": "nicola",
+      "name": "Nicola",
+      "power_level": 37,
+      "gl_score": 6.7,
+      "jp_score": 9.5
+    },
+    {
+      "id": "ophilia",
+      "name": "Ophilia",
+      "power_level": 37,
+      "gl_score": 6.13,
+      "jp_score": 9.6
+    },
+    {
+      "id": "levina",
+      "name": "Levina",
+      "power_level": 37,
+      "gl_score": 6.47,
+      "jp_score": 9.7
+    },
+    {
+      "id": "s__odio",
+      "name": "S. Odio",
+      "power_level": 37,
+      "gl_score": 6,
+      "jp_score": 9.6
+    },
+    {
+      "id": "temenos",
+      "name": "Temenos",
+      "power_level": 37,
+      "gl_score": 6.55,
+      "jp_score": 9.8
+    },
+    {
+      "id": "signa_ex",
+      "name": "Signa EX",
+      "power_level": 36,
+      "gl_score": 0,
+      "jp_score": 9.8
+    },
+    {
+      "id": "kilns",
+      "name": "Kilns",
+      "power_level": 34,
+      "gl_score": 9.23,
+      "jp_score": 9.8
+    },
+    {
+      "id": "crick",
+      "name": "Crick",
+      "power_level": 34,
+      "gl_score": 0,
+      "jp_score": 9.8
+    },
+    {
+      "id": "cardona",
+      "name": "Cardona",
+      "power_level": 33,
+      "gl_score": 5.36,
+      "jp_score": 9.2
+    },
+    {
+      "id": "dorothea",
+      "name": "Dorothea",
+      "power_level": 33,
+      "gl_score": 5.27,
+      "jp_score": 9.4
+    },
+    {
+      "id": "w_ludai",
+      "name": "W’ludai",
+      "power_level": 33,
+      "gl_score": 5.71,
+      "jp_score": 9.1
+    },
+    {
+      "id": "2b",
+      "name": "2B",
+      "power_level": 33,
+      "gl_score": 5.56,
+      "jp_score": 9.4
+    },
+    {
+      "id": "9s",
+      "name": "9S",
+      "power_level": 33,
+      "gl_score": 3.91,
+      "jp_score": 9.3
+    },
+    {
+      "id": "tytos",
+      "name": "Tytos",
+      "power_level": 33,
+      "gl_score": 5.78,
+      "jp_score": 9.6
+    },
+    {
+      "id": "aedelgard",
+      "name": "Aedelgard",
+      "power_level": 33,
+      "gl_score": 5.33,
+      "jp_score": 9.5
+    },
+    {
+      "id": "grieg",
+      "name": "Grieg",
+      "power_level": 33,
+      "gl_score": 5.67,
+      "jp_score": 9.5
+    },
+    {
+      "id": "hujheb",
+      "name": "Hujheb",
+      "power_level": 33,
+      "gl_score": 9.18,
+      "jp_score": 9.8
+    },
+    {
+      "id": "sazantos_ex",
+      "name": "Sazantos EX",
+      "power_level": 33,
+      "gl_score": 0,
+      "jp_score": 9.8
+    },
+    {
+      "id": "kain_",
+      "name": "Kainé",
+      "power_level": 33,
+      "gl_score": 0,
+      "jp_score": 9.9
+    },
+    {
+      "id": "nier",
+      "name": "Nier",
+      "power_level": 33,
+      "gl_score": 0,
+      "jp_score": 9.8
+    },
+    {
+      "id": "sowan",
+      "name": "Sowan",
+      "power_level": 33,
+      "gl_score": 0,
+      "jp_score": 9.7
+    },
+    {
+      "id": "alrond",
+      "name": "Alrond",
+      "power_level": 33,
+      "gl_score": 0,
+      "jp_score": 9.9
+    },
+    {
+      "id": "ceraphina",
+      "name": "Ceraphina",
+      "power_level": 33,
+      "gl_score": 0,
+      "jp_score": 9.8
+    },
+    {
+      "id": "pardis_iii",
+      "name": "Pardis III",
+      "power_level": 33,
+      "gl_score": 0,
+      "jp_score": 10
+    },
+    {
+      "id": "rai_mei",
+      "name": "Rai Mei",
+      "power_level": 33,
+      "gl_score": 0,
+      "jp_score": 9.8
+    },
+    {
+      "id": "black_knight",
+      "name": "Black Knight",
+      "power_level": 33,
+      "gl_score": 0,
+      "jp_score": 9.9
+    },
+    {
+      "id": "avar",
+      "name": "Avar",
+      "power_level": 33,
+      "gl_score": 0,
+      "jp_score": 9.8
+    },
+    {
+      "id": "mahrez",
+      "name": "Mahrez",
+      "power_level": 33,
+      "gl_score": 0,
+      "jp_score": 9.8
+    },
+    {
+      "id": "fiore",
+      "name": "Fiore",
+      "power_level": 32,
+      "gl_score": 5.08,
+      "jp_score": 9.3
+    },
+    {
+      "id": "tressa",
+      "name": "Tressa",
+      "power_level": 32,
+      "gl_score": 5.78,
+      "jp_score": 9.6
+    },
+    {
+      "id": "h_aanit",
+      "name": "H’aanit",
+      "power_level": 32,
+      "gl_score": 5,
+      "jp_score": 9.4
+    },
+    {
+      "id": "eliza",
+      "name": "Eliza",
+      "power_level": 32,
+      "gl_score": 5,
+      "jp_score": 9.3
+    },
+    {
+      "id": "elvis",
+      "name": "Elvis",
+      "power_level": 32,
+      "gl_score": 3.04,
+      "jp_score": 9.2
+    },
+    {
+      "id": "kersjes",
+      "name": "Kersjes",
+      "power_level": 32,
+      "gl_score": 5.55,
+      "jp_score": 9.1
+    },
+    {
+      "id": "hayes",
+      "name": "Hayes",
+      "power_level": 32,
+      "gl_score": 5.18,
+      "jp_score": 9.3
+    },
+    {
+      "id": "joshua",
+      "name": "Joshua",
+      "power_level": 32,
+      "gl_score": 3.86,
+      "jp_score": 9.2
+    },
+    {
+      "id": "largo",
+      "name": "Largo",
+      "power_level": 32,
+      "gl_score": 3.25,
+      "jp_score": 9.3
+    },
+    {
+      "id": "chloe",
+      "name": "Chloe",
+      "power_level": 32,
+      "gl_score": 5.73,
+      "jp_score": 9.4
+    },
+    {
+      "id": "serenoa",
+      "name": "Serenoa",
+      "power_level": 32,
+      "gl_score": 5.38,
+      "jp_score": 9.4
+    },
+    {
+      "id": "tressa_ex",
+      "name": "Tressa EX",
+      "power_level": 32,
+      "gl_score": 5.19,
+      "jp_score": 9.2
+    },
+    {
+      "id": "bargello",
+      "name": "Bargello",
+      "power_level": 32,
+      "gl_score": 9.04,
+      "jp_score": 9.8
+    },
+    {
+      "id": "shana",
+      "name": "Shana",
+      "power_level": 32,
+      "gl_score": 9.86,
+      "jp_score": 9.9
+    },
+    {
+      "id": "cecil",
+      "name": "Cecil",
+      "power_level": 32,
+      "gl_score": 0,
+      "jp_score": 9.9
+    },
+    {
+      "id": "tiziano",
+      "name": "Tiziano",
+      "power_level": 32,
+      "gl_score": 0,
+      "jp_score": 9.9
+    },
+    {
+      "id": "bargello_ex",
+      "name": "Bargello EX",
+      "power_level": 32,
+      "gl_score": 0,
+      "jp_score": 9.8
+    },
+    {
+      "id": "tatloch_ex",
+      "name": "Tatloch EX",
+      "power_level": 32,
+      "gl_score": 0,
+      "jp_score": 9.9
+    },
+    {
+      "id": "ori",
+      "name": "Ori",
+      "power_level": 32,
+      "gl_score": 0,
+      "jp_score": 9.7
+    },
+    {
+      "id": "ditraina_ex",
+      "name": "Ditraina EX",
+      "power_level": 32,
+      "gl_score": 0,
+      "jp_score": 9.9
+    },
+    {
+      "id": "sigrid_ex",
+      "name": "Sigrid EX",
+      "power_level": 32,
+      "gl_score": 0,
+      "jp_score": 9.4
+    },
+    {
+      "id": "cyrus_ex",
+      "name": "Cyrus EX",
+      "power_level": 32,
+      "gl_score": 0,
+      "jp_score": 9.8
+    },
+    {
+      "id": "ochette_ex",
+      "name": "Ochette EX",
+      "power_level": 32,
+      "gl_score": 0,
+      "jp_score": 9.8
+    },
+    {
+      "id": "castti_ex",
+      "name": "Castti EX",
+      "power_level": 32,
+      "gl_score": 0,
+      "jp_score": 9.7
+    },
+    {
+      "id": "esmeralda",
+      "name": "Esmeralda",
+      "power_level": 32,
+      "gl_score": 0,
+      "jp_score": 9.8
+    },
+    {
+      "id": "aoi",
+      "name": "Aoi",
+      "power_level": 32,
+      "gl_score": 0,
+      "jp_score": 9.6
+    },
+    {
+      "id": "cassia",
+      "name": "Cassia",
+      "power_level": 32,
+      "gl_score": 0,
+      "jp_score": 9.7
+    },
+    {
+      "id": "millard",
+      "name": "Millard",
+      "power_level": 31,
+      "gl_score": 3.12,
+      "jp_score": 9.3
+    },
+    {
+      "id": "heathcote",
+      "name": "Heathcote",
+      "power_level": 31,
+      "gl_score": 2.85,
+      "jp_score": 9.4
+    },
+    {
+      "id": "primrose",
+      "name": "Primrose",
+      "power_level": 31,
+      "gl_score": 5.68,
+      "jp_score": 9.5
+    },
+    {
+      "id": "adelle",
+      "name": "Adelle",
+      "power_level": 31,
+      "gl_score": 5.5,
+      "jp_score": 9.3
+    },
+    {
+      "id": "molu",
+      "name": "Molu",
+      "power_level": 31,
+      "gl_score": 5.13,
+      "jp_score": 9.4
+    },
+    {
+      "id": "jillmeila",
+      "name": "Jillmeila",
+      "power_level": 31,
+      "gl_score": 5.13,
+      "jp_score": 9.5
+    },
+    {
+      "id": "eleonora",
+      "name": "Eleonora",
+      "power_level": 31,
+      "gl_score": 5.52,
+      "jp_score": 9.3
+    },
+    {
+      "id": "alaune",
+      "name": "Alaune",
+      "power_level": 31,
+      "gl_score": 5.32,
+      "jp_score": 9.6
+    },
+    {
+      "id": "promme",
+      "name": "Promme",
+      "power_level": 31,
+      "gl_score": 3.13,
+      "jp_score": 9.5
+    },
+    {
+      "id": "yukes",
+      "name": "Yukes",
+      "power_level": 31,
+      "gl_score": 3,
+      "jp_score": 9.2
+    },
+    {
+      "id": "primrose_ex",
+      "name": "Primrose EX",
+      "power_level": 31,
+      "gl_score": 9.27,
+      "jp_score": 9.8
+    },
+    {
+      "id": "millard_ex",
+      "name": "Millard EX",
+      "power_level": 31,
+      "gl_score": 5.9,
+      "jp_score": 9.4
+    },
+    {
+      "id": "nina_lanna",
+      "name": "Nina-Lanna",
+      "power_level": 31,
+      "gl_score": 5.32,
+      "jp_score": 9.5
+    },
+    {
+      "id": "canary",
+      "name": "Canary",
+      "power_level": 31,
+      "gl_score": 9.45,
+      "jp_score": 9.7
+    },
+    {
+      "id": "signa",
+      "name": "Signa",
+      "power_level": 31,
+      "gl_score": 9.61,
+      "jp_score": 9.9
+    },
+    {
+      "id": "agnea_ex",
+      "name": "Agnea EX",
+      "power_level": 31,
+      "gl_score": 0,
+      "jp_score": 9.8
+    },
+    {
+      "id": "ophilia_ex",
+      "name": "Ophilia EX",
+      "power_level": 31,
+      "gl_score": 0,
+      "jp_score": 9.8
+    },
+    {
+      "id": "emil",
+      "name": "Emil",
+      "power_level": 31,
+      "gl_score": 0,
+      "jp_score": 9.8
+    },
+    {
+      "id": "dolcinaea",
+      "name": "Dolcinaea",
+      "power_level": 31,
+      "gl_score": 0,
+      "jp_score": 9.7
+    },
+    {
+      "id": "relisha",
+      "name": "Relisha",
+      "power_level": 31,
+      "gl_score": 0,
+      "jp_score": 9.7
+    },
+    {
+      "id": "rinyuu_ex",
+      "name": "Rinyuu EX",
+      "power_level": 31,
+      "gl_score": 0,
+      "jp_score": 9.9
+    },
+    {
+      "id": "elrica_ex",
+      "name": "Elrica EX",
+      "power_level": 31,
+      "gl_score": 0,
+      "jp_score": 9.8
+    },
+    {
+      "id": "mydia",
+      "name": "Mydia",
+      "power_level": 31,
+      "gl_score": 0,
+      "jp_score": 9.9
+    },
+    {
+      "id": "morena",
+      "name": "Morena",
+      "power_level": 31,
+      "gl_score": 0,
+      "jp_score": 9.8
+    },
+    {
+      "id": "kagemune",
+      "name": "Kagemune",
+      "power_level": 31,
+      "gl_score": 0,
+      "jp_score": 9.6
+    },
+    {
+      "id": "hikari_ex",
+      "name": "Hikari EX",
+      "power_level": 31,
+      "gl_score": 0,
+      "jp_score": 9.8
+    },
+    {
+      "id": "black_maiden",
+      "name": "Black Maiden",
+      "power_level": 31,
+      "gl_score": 0,
+      "jp_score": 0
+    },
+    {
+      "id": "viola_ex",
+      "name": "Viola EX",
+      "power_level": 31,
+      "gl_score": 0,
+      "jp_score": 9.8
+    },
+    {
+      "id": "molrusso_ex",
+      "name": "Molrusso EX",
+      "power_level": 31,
+      "gl_score": 0,
+      "jp_score": 9.9
+    },
+    {
+      "id": "therese_ex",
+      "name": "Therese EX",
+      "power_level": 31,
+      "gl_score": 0,
+      "jp_score": 9.7
+    },
+    {
+      "id": "partitio_ex",
+      "name": "Partitio EX",
+      "power_level": 31,
+      "gl_score": 0,
+      "jp_score": 9.8
+    },
+    {
+      "id": "kazan",
+      "name": "Kazan",
+      "power_level": 31,
+      "gl_score": 0,
+      "jp_score": 9.8
+    },
+    {
+      "id": "lianna",
+      "name": "Lianna",
+      "power_level": 30,
+      "gl_score": 5.31,
+      "jp_score": 9.6
+    },
+    {
+      "id": "osvald_ex",
+      "name": "Osvald EX",
+      "power_level": 30,
+      "gl_score": 0,
+      "jp_score": 9.8
+    },
+    {
+      "id": "gilderoy",
+      "name": "Gilderoy",
+      "power_level": 27,
+      "gl_score": 4.92,
+      "jp_score": 9.6
+    },
+    {
+      "id": "nona",
+      "name": "Nona",
+      "power_level": 27,
+      "gl_score": 4.95,
+      "jp_score": 9.6
+    },
+    {
+      "id": "theo",
+      "name": "Theo",
+      "power_level": 26,
+      "gl_score": 4.67,
+      "jp_score": 9.5
+    },
+    {
+      "id": "kouren",
+      "name": "Kouren",
+      "power_level": 26,
+      "gl_score": 4.71,
+      "jp_score": 9.5
+    },
+    {
+      "id": "lumis",
+      "name": "Lumis",
+      "power_level": 26,
+      "gl_score": 4.67,
+      "jp_score": 9.2
+    },
+    {
+      "id": "edea",
+      "name": "Edea",
+      "power_level": 26,
+      "gl_score": 4.88,
+      "jp_score": 9.3
+    },
+    {
+      "id": "lionel",
+      "name": "Lionel",
+      "power_level": 26,
+      "gl_score": 4.27,
+      "jp_score": 9.2
+    },
+    {
+      "id": "gertrude",
+      "name": "Gertrude",
+      "power_level": 26,
+      "gl_score": 4.79,
+      "jp_score": 9.3
+    },
+    {
+      "id": "soleil",
+      "name": "Soleil",
+      "power_level": 26,
+      "gl_score": 4.7,
+      "jp_score": 9.5
+    },
+    {
+      "id": "sertet",
+      "name": "Sertet",
+      "power_level": 26,
+      "gl_score": 4.5,
+      "jp_score": 9.5
+    },
+    {
+      "id": "oersted",
+      "name": "Oersted",
+      "power_level": 26,
+      "gl_score": 4.77,
+      "jp_score": 9.5
+    },
+    {
+      "id": "scarecrow",
+      "name": "Scarecrow",
+      "power_level": 25,
+      "gl_score": 4.52,
+      "jp_score": 9.3
+    },
+    {
+      "id": "sofia",
+      "name": "Sofia",
+      "power_level": 25,
+      "gl_score": 4.96,
+      "jp_score": 9.5
+    },
+    {
+      "id": "therese",
+      "name": "Therese",
+      "power_level": 25,
+      "gl_score": 4.19,
+      "jp_score": 9.1
+    },
+    {
+      "id": "hasumi",
+      "name": "Hasumi",
+      "power_level": 25,
+      "gl_score": 4.69,
+      "jp_score": 9.3
+    },
+    {
+      "id": "tikilen",
+      "name": "Tikilen",
+      "power_level": 25,
+      "gl_score": 4.56,
+      "jp_score": 9.3
+    },
+    {
+      "id": "glossom",
+      "name": "Glossom",
+      "power_level": 25,
+      "gl_score": 4.48,
+      "jp_score": 9.2
+    },
+    {
+      "id": "varkyn",
+      "name": "Varkyn",
+      "power_level": 25,
+      "gl_score": 4.84,
+      "jp_score": 9.3
+    },
+    {
+      "id": "harley",
+      "name": "Harley",
+      "power_level": 25,
+      "gl_score": 4,
+      "jp_score": 9.4
+    },
+    {
+      "id": "lemaire",
+      "name": "Lemaire",
+      "power_level": 25,
+      "gl_score": 4.67,
+      "jp_score": 9.6
+    },
+    {
+      "id": "streibough",
+      "name": "Streibough",
+      "power_level": 25,
+      "gl_score": 4.82,
+      "jp_score": 9.7
+    },
+    {
+      "id": "mirgardi",
+      "name": "Mirgardi",
+      "power_level": 25,
+      "gl_score": 4.87,
+      "jp_score": 9.3
+    },
+    {
+      "id": "stead",
+      "name": "Stead",
+      "power_level": 24,
+      "gl_score": 4.04,
+      "jp_score": 9.3
+    },
+    {
+      "id": "agn_s",
+      "name": "Agnès",
+      "power_level": 24,
+      "gl_score": 4.85,
+      "jp_score": 9.6
+    },
+    {
+      "id": "molrusso",
+      "name": "Molrusso",
+      "power_level": 24,
+      "gl_score": 4,
+      "jp_score": 9.4
+    },
+    {
+      "id": "ri_tu",
+      "name": "Ri’tu",
+      "power_level": 24,
+      "gl_score": 4.63,
+      "jp_score": 9.1
+    },
+    {
+      "id": "sail",
+      "name": "Sail",
+      "power_level": 0,
+      "gl_score": 4.88,
+      "jp_score": 9.6
+    },
+    {
+      "id": "menno",
+      "name": "Menno",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8.5
+    },
+    {
+      "id": "meena",
+      "name": "Meena",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 9
+    },
+    {
+      "id": "wingate",
+      "name": "Wingate",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8.5
+    },
+    {
+      "id": "sigrid",
+      "name": "Sigrid",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 9
+    },
+    {
+      "id": "noelle",
+      "name": "Noelle",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 9
+    },
+    {
+      "id": "laura",
+      "name": "Laura",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 9
+    },
+    {
+      "id": "ramona",
+      "name": "Ramona",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 9
+    },
+    {
+      "id": "pia",
+      "name": "Pia",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8.5
+    },
+    {
+      "id": "aslyte",
+      "name": "Aslyte",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8.5
+    },
+    {
+      "id": "lucetta",
+      "name": "Lucetta",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8.5
+    },
+    {
+      "id": "ashlan",
+      "name": "Ashlan",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8.5
+    },
+    {
+      "id": "merrit",
+      "name": "Merrit",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8.5
+    },
+    {
+      "id": "heinz",
+      "name": "Heinz",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8.5
+    },
+    {
+      "id": "devin",
+      "name": "Devin",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 9
+    },
+    {
+      "id": "rita",
+      "name": "Rita",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8
+    },
+    {
+      "id": "fabio",
+      "name": "Fabio",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8.5
+    },
+    {
+      "id": "mabel",
+      "name": "Mabel",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 9
+    },
+    {
+      "id": "madelaine",
+      "name": "Madelaine",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8
+    },
+    {
+      "id": "tahir",
+      "name": "Tahir",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8
+    },
+    {
+      "id": "peredir",
+      "name": "Peredir",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8
+    },
+    {
+      "id": "barrad",
+      "name": "Barrad",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8.5
+    },
+    {
+      "id": "shelby",
+      "name": "Shelby",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 9
+    },
+    {
+      "id": "iris",
+      "name": "Iris",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8
+    },
+    {
+      "id": "cedric",
+      "name": "Cedric",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8.5
+    },
+    {
+      "id": "trish",
+      "name": "Trish",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8
+    },
+    {
+      "id": "bertrand",
+      "name": "Bertrand",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8.5
+    },
+    {
+      "id": "cless",
+      "name": "Cless",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8.5
+    },
+    {
+      "id": "rodion",
+      "name": "Rodion",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8
+    },
+    {
+      "id": "miles",
+      "name": "Miles",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8
+    },
+    {
+      "id": "helga",
+      "name": "Helga",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8.5
+    },
+    {
+      "id": "kurtz",
+      "name": "Kurtz",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 9
+    },
+    {
+      "id": "camilla",
+      "name": "Camilla",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8
+    },
+    {
+      "id": "cerna",
+      "name": "Cerna",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8.5
+    },
+    {
+      "id": "efrain",
+      "name": "Efrain",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8.5
+    },
+    {
+      "id": "paula",
+      "name": "Paula",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 9
+    },
+    {
+      "id": "kenneth",
+      "name": "Kenneth",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 9
+    },
+    {
+      "id": "brigitte",
+      "name": "Brigitte",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8.5
+    },
+    {
+      "id": "durand",
+      "name": "Durand",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 9
+    },
+    {
+      "id": "jorn",
+      "name": "Jorn",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 9
+    },
+    {
+      "id": "cornelia",
+      "name": "Cornelia",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8
+    },
+    {
+      "id": "levan",
+      "name": "Levan",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8.5
+    },
+    {
+      "id": "lolo",
+      "name": "Lolo",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8.5
+    },
+    {
+      "id": "narr",
+      "name": "Narr",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8
+    },
+    {
+      "id": "carroll",
+      "name": "Carroll",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 7.5
+    },
+    {
+      "id": "menny",
+      "name": "Menny",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8
+    },
+    {
+      "id": "felline",
+      "name": "Felline",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8
+    },
+    {
+      "id": "billy",
+      "name": "Billy",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8
+    },
+    {
+      "id": "nanna",
+      "name": "Nanna",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8
+    },
+    {
+      "id": "penny",
+      "name": "Penny",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 7.5
+    },
+    {
+      "id": "juan",
+      "name": "Juan",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 7.5
+    },
+    {
+      "id": "harry",
+      "name": "Harry",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 7
+    },
+    {
+      "id": "jorge",
+      "name": "Jorge",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 7
+    },
+    {
+      "id": "manuel",
+      "name": "Manuel",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 7.5
+    },
+    {
+      "id": "guti",
+      "name": "Guti",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 7.5
+    },
+    {
+      "id": "eunice",
+      "name": "Eunice",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8
+    },
+    {
+      "id": "saria",
+      "name": "Saria",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 7
+    },
+    {
+      "id": "vivian",
+      "name": "Vivian",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 7.5
+    },
+    {
+      "id": "diego",
+      "name": "Diego",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 7.5
+    },
+    {
+      "id": "julio",
+      "name": "Julio",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 7
+    },
+    {
+      "id": "yugo",
+      "name": "Yugo",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 7.5
+    },
+    {
+      "id": "sunny",
+      "name": "Sunny",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 7
+    },
+    {
+      "id": "telly",
+      "name": "Telly",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 7.5
+    },
+    {
+      "id": "jos_",
+      "name": "José",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8
+    },
+    {
+      "id": "pearl",
+      "name": "Pearl",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 7.5
+    },
+    {
+      "id": "conny",
+      "name": "Conny",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8
+    },
+    {
+      "id": "evelyn",
+      "name": "Evelyn",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 8
+    },
+    {
+      "id": "dorrie",
+      "name": "Dorrie",
+      "power_level": 0,
+      "gl_score": 0,
+      "jp_score": 7.5
+    }
+  ],
+  "by_job": {
+    "Hunter": [
+      {
+        "id": "ochette",
+        "name": "Ochette",
+        "power_level": 63,
+        "gl_score": 8.56
+      },
+      {
+        "id": "herminia",
+        "name": "Herminia",
+        "power_level": 49,
+        "gl_score": 7.44
+      },
+      {
+        "id": "z_aanta",
+        "name": "Z’aanta",
+        "power_level": 39,
+        "gl_score": 6.83
+      },
+      {
+        "id": "lumis_ex",
+        "name": "Lumis EX",
+        "power_level": 39,
+        "gl_score": 6.22
+      },
+      {
+        "id": "yunnie",
+        "name": "Yunnie",
+        "power_level": 38,
+        "gl_score": 6.33
+      },
+      {
+        "id": "kilns",
+        "name": "Kilns",
+        "power_level": 34,
+        "gl_score": 9.23
+      },
+      {
+        "id": "hujheb",
+        "name": "Hujheb",
+        "power_level": 33,
+        "gl_score": 9.18
+      },
+      {
+        "id": "h_aanit",
+        "name": "H’aanit",
+        "power_level": 32,
+        "gl_score": 5
+      },
+      {
+        "id": "kersjes",
+        "name": "Kersjes",
+        "power_level": 32,
+        "gl_score": 5.55
+      },
+      {
+        "id": "chloe",
+        "name": "Chloe",
+        "power_level": 32,
+        "gl_score": 5.73
+      },
+      {
+        "id": "tressa_ex",
+        "name": "Tressa EX",
+        "power_level": 32,
+        "gl_score": 5.19
+      },
+      {
+        "id": "ditraina_ex",
+        "name": "Ditraina EX",
+        "power_level": 32,
+        "gl_score": 0
+      },
+      {
+        "id": "cassia",
+        "name": "Cassia",
+        "power_level": 32,
+        "gl_score": 0
+      },
+      {
+        "id": "jillmeila",
+        "name": "Jillmeila",
+        "power_level": 31,
+        "gl_score": 5.13
+      },
+      {
+        "id": "agnea_ex",
+        "name": "Agnea EX",
+        "power_level": 31,
+        "gl_score": 0
+      },
+      {
+        "id": "sertet",
+        "name": "Sertet",
+        "power_level": 26,
+        "gl_score": 4.5
+      },
+      {
+        "id": "scarecrow",
+        "name": "Scarecrow",
+        "power_level": 25,
+        "gl_score": 4.52
+      },
+      {
+        "id": "lucetta",
+        "name": "Lucetta",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "ashlan",
+        "name": "Ashlan",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "bertrand",
+        "name": "Bertrand",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "camilla",
+        "name": "Camilla",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "lolo",
+        "name": "Lolo",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "narr",
+        "name": "Narr",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "guti",
+        "name": "Guti",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "vivian",
+        "name": "Vivian",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "sunny",
+        "name": "Sunny",
+        "power_level": 0,
+        "gl_score": 0
+      }
+    ],
+    "Dancer": [
+      {
+        "id": "h_aanit_ex",
+        "name": "H’aanit EX",
+        "power_level": 65,
+        "gl_score": 8.35
+      },
+      {
+        "id": "alaune_ex",
+        "name": "Alaune EX",
+        "power_level": 63,
+        "gl_score": 8.63
+      },
+      {
+        "id": "tatloch",
+        "name": "Tatloch",
+        "power_level": 50,
+        "gl_score": 7.2
+      },
+      {
+        "id": "fiore_ex",
+        "name": "Fiore EX",
+        "power_level": 49,
+        "gl_score": 7.82
+      },
+      {
+        "id": "lynette",
+        "name": "Lynette",
+        "power_level": 47,
+        "gl_score": 7.14
+      },
+      {
+        "id": "agnea",
+        "name": "Agnea",
+        "power_level": 47,
+        "gl_score": 8
+      },
+      {
+        "id": "tithi",
+        "name": "Tithi",
+        "power_level": 38,
+        "gl_score": 6.63
+      },
+      {
+        "id": "neha",
+        "name": "Neha",
+        "power_level": 38,
+        "gl_score": 6.22
+      },
+      {
+        "id": "bargello_ex",
+        "name": "Bargello EX",
+        "power_level": 32,
+        "gl_score": 0
+      },
+      {
+        "id": "castti_ex",
+        "name": "Castti EX",
+        "power_level": 32,
+        "gl_score": 0
+      },
+      {
+        "id": "primrose",
+        "name": "Primrose",
+        "power_level": 31,
+        "gl_score": 5.68
+      },
+      {
+        "id": "eleonora",
+        "name": "Eleonora",
+        "power_level": 31,
+        "gl_score": 5.52
+      },
+      {
+        "id": "signa",
+        "name": "Signa",
+        "power_level": 31,
+        "gl_score": 9.61
+      },
+      {
+        "id": "dolcinaea",
+        "name": "Dolcinaea",
+        "power_level": 31,
+        "gl_score": 0
+      },
+      {
+        "id": "black_maiden",
+        "name": "Black Maiden",
+        "power_level": 31,
+        "gl_score": 0
+      },
+      {
+        "id": "molrusso_ex",
+        "name": "Molrusso EX",
+        "power_level": 31,
+        "gl_score": 0
+      },
+      {
+        "id": "hasumi",
+        "name": "Hasumi",
+        "power_level": 25,
+        "gl_score": 4.69
+      },
+      {
+        "id": "glossom",
+        "name": "Glossom",
+        "power_level": 25,
+        "gl_score": 4.48
+      },
+      {
+        "id": "harley",
+        "name": "Harley",
+        "power_level": 25,
+        "gl_score": 4
+      },
+      {
+        "id": "lemaire",
+        "name": "Lemaire",
+        "power_level": 25,
+        "gl_score": 4.67
+      },
+      {
+        "id": "mirgardi",
+        "name": "Mirgardi",
+        "power_level": 25,
+        "gl_score": 4.87
+      },
+      {
+        "id": "meena",
+        "name": "Meena",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "fabio",
+        "name": "Fabio",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "mabel",
+        "name": "Mabel",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "iris",
+        "name": "Iris",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "paula",
+        "name": "Paula",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "harry",
+        "name": "Harry",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "manuel",
+        "name": "Manuel",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "evelyn",
+        "name": "Evelyn",
+        "power_level": 0,
+        "gl_score": 0
+      }
+    ],
+    "Thief": [
+      {
+        "id": "a2",
+        "name": "A2",
+        "power_level": 48,
+        "gl_score": 8
+      },
+      {
+        "id": "pirro",
+        "name": "Pirro",
+        "power_level": 48,
+        "gl_score": 7.67
+      },
+      {
+        "id": "therion",
+        "name": "Therion",
+        "power_level": 47,
+        "gl_score": 7.69
+      },
+      {
+        "id": "sonia",
+        "name": "Sonia",
+        "power_level": 47,
+        "gl_score": 8.29
+      },
+      {
+        "id": "thron_",
+        "name": "Throné",
+        "power_level": 47,
+        "gl_score": 7.56
+      },
+      {
+        "id": "auguste",
+        "name": "Auguste",
+        "power_level": 39,
+        "gl_score": 6.36
+      },
+      {
+        "id": "viola",
+        "name": "Viola",
+        "power_level": 38,
+        "gl_score": 6.73
+      },
+      {
+        "id": "falco",
+        "name": "Falco",
+        "power_level": 38,
+        "gl_score": 6.89
+      },
+      {
+        "id": "sarisa",
+        "name": "Sarisa",
+        "power_level": 38,
+        "gl_score": 6.72
+      },
+      {
+        "id": "nicola",
+        "name": "Nicola",
+        "power_level": 37,
+        "gl_score": 6.7
+      },
+      {
+        "id": "kain_",
+        "name": "Kainé",
+        "power_level": 33,
+        "gl_score": 0
+      },
+      {
+        "id": "bargello",
+        "name": "Bargello",
+        "power_level": 32,
+        "gl_score": 9.04
+      },
+      {
+        "id": "tiziano",
+        "name": "Tiziano",
+        "power_level": 32,
+        "gl_score": 0
+      },
+      {
+        "id": "tatloch_ex",
+        "name": "Tatloch EX",
+        "power_level": 32,
+        "gl_score": 0
+      },
+      {
+        "id": "esmeralda",
+        "name": "Esmeralda",
+        "power_level": 32,
+        "gl_score": 0
+      },
+      {
+        "id": "heathcote",
+        "name": "Heathcote",
+        "power_level": 31,
+        "gl_score": 2.85
+      },
+      {
+        "id": "adelle",
+        "name": "Adelle",
+        "power_level": 31,
+        "gl_score": 5.5
+      },
+      {
+        "id": "canary",
+        "name": "Canary",
+        "power_level": 31,
+        "gl_score": 9.45
+      },
+      {
+        "id": "elrica_ex",
+        "name": "Elrica EX",
+        "power_level": 31,
+        "gl_score": 0
+      },
+      {
+        "id": "kagemune",
+        "name": "Kagemune",
+        "power_level": 31,
+        "gl_score": 0
+      },
+      {
+        "id": "partitio_ex",
+        "name": "Partitio EX",
+        "power_level": 31,
+        "gl_score": 0
+      },
+      {
+        "id": "ri_tu",
+        "name": "Ri’tu",
+        "power_level": 24,
+        "gl_score": 4.63
+      },
+      {
+        "id": "wingate",
+        "name": "Wingate",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "aslyte",
+        "name": "Aslyte",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "cless",
+        "name": "Cless",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "kurtz",
+        "name": "Kurtz",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "durand",
+        "name": "Durand",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "felline",
+        "name": "Felline",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "billy",
+        "name": "Billy",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "diego",
+        "name": "Diego",
+        "power_level": 0,
+        "gl_score": 0
+      }
+    ],
+    "Apothecary": [
+      {
+        "id": "nephti",
+        "name": "Nephti",
+        "power_level": 66,
+        "gl_score": 8.72
+      },
+      {
+        "id": "castti",
+        "name": "Castti",
+        "power_level": 65,
+        "gl_score": 8.84
+      },
+      {
+        "id": "zenia",
+        "name": "Zenia",
+        "power_level": 49,
+        "gl_score": 7.06
+      },
+      {
+        "id": "ogen",
+        "name": "Ogen",
+        "power_level": 49,
+        "gl_score": 7.7
+      },
+      {
+        "id": "jane",
+        "name": "Jane",
+        "power_level": 49,
+        "gl_score": 7.11
+      },
+      {
+        "id": "morffins",
+        "name": "Morffins",
+        "power_level": 40,
+        "gl_score": 6.5
+      },
+      {
+        "id": "alfyn",
+        "name": "Alfyn",
+        "power_level": 39,
+        "gl_score": 6.44
+      },
+      {
+        "id": "sofia_ex",
+        "name": "Sofia EX",
+        "power_level": 38,
+        "gl_score": 6.82
+      },
+      {
+        "id": "signa_ex",
+        "name": "Signa EX",
+        "power_level": 36,
+        "gl_score": 0
+      },
+      {
+        "id": "sowan",
+        "name": "Sowan",
+        "power_level": 33,
+        "gl_score": 0
+      },
+      {
+        "id": "ceraphina",
+        "name": "Ceraphina",
+        "power_level": 33,
+        "gl_score": 0
+      },
+      {
+        "id": "avar",
+        "name": "Avar",
+        "power_level": 33,
+        "gl_score": 0
+      },
+      {
+        "id": "hayes",
+        "name": "Hayes",
+        "power_level": 32,
+        "gl_score": 5.18
+      },
+      {
+        "id": "shana",
+        "name": "Shana",
+        "power_level": 32,
+        "gl_score": 9.86
+      },
+      {
+        "id": "primrose_ex",
+        "name": "Primrose EX",
+        "power_level": 31,
+        "gl_score": 9.27
+      },
+      {
+        "id": "rinyuu_ex",
+        "name": "Rinyuu EX",
+        "power_level": 31,
+        "gl_score": 0
+      },
+      {
+        "id": "theo",
+        "name": "Theo",
+        "power_level": 26,
+        "gl_score": 4.67
+      },
+      {
+        "id": "lumis",
+        "name": "Lumis",
+        "power_level": 26,
+        "gl_score": 4.67
+      },
+      {
+        "id": "gertrude",
+        "name": "Gertrude",
+        "power_level": 26,
+        "gl_score": 4.79
+      },
+      {
+        "id": "soleil",
+        "name": "Soleil",
+        "power_level": 26,
+        "gl_score": 4.7
+      },
+      {
+        "id": "merrit",
+        "name": "Merrit",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "rita",
+        "name": "Rita",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "shelby",
+        "name": "Shelby",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "rodion",
+        "name": "Rodion",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "cornelia",
+        "name": "Cornelia",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "penny",
+        "name": "Penny",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "jorge",
+        "name": "Jorge",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "saria",
+        "name": "Saria",
+        "power_level": 0,
+        "gl_score": 0
+      }
+    ],
+    "Cleric": [
+      {
+        "id": "rinyuu",
+        "name": "Rinyuu",
+        "power_level": 62,
+        "gl_score": 8.81
+      },
+      {
+        "id": "gloria",
+        "name": "Gloria",
+        "power_level": 62,
+        "gl_score": 8.3
+      },
+      {
+        "id": "yan_long",
+        "name": "Yan Long",
+        "power_level": 38,
+        "gl_score": 6.31
+      },
+      {
+        "id": "ophilia",
+        "name": "Ophilia",
+        "power_level": 37,
+        "gl_score": 6.13
+      },
+      {
+        "id": "s__odio",
+        "name": "S. Odio",
+        "power_level": 37,
+        "gl_score": 6
+      },
+      {
+        "id": "temenos",
+        "name": "Temenos",
+        "power_level": 37,
+        "gl_score": 6.55
+      },
+      {
+        "id": "millard",
+        "name": "Millard",
+        "power_level": 31,
+        "gl_score": 3.12
+      },
+      {
+        "id": "promme",
+        "name": "Promme",
+        "power_level": 31,
+        "gl_score": 3.13
+      },
+      {
+        "id": "yukes",
+        "name": "Yukes",
+        "power_level": 31,
+        "gl_score": 3
+      },
+      {
+        "id": "emil",
+        "name": "Emil",
+        "power_level": 31,
+        "gl_score": 0
+      },
+      {
+        "id": "relisha",
+        "name": "Relisha",
+        "power_level": 31,
+        "gl_score": 0
+      },
+      {
+        "id": "mydia",
+        "name": "Mydia",
+        "power_level": 31,
+        "gl_score": 0
+      },
+      {
+        "id": "hikari_ex",
+        "name": "Hikari EX",
+        "power_level": 31,
+        "gl_score": 0
+      },
+      {
+        "id": "therese_ex",
+        "name": "Therese EX",
+        "power_level": 31,
+        "gl_score": 0
+      },
+      {
+        "id": "lianna",
+        "name": "Lianna",
+        "power_level": 30,
+        "gl_score": 5.31
+      },
+      {
+        "id": "osvald_ex",
+        "name": "Osvald EX",
+        "power_level": 30,
+        "gl_score": 0
+      },
+      {
+        "id": "stead",
+        "name": "Stead",
+        "power_level": 24,
+        "gl_score": 4.04
+      },
+      {
+        "id": "agn_s",
+        "name": "Agnès",
+        "power_level": 24,
+        "gl_score": 4.85
+      },
+      {
+        "id": "molrusso",
+        "name": "Molrusso",
+        "power_level": 24,
+        "gl_score": 4
+      },
+      {
+        "id": "menno",
+        "name": "Menno",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "ramona",
+        "name": "Ramona",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "madelaine",
+        "name": "Madelaine",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "cedric",
+        "name": "Cedric",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "efrain",
+        "name": "Efrain",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "brigitte",
+        "name": "Brigitte",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "telly",
+        "name": "Telly",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "jos_",
+        "name": "José",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "pearl",
+        "name": "Pearl",
+        "power_level": 0,
+        "gl_score": 0
+      }
+    ],
+    "Merchant": [
+      {
+        "id": "oskha",
+        "name": "Oskha",
+        "power_level": 69,
+        "gl_score": 9.16
+      },
+      {
+        "id": "cecily",
+        "name": "Cecily",
+        "power_level": 67,
+        "gl_score": 8.65
+      },
+      {
+        "id": "magnolia",
+        "name": "Magnolia",
+        "power_level": 67,
+        "gl_score": 8.91
+      },
+      {
+        "id": "partitio",
+        "name": "Partitio",
+        "power_level": 51,
+        "gl_score": 8
+      },
+      {
+        "id": "krauser",
+        "name": "Krauser",
+        "power_level": 50,
+        "gl_score": 7.36
+      },
+      {
+        "id": "leon",
+        "name": "Leon",
+        "power_level": 50,
+        "gl_score": 7.25
+      },
+      {
+        "id": "roland",
+        "name": "Roland",
+        "power_level": 49,
+        "gl_score": 8.22
+      },
+      {
+        "id": "rique",
+        "name": "Rique",
+        "power_level": 39,
+        "gl_score": 6.89
+      },
+      {
+        "id": "cardona",
+        "name": "Cardona",
+        "power_level": 33,
+        "gl_score": 5.36
+      },
+      {
+        "id": "dorothea",
+        "name": "Dorothea",
+        "power_level": 33,
+        "gl_score": 5.27
+      },
+      {
+        "id": "w_ludai",
+        "name": "W’ludai",
+        "power_level": 33,
+        "gl_score": 5.71
+      },
+      {
+        "id": "9s",
+        "name": "9S",
+        "power_level": 33,
+        "gl_score": 3.91
+      },
+      {
+        "id": "sazantos_ex",
+        "name": "Sazantos EX",
+        "power_level": 33,
+        "gl_score": 0
+      },
+      {
+        "id": "nier",
+        "name": "Nier",
+        "power_level": 33,
+        "gl_score": 0
+      },
+      {
+        "id": "alrond",
+        "name": "Alrond",
+        "power_level": 33,
+        "gl_score": 0
+      },
+      {
+        "id": "rai_mei",
+        "name": "Rai Mei",
+        "power_level": 33,
+        "gl_score": 0
+      },
+      {
+        "id": "tressa",
+        "name": "Tressa",
+        "power_level": 32,
+        "gl_score": 5.78
+      },
+      {
+        "id": "largo",
+        "name": "Largo",
+        "power_level": 32,
+        "gl_score": 3.25
+      },
+      {
+        "id": "ori",
+        "name": "Ori",
+        "power_level": 32,
+        "gl_score": 0
+      },
+      {
+        "id": "sigrid_ex",
+        "name": "Sigrid EX",
+        "power_level": 32,
+        "gl_score": 0
+      },
+      {
+        "id": "millard_ex",
+        "name": "Millard EX",
+        "power_level": 31,
+        "gl_score": 5.9
+      },
+      {
+        "id": "gilderoy",
+        "name": "Gilderoy",
+        "power_level": 27,
+        "gl_score": 4.92
+      },
+      {
+        "id": "nona",
+        "name": "Nona",
+        "power_level": 27,
+        "gl_score": 4.95
+      },
+      {
+        "id": "pia",
+        "name": "Pia",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "devin",
+        "name": "Devin",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "barrad",
+        "name": "Barrad",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "helga",
+        "name": "Helga",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "cerna",
+        "name": "Cerna",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "carroll",
+        "name": "Carroll",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "juan",
+        "name": "Juan",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "conny",
+        "name": "Conny",
+        "power_level": 0,
+        "gl_score": 0
+      }
+    ],
+    "Warrior": [
+      {
+        "id": "richard",
+        "name": "Richard",
+        "power_level": 66,
+        "gl_score": 8.32
+      },
+      {
+        "id": "sazantos",
+        "name": "Sazantos",
+        "power_level": 66,
+        "gl_score": 8.78
+      },
+      {
+        "id": "o__odio",
+        "name": "O. Odio",
+        "power_level": 65,
+        "gl_score": 8.36
+      },
+      {
+        "id": "rondo",
+        "name": "Rondo",
+        "power_level": 49,
+        "gl_score": 7.4
+      },
+      {
+        "id": "elrica",
+        "name": "Elrica",
+        "power_level": 49,
+        "gl_score": 8.24
+      },
+      {
+        "id": "ringabel",
+        "name": "Ringabel",
+        "power_level": 49,
+        "gl_score": 8.09
+      },
+      {
+        "id": "hikari",
+        "name": "Hikari",
+        "power_level": 49,
+        "gl_score": 8.05
+      },
+      {
+        "id": "eltrix",
+        "name": "Eltrix",
+        "power_level": 41,
+        "gl_score": 6.73
+      },
+      {
+        "id": "olberic",
+        "name": "Olberic",
+        "power_level": 40,
+        "gl_score": 6
+      },
+      {
+        "id": "lars",
+        "name": "Lars",
+        "power_level": 39,
+        "gl_score": 6.68
+      },
+      {
+        "id": "crick",
+        "name": "Crick",
+        "power_level": 34,
+        "gl_score": 0
+      },
+      {
+        "id": "2b",
+        "name": "2B",
+        "power_level": 33,
+        "gl_score": 5.56
+      },
+      {
+        "id": "tytos",
+        "name": "Tytos",
+        "power_level": 33,
+        "gl_score": 5.78
+      },
+      {
+        "id": "aedelgard",
+        "name": "Aedelgard",
+        "power_level": 33,
+        "gl_score": 5.33
+      },
+      {
+        "id": "grieg",
+        "name": "Grieg",
+        "power_level": 33,
+        "gl_score": 5.67
+      },
+      {
+        "id": "black_knight",
+        "name": "Black Knight",
+        "power_level": 33,
+        "gl_score": 0
+      },
+      {
+        "id": "mahrez",
+        "name": "Mahrez",
+        "power_level": 33,
+        "gl_score": 0
+      },
+      {
+        "id": "fiore",
+        "name": "Fiore",
+        "power_level": 32,
+        "gl_score": 5.08
+      },
+      {
+        "id": "eliza",
+        "name": "Eliza",
+        "power_level": 32,
+        "gl_score": 5
+      },
+      {
+        "id": "joshua",
+        "name": "Joshua",
+        "power_level": 32,
+        "gl_score": 3.86
+      },
+      {
+        "id": "serenoa",
+        "name": "Serenoa",
+        "power_level": 32,
+        "gl_score": 5.38
+      },
+      {
+        "id": "cecil",
+        "name": "Cecil",
+        "power_level": 32,
+        "gl_score": 0
+      },
+      {
+        "id": "cyrus_ex",
+        "name": "Cyrus EX",
+        "power_level": 32,
+        "gl_score": 0
+      },
+      {
+        "id": "ochette_ex",
+        "name": "Ochette EX",
+        "power_level": 32,
+        "gl_score": 0
+      },
+      {
+        "id": "aoi",
+        "name": "Aoi",
+        "power_level": 32,
+        "gl_score": 0
+      },
+      {
+        "id": "kouren",
+        "name": "Kouren",
+        "power_level": 26,
+        "gl_score": 4.71
+      },
+      {
+        "id": "edea",
+        "name": "Edea",
+        "power_level": 26,
+        "gl_score": 4.88
+      },
+      {
+        "id": "lionel",
+        "name": "Lionel",
+        "power_level": 26,
+        "gl_score": 4.27
+      },
+      {
+        "id": "oersted",
+        "name": "Oersted",
+        "power_level": 26,
+        "gl_score": 4.77
+      },
+      {
+        "id": "tikilen",
+        "name": "Tikilen",
+        "power_level": 25,
+        "gl_score": 4.56
+      },
+      {
+        "id": "sail",
+        "name": "Sail",
+        "power_level": 0,
+        "gl_score": 4.88
+      },
+      {
+        "id": "sigrid",
+        "name": "Sigrid",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "tahir",
+        "name": "Tahir",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "trish",
+        "name": "Trish",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "miles",
+        "name": "Miles",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "jorn",
+        "name": "Jorn",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "menny",
+        "name": "Menny",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "nanna",
+        "name": "Nanna",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "yugo",
+        "name": "Yugo",
+        "power_level": 0,
+        "gl_score": 0
+      }
+    ],
+    "Scholar": [
+      {
+        "id": "solon",
+        "name": "Solon",
+        "power_level": 64,
+        "gl_score": 8.74
+      },
+      {
+        "id": "osvald",
+        "name": "Osvald",
+        "power_level": 62,
+        "gl_score": 8.76
+      },
+      {
+        "id": "cyrus",
+        "name": "Cyrus",
+        "power_level": 61,
+        "gl_score": 8.3
+      },
+      {
+        "id": "odette",
+        "name": "Odette",
+        "power_level": 47,
+        "gl_score": 7.32
+      },
+      {
+        "id": "frederica",
+        "name": "Frederica",
+        "power_level": 47,
+        "gl_score": 7.29
+      },
+      {
+        "id": "ditraina",
+        "name": "Ditraina",
+        "power_level": 46,
+        "gl_score": 7.65
+      },
+      {
+        "id": "nivelle",
+        "name": "Nivelle",
+        "power_level": 46,
+        "gl_score": 8.27
+      },
+      {
+        "id": "isla",
+        "name": "Isla",
+        "power_level": 46,
+        "gl_score": 8.13
+      },
+      {
+        "id": "hammy",
+        "name": "Hammy",
+        "power_level": 45,
+        "gl_score": 7.17
+      },
+      {
+        "id": "levina",
+        "name": "Levina",
+        "power_level": 37,
+        "gl_score": 6.47
+      },
+      {
+        "id": "pardis_iii",
+        "name": "Pardis III",
+        "power_level": 33,
+        "gl_score": 0
+      },
+      {
+        "id": "elvis",
+        "name": "Elvis",
+        "power_level": 32,
+        "gl_score": 3.04
+      },
+      {
+        "id": "molu",
+        "name": "Molu",
+        "power_level": 31,
+        "gl_score": 5.13
+      },
+      {
+        "id": "alaune",
+        "name": "Alaune",
+        "power_level": 31,
+        "gl_score": 5.32
+      },
+      {
+        "id": "nina_lanna",
+        "name": "Nina-Lanna",
+        "power_level": 31,
+        "gl_score": 5.32
+      },
+      {
+        "id": "ophilia_ex",
+        "name": "Ophilia EX",
+        "power_level": 31,
+        "gl_score": 0
+      },
+      {
+        "id": "morena",
+        "name": "Morena",
+        "power_level": 31,
+        "gl_score": 0
+      },
+      {
+        "id": "viola_ex",
+        "name": "Viola EX",
+        "power_level": 31,
+        "gl_score": 0
+      },
+      {
+        "id": "kazan",
+        "name": "Kazan",
+        "power_level": 31,
+        "gl_score": 0
+      },
+      {
+        "id": "sofia",
+        "name": "Sofia",
+        "power_level": 25,
+        "gl_score": 4.96
+      },
+      {
+        "id": "therese",
+        "name": "Therese",
+        "power_level": 25,
+        "gl_score": 4.19
+      },
+      {
+        "id": "varkyn",
+        "name": "Varkyn",
+        "power_level": 25,
+        "gl_score": 4.84
+      },
+      {
+        "id": "streibough",
+        "name": "Streibough",
+        "power_level": 25,
+        "gl_score": 4.82
+      },
+      {
+        "id": "noelle",
+        "name": "Noelle",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "laura",
+        "name": "Laura",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "heinz",
+        "name": "Heinz",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "peredir",
+        "name": "Peredir",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "kenneth",
+        "name": "Kenneth",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "levan",
+        "name": "Levan",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "eunice",
+        "name": "Eunice",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "julio",
+        "name": "Julio",
+        "power_level": 0,
+        "gl_score": 0
+      },
+      {
+        "id": "dorrie",
+        "name": "Dorrie",
+        "power_level": 0,
+        "gl_score": 0
+      }
+    ]
+  }
+}
