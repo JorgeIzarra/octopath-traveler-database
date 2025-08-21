@@ -15,6 +15,7 @@ package-lock.json
 *.pem
 credentials.json
 token.json
+.claude
 
 # OS generated files
 .DS_Store
