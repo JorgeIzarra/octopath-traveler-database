@@ -26844,7 +26844,7 @@
         "japanese_name": "アグネアEx",
         "job": "Hunter",
         "tier": {
-          "gl": "",
+          "gl": "B",
           "jp": "S"
         },
         "rarity": 5,
@@ -27027,7 +27027,7 @@
         "japanese_name": "サザントスEx",
         "job": "Merchant",
         "tier": {
-          "gl": "",
+          "gl": "S",
           "jp": "S"
         },
         "rarity": 5,
@@ -27225,7 +27225,7 @@
         "japanese_name": "セシル",
         "job": "Warrior",
         "tier": {
-          "gl": "",
+          "gl": "A",
           "jp": "S+"
         },
         "rarity": 5,
@@ -27401,7 +27401,7 @@
         "japanese_name": "オフィーリアEx",
         "job": "Scholar",
         "tier": {
-          "gl": "",
+          "gl": "B",
           "jp": "S"
         },
         "rarity": 5,
@@ -29178,7 +29178,7 @@
         "japanese_name": "リンユウEx",
         "job": "Apothecary",
         "tier": {
-          "gl": "",
+          "gl": "S",
           "jp": "S+"
         },
         "rarity": 5,
@@ -47151,9 +47151,9 @@
         "obtained_from": "Free / Chance Encounters"
       },
       "assets": {
-        "portrait": "Imagenes - Octopath/portraits/default.png",
-        "icon": "Imagenes - Octopath/portraits/default.png",
-        "artwork": "Imagenes - Octopath/portraits/default.png"
+        "portrait": "Imagenes - Octopath/portraits/jos.png",
+        "icon": "Imagenes - Octopath/portraits/jos.png",
+        "artwork": "Imagenes - Octopath/portraits/jos.png"
       },
       "stats": {
         "base": {

@@ -1,6 +1,6 @@
 /**
- * GalleryTab.js
- * Character Gallery Tab Implementation
+ * GalleryTab.js - Simplified Clean Design Version
+ * Character Gallery Tab Implementation for Clean UI
  * Handles character browsing, filtering, search, and modal display
  */
 
@@ -8,11 +8,10 @@ class GalleryTab {
     constructor(database) {
         this.database = database;
         this.currentFilters = {};
-        this.currentSort = 'tier';
-        this.currentPage = 1;
-        this.itemsPerPage = 30;
         this.searchTimeout = null;
         this.isInitialized = false;
+        this.currentViewMode = 'grid';
+        this.filteredCharacters = [];
         
         // DOM element references
         this.elements = {};
@@ -31,7 +30,7 @@ class GalleryTab {
         this._loadCharacters();
         
         this.isInitialized = true;
-        console.log('✅ Gallery tab initialized');
+        console.log('✅ Gallery tab initialized with clean design');
     }
 
     /**
@@ -40,67 +39,81 @@ class GalleryTab {
     _cacheElements() {
         this.elements = {
             // Search and filters
-            searchInput: document.getElementById('character-search'),
-            searchClear: document.getElementById('search-clear'),
-            tierFilter: document.getElementById('tier-filter'),
-            jobFilter: document.getElementById('job-filter'),
-            rarityFilter: document.getElementById('rarity-filter'),
-            sortFilter: document.getElementById('sort-filter'),
-            resetFilters: document.getElementById('reset-filters'),
+            searchInput: document.getElementById('searchInput'),
+            tierFilter: document.getElementById('tierFilter'),
+            jobFilter: document.getElementById('jobFilter'),
+            rarityFilter: document.getElementById('rarityFilter'),
+            clearFilters: document.getElementById('clearFilters'),
             
-            // Filter display
-            resultsCounter: document.getElementById('results-counter'),
-            activeFilters: document.getElementById('active-filters'),
-            activeFiltersList: document.getElementById('active-filters-list'),
+            // Grid and results
+            characterGrid: document.getElementById('characterGrid'),
+            characterCount: document.getElementById('characterCount'),
+            noResults: document.getElementById('noResults'),
             
-            // Character display
-            characterGrid: document.getElementById('character-grid'),
-            pagination: document.getElementById('pagination'),
+            // View controls
+            gridViewBtn: document.getElementById('gridViewBtn'),
+            listViewBtn: document.getElementById('listViewBtn'),
             
             // Modal
-            modal: document.getElementById('character-modal'),
-            modalContent: document.getElementById('character-detail'),
-            modalClose: document.getElementById('modal-close')
+            modal: document.getElementById('characterModal'),
+            modalClose: document.getElementById('closeModal'),
+            modalCharacterImage: document.getElementById('modalCharacterImage'),
+            modalCharacterName: document.getElementById('modalCharacterName'),
+            modalCharacterJob: document.getElementById('modalCharacterJob'),
+            modalCharacterRarity: document.getElementById('modalCharacterRarity'),
+            modalCharacterTier: document.getElementById('modalCharacterTier'),
+            modalCharacterDescription: document.getElementById('modalCharacterDescription'),
+            modalStatsGrid: document.getElementById('modalStatsGrid'),
+            modalCharacterSkills: document.getElementById('modalCharacterSkills'),
+            toggleOwned: document.getElementById('toggleOwned'),
+            toggleFavorite: document.getElementById('toggleFavorite')
         };
     }
 
     /**
-     * Setup all event listeners for gallery interactions
+     * Setup event listeners for all interactive elements
      */
     _setupEventListeners() {
-        // Search functionality with debouncing
+        // Search with debouncing
         this.elements.searchInput.addEventListener('input', (e) => {
             clearTimeout(this.searchTimeout);
             this.searchTimeout = setTimeout(() => {
-                this._handleSearch(e.target.value);
+                this.currentFilters.search = e.target.value;
+                this._loadCharacters();
+                this._updateClearFiltersVisibility();
             }, 300);
         });
 
-        // Search clear button
-        this.elements.searchClear.addEventListener('click', () => {
-            this.elements.searchInput.value = '';
-            this._handleSearch('');
-        });
-
-        // Filter controls
+        // Filter changes
         this.elements.tierFilter.addEventListener('change', (e) => {
-            this._handleFilterChange('tier', e.target.value);
+            this.currentFilters.tier = e.target.value === 'all' ? null : e.target.value;
+            this._loadCharacters();
+            this._updateClearFiltersVisibility();
         });
 
         this.elements.jobFilter.addEventListener('change', (e) => {
-            this._handleFilterChange('job', e.target.value);
+            this.currentFilters.job = e.target.value === 'all' ? null : e.target.value;
+            this._loadCharacters();
+            this._updateClearFiltersVisibility();
         });
 
         this.elements.rarityFilter.addEventListener('change', (e) => {
-            this._handleFilterChange('rarity', e.target.value);
+            this.currentFilters.rarity = e.target.value === 'all' ? null : e.target.value;
+            this._loadCharacters();
+            this._updateClearFiltersVisibility();
         });
 
-        this.elements.sortFilter.addEventListener('change', (e) => {
-            this._handleSortChange(e.target.value);
+        // View mode switches
+        this.elements.gridViewBtn.addEventListener('click', () => {
+            this._setViewMode('grid');
         });
 
-        // Reset filters
-        this.elements.resetFilters.addEventListener('click', () => {
+        this.elements.listViewBtn.addEventListener('click', () => {
+            this._setViewMode('list');
+        });
+
+        // Clear filters
+        this.elements.clearFilters.addEventListener('click', () => {
             this._resetAllFilters();
         });
 
@@ -124,20 +137,26 @@ class GalleryTab {
     }
 
     /**
-     * Populate filter dropdown options from database configuration
+     * Populate filter dropdown options from database
      */
     _populateFilterOptions() {
-        const filterOptions = this.database.getFilterOptions();
-        
-        // Populate job filter
-        filterOptions.jobs.forEach(job => {
-            const option = document.createElement('option');
-            option.value = job;
-            option.textContent = job;
-            this.elements.jobFilter.appendChild(option);
-        });
-        
-        console.log('✅ Filter options populated');
+        try {
+            const allCharacters = this.database.getAllCharacters();
+            
+            // Get unique jobs
+            const jobs = [...new Set(allCharacters.map(char => char.basic_info.job))].sort();
+            
+            jobs.forEach(job => {
+                const option = document.createElement('option');
+                option.value = job;
+                option.textContent = job;
+                this.elements.jobFilter.appendChild(option);
+            });
+            
+            console.log('✅ Filter options populated');
+        } catch (error) {
+            console.error('Error populating filter options:', error);
+        }
     }
 
     /**
@@ -145,56 +164,20 @@ class GalleryTab {
      */
     _loadCharacters() {
         try {
-            this._showLoading();
-            
             // Get all characters and apply filters
-            let filteredCharacters = this.database.getAllCharacters();
+            let allCharacters = this.database.getAllCharacters();
+            this.filteredCharacters = this._applyFilters(allCharacters);
             
-            // Apply filters
-            filteredCharacters = this._applyFilters(filteredCharacters);
+            // Apply sorting (tier-first by default)
+            this.filteredCharacters = this._applySorting(this.filteredCharacters);
             
-            // Apply sorting
-            filteredCharacters = this._applySorting(filteredCharacters);
-            
-            this._renderCharacters(filteredCharacters);
-            this._updateResultsCount(filteredCharacters.length);
-            this._hideLoading();
+            this._renderCharacters(this.filteredCharacters);
+            this._updateCharacterCount(this.filteredCharacters.length);
             
         } catch (error) {
             console.error('Error loading characters:', error);
             this._showError('Failed to load characters');
         }
-    }
-
-    /**
-     * Render character cards in the grid
-     */
-    _renderCharacters(characters) {
-        const grid = this.elements.characterGrid;
-        grid.innerHTML = '';
-        
-        if (characters.length === 0) {
-            this._showNoResults();
-            return;
-        }
-        
-        // Calculate pagination
-        const totalPages = Math.ceil(characters.length / this.itemsPerPage);
-        const startIndex = (this.currentPage - 1) * this.itemsPerPage;
-        const endIndex = startIndex + this.itemsPerPage;
-        const pageCharacters = characters.slice(startIndex, endIndex);
-        
-        // Create character cards
-        pageCharacters.forEach(character => {
-            const card = this._createCharacterCard(character);
-            grid.appendChild(card);
-        });
-        
-        // Update pagination
-        this._renderPagination(totalPages);
-        
-        // Add intersection observer for lazy loading images
-        this._setupLazyLoading();
     }
 
     /**
@@ -225,599 +208,372 @@ class GalleryTab {
                 if (character.basic_info.rarity !== parseInt(this.currentFilters.rarity)) return false;
             }
 
-
             return true;
         });
     }
 
     /**
-     * Apply current sorting to character list
+     * Apply sorting to character list (tier-first by default)
      */
     _applySorting(characters) {
+        const tierOrder = { 'S+': 0, 'S': 1, 'A': 2, 'B': 3, 'C': 4, 'D': 5 };
+        
         return characters.sort((a, b) => {
-            switch (this.currentSort) {
-                case 'name':
-                    return a.basic_info.name.localeCompare(b.basic_info.name);
-                
-                case 'rarity':
-                    return (b.basic_info.rarity || 0) - (a.basic_info.rarity || 0);
-                
-                case 'job':
-                    return a.basic_info.job.localeCompare(b.basic_info.job);
-                
-                case 'tier':
-                default:
-                    const tierOrder = { 'S+': 6, 'S': 5, 'A': 4, 'B': 3, 'C': 2, 'D': 1 };
-                    const aTier = tierOrder[a.basic_info.tier?.gl] || 0;
-                    const bTier = tierOrder[b.basic_info.tier?.gl] || 0;
-                    return bTier - aTier;
-            }
+            const tierA = a.basic_info.tier?.gl || 'D';
+            const tierB = b.basic_info.tier?.gl || 'D';
+            
+            // Sort by tier first
+            const tierDiff = tierOrder[tierA] - tierOrder[tierB];
+            if (tierDiff !== 0) return tierDiff;
+            
+            // Then by name
+            return a.basic_info.name.localeCompare(b.basic_info.name);
         });
     }
 
     /**
-     * Handle search input changes
+     * Render character cards in the grid
      */
-    _handleSearch(query) {
-        if (query) {
-            this.currentFilters.search = query;
-        } else {
-            delete this.currentFilters.search;
-        }
+    _renderCharacters(characters) {
+        const grid = this.elements.characterGrid;
+        grid.innerHTML = '';
         
-        this.currentPage = 1;
-        this._loadCharacters();
-        this._updateActiveFiltersDisplay();
-        
-        // Show/hide clear button
-        this.elements.searchClear.style.display = query ? 'block' : 'none';
-    }
-
-    /**
-     * Handle filter changes
-     */
-    _handleFilterChange(filterType, value) {
-        if (value) {
-            this.currentFilters[filterType] = value;
-        } else {
-            delete this.currentFilters[filterType];
-        }
-        
-        this.currentPage = 1;
-        this._loadCharacters();
-        this._updateActiveFiltersDisplay();
-        
-        // Add visual feedback
-        const selectElement = document.getElementById(`${filterType}-filter`);
-        if (selectElement) {
-            selectElement.classList.toggle('has-value', !!value);
-        }
-    }
-
-    /**
-     * Handle sort changes
-     */
-    _handleSortChange(sortType) {
-        this.currentSort = sortType;
-        this._loadCharacters();
-    }
-
-    /**
-     * Reset all filters to default state
-     */
-    _resetAllFilters() {
-        this.currentFilters = {};
-        this.currentSort = 'tier';
-        this.currentPage = 1;
-        
-        // Reset UI elements
-        this.elements.searchInput.value = '';
-        this.elements.tierFilter.value = '';
-        this.elements.jobFilter.value = '';
-        this.elements.rarityFilter.value = '';
-        this.elements.sortFilter.value = 'tier';
-        this.elements.searchClear.style.display = 'none';
-        
-        // Remove visual feedback classes
-        document.querySelectorAll('.filter-select').forEach(select => {
-            select.classList.remove('has-value');
-        });
-        
-        this._updateActiveFiltersDisplay();
-        this._loadCharacters();
-    }
-
-    /**
-     * Update active filters display
-     */
-    _updateActiveFiltersDisplay() {
-        if (!this.elements.activeFilters || !this.elements.activeFiltersList) return;
-        
-        const filterCount = Object.keys(this.currentFilters).length;
-        
-        if (filterCount === 0) {
-            this.elements.activeFilters.style.display = 'none';
+        if (characters.length === 0) {
+            this.elements.noResults.style.display = 'block';
             return;
         }
         
-        this.elements.activeFilters.style.display = 'flex';
-        this.elements.activeFiltersList.innerHTML = '';
+        this.elements.noResults.style.display = 'none';
         
-        // Create filter tags for each active filter
-        Object.entries(this.currentFilters).forEach(([filterType, value]) => {
-            if (!value) return;
-            
-            const tag = document.createElement('div');
-            tag.className = 'active-filter-tag';
-            
-            const displayName = this._getFilterDisplayName(filterType, value);
-            
-            tag.innerHTML = `
-                <span>${displayName}</span>
-                <button class="filter-tag-remove" data-filter-type="${filterType}">×</button>
-            `;
-            
-            // Add remove handler
-            tag.querySelector('.filter-tag-remove').addEventListener('click', (e) => {
-                e.stopPropagation();
-                this._removeFilter(filterType);
-            });
-            
-            this.elements.activeFiltersList.appendChild(tag);
+        // Create character cards
+        characters.forEach(character => {
+            const card = this._createCharacterCard(character);
+            grid.appendChild(card);
         });
     }
 
     /**
-     * Get display name for filter
-     */
-    _getFilterDisplayName(filterType, value) {
-        const displayNames = {
-            search: `"${value}"`,
-            tier: `${value} Tier`,
-            job: value,
-            rarity: `${value} Star`
-        };
-        
-        return displayNames[filterType] || `${filterType}: ${value}`;
-    }
-
-    /**
-     * Remove specific filter
-     */
-    _removeFilter(filterType) {
-        delete this.currentFilters[filterType];
-        
-        // Update UI element
-        if (filterType === 'search') {
-            this.elements.searchInput.value = '';
-            this.elements.searchClear.style.display = 'none';
-        } else {
-            const selectElement = document.getElementById(`${filterType}-filter`);
-            if (selectElement) {
-                selectElement.value = '';
-                selectElement.classList.remove('has-value');
-            }
-        }
-        
-        this.currentPage = 1;
-        this._loadCharacters();
-        this._updateActiveFiltersDisplay();
-    }
-
-    /**
-     * Create a character card element
+     * Create a character card using CharacterCard component
      */
     _createCharacterCard(character) {
-        const card = document.createElement('div');
-        card.className = 'character-card';
-        card.dataset.characterId = character.id;
+        // Load user data from localStorage
+        const userData = this._loadUserData();
         
-        // Simplified card with just image, name, and stars
-        card.innerHTML = `
-            <div class="character-image">
-                <img 
-                    data-src="${this.database.getCharacterPortraitUrl(character)}" 
-                    alt="${character.basic_info.name}"
-                    class="lazy-image"
-                    loading="lazy"
-                    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
-                />
-                <div class="character-placeholder" style="display: none;">
-                    ${character.basic_info.name.substring(0, 2).toUpperCase()}
-                </div>
-            </div>
+        // Ensure character has user_data
+        if (!character.user_data) {
+            character.user_data = {};
+        }
+        
+        // Apply user data from localStorage
+        character.user_data.owned = userData.owned.has(character.id);
+        character.user_data.favorite = userData.favorites.has(character.id);
+        
+        // Create CharacterCard component
+        const characterCard = new CharacterCard(character, {
+            variant: 'gallery',
+            showFavorite: true,
+            showOwned: true,
+            showTierBadge: true,
+            showRarity: true,
+            clickable: true,
+            size: 'medium',
             
-            <div class="character-info">
-                <div class="character-name">${character.basic_info.name}</div>
-                <div class="character-stars">
-                    ${'★'.repeat(character.basic_info.rarity)}
-                </div>
-            </div>
-        `;
-        
-        // Add click handlers
-        card.addEventListener('click', (e) => {
-            this._openCharacterModal(character);
+            // Event handlers
+            onCardClick: (char) => {
+                this._openCharacterModal(char);
+            },
+            
+            onFavoriteClick: (char, isFavorite) => {
+                this._updateFavoriteStatus(char, isFavorite);
+            },
+            
+            onOwnedChange: (char, isOwned) => {
+                this._updateOwnedStatus(char, isOwned);
+            }
         });
         
-        return card;
+        return characterCard.render();
     }
 
     /**
-     * Setup lazy loading for character images
+     * Render star rating for character
      */
-    _setupLazyLoading() {
-        const images = this.elements.characterGrid.querySelectorAll('.lazy-image');
-        const imageObserver = new IntersectionObserver((entries, observer) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const img = entry.target;
-                    const src = img.dataset.src;
-                    
-                    if (src) {
-                        img.src = src;
-                        img.classList.add('loaded');
-                        observer.unobserve(img);
-                    }
-                }
-            });
-        });
-        
-        images.forEach(img => imageObserver.observe(img));
+    _renderStars(rarity) {
+        return Array.from({ length: 5 }, (_, i) => {
+            const isFilled = i < rarity;
+            return `
+                <svg class="star ${isFilled ? 'star-filled' : 'star-empty'}" viewBox="0 0 24 24" fill="${isFilled ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2">
+                    <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                </svg>
+            `;
+        }).join('');
     }
 
-
-
-
-
     /**
-     * Toggle character favorite status
+     * Get character image URL with fallback
      */
-    _toggleFavorite(characterId, button) {
-        const character = this.database.getCharacterById(characterId);
-        const newFavoriteStatus = !(character.user_data?.favorite || false);
+    _getCharacterImageUrl(character) {
+        if (character.assets && character.assets.portrait) {
+            return character.assets.portrait;
+        }
         
-        this.database.updateCharacterUserData(characterId, { favorite: newFavoriteStatus });
-        
-        button.classList.toggle('active', newFavoriteStatus);
-        
-        // Show feedback
-        this._showToast(newFavoriteStatus ? 'Added to favorites' : 'Removed from favorites');
+        // Generate from name (fallback)
+        const name = character.basic_info.name.toLowerCase().replace(/\s+/g, '_').replace(/[^a-z0-9_]/g, '');
+        return `Imagenes - Octopath/portraits/${name}.png`;
     }
 
     /**
-     * Toggle character owned status
-     */
-    _toggleOwned(characterId, button) {
-        const character = this.database.getCharacterById(characterId);
-        const newOwnedStatus = !(character.user_data?.owned || false);
-        
-        this.database.updateCharacterUserData(characterId, { owned: newOwnedStatus });
-        
-        button.classList.toggle('active', newOwnedStatus);
-        
-        // Show feedback
-        this._showToast(newOwnedStatus ? 'Marked as owned' : 'Marked as not owned');
-    }
-
-    /**
-     * Open character detail modal
+     * Open character modal with details
      */
     _openCharacterModal(character) {
-        this._renderCharacterModal(character);
-        this.elements.modal.classList.add('active');
-        document.body.classList.add('modal-open');
+        try {
+            // Populate modal with character data
+            this.elements.modalCharacterImage.src = this._getCharacterImageUrl(character);
+            this.elements.modalCharacterImage.alt = character.basic_info.name;
+            this.elements.modalCharacterName.textContent = character.basic_info.name;
+            this.elements.modalCharacterJob.textContent = character.basic_info.job;
+            this.elements.modalCharacterRarity.innerHTML = this._renderStars(character.basic_info.rarity);
+            
+            // Set tier badge
+            const tier = character.basic_info.tier?.gl || 'D';
+            this.elements.modalCharacterTier.textContent = tier;
+            this.elements.modalCharacterTier.className = `tier-badge tier-${tier.toLowerCase().replace('+', '-plus')}`;
+            
+            // Set description
+            this.elements.modalCharacterDescription.textContent = character.basic_info.location || 'A skilled traveler with unique abilities.';
+            
+            // Populate stats
+            this._populateModalStats(character);
+            
+            // Populate skills (placeholder for now)
+            this._populateModalSkills(character);
+            
+            // Setup user action buttons
+            this._setupUserActions(character);
+            
+            // Show modal
+            this.elements.modal.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+            
+        } catch (error) {
+            console.error('Error opening character modal:', error);
+        }
     }
 
     /**
-     * Close character detail modal
+     * Populate modal stats section
+     */
+    _populateModalStats(character) {
+        const stats = character.stats;
+        let statsHtml = '';
+        
+        if (stats && stats.level_120) {
+            const levelStats = stats.level_120;
+            
+            // Health Points
+            if (levelStats.hp) {
+                statsHtml += `
+                    <div class="stat-card">
+                        <div class="stat-header">
+                            <svg class="stat-icon health" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="m19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"/>
+                            </svg>
+                            <span class="stat-label">Health Points</span>
+                        </div>
+                        <p class="stat-value">${levelStats.hp.toLocaleString()}</p>
+                    </div>
+                `;
+            }
+            
+            // Skill Points
+            if (levelStats.sp) {
+                statsHtml += `
+                    <div class="stat-card">
+                        <div class="stat-header">
+                            <svg class="stat-icon skill" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="13,2 3,14 12,14 11,22 21,10 12,10"/>
+                            </svg>
+                            <span class="stat-label">Skill Points</span>
+                        </div>
+                        <p class="stat-value">${levelStats.sp.toLocaleString()}</p>
+                    </div>
+                `;
+            }
+            
+            // Physical Attack
+            if (levelStats.physical_attack) {
+                statsHtml += `
+                    <div class="stat-card">
+                        <div class="stat-header">
+                            <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+                                <line x1="3" x2="21" y1="6" y2="6"/>
+                                <path d="M16 10a4 4 0 0 1-8 0"/>
+                            </svg>
+                            <span class="stat-label">Physical Attack</span>
+                        </div>
+                        <p class="stat-value">${levelStats.physical_attack.toLocaleString()}</p>
+                    </div>
+                `;
+            }
+            
+            // Elemental Attack
+            if (levelStats.elemental_attack) {
+                statsHtml += `
+                    <div class="stat-card">
+                        <div class="stat-header">
+                            <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                            </svg>
+                            <span class="stat-label">Elemental Attack</span>
+                        </div>
+                        <p class="stat-value">${levelStats.elemental_attack.toLocaleString()}</p>
+                    </div>
+                `;
+            }
+        }
+        
+        this.elements.modalStatsGrid.innerHTML = statsHtml || '<p>No stats available</p>';
+    }
+
+    /**
+     * Populate modal skills section (placeholder)
+     */
+    _populateModalSkills(character) {
+        // This is a placeholder - in the full implementation this would parse markdown files
+        const skillsHtml = `
+            <div class="skill-card">
+                <h4 class="skill-name">Signature Skill</h4>
+                <p class="skill-description">This character has unique abilities based on their job class and tier ranking.</p>
+            </div>
+            <div class="skill-card">
+                <h4 class="skill-name">Class Ability</h4>
+                <p class="skill-description">Advanced techniques available to ${character.basic_info.job} class characters.</p>
+            </div>
+        `;
+        
+        this.elements.modalCharacterSkills.innerHTML = skillsHtml;
+    }
+
+    /**
+     * Setup user action buttons (owned/favorite)
+     */
+    _setupUserActions(character) {
+        // Get current user data from localStorage
+        const userData = JSON.parse(localStorage.getItem('octopathUserData') || '{}');
+        const isOwned = userData[character.id]?.owned || false;
+        const isFavorite = userData[character.id]?.favorite || false;
+        
+        // Update button states
+        this._updateActionButton(this.elements.toggleOwned, isOwned, '❤️', 'Owned', 'Add to Owned');
+        this._updateActionButton(this.elements.toggleFavorite, isFavorite, '⭐', 'Favorited', 'Favorite');
+        
+        // Setup click handlers
+        this.elements.toggleOwned.onclick = () => this._toggleUserData(character.id, 'owned');
+        this.elements.toggleFavorite.onclick = () => this._toggleUserData(character.id, 'favorite');
+    }
+
+    /**
+     * Update action button appearance
+     */
+    _updateActionButton(button, isActive, icon, activeText, inactiveText) {
+        const iconSpan = button.querySelector('.owned-icon, .favorite-icon');
+        const textSpan = button.querySelector('.owned-text, .favorite-text');
+        
+        iconSpan.textContent = icon;
+        textSpan.textContent = isActive ? activeText : inactiveText;
+        
+        if (isActive) {
+            button.classList.remove('btn-outline');
+            button.classList.add('btn-primary');
+        } else {
+            button.classList.remove('btn-primary');
+            button.classList.add('btn-outline');
+        }
+    }
+
+    /**
+     * Toggle user data (owned/favorite)
+     */
+    _toggleUserData(characterId, dataType) {
+        const userData = JSON.parse(localStorage.getItem('octopathUserData') || '{}');
+        
+        if (!userData[characterId]) {
+            userData[characterId] = {};
+        }
+        
+        userData[characterId][dataType] = !userData[characterId][dataType];
+        localStorage.setItem('octopathUserData', JSON.stringify(userData));
+        
+        // Find and update the character
+        const character = this.database.getAllCharacters().find(c => c.id === characterId);
+        if (character) {
+            this._setupUserActions(character);
+        }
+    }
+
+    /**
+     * Close character modal
      */
     _closeModal() {
-        this.elements.modal.classList.remove('active');
-        document.body.classList.remove('modal-open');
+        this.elements.modal.style.display = 'none';
+        document.body.style.overflow = 'auto';
     }
 
     /**
-     * Render character details in modal
+     * Set view mode (grid/list)
      */
-    _renderCharacterModal(character) {
-        const tier = character.basic_info.tier?.gl || 'D';
-        const tierColor = this.database.getTierColor(tier);
+    _setViewMode(mode) {
+        this.currentViewMode = mode;
         
-        this.elements.modalContent.innerHTML = `
-            <div class="character-modal-premium">
-                <!-- Header con imagen y info básica -->
-                <div class="character-modal-header">
-                    <div class="character-portrait-section">
-                        <div class="portrait-frame">
-                            <img src="${this.database.getCharacterPortraitUrl(character)}" 
-                                 alt="${character.basic_info.name}"
-                                 class="character-portrait-large">
-                            <div class="tier-badge-large tier-${tier.toLowerCase().replace('+', 'plus')}">${tier}</div>
-                        </div>
-                    </div>
-                    
-                    <div class="character-main-info">
-                        <div class="character-name-section">
-                            <h1 class="character-name-large">${character.basic_info.name}</h1>
-                            ${character.basic_info.japanese_name ? `<div class="character-japanese-name">${character.basic_info.japanese_name}</div>` : ''}
-                        </div>
-                        
-                        <div class="character-meta-info">
-                            <div class="meta-item job-item">
-                                <span class="meta-icon">⚔️</span>
-                                <span class="meta-label">Job</span>
-                                <span class="meta-value job-name">${character.basic_info.job}</span>
-                            </div>
-                            
-                            <div class="meta-item rarity-item">
-                                <span class="meta-icon">⭐</span>
-                                <span class="meta-label">Rarity</span>
-                                <div class="rarity-stars">
-                                    ${'<span class="star-large">★</span>'.repeat(character.basic_info.rarity)}
-                                </div>
-                            </div>
-                            
-                            ${character.basic_info.location ? `
-                            <div class="meta-item location-item">
-                                <span class="meta-icon">📍</span>
-                                <span class="meta-label">Location</span>
-                                <span class="meta-value">${character.basic_info.location}</span>
-                            </div>
-                            ` : ''}
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Stats Section -->
-                <div class="character-stats-section">
-                    <h2 class="stats-title">Base Statistics</h2>
-                    <div class="stats-grid-premium">
-                        <div class="stat-card">
-                            <div class="stat-icon hp-icon">❤️</div>
-                            <div class="stat-info">
-                                <div class="stat-label">Health Points</div>
-                                <div class="stat-value">${character.stats?.base?.hp || 0}</div>
-                            </div>
-                        </div>
-                        
-                        <div class="stat-card">
-                            <div class="stat-icon sp-icon">💙</div>
-                            <div class="stat-info">
-                                <div class="stat-label">Skill Points</div>
-                                <div class="stat-value">${character.stats?.base?.sp || 0}</div>
-                            </div>
-                        </div>
-                        
-                        <div class="stat-card">
-                            <div class="stat-icon atk-icon">⚔️</div>
-                            <div class="stat-info">
-                                <div class="stat-label">Physical ATK</div>
-                                <div class="stat-value">${character.stats?.base?.p_atk || 0}</div>
-                            </div>
-                        </div>
-                        
-                        <div class="stat-card">
-                            <div class="stat-icon def-icon">🛡️</div>
-                            <div class="stat-info">
-                                <div class="stat-label">Physical DEF</div>
-                                <div class="stat-value">${character.stats?.base?.p_def || 0}</div>
-                            </div>
-                        </div>
-                        
-                        <div class="stat-card">
-                            <div class="stat-icon magic-icon">✨</div>
-                            <div class="stat-info">
-                                <div class="stat-label">Elemental ATK</div>
-                                <div class="stat-value">${character.stats?.base?.e_atk || 0}</div>
-                            </div>
-                        </div>
-                        
-                        <div class="stat-card">
-                            <div class="stat-icon mdef-icon">🔮</div>
-                            <div class="stat-info">
-                                <div class="stat-label">Elemental DEF</div>
-                                <div class="stat-value">${character.stats?.base?.e_def || 0}</div>
-                            </div>
-                        </div>
-                        
-                        <div class="stat-card">
-                            <div class="stat-icon crit-icon">💥</div>
-                            <div class="stat-info">
-                                <div class="stat-label">Critical Rate</div>
-                                <div class="stat-value">${character.stats?.base?.crit || 0}</div>
-                            </div>
-                        </div>
-                        
-                        <div class="stat-card">
-                            <div class="stat-icon speed-icon">⚡</div>
-                            <div class="stat-info">
-                                <div class="stat-label">Speed</div>
-                                <div class="stat-value">${character.stats?.base?.speed || 0}</div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Total Stats Summary -->
-                    <div class="stats-summary">
-                        <div class="summary-item">
-                            <span class="summary-label">Total Base Stats</span>
-                            <span class="summary-value">${character.computed?.total_stats || 0}</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Actions Section -->
-                <div class="character-actions-section">
-                    <button class="btn-action btn-favorite ${character.user_data?.favorite ? 'active' : ''}" 
-                            data-character-id="${character.id}">
-                        <span class="btn-icon">❤️</span>
-                        <span class="btn-text">${character.user_data?.favorite ? 'Favorited' : 'Add to Favorites'}</span>
-                    </button>
-                    <button class="btn-action btn-owned ${character.user_data?.owned ? 'active' : ''}" 
-                            data-character-id="${character.id}">
-                        <span class="btn-icon">✓</span>
-                        <span class="btn-text">${character.user_data?.owned ? 'Owned' : 'Mark as Owned'}</span>
-                    </button>
-                </div>
-            </div>
-        `;
+        // Update grid class
+        this.elements.characterGrid.className = `character-grid ${mode}-view`;
         
-        // Add modal action handlers
-        this._setupModalActions(character);
-    }
-
-    /**
-     * Setup modal action button handlers
-     */
-    _setupModalActions(character) {
-        const favoriteBtn = this.elements.modalContent.querySelector('.btn-favorite');
-        const ownedBtn = this.elements.modalContent.querySelector('.btn-owned');
-        
-        favoriteBtn.addEventListener('click', () => {
-            const newStatus = !(character.user_data?.favorite || false);
-            this.database.updateCharacterUserData(character.id, { favorite: newStatus });
-            
-            const btnText = favoriteBtn.querySelector('.btn-text');
-            btnText.textContent = newStatus ? 'Favorited' : 'Add to Favorites';
-            favoriteBtn.classList.toggle('active', newStatus);
-            
-            this._showToast(newStatus ? 'Added to favorites' : 'Removed from favorites');
-        });
-        
-        ownedBtn.addEventListener('click', () => {
-            const newStatus = !(character.user_data?.owned || false);
-            this.database.updateCharacterUserData(character.id, { owned: newStatus });
-            
-            const btnText = ownedBtn.querySelector('.btn-text');
-            btnText.textContent = newStatus ? 'Owned' : 'Mark as Owned';
-            ownedBtn.classList.toggle('active', newStatus);
-            
-            this._showToast(newStatus ? 'Marked as owned' : 'Marked as not owned');
-        });
-    }
-
-    /**
-     * Render pagination controls
-     */
-    _renderPagination(totalPages) {
-        if (totalPages <= 1) {
-            this.elements.pagination.innerHTML = '';
-            return;
+        // Update button states
+        if (mode === 'grid') {
+            this.elements.gridViewBtn.className = 'btn btn-primary';
+            this.elements.listViewBtn.className = 'btn btn-outline';
+        } else {
+            this.elements.gridViewBtn.className = 'btn btn-outline';
+            this.elements.listViewBtn.className = 'btn btn-primary';
         }
         
-        let paginationHTML = '';
-        
-        // Previous button
-        paginationHTML += `
-            <button class="pagination-btn ${this.currentPage === 1 ? 'disabled' : ''}" 
-                    data-page="${this.currentPage - 1}">Previous</button>
-        `;
-        
-        // Page numbers (show up to 5 pages around current page)
-        const startPage = Math.max(1, this.currentPage - 2);
-        const endPage = Math.min(totalPages, this.currentPage + 2);
-        
-        if (startPage > 1) {
-            paginationHTML += `<button class="pagination-btn" data-page="1">1</button>`;
-            if (startPage > 2) {
-                paginationHTML += `<span class="pagination-ellipsis">...</span>`;
-            }
-        }
-        
-        for (let i = startPage; i <= endPage; i++) {
-            paginationHTML += `
-                <button class="pagination-btn ${i === this.currentPage ? 'active' : ''}" 
-                        data-page="${i}">${i}</button>
-            `;
-        }
-        
-        if (endPage < totalPages) {
-            if (endPage < totalPages - 1) {
-                paginationHTML += `<span class="pagination-ellipsis">...</span>`;
-            }
-            paginationHTML += `<button class="pagination-btn" data-page="${totalPages}">${totalPages}</button>`;
-        }
-        
-        // Next button
-        paginationHTML += `
-            <button class="pagination-btn ${this.currentPage === totalPages ? 'disabled' : ''}" 
-                    data-page="${this.currentPage + 1}">Next</button>
-        `;
-        
-        this.elements.pagination.innerHTML = paginationHTML;
-        
-        // Add pagination event listeners
-        this.elements.pagination.addEventListener('click', (e) => {
-            if (e.target.classList.contains('pagination-btn') && !e.target.classList.contains('disabled')) {
-                const newPage = parseInt(e.target.dataset.page);
-                if (newPage !== this.currentPage) {
-                    this.currentPage = newPage;
-                    this._loadCharacters();
-                    this._scrollToTop();
-                }
-            }
-        });
+        // Re-render characters
+        this._renderCharacters(this.filteredCharacters);
     }
 
     /**
-     * Update results count display
+     * Update character count display
      */
-    _updateResultsCount(count) {
-        if (this.elements.resultsCounter) {
-            const total = this.database.getAllCharacters().length;
-            const hasFilters = Object.keys(this.currentFilters).length > 0;
-            
-            if (hasFilters) {
-                this.elements.resultsCounter.textContent = `Showing ${count} of ${total} characters`;
-                this.elements.resultsCounter.style.color = 'var(--gold-primary)';
-            } else {
-                this.elements.resultsCounter.textContent = `${total} characters total`;
-                this.elements.resultsCounter.style.color = 'var(--text-muted)';
-            }
-        }
+    _updateCharacterCount(count) {
+        const total = this.database.getAllCharacters().length;
+        this.elements.characterCount.textContent = `${count} of ${total} Characters`;
     }
 
     /**
-     * Scroll to top of character grid
+     * Update clear filters button visibility
      */
-    _scrollToTop() {
-        this.elements.characterGrid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    _updateClearFiltersVisibility() {
+        const hasFilters = this.elements.searchInput.value || 
+                          this.elements.tierFilter.value !== 'all' || 
+                          this.elements.jobFilter.value !== 'all' || 
+                          this.elements.rarityFilter.value !== 'all';
+        
+        this.elements.clearFilters.style.display = hasFilters ? 'block' : 'none';
     }
 
     /**
-     * Show loading state
+     * Reset all filters
      */
-    _showLoading() {
-        this.elements.characterGrid.innerHTML = `
-            <div class="loading-state">
-                <div class="loading-spinner"></div>
-                <p>Loading characters...</p>
-            </div>
-        `;
-    }
-
-    /**
-     * Hide loading state
-     */
-    _hideLoading() {
-        const loadingState = this.elements.characterGrid.querySelector('.loading-state');
-        if (loadingState) {
-            loadingState.remove();
-        }
-    }
-
-    /**
-     * Show no results message
-     */
-    _showNoResults() {
-        this.elements.characterGrid.innerHTML = `
-            <div class="empty-state">
-                <div class="empty-icon">🔍</div>
-                <h3>No characters found</h3>
-                <p>There are no characters to display</p>
-            </div>
-        `;
+    _resetAllFilters() {
+        this.elements.searchInput.value = '';
+        this.elements.tierFilter.value = 'all';
+        this.elements.jobFilter.value = 'all';
+        this.elements.rarityFilter.value = 'all';
+        
+        this.currentFilters = {};
+        this._loadCharacters();
+        this._updateClearFiltersVisibility();
     }
 
     /**
@@ -825,48 +581,75 @@ class GalleryTab {
      */
     _showError(message) {
         this.elements.characterGrid.innerHTML = `
-            <div class="error-state">
-                <div class="error-icon">⚠️</div>
-                <h3>Error</h3>
-                <p>${message}</p>
-                <button class="btn-primary" onclick="galleryTab._loadCharacters()">Retry</button>
+            <div style="text-align: center; padding: 2rem; color: var(--muted-foreground);">
+                <div style="font-size: 2rem; margin-bottom: 1rem;">❌</div>
+                <div>${message}</div>
             </div>
         `;
     }
 
     /**
-     * Show toast notification
+     * Load user data from localStorage (owned/favorites)
      */
-    _showToast(message) {
-        const toast = document.createElement('div');
-        toast.className = 'toast';
-        toast.textContent = message;
-        
-        const container = document.getElementById('toast-container');
-        container.appendChild(toast);
-        
-        // Animate in
-        setTimeout(() => toast.classList.add('show'), 100);
-        
-        // Remove after 3 seconds
-        setTimeout(() => {
-            toast.classList.remove('show');
-            setTimeout(() => container.removeChild(toast), 300);
-        }, 3000);
+    _loadUserData() {
+        try {
+            const ownedData = JSON.parse(localStorage.getItem('ownedCharacters') || '[]');
+            const favoriteData = JSON.parse(localStorage.getItem('favoriteCharacters') || '[]');
+            
+            return {
+                owned: new Set(ownedData),
+                favorites: new Set(favoriteData)
+            };
+        } catch (error) {
+            console.warn('Error loading user data:', error);
+            return {
+                owned: new Set(),
+                favorites: new Set()
+            };
+        }
     }
 
-    
-    
-    
     /**
-     * Public method to refresh characters (called by other tabs)
+     * Update favorite status for a character
      */
-    refresh() {
-        if (this.isInitialized) {
-            this._loadCharacters();
+    _updateFavoriteStatus(character, isFavorite) {
+        try {
+            const userData = this._loadUserData();
+            
+            if (isFavorite) {
+                userData.favorites.add(character.id);
+            } else {
+                userData.favorites.delete(character.id);
+            }
+            
+            // Save to localStorage
+            localStorage.setItem('favoriteCharacters', JSON.stringify([...userData.favorites]));
+            
+            console.log(`Character ${character.basic_info.name} ${isFavorite ? 'added to' : 'removed from'} favorites`);
+        } catch (error) {
+            console.error('Error updating favorite status:', error);
+        }
+    }
+
+    /**
+     * Update owned status for a character
+     */
+    _updateOwnedStatus(character, isOwned) {
+        try {
+            const userData = this._loadUserData();
+            
+            if (isOwned) {
+                userData.owned.add(character.id);
+            } else {
+                userData.owned.delete(character.id);
+            }
+            
+            // Save to localStorage
+            localStorage.setItem('ownedCharacters', JSON.stringify([...userData.owned]));
+            
+            console.log(`Character ${character.basic_info.name} ${isOwned ? 'marked as owned' : 'removed from owned'}`);
+        } catch (error) {
+            console.error('Error updating owned status:', error);
         }
     }
 }
-
-// Export for global use
-window.GalleryTab = GalleryTab;

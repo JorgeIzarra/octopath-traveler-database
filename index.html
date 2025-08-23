@@ -3,434 +3,399 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Octopath Traveler Character Database</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Octopath Traveler - Character Library</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="js/components/CharacterCard.css">
 </head>
 <body>
-    <div class="app-container">
-        <!-- Header -->
-        <header class="app-header">
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
             <div class="header-content">
-                <div class="logo">
-                    <h1>
-                        <span class="title-icon">⚔️</span>
-                        Octopath Traveler
-                    </h1>
-                    <div class="subtitle">Character Database</div>
+                <div class="header-title">
+                    <h1 class="title">Octopath Traveler</h1>
+                    <p class="subtitle">Character Library</p>
                 </div>
-                <div class="header-stats">
-                    <div class="stat-item">
-                        <span class="stat-label">Collection</span>
-                        <span class="stat-value" id="collection-count">0/200+</span>
+                <div class="header-actions">
+                    <div class="character-count">
+                        <span id="characterCount">Loading Characters...</span>
                     </div>
-                    <div class="stat-item">
-                        <span class="stat-label">Teams</span>
-                        <span class="stat-value" id="team-count">0</span>
-                    </div>
-                </div>
-            </div>
-        </header>
-
-        <!-- Tab Navigation -->
-        <nav class="tab-navigation" role="tablist">
-            <button class="tab-button active" 
-                    role="tab" 
-                    aria-selected="true" 
-                    aria-controls="gallery-panel" 
-                    data-tab="gallery" 
-                    id="gallery-tab">
-                <span class="tab-icon">🖼️</span>
-                <span class="tab-text">Gallery</span>
-                <span class="tab-description">Browse Characters</span>
-            </button>
-            
-            <button class="tab-button" 
-                    role="tab" 
-                    aria-selected="false" 
-                    aria-controls="collection-panel" 
-                    data-tab="collection" 
-                    id="collection-tab">
-                <span class="tab-icon">📚</span>
-                <span class="tab-text">Collection</span>
-                <span class="tab-description">Owned Characters</span>
-                <span class="tab-badge" id="collection-badge">0</span>
-            </button>
-            
-            <button class="tab-button" 
-                    role="tab" 
-                    aria-selected="false" 
-                    aria-controls="teams-panel" 
-                    data-tab="teams" 
-                    id="teams-tab">
-                <span class="tab-icon">👥</span>
-                <span class="tab-text">Team Builder</span>
-                <span class="tab-description">Create Teams</span>
-                <span class="tab-badge" id="teams-badge">0</span>
-            </button>
-            
-            <button class="tab-button" 
-                    role="tab" 
-                    aria-selected="false" 
-                    aria-controls="ai-panel" 
-                    data-tab="ai" 
-                    id="ai-tab">
-                <span class="tab-icon">🧠</span>
-                <span class="tab-text">AI Strategy</span>
-                <span class="tab-description">Get Recommendations</span>
-            </button>
-        </nav>
-
-        <!-- Main Content Area -->
-        <main class="main-content">
-            <!-- Loading Overlay -->
-            <div class="loading-overlay" id="loading-overlay">
-                <div class="loading-spinner"></div>
-                <div class="loading-text">Loading characters...</div>
-            </div>
-
-            <!-- Gallery Tab Panel -->
-            <div class="tab-panel active" 
-                 role="tabpanel" 
-                 id="gallery-panel" 
-                 aria-labelledby="gallery-tab">
-                <div class="panel-header">
-                    <h2>Character Gallery</h2>
-                    <div class="results-counter" id="results-counter">Loading characters...</div>
-                </div>
-                
-                <!-- Advanced Filters Bar -->
-                <div class="filters-bar">
-                    <div class="filters-container">
-                        <!-- Search Box -->
-                        <div class="filter-group search-group">
-                            <div class="search-box">
-                                <span class="search-icon">🔍</span>
-                                <input type="text" 
-                                       id="character-search" 
-                                       placeholder="Search by name..." 
-                                       class="search-input">
-                                <button class="search-clear" id="search-clear">✕</button>
-                            </div>
-                        </div>
-                        
-                        <!-- Tier Filter -->
-                        <div class="filter-group">
-                            <label class="filter-label">
-                                <span class="filter-icon">🏆</span>
-                                Tier
-                            </label>
-                            <select id="tier-filter" class="filter-select">
-                                <option value="">All Tiers</option>
-                                <option value="S+">S+ Tier</option>
-                                <option value="S">S Tier</option>
-                                <option value="A">A Tier</option>
-                                <option value="B">B Tier</option>
-                                <option value="C">C Tier</option>
-                                <option value="D">D Tier</option>
-                            </select>
-                        </div>
-                        
-                        <!-- Job Filter -->
-                        <div class="filter-group">
-                            <label class="filter-label">
-                                <span class="filter-icon">⚔️</span>
-                                Job
-                            </label>
-                            <select id="job-filter" class="filter-select">
-                                <option value="">All Jobs</option>
-                            </select>
-                        </div>
-                        
-                        <!-- Rarity Filter -->
-                        <div class="filter-group">
-                            <label class="filter-label">
-                                <span class="filter-icon">⭐</span>
-                                Rarity
-                            </label>
-                            <select id="rarity-filter" class="filter-select">
-                                <option value="">All Rarities</option>
-                                <option value="5">5 Stars</option>
-                                <option value="4">4 Stars</option>
-                                <option value="3">3 Stars</option>
-                            </select>
-                        </div>
-                        
-                        <!-- Sort By -->
-                        <div class="filter-group">
-                            <label class="filter-label">
-                                <span class="filter-icon">📊</span>
-                                Sort
-                            </label>
-                            <select id="sort-filter" class="filter-select">
-                                <option value="tier">Tier</option>
-                                <option value="name">Name (A-Z)</option>
-                                <option value="rarity">Rarity</option>
-                                <option value="job">Job</option>
-                            </select>
-                        </div>
-                        
-                        <!-- Reset Button -->
-                        <button class="filter-reset" id="reset-filters">
-                            <span class="reset-icon">🔄</span>
-                            Reset
+                    <div class="action-buttons">
+                        <button id="themeToggle" class="btn btn-outline">
+                            <svg class="icon" id="themeIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="5"/>
+                                <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+                            </svg>
+                        </button>
+                        <button id="gridViewBtn" class="btn btn-primary">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect width="7" height="7" x="3" y="3" rx="1"/>
+                                <rect width="7" height="7" x="14" y="3" rx="1"/>
+                                <rect width="7" height="7" x="3" y="14" rx="1"/>
+                                <rect width="7" height="7" x="14" y="14" rx="1"/>
+                            </svg>
+                        </button>
+                        <button id="listViewBtn" class="btn btn-outline">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="8" x2="21" y1="6" y2="6"/>
+                                <line x1="8" x2="21" y1="12" y2="12"/>
+                                <line x1="8" x2="21" y1="18" y2="18"/>
+                                <line x1="3" x2="3.01" y1="6" y2="6"/>
+                                <line x1="3" x2="3.01" y1="12" y2="12"/>
+                                <line x1="3" x2="3.01" y1="18" y2="18"/>
+                            </svg>
                         </button>
                     </div>
-                    
-                    <!-- Active Filters Display -->
-                    <div class="active-filters" id="active-filters" style="display: none;">
-                        <div class="active-filters-label">Active Filters:</div>
-                        <div class="active-filters-list" id="active-filters-list"></div>
-                    </div>
-                </div>
-
-                <div class="characters-grid" id="character-grid">
-                    <!-- Character cards will be populated by JavaScript -->
-                </div>
-
-                <div class="pagination" id="pagination">
-                    <!-- Pagination controls will be added by JavaScript -->
-                </div>
-            </div>
-
-            <!-- Collection Tab Panel -->
-            <div class="tab-panel" 
-                 role="tabpanel" 
-                 id="collection-panel" 
-                 aria-labelledby="collection-tab">
-                <div class="panel-header">
-                    <h2>My Collection</h2>
-                    <div class="collection-stats">
-                        <div class="stat-card">
-                            <div class="stat-number" id="owned-count">0</div>
-                            <div class="stat-label">Characters Owned</div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-number" id="completion-rate">0%</div>
-                            <div class="stat-label">Collection Rate</div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-number" id="tier-s-count">0</div>
-                            <div class="stat-label">S-Tier Characters</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="collection-content">
-                    <div class="collection-tabs">
-                        <button class="collection-tab-btn active" data-collection-view="owned">Owned</button>
-                        <button class="collection-tab-btn" data-collection-view="wishlist">Wishlist</button>
-                        <button class="collection-tab-btn" data-collection-view="missing">Missing</button>
-                    </div>
-
-                    <div class="collection-grid" id="collection-grid">
-                        <!-- Collection items will be populated by JavaScript -->
-                    </div>
-                </div>
-            </div>
-
-            <!-- Team Builder Tab Panel -->
-            <div class="tab-panel" 
-                 role="tabpanel" 
-                 id="teams-panel" 
-                 aria-labelledby="teams-tab">
-                <div class="panel-header">
-                    <h2>Team Builder</h2>
-                    <div class="panel-actions">
-                        <button class="btn-primary" id="save-team">Save Team</button>
-                        <button class="btn-secondary" id="clear-team">Clear Team</button>
-                        <select id="saved-teams">
-                            <option value="">Load Saved Team...</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div class="team-builder-content">
-                    <div class="current-team">
-                        <h3>Current Team Composition</h3>
-                        <div class="team-slots" id="team-slots">
-                            <div class="team-slot empty" data-slot="0">
-                                <div class="slot-number">1</div>
-                                <div class="slot-placeholder">Drag character here</div>
-                            </div>
-                            <div class="team-slot empty" data-slot="1">
-                                <div class="slot-number">2</div>
-                                <div class="slot-placeholder">Drag character here</div>
-                            </div>
-                            <div class="team-slot empty" data-slot="2">
-                                <div class="slot-number">3</div>
-                                <div class="slot-placeholder">Drag character here</div>
-                            </div>
-                            <div class="team-slot empty" data-slot="3">
-                                <div class="slot-number">4</div>
-                                <div class="slot-placeholder">Drag character here</div>
-                            </div>
-                            <div class="team-slot empty" data-slot="4">
-                                <div class="slot-number">5</div>
-                                <div class="slot-placeholder">Drag character here</div>
-                            </div>
-                            <div class="team-slot empty" data-slot="5">
-                                <div class="slot-number">6</div>
-                                <div class="slot-placeholder">Drag character here</div>
-                            </div>
-                            <div class="team-slot empty" data-slot="6">
-                                <div class="slot-number">7</div>
-                                <div class="slot-placeholder">Drag character here</div>
-                            </div>
-                            <div class="team-slot empty" data-slot="7">
-                                <div class="slot-number">8</div>
-                                <div class="slot-placeholder">Drag character here</div>
-                            </div>
-                        </div>
-                        
-                        <div class="team-analysis" id="team-analysis">
-                            <div class="analysis-section">
-                                <h4>Team Statistics</h4>
-                                <div class="team-stats-grid" id="team-stats">
-                                    <!-- Team stats will be calculated and displayed here -->
-                                </div>
-                            </div>
-                            <div class="analysis-section">
-                                <h4>Coverage Analysis</h4>
-                                <div class="coverage-analysis" id="coverage-analysis">
-                                    <!-- Weakness coverage analysis will be displayed here -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="character-selector">
-                        <h3>Available Characters</h3>
-                        <div class="selector-filters">
-                            <input type="text" 
-                                   id="team-character-search" 
-                                   placeholder="Search characters..." 
-                                   class="search-input">
-                            <select id="team-job-filter">
-                                <option value="">All Jobs</option>
-                            </select>
-                            <label class="checkbox-label">
-                                <input type="checkbox" id="owned-only-team">
-                                <span class="checkmark"></span>
-                                Owned Only
-                            </label>
-                        </div>
-                        <div class="draggable-characters" id="draggable-characters">
-                            <!-- Draggable character list will be populated by JavaScript -->
-                        </div>
-                    </div>
-                </div>
-
-                <div class="saved-teams-section">
-                    <h3>Saved Teams</h3>
-                    <div class="saved-teams-grid" id="saved-teams-grid">
-                        <!-- Saved teams will be displayed here -->
-                    </div>
-                </div>
-            </div>
-
-            <!-- AI Strategy Tab Panel -->
-            <div class="tab-panel" 
-                 role="tabpanel" 
-                 id="ai-panel" 
-                 aria-labelledby="ai-tab">
-                <div class="panel-header">
-                    <h2>AI Strategy Advisor</h2>
-                    <div class="panel-actions">
-                        <button class="btn-primary" id="get-recommendations">Get Recommendations</button>
-                        <button class="btn-secondary" id="analyze-current-team">Analyze Current Team</button>
-                    </div>
-                </div>
-
-                <div class="ai-content">
-                    <div class="strategy-input">
-                        <h3>What kind of team are you looking for?</h3>
-                        <div class="input-group">
-                            <label for="team-purpose">Team Purpose:</label>
-                            <select id="team-purpose">
-                                <option value="general">General Purpose</option>
-                                <option value="story">Story Mode</option>
-                                <option value="arena">Arena/PvP</option>
-                                <option value="boss">Boss Battles</option>
-                                <option value="farming">Farming/Grinding</option>
-                            </select>
-                        </div>
-                        
-                        <div class="input-group">
-                            <label for="playstyle">Preferred Playstyle:</label>
-                            <select id="playstyle">
-                                <option value="balanced">Balanced</option>
-                                <option value="aggressive">Aggressive/Offensive</option>
-                                <option value="defensive">Defensive/Tank</option>
-                                <option value="support">Support/Healing</option>
-                                <option value="burst">Burst Damage</option>
-                            </select>
-                        </div>
-
-                        <div class="input-group">
-                            <label for="difficulty">Content Difficulty:</label>
-                            <select id="difficulty">
-                                <option value="easy">Easy</option>
-                                <option value="medium">Medium</option>
-                                <option value="hard">Hard</option>
-                                <option value="nightmare">Nightmare</option>
-                            </select>
-                        </div>
-
-                        <div class="input-group">
-                            <label class="checkbox-label">
-                                <input type="checkbox" id="owned-characters-only">
-                                <span class="checkmark"></span>
-                                Use only owned characters
-                            </label>
-                        </div>
-                    </div>
-
-                    <div class="recommendations-section" id="recommendations-section">
-                        <h3>AI Recommendations</h3>
-                        <div class="recommendations-grid" id="recommendations-grid">
-                            <div class="empty-state">
-                                <div class="empty-icon">🤖</div>
-                                <p>Click "Get Recommendations" to see AI-generated team suggestions based on your preferences and collection.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="strategy-tips">
-                        <h3>Strategy Tips</h3>
-                        <div class="tips-grid" id="strategy-tips-grid">
-                            <!-- Strategy tips will be populated based on current selection -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
-
-        <!-- Character Detail Modal -->
-        <div class="modal-overlay" id="character-modal">
-            <div class="modal-content">
-                <button class="modal-close" id="modal-close">✕</button>
-                <div class="character-detail" id="character-detail">
-                    <!-- Character details will be populated by JavaScript -->
                 </div>
             </div>
         </div>
+    </header>
 
-        <!-- Toast Notifications -->
-        <div class="toast-container" id="toast-container">
-            <!-- Toast notifications will be added here -->
+    <!-- Tab Navigation -->
+    <nav class="tab-navigation">
+        <div class="container">
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="gallery" id="galleryTab">
+                    <svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect width="7" height="7" x="3" y="3" rx="1"/>
+                        <rect width="7" height="7" x="14" y="3" rx="1"/>
+                        <rect width="7" height="7" x="3" y="14" rx="1"/>
+                        <rect width="7" height="7" x="14" y="14" rx="1"/>
+                    </svg>
+                    <span>Gallery</span>
+                </button>
+                <button class="tab-btn" data-tab="collection" id="collectionTab">
+                    <svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"/>
+                    </svg>
+                    <span>Collection</span>
+                    <span class="tab-badge" id="collectionBadge">0</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main">
+        <div class="container">
+            <!-- Gallery Tab Content -->
+            <div class="tab-content active" id="galleryContent">
+                <!-- Filters -->
+                <div class="filters">
+                <div class="search-container">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"/>
+                        <path d="m21 21-4.35-4.35"/>
+                    </svg>
+                    <input type="text" id="searchInput" placeholder="Search characters..." class="search-input">
+                </div>
+
+                <div class="filter-controls">
+                    <div class="filter-label">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="22,3 2,3 10,12.46 10,19 14,21 14,12.46"/>
+                        </svg>
+                        <span>Filters:</span>
+                    </div>
+
+                    <select id="tierFilter" class="filter-select">
+                        <option value="all">All Tiers</option>
+                        <option value="S+">S+ Tier</option>
+                        <option value="S">S Tier</option>
+                        <option value="A">A Tier</option>
+                        <option value="B">B Tier</option>
+                        <option value="C">C Tier</option>
+                        <option value="D">D Tier</option>
+                    </select>
+
+                    <select id="jobFilter" class="filter-select">
+                        <option value="all">All Jobs</option>
+                    </select>
+
+                    <select id="rarityFilter" class="filter-select">
+                        <option value="all">All Rarities</option>
+                        <option value="5">5 Stars</option>
+                        <option value="4">4 Stars</option>
+                        <option value="3">3 Stars</option>
+                    </select>
+
+                    <button id="clearFilters" class="btn btn-outline btn-sm" style="display: none;">
+                        Clear Filters
+                    </button>
+                </div>
+            </div>
+
+            <!-- Character Grid -->
+            <div id="characterGrid" class="character-grid grid-view">
+                <!-- Characters will be populated by JavaScript -->
+            </div>
+
+            <!-- No Results -->
+            <div id="noResults" class="no-results" style="display: none;">
+                <p class="no-results-title">No characters found</p>
+                <p class="no-results-subtitle">Try adjusting your search or filters</p>
+            </div>
+            </div>
+
+            <!-- Collection Tab Content -->
+            <div class="tab-content" id="collectionContent" style="display: none;">
+                <!-- Collection Stats -->
+                <div class="collection-header">
+                    <h2>My Collection</h2>
+                    <div class="collection-stats">
+                        <div class="stat-card">
+                            <div class="stat-number" id="ownedCount">0</div>
+                            <div class="stat-label">Owned</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" id="completionRate">0%</div>
+                            <div class="stat-label">Complete</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" id="favoriteCount">0</div>
+                            <div class="stat-label">Favorites</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" id="tierSCount">0</div>
+                            <div class="stat-label">S-Tier</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Collection Filters -->
+                <div class="collection-filters">
+                    <div class="filter-tabs">
+                        <button class="filter-tab-btn active" data-filter="owned" id="ownedFilter">
+                            Owned Characters
+                        </button>
+                        <button class="filter-tab-btn" data-filter="favorites" id="favoritesFilter">
+                            Favorites
+                        </button>
+                        <button class="filter-tab-btn" data-filter="missing" id="missingFilter">
+                            Missing
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Collection Grid -->
+                <div id="collectionGrid" class="character-grid grid-view">
+                    <!-- Collection characters will be populated by JavaScript -->
+                </div>
+
+                <!-- No Collection Results -->
+                <div id="noCollectionResults" class="no-results" style="display: none;">
+                    <p class="no-results-title">No characters in this category</p>
+                    <p class="no-results-subtitle">Start collecting by marking characters as owned!</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Character Modal -->
+    <div id="characterModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button id="closeModal" class="modal-close">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="m18 6-12 12"/>
+                        <path d="m6 6 12 12"/>
+                    </svg>
+                </button>
+
+                <div class="modal-character-info">
+                    <div class="modal-character-image">
+                        <img id="modalCharacterImage" src="" alt="" class="character-image">
+                    </div>
+
+                    <div class="modal-character-details">
+                        <h2 id="modalCharacterName" class="modal-character-name"></h2>
+                        <div class="modal-character-meta">
+                            <span id="modalCharacterJob" class="character-job-badge"></span>
+                            <div id="modalCharacterRarity" class="character-rarity"></div>
+                            <span id="modalCharacterTier" class="tier-badge"></span>
+                        </div>
+                        <p id="modalCharacterDescription" class="modal-character-description"></p>
+                        
+                        <!-- User Actions -->
+                        <div class="modal-user-actions" style="margin-top: 1rem; display: flex; gap: 0.5rem;">
+                            <button id="toggleOwned" class="btn btn-sm btn-outline">
+                                <span class="owned-icon">❤️</span>
+                                <span class="owned-text">Add to Owned</span>
+                            </button>
+                            <button id="toggleFavorite" class="btn btn-sm btn-outline">
+                                <span class="favorite-icon">⭐</span>
+                                <span class="favorite-text">Favorite</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-body">
+                <h3 class="modal-section-title">Base Statistics</h3>
+                <div class="stats-grid" id="modalStatsGrid">
+                    <!-- Stats will be populated by JavaScript -->
+                </div>
+
+                <h3 class="modal-section-title">Skills</h3>
+                <div id="modalCharacterSkills" class="skills-list">
+                    <!-- Skills will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="modal" style="display: flex; background: rgba(0,0,0,0.8);">
+        <div style="background: var(--background); padding: 2rem; border-radius: 1rem; text-align: center;">
+            <div style="margin-bottom: 1rem; font-size: 2rem;">⏳</div>
+            <div>Loading character database...</div>
         </div>
     </div>
 
     <!-- Scripts -->
-    <script src="js/TabCoordinator.js"></script>
     <script src="js/CharacterDatabase.js"></script>
+    <script src="js/MarkdownIntegrator.js"></script>
+    <script src="js/RichModalRenderer.js"></script>
+    <script src="js/components/CharacterCard.js"></script>
     <script src="js/GalleryTab.js"></script>
     <script src="js/CollectionTab.js"></script>
-    <script src="js/TeamBuilderTab.js"></script>
-    <script src="js/AIStrategyTab.js"></script>
-    <script src="js/app.js"></script>
+    <script>
+        // Initialize the application with clean design approach
+        document.addEventListener('DOMContentLoaded', async () => {
+            try {
+                console.log('🚀 Starting Octopath Character Library...');
+                
+                // Show loading overlay
+                document.getElementById('loadingOverlay').style.display = 'flex';
+                
+                // Initialize database
+                console.log('📊 Initializing database...');
+                const database = new CharacterDatabase();
+                await database.init();
+                console.log('✅ Database initialized');
+                
+                // Initialize gallery tab
+                console.log('🖼️ Initializing gallery...');
+                const gallery = new GalleryTab(database);
+                await gallery.init();
+                window.galleryTab = gallery; // Make globally accessible
+                console.log('✅ Gallery initialized');
+                
+                // Initialize collection tab
+                console.log('📚 Initializing collection...');
+                const collection = new CollectionTab(database);
+                await collection.init();
+                window.collectionTab = collection; // Make globally accessible
+                console.log('✅ Collection initialized');
+                
+                // Set up tab navigation
+                console.log('🔄 Setting up tab navigation...');
+                setupTabNavigation();
+                console.log('✅ Tab navigation ready');
+                
+                // Set up theme toggle
+                console.log('🎨 Setting up theme toggle...');
+                setupThemeToggle();
+                console.log('✅ Theme toggle ready');
+                
+                // Hide loading overlay
+                document.getElementById('loadingOverlay').style.display = 'none';
+                
+                console.log('🎉 Octopath Character Library initialized successfully');
+            } catch (error) {
+                console.error('❌ Error initializing application:', error);
+                console.error('Stack trace:', error.stack);
+                
+                const loadingOverlay = document.getElementById('loadingOverlay');
+                if (loadingOverlay) {
+                    loadingOverlay.innerHTML = `
+                        <div style="background: var(--background); padding: 2rem; border-radius: 1rem; text-align: center; color: red; max-width: 500px;">
+                            <div style="margin-bottom: 1rem; font-size: 2rem;">❌</div>
+                            <div style="margin-bottom: 1rem; font-weight: bold;">Error loading character database</div>
+                            <div style="font-size: 0.875rem; margin-bottom: 1rem; color: var(--muted-foreground);">${error.message}</div>
+                            <button onclick="location.reload()" style="padding: 0.5rem 1rem; background: var(--primary); color: var(--primary-foreground); border: none; border-radius: 0.5rem; cursor: pointer;">
+                                Retry
+                            </button>
+                        </div>
+                    `;
+                }
+            }
+        });
+
+        // Tab navigation functionality
+        function setupTabNavigation() {
+            const tabButtons = document.querySelectorAll('.tab-btn');
+            const tabContents = document.querySelectorAll('.tab-content');
+            
+            tabButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const targetTab = button.dataset.tab;
+                    
+                    // Update active tab button
+                    tabButtons.forEach(btn => btn.classList.remove('active'));
+                    button.classList.add('active');
+                    
+                    // Update active tab content
+                    tabContents.forEach(content => {
+                        content.classList.remove('active');
+                        content.style.display = 'none';
+                    });
+                    
+                    const targetContent = document.getElementById(`${targetTab}Content`);
+                    if (targetContent) {
+                        targetContent.classList.add('active');
+                        targetContent.style.display = 'block';
+                    }
+                    
+                    // Call onActivate for the target tab
+                    if (targetTab === 'collection' && window.collectionTab) {
+                        window.collectionTab.onActivate();
+                    }
+                    
+                    console.log(`🔄 Switched to ${targetTab} tab`);
+                });
+            });
+        }
+
+        // Theme toggle functionality
+        let currentTheme = localStorage.getItem('theme') || 'light';
+
+        function setupThemeToggle() {
+            const themeToggle = document.getElementById('themeToggle');
+            const themeIcon = document.getElementById('themeIcon');
+            
+            // Apply saved theme
+            if (currentTheme === 'dark') {
+                document.body.classList.add('dark');
+                updateThemeIcon(true);
+            }
+            
+            themeToggle.addEventListener('click', toggleTheme);
+        }
+
+        function toggleTheme() {
+            currentTheme = currentTheme === 'light' ? 'dark' : 'light';
+            document.body.classList.toggle('dark', currentTheme === 'dark');
+            localStorage.setItem('theme', currentTheme);
+            updateThemeIcon(currentTheme === 'dark');
+        }
+
+        function updateThemeIcon(isDark) {
+            const themeIcon = document.getElementById('themeIcon');
+            if (isDark) {
+                themeIcon.innerHTML = `
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                `;
+            } else {
+                themeIcon.innerHTML = `
+                    <circle cx="12" cy="12" r="5"/>
+                    <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+                `;
+            }
+        }
+    </script>
 </body>
 </html>
