@@ -11,6 +11,7 @@ class CollectionTab {
         this.database = database;
         this.currentFilter = 'owned'; // 'owned', 'favorites', 'missing'
         this.isInitialized = false;
+        this.allCharacters = [];
         
         // DOM element references
         this.elements = {};
@@ -28,8 +29,12 @@ class CollectionTab {
      */
     async init() {
         if (this.isInitialized) return;
-        
-        await this.database.init();
+
+        await this.database.waitForReady();
+        if (!this.database.initialized) {
+            await this.database.init();
+        }
+        this.allCharacters = this.database.getAllCharacters();
         this._cacheElements();
         this._setupEventListeners();
         this._loadCollectionData();
@@ -88,15 +93,13 @@ class CollectionTab {
      */
     _loadCollectionData() {
         try {
-            // Load user data from localStorage
-            const ownedData = JSON.parse(localStorage.getItem('ownedCharacters') || '[]');
-            const favoriteData = JSON.parse(localStorage.getItem('favoriteCharacters') || '[]');
-            
-            this.collectionData.owned = new Set(ownedData);
-            this.collectionData.favorites = new Set(favoriteData);
-            
+            const userData = UserDataStore.load();
+
+            this.collectionData.owned = userData.owned;
+            this.collectionData.favorites = userData.favorites;
+
             // Get all characters from database
-            this.collectionData.all = this.database.getAllCharacters();
+            this.collectionData.all = this.allCharacters;
             
             console.log(`📊 Collection loaded: ${this.collectionData.owned.size} owned, ${this.collectionData.favorites.size} favorites`);
         } catch (error) {
@@ -319,15 +322,10 @@ class CollectionTab {
      */
     _updateFavoriteStatus(character, isFavorite) {
         try {
-            if (isFavorite) {
-                this.collectionData.favorites.add(character.id);
-            } else {
-                this.collectionData.favorites.delete(character.id);
-            }
-            
-            // Save to localStorage
-            localStorage.setItem('favoriteCharacters', JSON.stringify([...this.collectionData.favorites]));
-            
+            const updatedData = UserDataStore.updateFavorite(character.id, isFavorite);
+            this.collectionData.favorites = updatedData.favorites;
+            this.collectionData.owned = updatedData.owned;
+
             // Update stats and view
             this._updateCollectionStats();
             this._loadCollectionView();
@@ -343,15 +341,10 @@ class CollectionTab {
      */
     _updateOwnedStatus(character, isOwned) {
         try {
-            if (isOwned) {
-                this.collectionData.owned.add(character.id);
-            } else {
-                this.collectionData.owned.delete(character.id);
-            }
-            
-            // Save to localStorage
-            localStorage.setItem('ownedCharacters', JSON.stringify([...this.collectionData.owned]));
-            
+            const updatedData = UserDataStore.updateOwned(character.id, isOwned);
+            this.collectionData.owned = updatedData.owned;
+            this.collectionData.favorites = updatedData.favorites;
+
             // Update stats and view
             this._updateCollectionStats();
             this._loadCollectionView();
