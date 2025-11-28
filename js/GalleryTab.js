@@ -12,6 +12,8 @@ class GalleryTab {
         this.isInitialized = false;
         this.currentViewMode = 'grid';
         this.filteredCharacters = [];
+        this.allCharacters = [];
+        this.userDataCache = UserDataStore.load();
         
         // DOM element references
         this.elements = {};
@@ -22,8 +24,13 @@ class GalleryTab {
      */
     async init() {
         if (this.isInitialized) return;
-        
-        await this.database.init();
+
+        await this.database.waitForReady();
+        if (!this.database.initialized) {
+            await this.database.init();
+        }
+        this.allCharacters = this.database.getAllCharacters();
+        this.userDataCache = UserDataStore.load();
         this._cacheElements();
         this._setupEventListeners();
         this._populateFilterOptions();
@@ -141,10 +148,7 @@ class GalleryTab {
      */
     _populateFilterOptions() {
         try {
-            const allCharacters = this.database.getAllCharacters();
-            
-            // Get unique jobs
-            const jobs = [...new Set(allCharacters.map(char => char.basic_info.job))].sort();
+            const jobs = this.database.getUniqueJobs();
             
             jobs.forEach(job => {
                 const option = document.createElement('option');
@@ -165,8 +169,7 @@ class GalleryTab {
     _loadCharacters() {
         try {
             // Get all characters and apply filters
-            let allCharacters = this.database.getAllCharacters();
-            this.filteredCharacters = this._applyFilters(allCharacters);
+            this.filteredCharacters = this._applyFilters(this.allCharacters);
             
             // Apply sorting (tier-first by default)
             this.filteredCharacters = this._applySorting(this.filteredCharacters);
@@ -237,17 +240,19 @@ class GalleryTab {
     _renderCharacters(characters) {
         const grid = this.elements.characterGrid;
         grid.innerHTML = '';
-        
+
+        this.userDataCache = UserDataStore.load();
+
         if (characters.length === 0) {
             this.elements.noResults.style.display = 'block';
             return;
         }
         
         this.elements.noResults.style.display = 'none';
-        
+
         // Create character cards
         characters.forEach(character => {
-            const card = this._createCharacterCard(character);
+            const card = this._createCharacterCard(character, this.userDataCache);
             grid.appendChild(card);
         });
     }
@@ -255,10 +260,7 @@ class GalleryTab {
     /**
      * Create a character card using CharacterCard component
      */
-    _createCharacterCard(character) {
-        // Load user data from localStorage
-        const userData = this._loadUserData();
-        
+    _createCharacterCard(character, userData = this.userDataCache) {
         // Ensure character has user_data
         if (!character.user_data) {
             character.user_data = {};
@@ -459,10 +461,11 @@ class GalleryTab {
      * Setup user action buttons (owned/favorite)
      */
     _setupUserActions(character) {
-        // Get current user data from localStorage
-        const userData = JSON.parse(localStorage.getItem('octopathUserData') || '{}');
-        const isOwned = userData[character.id]?.owned || false;
-        const isFavorite = userData[character.id]?.favorite || false;
+        // Ensure we are using the shared user data store
+        this.userDataCache = UserDataStore.load();
+        const { owned, favorites } = this.userDataCache;
+        const isOwned = owned.has(character.id);
+        const isFavorite = favorites.has(character.id);
         
         // Update button states
         this._updateActionButton(this.elements.toggleOwned, isOwned, '❤️', 'Owned', 'Add to Owned');
@@ -496,16 +499,17 @@ class GalleryTab {
      * Toggle user data (owned/favorite)
      */
     _toggleUserData(characterId, dataType) {
-        const userData = JSON.parse(localStorage.getItem('octopathUserData') || '{}');
-        
-        if (!userData[characterId]) {
-            userData[characterId] = {};
-        }
-        
-        userData[characterId][dataType] = !userData[characterId][dataType];
-        localStorage.setItem('octopathUserData', JSON.stringify(userData));
-        
-        // Find and update the character
+        const currentStatus = dataType === 'owned'
+            ? this.userDataCache.owned.has(characterId)
+            : this.userDataCache.favorites.has(characterId);
+
+        const updatedData = dataType === 'owned'
+            ? UserDataStore.updateOwned(characterId, !currentStatus)
+            : UserDataStore.updateFavorite(characterId, !currentStatus);
+
+        this.userDataCache = updatedData;
+
+        // Refresh modal buttons with the updated status
         const character = this.database.getAllCharacters().find(c => c.id === characterId);
         if (character) {
             this._setupUserActions(character);
@@ -546,7 +550,7 @@ class GalleryTab {
      * Update character count display
      */
     _updateCharacterCount(count) {
-        const total = this.database.getAllCharacters().length;
+        const total = this.allCharacters.length;
         this.elements.characterCount.textContent = `${count} of ${total} Characters`;
     }
 
@@ -591,40 +595,9 @@ class GalleryTab {
     /**
      * Load user data from localStorage (owned/favorites)
      */
-    _loadUserData() {
-        try {
-            const ownedData = JSON.parse(localStorage.getItem('ownedCharacters') || '[]');
-            const favoriteData = JSON.parse(localStorage.getItem('favoriteCharacters') || '[]');
-            
-            return {
-                owned: new Set(ownedData),
-                favorites: new Set(favoriteData)
-            };
-        } catch (error) {
-            console.warn('Error loading user data:', error);
-            return {
-                owned: new Set(),
-                favorites: new Set()
-            };
-        }
-    }
-
-    /**
-     * Update favorite status for a character
-     */
     _updateFavoriteStatus(character, isFavorite) {
         try {
-            const userData = this._loadUserData();
-            
-            if (isFavorite) {
-                userData.favorites.add(character.id);
-            } else {
-                userData.favorites.delete(character.id);
-            }
-            
-            // Save to localStorage
-            localStorage.setItem('favoriteCharacters', JSON.stringify([...userData.favorites]));
-            
+            this.userDataCache = UserDataStore.updateFavorite(character.id, isFavorite);
             console.log(`Character ${character.basic_info.name} ${isFavorite ? 'added to' : 'removed from'} favorites`);
         } catch (error) {
             console.error('Error updating favorite status:', error);
@@ -636,17 +609,7 @@ class GalleryTab {
      */
     _updateOwnedStatus(character, isOwned) {
         try {
-            const userData = this._loadUserData();
-            
-            if (isOwned) {
-                userData.owned.add(character.id);
-            } else {
-                userData.owned.delete(character.id);
-            }
-            
-            // Save to localStorage
-            localStorage.setItem('ownedCharacters', JSON.stringify([...userData.owned]));
-            
+            this.userDataCache = UserDataStore.updateOwned(character.id, isOwned);
             console.log(`Character ${character.basic_info.name} ${isOwned ? 'marked as owned' : 'removed from owned'}`);
         } catch (error) {
             console.error('Error updating owned status:', error);
